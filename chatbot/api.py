@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import List, Optional
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from chatbot.chat_history import ConversationHistory
@@ -19,6 +20,15 @@ from chatbot.main import create_qa
 from chatbot.utils.config import get_settings
 
 app = FastAPI(title="EdgeEdu Offline AI Chatbot", version="0.1.0")
+
+# Allow the Next.js frontend to call the chatbot directly (fallback if proxy
+# isn't used). In production you'd lock this down to specific origins.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class ChatRequest(BaseModel):

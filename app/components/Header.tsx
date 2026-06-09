@@ -76,6 +76,7 @@ export function Header() {
           <NavLink href="/" label={t("nav.home")} />
           <NavLink href="/search" label={t("nav.search")} />
           <NavLink href="/browse" label={t("nav.browse")} />
+          <NavLink href="/chat" label={t("nav.chat")} />
         </HStack>
 
         <LanguageSelector />

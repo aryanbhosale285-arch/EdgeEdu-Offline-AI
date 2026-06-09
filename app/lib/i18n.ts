@@ -20,7 +20,7 @@ const resources = {
     translation: {
       appName: "EdgeEdu",
       tagline: "Offline-first learning, one question at a time",
-      nav: { home: "Home", search: "Search", browse: "Browse" },
+      nav: { home: "Home", search: "Search", browse: "Browse", chat: "Chat" },
       search: {
         placeholder: "Ask a question or search a topic…",
         searching: "Building search index…",
@@ -40,13 +40,23 @@ const resources = {
         explore: "Explore subjects",
         empty: "Your viewed topics will appear here.",
       },
+      chat: {
+        title: "Ask EdgeEdu",
+        header: "EdgeEdu AI Tutor",
+        subtitle: "Ask any question about the Maharashtra State Board curriculum in English, Hindi, or Marathi. I'll find the most relevant content and answer with citations.",
+        placeholder: "Type your question here…",
+        trySaying: "Try asking",
+        online: "Online",
+        offline: "Offline — start the chatbot server",
+        disclaimer: "Answers are generated from curriculum content and may not be perfect.",
+      },
     },
   },
   hi: {
     translation: {
       appName: "EdgeEdu",
       tagline: "ऑफ़लाइन-प्रथम शिक्षा, एक प्रश्न से शुरू",
-      nav: { home: "होम", search: "खोज", browse: "ब्राउज़ करें" },
+      nav: { home: "होम", search: "खोज", browse: "ब्राउज़ करें", chat: "चैट" },
       search: {
         placeholder: "प्रश्न पूछें या विषय खोजें…",
         searching: "खोज सूची बन रही है…",
@@ -66,13 +76,23 @@ const resources = {
         explore: "विषय देखें",
         empty: "आपके देखे गए विषय यहाँ दिखेंगे।",
       },
+      chat: {
+        title: "EdgeEdu से पूछें",
+        header: "EdgeEdu AI ट्यूटर",
+        subtitle: "महाराष्ट्र राज्य बोर्ड पाठ्यक्रम के बारे में हिंदी, अंग्रेज़ी या मराठी में कोई भी प्रश्न पूछें।",
+        placeholder: "अपना प्रश्न यहाँ लिखें…",
+        trySaying: "ये पूछकर देखें",
+        online: "ऑनलाइन",
+        offline: "ऑफ़लाइन — चैटबॉट सर्वर शुरू करें",
+        disclaimer: "उत्तर पाठ्यक्रम सामग्री से उत्पन्न हैं और पूर्ण रूप से सटीक नहीं हो सकते।",
+      },
     },
   },
   mr: {
     translation: {
       appName: "EdgeEdu",
       tagline: "ऑफलाइन-प्रथम शिक्षण, एका प्रश्नापासून",
-      nav: { home: "मुख्यपृष्ठ", search: "शोध", browse: "ब्राउझ करा" },
+      nav: { home: "मुख्यपृष्ठ", search: "शोध", browse: "ब्राउझ करा", chat: "चॅट" },
       search: {
         placeholder: "प्रश्न विचारा किंवा विषय शोधा…",
         searching: "शोध सूची तयार होत आहे…",
@@ -91,6 +111,16 @@ const resources = {
         continue: "शिकणे सुरू ठेवा",
         explore: "विषय पाहा",
         empty: "तुम्ही पाहिलेले विषय येथे दिसतील.",
+      },
+      chat: {
+        title: "EdgeEdu ला विचारा",
+        header: "EdgeEdu AI ट्यूटर",
+        subtitle: "महाराष्ट्र राज्य मंडळ अभ्यासक्रमाबद्दल मराठी, हिंदी किंवा इंग्रजीमध्ये कोणताही प्रश्न विचारा.",
+        placeholder: "तुमचा प्रश्न येथे लिहा…",
+        trySaying: "हे विचारून पहा",
+        online: "ऑनलाइन",
+        offline: "ऑफलाइन — चॅटबॉट सर्व्हर सुरू करा",
+        disclaimer: "उत्तरे अभ्यासक्रमाच्या मजकुरातून तयार केली आहेत आणि पूर्णपणे अचूक नसू शकतात.",
       },
     },
   },
