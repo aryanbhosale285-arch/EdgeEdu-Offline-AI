@@ -22,8 +22,8 @@ import {
   Text,
   Tooltip,
   VStack,
-  keyframes,
 } from "@chakra-ui/react";
+import { keyframes } from "@emotion/react";
 import { useTranslation } from "react-i18next";
 import { useLanguageStore } from "@/app/store/language-store";
 import { analytics } from "@/app/lib/analytics";
@@ -126,7 +126,7 @@ function TypingIndicator() {
 function CitationTag({ c }: { c: Citation }) {
   return (
     <Tooltip
-      label={`${c.subject} › ${c.chapter_title} › ${c.heading} (${c.language})`}
+      label={`Ask about: ${c.heading}`}
       fontSize="xs"
       hasArrow
     >
@@ -134,9 +134,10 @@ function CitationTag({ c }: { c: Citation }) {
         size="sm"
         variant="subtle"
         colorScheme="teal"
-        cursor="default"
-        _hover={{ bg: "brand.100" }}
-        transition="background 0.15s"
+        cursor="pointer"
+        _hover={{ bg: "brand.200", transform: "translateY(-1px)", shadow: "sm" }}
+        transition="all 0.15s"
+        data-followup={`Tell me more about ${c.heading}`}
       >
         📖 {c.heading}
       </Tag>
@@ -277,7 +278,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [sessionId] = useState(() => `web-${Date.now()}`);
+  const [sessionId, setSessionId] = useState(() => `web-${Date.now()}`);
   const [backendDown, setBackendDown] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -365,17 +366,39 @@ export default function ChatPage() {
     [loading, sessionId, language],
   );
 
-  // Handle suggestion clicks via event delegation
+  // Handle suggestion clicks (paste) and citation follow-up clicks (auto-send)
   const handleContainerClick = useCallback(
     (e: React.MouseEvent) => {
       const target = e.target as HTMLElement;
+
+      // Citation tags → auto-send as a follow-up question
+      const followup =
+        target.dataset?.followup ??
+        target.closest<HTMLElement>("[data-followup]")?.dataset?.followup;
+      if (followup) {
+        sendMessage(followup);
+        return;
+      }
+
+      // Suggestion chips → paste into input box
       const suggestion =
         target.dataset?.suggestion ??
         target.closest<HTMLElement>("[data-suggestion]")?.dataset?.suggestion;
-      if (suggestion) sendMessage(suggestion);
+      if (suggestion) {
+        setInput(suggestion);
+        inputRef.current?.focus();
+      }
     },
     [sendMessage],
   );
+
+  const handleClearChat = useCallback(() => {
+    setMessages([]);
+    setSessionId(`web-${Date.now()}`);
+    setBackendDown(false);
+    setInput("");
+    inputRef.current?.focus();
+  }, []);
 
   return (
     <Flex direction="column" h="calc(100vh - 56px)" onClick={handleContainerClick}>
@@ -388,28 +411,52 @@ export default function ChatPage() {
         py={3}
       >
         <Container maxW="4xl" p={0}>
-          <HStack spacing={3}>
-            <Box
-              w={9}
-              h={9}
-              rounded="full"
-              bgGradient="linear(to-br, brand.400, brand.600)"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
-              shadow="sm"
-            >
-              <Text fontSize="md" lineHeight={1}>🤖</Text>
-            </Box>
-            <Box>
-              <Heading size="sm" color="gray.800">
-                {t("chat.header")}
-              </Heading>
-              <Text fontSize="xs" color={backendDown ? "red.500" : "green.500"}>
-                {backendDown ? t("chat.offline") : t("chat.online")}
-              </Text>
-            </Box>
-          </HStack>
+          <Flex justify="space-between" align="center">
+            <HStack spacing={3}>
+              <Box
+                w={9}
+                h={9}
+                rounded="full"
+                bgGradient="linear(to-br, brand.400, brand.600)"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                shadow="sm"
+              >
+                <Text fontSize="md" lineHeight={1}>🤖</Text>
+              </Box>
+              <Box>
+                <Heading size="sm" color="gray.800">
+                  {t("chat.header")}
+                </Heading>
+                <Text fontSize="xs" color={backendDown ? "red.500" : "green.500"}>
+                  {backendDown ? t("chat.offline") : t("chat.online")}
+                </Text>
+              </Box>
+            </HStack>
+
+            {messages.length > 0 && (
+              <Tooltip label={t("chat.newChat")} hasArrow fontSize="xs">
+                <IconButton
+                  id="chat-clear-button"
+                  aria-label="Clear chat"
+                  icon={
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+                      <polyline points="1 4 1 10 7 10" />
+                      <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                    </svg>
+                  }
+                  variant="ghost"
+                  colorScheme="gray"
+                  size="sm"
+                  rounded="lg"
+                  _hover={{ bg: "red.50", color: "red.500" }}
+                  transition="all 0.15s"
+                  onClick={handleClearChat}
+                />
+              </Tooltip>
+            )}
+          </Flex>
         </Container>
       </Box>
 
