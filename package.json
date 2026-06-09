@@ -1,0 +1,35 @@
+{
+  "name": "edgeedu-web-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Responsive web prototype of the EdgeEdu offline AI tutor experience",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "framer-motion": "^11.2.10",
+    "i18next": "^23.11.5",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2",
+    "server-only": "^0.0.1",
+    "swr": "^2.2.5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "typescript": "^5.4.5"
+  }
+}
