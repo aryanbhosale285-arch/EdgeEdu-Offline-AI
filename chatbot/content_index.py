@@ -72,15 +72,19 @@ class Embedder:
         return vecs.astype("float32", copy=False)
 
 
+def _index_tokens(text: str) -> List[str]:
+    return tokenize(text, remove_stopwords=True)
+
+
 def _boosted_tokens(chunk: Chunk, retrieval: RetrievalConfig) -> List[str]:
     """Token list for BM25 with field boosting via repetition."""
     kw_boost = max(1, int(round(retrieval.keyword_boost)))
     head_boost = max(1, int(round(retrieval.heading_boost)))
     tokens: List[str] = []
     for kw in chunk.keywords:
-        tokens.extend(tokenize(kw) * kw_boost)
-    tokens.extend(tokenize(chunk.heading) * head_boost)
-    tokens.extend(tokenize(chunk.text))
+        tokens.extend(_index_tokens(kw) * kw_boost)
+    tokens.extend(_index_tokens(chunk.heading) * head_boost)
+    tokens.extend(_index_tokens(chunk.text))
     return tokens
 
 
@@ -170,7 +174,7 @@ class ContentIndex:
     # ---- query ----
 
     def _lexical_ranking(self, query: str, k: int) -> List[int]:
-        scores = self._bm25.get_scores(tokenize(query))
+        scores = self._bm25.get_scores(tokenize(query, remove_stopwords=True))
         ranked = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
         return [i for i in ranked if scores[i] > 0][:k]
 

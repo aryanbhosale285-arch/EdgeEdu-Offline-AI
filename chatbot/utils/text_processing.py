@@ -32,14 +32,39 @@ _MARATHI_HINTS = (
 )
 
 
-def tokenize(text: Optional[str], min_len: int = 2) -> List[str]:
+# Low-signal function words to drop during *retrieval* tokenization. Questions
+# are full of these ("what are …", "क्या है …"); without filtering, a rare
+# stopword that happens to occur in one chunk can dominate BM25 ranking.
+STOPWORDS = {
+    # English
+    "the", "a", "an", "of", "and", "or", "to", "in", "on", "for", "is", "are",
+    "was", "were", "be", "been", "it", "its", "this", "that", "these", "those",
+    "what", "which", "who", "whom", "how", "why", "when", "where", "do", "does",
+    "did", "can", "could", "should", "would", "as", "by", "with", "at", "from",
+    "into", "about", "explain", "tell", "me", "give", "define", "definition",
+    # Hindi / Marathi high-frequency function words
+    "क्या", "है", "हैं", "का", "की", "के", "को", "और", "में", "से", "पर", "यह",
+    "वह", "कैसे", "क्यों", "आहे", "आणि", "मध्ये", "च्या", "ला", "म्हणजे", "काय",
+}
+
+
+def tokenize(
+    text: Optional[str], min_len: int = 2, remove_stopwords: bool = False
+) -> List[str]:
     """Lowercase and split text into Unicode-aware tokens.
 
-    Tokens shorter than ``min_len`` characters are dropped as low-signal.
+    Tokens shorter than ``min_len`` characters are dropped as low-signal. When
+    ``remove_stopwords`` is set, common function words are filtered too (used by
+    the retrieval layer; the raw form is kept for storage/analysis).
     """
     if not text:
         return []
-    return [t for t in _TOKEN_SPLIT.split(text.lower()) if len(t) >= min_len]
+    tokens = [t for t in _TOKEN_SPLIT.split(text.lower()) if len(t) >= min_len]
+    if remove_stopwords:
+        filtered = [t for t in tokens if t not in STOPWORDS]
+        # Don't let a query collapse to nothing (e.g. "what is it").
+        return filtered or tokens
+    return tokens
 
 
 def normalize(text: Optional[str]) -> str:
