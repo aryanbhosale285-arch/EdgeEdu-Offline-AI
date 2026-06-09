@@ -1,0 +1,31 @@
+# --- Core RAG chatbot dependencies ---
+# Retrieval (light, always required)
+rank-bm25>=0.2.2
+regex>=2024.5.15          # Unicode \p{...} classes for Devanagari-safe tokenizing
+numpy>=1.24
+
+# Config / CLI / API
+pydantic>=2.6
+pydantic-settings>=2.2
+pyyaml>=6.0
+typer>=0.12
+fastapi>=0.111
+uvicorn>=0.30
+
+# Hugging Face stack (modernized vs the spec's torch 1.12 / transformers 4.20,
+# which cannot load Gemma-2). CPU wheels by default.
+torch>=2.2
+transformers>=4.44
+accelerate>=0.30
+huggingface-hub>=0.24
+
+# Dense retrieval (optional at runtime — system degrades to BM25 if absent)
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# --- Optional NLP extras (lazy-imported; not required to run) ---
+# spacy>=3.7
+# sacremoses>=0.1
+
+# --- Dev ---
+pytest>=8.0
