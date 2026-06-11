@@ -1,5 +1,0 @@
-[tool.pytest.ini_options]
-# Make the project root importable so `import chatbot` works without install.
-pythonpath = ["."]
-testpaths = ["tests"]
-addopts = "-q"
