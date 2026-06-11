@@ -1,0 +1,973 @@
+{
+  "metadata": {
+    "file_name": "Mathematics_Part_I_Standard_Ten_Maharashtra_State_Board",
+    "standard": 10,
+    "subject": "Mathematics Part-I",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "0.1",
+      "heading": "Preface and Educational Objectives",
+      "keywords": [
+        "Mathematics Part-I",
+        "Algebra",
+        "GST",
+        "Financial Planning"
+      ],
+      "text": "The Mathematics Part-I textbook for Standard Ten covers main areas including Algebra, Graphs, Financial Planning, and Statistics. The textbook introduces the new tax system, Goods and Service Tax (GST), within the Financial Planning section. The textbook contains illustrative solved examples and sets of questions for practice. Some questions in practice sets are star-marked to indicate that the questions are challenging for talented students. The textbook provides basic concepts and mathematics needed to work in various fields after Standard Ten. Additional useful audio-visual material regarding each lesson is available through the DIKSHA App using the Q.R. code.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "0.2",
+      "heading": "Competency Statements for Standard X",
+      "keywords": [
+        "Arithmetic Progression",
+        "Quadratic Equations",
+        "Linear Equations",
+        "Financial Planning",
+        "Probability",
+        "Statistics"
+      ],
+      "text": "Students are expected to develop specific competencies after studying the Mathematics Part-I syllabus. In the area of Knowledge of Numbers, students will be able to solve examples using Arithmetic Progression and plan steps to achieve goals in the future. In the area of Algebra, students will be able to solve day-to-day problems expressed as quadratic equations, decide the number of variables required for word problems, and convert word problems into equations in two variables to find solutions. In Commercial Mathematics, students will understand concepts of savings and investments and become familiar with financial transactions in business and professions. In Statistics and Probability, students will use the concept of probability in games and voting, present collected data in graphs or pictures, and find the mean, median, and mode of provided classified data.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.1",
+      "heading": "Linear Equations in Two Variables: Introduction",
+      "keywords": [
+        "Linear Equation",
+        "Two Variables",
+        "Degree",
+        "General Form"
+      ],
+      "text": "An equation which contains two variables and the degree of each term containing a variable is one, is called a linear equation in two variables. The equation ax + by + c = 0 is the general form of a linear equation in two variables. In the general form, a, b, and c are real numbers, and a and b are not equal to zero at the same time. For example, the equation 3x - 4y + 12 = 0 is the general form of the equation 3x = 4y - 12.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Simultaneous Linear Equations",
+      "keywords": [
+        "Simultaneous Equations",
+        "Elimination Method",
+        "Substitution Method"
+      ],
+      "text": "When two linear equations in two variables are considered at the same time, the equations are called simultaneous equations. Simultaneous equations can be solved by eliminating one variable. Method I involves multiplying equations to make the coefficients of one variable equal so that the variable can be eliminated by addition or subtraction. Method II involves writing the value of one variable in terms of the other variable from one equation and substituting that value into the other equation. The solution is written as an ordered pair (x, y).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Solving Equations with Interchanged Coefficients",
+      "keywords": [
+        "Interchanged Coefficients",
+        "Addition",
+        "Subtraction"
+      ],
+      "text": "In some simultaneous equations, the coefficients of x and y are interchanged. While solving such equations, two simple equations are obtained by adding and subtracting the given equations. For example, if the equations are 15x + 17y = 21 and 17x + 15y = 11, adding the equations results in 32x + 32y = 32, which simplifies to x + y = 1. Subtracting the equations results in -2x + 2y = 10, which simplifies to -x + y = 5. Solving these two simplified equations provides the values of x and y more easily.",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "15x + 17y = 21, \\quad 17x + 15y = 11",
+      "solution_steps": [
+        {
+          "text": "Add the two equations: 32x + 32y = 32. Divide both sides by 32.",
+          "latex": "x + y = 1",
+          "verified": true
+        },
+        {
+          "text": "Subtract the second equation from the first: -2x + 2y = 10. Divide both sides by 2.",
+          "latex": "-x + y = 5",
+          "verified": true
+        },
+        {
+          "text": "Add the two simplified equations: 2y = 6.",
+          "latex": "y = 3",
+          "verified": true
+        },
+        {
+          "text": "Substitute y = 3 into x + y = 1.",
+          "latex": "x = -2",
+          "verified": true
+        },
+        {
+          "text": "Check in the original equation: 15(-2) + 17(3) = -30 + 51 = 21.",
+          "latex": "15(-2) + 17(3) = 21",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Graph of a Linear Equation in Two Variables",
+      "keywords": [
+        "Graph",
+        "Straight Line",
+        "Ordered Pair",
+        "Collinear Points"
+      ],
+      "text": "The graph of a linear equation in two variables is a straight line. An ordered pair which satisfies the equation is a solution of that equation, and the ordered pair represents a point on the line. To draw the graph, at least four ordered pairs should be found for the given equation. The X-axis and Y-axis are drawn on graph paper, and the points are plotted. All four points must lie on one line. A linear equation in the form y = 2 is parallel to the X-axis because for any value of x, y is always 2. Similarly, an equation in the form x = 2 is parallel to the Y-axis.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Graphical Method for Simultaneous Equations",
+      "keywords": [
+        "Intersection",
+        "Solution",
+        "Coordinate Plane"
+      ],
+      "text": "To solve simultaneous equations graphically, the graphs of both equations are drawn on the same coordinate plane. Each point on the graph satisfies the respective equation. The two lines intersect at a specific point. The coordinates of the point of intersection satisfy both equations and therefore provide the solution to the simultaneous equations. If the two equations represent the same line, there are an infinite number of solutions. If the lines are parallel and do not intersect, there is no solution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Determinants: Definition and Value",
+      "keywords": [
+        "Determinant",
+        "Rows",
+        "Columns",
+        "Degree",
+        "ad-bc"
+      ],
+      "text": "A determinant is represented by elements arranged in rows and columns within vertical bars. For a determinant with elements (a, b) in the first row and (c, d) in the second row, the degree of the determinant is 2 because there are 2 elements in each column and 2 elements in each row. The determinant represents a single number calculated as (ad - bc). Determinants are usually represented with capital letters such as A, B, C, D. For example, if determinant A has elements 5, 3 in the first row and 7, 9 in the second row, the value of A is (5 multiplied by 9) minus (3 multiplied by 7), which equals 45 minus 21, resulting in 24.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.7",
+      "heading": "Determinant Method (Cramer’s Rule)",
+      "keywords": [
+        "Cramer’s Rule",
+        "Gabriel Cramer",
+        "D",
+        "Dx",
+        "Dy"
+      ],
+      "text": "The determinant method, also known as Cramer’s method, was first given by the Swiss mathematician Gabriel Cramer. This method allows simultaneous equations to be solved easily and in less space. To use Cramer’s method, equations must be written in the form ax + by = c. For two equations a1x + b1y = c1 and a2x + b2y = c2, three determinants are defined: D, Dx, and Dy. Determinant D consists of the coefficients of x and y. Determinant Dx is formed by replacing the x-coefficient column in D with the constant terms c1 and c2. Determinant Dy is formed by replacing the y-coefficient column in D with the constant terms c1 and c2. The values of the variables are found using the formulas x = Dx / D and y = Dy / D, provided that D is not equal to zero.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.8",
+      "heading": "Steps to Solve Equations using Cramer’s Rule",
+      "keywords": [
+        "Standard Form",
+        "Determinant Values",
+        "Variable Calculation"
+      ],
+      "text": "The procedure for Cramer’s method involves four main steps. First, write the given equations in the standard form ax + by = c. Second, find the values of the determinants D, Dx, and Dy. Third, apply the formulas x = Dx / D and y = Dy / D. Fourth, find the specific values of x and y that represent the solution to the simultaneous equations. If the value of determinant D equals zero, the system of equations may have no solution or infinitely many solutions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.9",
+      "heading": "Equations Reducible to a Pair of Linear Equations",
+      "keywords": [
+        "Non-linear Equations",
+        "Substitution",
+        "Variable Change",
+        "Transformation"
+      ],
+      "text": "Some equations are not linear because the variables appear in the denominator or have degrees other than one. These non-linear equations can be converted into linear equations by creating new variables through a proper change in the given variables. For example, in an equation where 4/x + 5/y = 7, the term 1/x can be replaced by 'm' and 1/y can be replaced by 'n'. This transformation results in the linear equation 4m + 5n = 7. After solving the new simultaneous equations for m and n, the original variables x and y are found by substituting the original expressions back into the solution. It is critical to remember that the denominator of any fraction cannot be zero.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.10",
+      "heading": "Application of Simultaneous Equations",
+      "keywords": [
+        "Word Problems",
+        "Mathematical Modeling",
+        "Problem Solving"
+      ],
+      "text": "Simultaneous equations are useful in daily life for finding solutions to practical problems. The process involves framing equations from the information provided in word problems. For example, in a problem involving ages, if Sarthak’s age is x and Sakshi’s age is y, and the sum of their ages is 25, the equation is x + y = 25. If Sarthak’s age is less by 8 than double the age of Sakshi, the equation is x = 2y - 8. By solving these framed equations using methods like elimination, substitution, or Cramer's rule, the specific values for the unknown quantities can be determined. Applications include problems related to geometry (perimeter and area), commerce (selling prices of items), speed and distance (boat travel in currents), and number theory (digits in two-digit or three-digit numbers).",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "x + y = 25, \\quad x = 2y - 8",
+      "solution_steps": [
+        {
+          "text": "Substitute x = 2y - 8 into the first equation.",
+          "latex": "(2y - 8) + y = 25",
+          "verified": true
+        },
+        {
+          "text": "Combine like terms: 3y - 8 = 25, so 3y = 33.",
+          "latex": "y = 11",
+          "verified": true
+        },
+        {
+          "text": "Substitute y = 11 back: x = 2(11) - 8.",
+          "latex": "x = 14",
+          "verified": true
+        },
+        {
+          "text": "Check: Sarthak's age 14 plus Sakshi's age 11 equals 25.",
+          "latex": "14 + 11 = 25",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Quadratic Equations: Introduction",
+      "keywords": [
+        "Quadratic Polynomial",
+        "Degree Two",
+        "Standard Form"
+      ],
+      "text": "A polynomial with degree 2 is called a quadratic polynomial. When a quadratic polynomial is equated to zero, the resulting equation is known as a quadratic equation. The equation involving one variable and having 2 as the maximum index of the variable is called a quadratic equation. The general form of a quadratic equation is ax^2 + bx + c = 0, where a, b, and c are real numbers and 'a' is not equal to zero. In this form, 'a' is the coefficient of the squared term, 'b' is the coefficient of the linear term, and 'c' is the constant term.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Roots of a Quadratic Equation",
+      "keywords": [
+        "Roots",
+        "Solutions",
+        "Variable Satisfaction"
+      ],
+      "text": "The values of the variable which satisfy a quadratic equation are called the solutions or roots of the quadratic equation. If a value 'a' is substituted for the variable x in the polynomial p(x) and p(a) equals zero, then (x - a) is a factor of p(x) and 'a' is a root of the equation p(x) = 0. For example, in the equation x^2 + 5x - 6 = 0, substituting x = -6 results in (-6)^2 + 5(-6) - 6, which equals 36 - 30 - 6 = 0. Therefore, -6 is a root of the equation. Conversely, substituting x = 2 results in 2^2 + 5(2) - 6 = 4 + 10 - 6 = 8, which is not zero, so 2 is not a root of the equation.",
+      "difficulty": 2,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "x^2 + 5x - 6 = 0",
+      "solution_steps": [
+        {
+          "text": "Substituting x = -6 gives (-6)^2 + 5(-6) - 6 = 36 - 30 - 6 = 0, so -6 is a root.",
+          "latex": "(-6)^2 + 5(-6) - 6 = 0",
+          "verified": true
+        },
+        {
+          "text": "Factor the quadratic: x^2 + 5x - 6 = (x + 6)(x - 1).",
+          "latex": "(x + 6)(x - 1) = 0",
+          "verified": true
+        },
+        {
+          "text": "A product is zero when either factor is zero.",
+          "latex": "x = -6 \\;\\text{or}\\; x = 1",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.3",
+      "heading": "Solutions of a Quadratic Equation by Factorisation",
+      "keywords": [
+        "Factorisation Method",
+        "Linear Factors",
+        "Product of Numbers"
+      ],
+      "text": "The factorisation method involves expressing a quadratic polynomial as a product of two linear factors. If the product of two numbers is zero, then at least one of the numbers must be zero. For example, the equation x^2 - 4x - 5 = 0 can be written as (x - 5)(x + 1) = 0. This implies that either (x - 5) = 0 or (x + 1) = 0, leading to the roots x = 5 or x = -1. This method is efficient for equations where the middle term can be split into two parts whose sum equals the coefficient 'b' and whose product equals the product of 'a' and 'c'.",
+      "difficulty": 2,
+      "importance": 5,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "x^2 - 4x - 5 = 0",
+      "solution_steps": [
+        {
+          "text": "Find two numbers whose product is -5 and sum is -4: they are -5 and +1.",
+          "latex": "x^2 - 5x + x - 5 = 0",
+          "verified": true
+        },
+        {
+          "text": "Factor by grouping.",
+          "latex": "(x - 5)(x + 1) = 0",
+          "verified": true
+        },
+        {
+          "text": "Set each factor to zero.",
+          "latex": "x = 5 \\;\\text{or}\\; x = -1",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.4",
+      "heading": "Solution of a Quadratic Equation by Completing the Square",
+      "keywords": [
+        "Completing the Square",
+        "Perfect Square",
+        "Third Term"
+      ],
+      "text": "When a quadratic equation cannot be easily factorised, the method of completing the square is used. This method involves adding a suitable term to the expression x^2 + bx so that the expression becomes a perfect square. For an equation in the form x^2 + bx + c = 0, the term to be added and subtracted is (b/2)^2. This transforms the equation into the form (x + a)^2 - k^2 = 0, which is a difference of two squares. The equation can then be solved by taking the square root of both sides. For example, x^2 + 10x + 2 = 0 can be rewritten by adding and subtracting 25, resulting in (x + 5)^2 - 23 = 0, which leads to x + 5 = ±√23.",
+      "difficulty": 4,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "x^2 + 10x + 2 = 0",
+      "solution_steps": [
+        {
+          "text": "Half of 10 is 5; add and subtract 5^2 = 25 to complete the square.",
+          "latex": "x^2 + 10x + 25 - 25 + 2 = 0",
+          "verified": true
+        },
+        {
+          "text": "Group the perfect square.",
+          "latex": "(x + 5)^2 - 23 = 0",
+          "verified": true
+        },
+        {
+          "text": "Move 23 to the right side and take square roots.",
+          "latex": "x + 5 = \\pm\\sqrt{23}",
+          "verified": true
+        },
+        {
+          "text": "Solve for x.",
+          "latex": "x = -5 + \\sqrt{23} \\;\\text{or}\\; x = -5 - \\sqrt{23}",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.5",
+      "heading": "Formula for Solving a Quadratic Equation",
+      "keywords": [
+        "Quadratic Formula",
+        "Discriminant",
+        "Standard Coefficients"
+      ],
+      "text": "The quadratic formula provides a direct way to find the roots of any quadratic equation ax^2 + bx + c = 0. The formula is x = [-b ± √(b^2 - 4ac)] / 2a. The roots are typically denoted by the Greek letters α (alpha) and β (beta). To use this formula, the values of a, b, and c are identified by comparing the given equation with the standard form. These values are then substituted into the formula and simplified. If the term under the square root, b^2 - 4ac, is negative, the roots are not real numbers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.6",
+      "heading": "Nature of Roots of a Quadratic Equation",
+      "keywords": [
+        "Discriminant",
+        "Delta",
+        "Real and Equal",
+        "Real and Unequal"
+      ],
+      "text": "The nature of the roots of a quadratic equation ax^2 + bx + c = 0 is determined by the value of the expression b^2 - 4ac, which is called the discriminant and is denoted by the Greek letter Δ (Delta). There are three possibilities: 1) If Δ = 0, the roots are real and equal. 2) If Δ > 0, the roots are real and unequal. 3) If Δ < 0, the roots are not real numbers. For example, in the equation x^2 + 10x - 7 = 0, the discriminant Δ = 10^2 - 4(1)(-7) = 100 + 28 = 128. Since 128 is greater than zero, the roots are real and unequal.",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "x^2 + 10x - 7 = 0",
+      "solution_steps": [
+        {
+          "text": "For ax^2 + bx + c = 0 the discriminant is b^2 - 4ac. Here a = 1, b = 10, c = -7.",
+          "latex": "\\Delta = b^2 - 4ac",
+          "verified": true
+        },
+        {
+          "text": "Substitute the coefficients: 10^2 - 4(1)(-7) = 100 + 28.",
+          "latex": "\\Delta = 128",
+          "verified": true
+        },
+        {
+          "text": "Since the discriminant is positive, the equation has two distinct real roots.",
+          "latex": "\\Delta > 0",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.7",
+      "heading": "Relation Between Roots and Coefficients",
+      "keywords": [
+        "Sum of Roots",
+        "Product of Roots",
+        "Alpha and Beta"
+      ],
+      "text": "There is a specific mathematical relationship between the roots (α and β) and the coefficients (a, b, and c) of a quadratic equation. The sum of the roots, α + β, is equal to -b/a. The product of the roots, αβ, is equal to c/a. These relationships allow for the calculation of the sum and product without explicitly solving the equation. For example, in the equation 2x^2 + 6x - 5 = 0, the sum of the roots is -6/2 = -3, and the product of the roots is -5/2.",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "2x^2 + 6x - 5 = 0",
+      "solution_steps": [
+        {
+          "text": "For ax^2 + bx + c = 0, the sum of the roots is -b/a. Here a = 2, b = 6.",
+          "latex": "\\alpha + \\beta = -\\tfrac{6}{2} = -3",
+          "verified": true
+        },
+        {
+          "text": "The product of the roots is c/a, with c = -5.",
+          "latex": "\\alpha\\beta = -\\tfrac{5}{2}",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.8",
+      "heading": "Obtaining a Quadratic Equation from Given Roots",
+      "keywords": [
+        "Equation Construction",
+        "Sum and Product",
+        "Root Substitution"
+      ],
+      "text": "If the roots α and β of a quadratic equation are known, the equation can be constructed using the formula: x^2 - (α + β)x + αβ = 0. This can be stated as: x^2 - (sum of the roots)x + (product of the roots) = 0. For example, if the roots are -3 and -7, the sum is -10 and the product is 21. The resulting quadratic equation is x^2 - (-10)x + 21 = 0, which simplifies to x^2 + 10x + 21 = 0.",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "\\alpha + \\beta = -10, \\quad \\alpha\\beta = 21",
+      "solution_steps": [
+        {
+          "text": "A quadratic with given roots is x^2 - (sum of roots)x + (product of roots) = 0.",
+          "latex": "x^2 - (-10)x + 21 = 0",
+          "verified": true
+        },
+        {
+          "text": "Simplify the signs.",
+          "latex": "x^2 + 10x + 21 = 0",
+          "verified": true
+        },
+        {
+          "text": "Check by factoring: (x + 3)(x + 7) = 0 gives roots -3 and -7, whose sum is -10 and product is 21.",
+          "latex": "(x + 3)(x + 7) = 0",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "2.9",
+      "heading": "Application of Quadratic Equations",
+      "keywords": [
+        "Practical Problems",
+        "Pythagoras Theorem",
+        "Speed and Time"
+      ],
+      "text": "Quadratic equations are used to solve practical problems in daily life. Solving these problems involves identifying unknown quantities, assigning variables, and framing a quadratic equation based on given conditions. For example, a problem involving the dimensions of a rectangular storehouse where the length is 7 meters more than the breadth and the diagonal is 1 meter more than the length can be solved using Pythagoras theorem, resulting in a quadratic equation. Another application includes calculating the initial speed of a train when an increase in speed reduces the travel time for a fixed distance. In such cases, if a negative root is obtained for a physical quantity like speed or length, that root is discarded because speed and length cannot be negative.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Sequence: Definition and Patterns",
+      "keywords": [
+        "Sequence",
+        "Terms",
+        "Definite Order",
+        "Patterns"
+      ],
+      "text": "A set of numbers arranged in a definite order, like the natural numbers, is called a sequence. In a sequence, each number is written at a particular position and is called a term. Terms are represented as t1, t2, t3, ..., tn. For example, in the sequence of squares 1, 4, 9, 16, the term at the 4th position is 16. Some sequences follow a specific rule that determines the next term based on the preceding term. If a sequence is infinite, there is a term tn for every positive integer n.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Arithmetic Progression (A.P.): Introduction",
+      "keywords": [
+        "Common Difference",
+        "Constant Difference",
+        "d"
+      ],
+      "text": "An Arithmetic Progression is a sequence where the difference between any two consecutive terms (tn+1 - tn) is constant. This constant difference is called the common difference and is denoted by the letter 'd'. The common difference 'd' can be positive, negative, or zero. If the first term of an Arithmetic Progression is 'a' and the common difference is 'd', the terms of the sequence are a, (a + d), (a + 2d), (a + 3d), and so on. For example, in the sequence 100, 70, 40, 10, the common difference is -30.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "nth Term of an Arithmetic Progression",
+      "keywords": [
+        "tn Formula",
+        "General Term",
+        "Position Calculation"
+      ],
+      "text": "To find any specific term in an Arithmetic Progression without listing all previous terms, a general formula is used. If 'a' is the first term and 'd' is the common difference, the nth term (tn) is given by the formula: tn = a + (n - 1)d. This formula allows for the calculation of the 100th term or any other position. For example, in an Arithmetic Progression where a = 5 and d = 3, the 100th term is calculated as 5 + (100 - 1) multiplied by 3, which equals 302. This formula can also be used to check if a specific number belongs to a given sequence by solving for 'n'; if 'n' is not a natural number, the number is not in the sequence.",
+      "difficulty": 2,
+      "importance": 5,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "a = 5,\\; d = 3:\\; t_{100} = ?",
+      "solution_steps": [
+        {
+          "text": "Use the nth-term formula with a = 5, d = 3, n = 100.",
+          "latex": "t_n = a + (n - 1)d",
+          "verified": true
+        },
+        {
+          "text": "Substitute the values.",
+          "latex": "t_{100} = 5 + (100 - 1) \\times 3",
+          "verified": true
+        },
+        {
+          "text": "Evaluate: 99 times 3 is 297, plus 5.",
+          "latex": "t_{100} = 302",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Sum of First n Terms of an Arithmetic Progression",
+      "keywords": [
+        "Sn Formula",
+        "Carl Gauss",
+        "Total Sum"
+      ],
+      "text": "The sum of the first n terms of an Arithmetic Progression is denoted by Sn. There are two primary formulas to calculate this sum. The first formula is Sn = (n/2) * [2a + (n - 1)d]. The second formula, useful when the first term (t1) and the last term (tn) are known, is Sn = (n/2) * (t1 + tn). The concept of adding a sequence of numbers quickly was famously demonstrated by Carl Gauss, who added integers from 1 to 100 by pairing them (1+100, 2+99, etc.). For example, the sum of the first 100 terms of an Arithmetic Progression starting with 14 and having a common difference of 2 is calculated as (100/2) * [2(14) + (100-1)2], which equals 11,300.",
+      "difficulty": 3,
+      "importance": 5,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "a = 14,\\; d = 2:\\; S_{100} = ?",
+      "solution_steps": [
+        {
+          "text": "Use the sum formula with a = 14, d = 2, n = 100.",
+          "latex": "S_n = \\tfrac{n}{2}\\left[2a + (n - 1)d\\right]",
+          "verified": true
+        },
+        {
+          "text": "Substitute the values.",
+          "latex": "S_{100} = \\tfrac{100}{2}\\left[2(14) + 99 \\times 2\\right]",
+          "verified": true
+        },
+        {
+          "text": "Evaluate the bracket: 28 + 198 = 226, then multiply by 50.",
+          "latex": "S_{100} = 11300",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Application of Arithmetic Progression",
+      "keywords": [
+        "Savings",
+        "Production Growth",
+        "Installments"
+      ],
+      "text": "Arithmetic Progression is applied to solve various real-world problems involving steady growth or decline. Applications include calculating total savings over time when a fixed amount is added regularly, determining the total production of a factory over several years if the annual increase is constant, and finding the amount of monthly installments for loan repayment when each installment decreases by a fixed amount. For instance, if a person saves 10 rupees on the first day, 11 on the second, and 12 on the third, the total savings for a year can be calculated using the Sn formula. Another example is finding the total length of a spiral shape formed by consecutive semicircles with increasing radii that form an Arithmetic Progression.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Introduction to Goods and Service Tax (GST)",
+      "keywords": [
+        "GST",
+        "One Nation One Tax",
+        "Indirect Tax",
+        "Subsumed Taxes"
+      ],
+      "text": "Goods and Service Tax (GST) is a unified tax system implemented in India from July 1, 2017. GST follows the principle of 'One Nation, One Tax, One Market'. Before the implementation of GST, various taxes existed such as Excise Duty, Custom Duty, VAT, Entertainment Tax, Central Sales Tax, Service Tax, and Octroi. All these previous taxes are now subsumed under GST. GST is a type of indirect tax levied on the supply of goods and services.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Components of GST: CGST and SGST",
+      "keywords": [
+        "CGST",
+        "SGST",
+        "Central Government",
+        "State Government"
+      ],
+      "text": "GST has two main components for transactions within a state: Central Goods and Service Tax (CGST) and State Goods and Service Tax (SGST). CGST is the portion of the tax paid to the Central Government, while SGST is the portion paid to the State Government. For Union Territories, SGST is replaced by UTGST (Union Territory Goods and Service Tax). In any tax invoice, the rate of CGST is always equal to the rate of SGST. For example, if the GST rate on an item is 18%, then the CGST rate is 9% and the SGST rate is 9%.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.3",
+      "heading": "GSTIN and HSN Code",
+      "keywords": [
+        "GSTIN",
+        "PAN",
+        "HSN",
+        "SAC"
+      ],
+      "text": "GSTIN stands for Goods and Service Tax Identification Number. GSTIN is mandatory for dealers whose annual turnover exceeds 20 lacs rupees. GSTIN consists of 15 alpha-numerals, which includes the 10-digit PAN of the dealer and a 2-digit state code (e.g., 27 for Maharashtra). HSN stands for Harmonized System of Nomenclature, which is a numerical code used to classify goods in a tax invoice. For services, a different code called SAC (Service Accounting Code) is used instead of HSN.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.4",
+      "heading": "Tax Invoice and Taxable Value",
+      "keywords": [
+        "Tax Invoice",
+        "Taxable Value",
+        "Total Amount"
+      ],
+      "text": "A tax invoice for the purchase of goods or services contains details such as the name of the supplier, GSTIN, invoice date, HSN/SAC codes, rate of the product, and quantity. The 'Taxable Value' is the value of goods on which GST is levied. The 'Total Amount' or 'Invoice Value' is the sum of the taxable value and the GST (CGST + SGST). If a discount is given on the printed price, GST is charged on the discounted price, which becomes the new taxable value.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.5",
+      "heading": "GST in Trading Chain",
+      "keywords": [
+        "Manufacturer",
+        "Wholesaler",
+        "Retailer",
+        "Consumer",
+        "B2B",
+        "B2C"
+      ],
+      "text": "The trading chain typically moves from Manufacturer to Wholesaler, then to Retailer, and finally to the Consumer. Trading between GSTIN holders (e.g., Manufacturer to Wholesaler) is known as Business to Business (B2B). Trading between a GSTIN holder and a consumer is known as Business to Consumer (B2C). GST is collected at every stage of the trading chain, but the ultimate burden of the tax is borne by the consumer.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.6",
+      "heading": "Input Tax Credit (ITC)",
+      "keywords": [
+        "ITC",
+        "Input Tax",
+        "Output Tax",
+        "GST Payable"
+      ],
+      "text": "Input Tax Credit (ITC) is a mechanism that allows traders to claim credit for the tax paid on purchases. When a trader pays GST at the time of purchase, it is called 'Input Tax'. When the trader collects GST at the time of sale, it is called 'Output Tax'. The GST payable to the government by the trader is calculated as: GST Payable = Output Tax - Input Tax Credit (ITC). This ensures that tax is paid only on the value added at each stage of the trading chain.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.7",
+      "heading": "GST Rates and Classification",
+      "keywords": [
+        "Zero Rated",
+        "Low Rated",
+        "Standard Rated",
+        "Highly Rated"
+      ],
+      "text": "Goods and services are classified into different tax slabs. 1) Zero rated (0%): Essential commodities like food grains, fruits, vegetables, milk, and salt. 2) Low rated (5%): Commonly used items like LPG cylinders, tea, coffee, and oil. 3) Standard rated (I slab - 12%): Consumer goods like butter, ghee, and dry fruits. 4) Standard rated (II slab - 18%): Most goods and services like marble, perfumes, and courier services. 5) Highly rated (28%): Luxury items like motor cycles, luxury cars, and five-star hotel stays. Note that electricity, petrol, and diesel are currently not under the purview of GST.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.8",
+      "heading": "Shares: Basic Concepts",
+      "keywords": [
+        "Capital",
+        "Share",
+        "Shareholder",
+        "Stock Exchange"
+      ],
+      "text": "To start a company, a large amount of money called Capital is required. This capital is divided into small equal parts, and each part is called a Share. A person who owns shares is called a Shareholder and is a part owner of the company in proportion to the number of shares held. Shares are sold in the share market to raise capital. A Stock Exchange is the place where buying and selling of shares take place, such as the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE). Companies must be listed on the stock market for trading.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.9",
+      "heading": "Face Value and Market Value",
+      "keywords": [
+        "FV",
+        "MV",
+        "Premium",
+        "Discount",
+        "Par"
+      ],
+      "text": "The value printed on a share certificate is called the Face Value (FV), also known as Nominal or Printed value. The price at which shares are currently sold or purchased in the stock market is called the Market Value (MV). Comparison of FV and MV determines the status of the share: 1) If MV is greater than FV, the share is at a Premium. 2) If MV equals FV, the share is at Par. 3) If MV is less than FV, the share is at a Discount. For example, if a share with a Face Value of 10 rupees is selling for 15 rupees, the share is at a premium of 5 rupees.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.10",
+      "heading": "Dividend and Rate of Return (RoR)",
+      "keywords": [
+        "Dividend",
+        "Profit Distribution",
+        "RoR Formula"
+      ],
+      "text": "Dividend is the part of the annual profit of a company that is distributed per share among shareholders. Dividend is always calculated on the Face Value of a share, regardless of the current Market Value. The Rate of Return (RoR) is a measure of the profit earned on an investment. The formula for Rate of Return is: (Dividend Income / Sum Invested) multiplied by 100. For example, if a person buys a share of Face Value 100 rupees for a Market Value of 120 rupees and receives a 15% dividend, the dividend income is 15 rupees, and the Rate of Return is (15 / 120) multiplied by 100, which equals 12.5%.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.11",
+      "heading": "Brokerage and GST on Share Trading",
+      "keywords": [
+        "Brokerage",
+        "Share Broker",
+        "Trading Cost"
+      ],
+      "text": "Investors cannot buy or sell shares directly in the stock market; they must use registered members called Share Brokers. Brokers charge a fee for their services called Brokerage. Brokerage is always calculated on the Market Value of the shares. Additionally, GST is charged on the brokerage amount at a rate of 18%. When buying shares, the total cost is: Market Value + Brokerage + GST on Brokerage. When selling shares, the net amount received is: Market Value - Brokerage - GST on Brokerage.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.12",
+      "heading": "Mutual Funds and SIP",
+      "keywords": [
+        "Mutual Fund",
+        "NAV",
+        "AMC",
+        "SIP"
+      ],
+      "text": "A Mutual Fund is a professionally managed investment scheme where many investors pool their money. An Asset Management Company (AMC) invests this pool in various schemes like equity funds or debt funds to diversify risk. Instead of shares, investors in mutual funds receive Units. The market value of one unit is called the Net Asset Value (NAV). A Systematic Investment Plan (SIP) allows investors to invest small amounts at regular intervals (monthly or quarterly) rather than a large lump sum. SIP helps in disciplined saving and long-term wealth creation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Probability: Introduction and Terminology",
+      "keywords": [
+        "Possibility",
+        "Predictions",
+        "Certainty"
+      ],
+      "text": "Probability is the mathematical study of the possibility of an event occurring. In daily conversation, words like 'probable', 'likely', 'impossible', and 'sure' are used to express these possibilities. Probability is expressed as a fraction or a percentage, ranging from 0 to 1 or 0% to 100%. An event with 0 probability is impossible, while an event with a probability of 1 is certain.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Random Experiment and Outcomes",
+      "keywords": [
+        "Random Experiment",
+        "Outcome",
+        "Equally Likely"
+      ],
+      "text": "A Random Experiment is an experiment where all possible results are known in advance, but the specific result of a particular performance cannot be predicted with certainty. Each possible result of a random experiment is called an Outcome. For example, tossing a coin has two outcomes: Head (H) or Tail (T). Throwing a die has six outcomes: 1, 2, 3, 4, 5, or 6. Outcomes are said to be 'Equally Likely' if none of the outcomes occurs in preference to others, assuming the objects used (like coins or dice) are fair and unbiased.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.3",
+      "heading": "Sample Space and Sample Points",
+      "keywords": [
+        "Sample Space",
+        "Sample Point",
+        "n(S)",
+        "Omega"
+      ],
+      "text": "The set of all possible outcomes of a random experiment is called the sample space. The sample space is denoted by the capital letter ‘S’ or the Greek letter ‘Ω’ (Omega). Each individual element within the sample space is called a ‘sample point’. The total number of elements in the set ‘S’ is denoted by n(S). If the number of elements n(S) is finite, the sample space is called a finite sample space. For example, when one die is thrown, the sample space S is {1, 2, 3, 4, 5, 6} and the number of sample points n(S) is 6. When two coins are tossed simultaneously, the sample space S is {HH, HT, TH, TT} and n(S) is 4.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.4",
+      "heading": "Event and Favourable Outcomes",
+      "keywords": [
+        "Event",
+        "Subset",
+        "Favourable Outcomes",
+        "n(A)"
+      ],
+      "text": "An event is a set of outcomes that satisfy a particular condition. Mathematically, an event is a subset of the sample space. Events are generally denoted by capital letters such as A, B, C, or D. The number of elements in event A is denoted by n(A). For example, if two coins are tossed and event A is defined as 'getting at least one tail', the favourable outcomes are {TT, TH, HT}, and therefore n(A) is 3. Types of events include certain events, impossible events, simple events, complementary events, mutually exclusive events, and exhaustive events.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.5",
+      "heading": "Probability of an Event: Formula",
+      "keywords": [
+        "P(A)",
+        "Probability Formula",
+        "Sample Points Ratio"
+      ],
+      "text": "The probability of an expected event is the numerical expression of the possibility of that event occurring. For a random experiment with sample space ‘S’ and an expected event ‘A’, the probability of event A is denoted by P(A). The formula for probability is: P(A) = (Number of sample points in event A) / (Number of sample points in sample space), which is written as P(A) = n(A) / n(S). For example, if a bag contains 3 red balls and 2 blue balls, the total number of balls n(S) is 5. If event A is 'picking a red ball', then n(A) is 3, and the probability P(A) is 3/5.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "Statistics: Measures of Central Tendency",
+      "keywords": [
+        "Central Tendency",
+        "Mean",
+        "Median",
+        "Mode"
+      ],
+      "text": "Statistics involves the collection, organization, and analysis of numerical data. A specific property of numerical data is that the scores have a tendency to cluster around a particular central score, which is called the measure of central tendency. The three primary measures of central tendency are the mean, the median, and the mode. The mean represents the average of the data. The median is the middle value when data is arranged in order. The mode is the score that repeats the maximum number of times in a data set. These measures are used to draw useful inferences from large sets of data.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Mean from Grouped Frequency Distribution: Direct Method",
+      "keywords": [
+        "Direct Method",
+        "Class Mark",
+        "Frequency",
+        "Sigma"
+      ],
+      "text": "The direct method is used to find the mean of grouped data. The process involves four steps. First, determine the class mark (xi) for each class, which is the average of the lower and upper class limits. Second, record the frequency (fi) for each class. Third, calculate the product of the class mark and frequency (xi multiplied by fi) for each class. Fourth, calculate the mean using the formula: Mean (X-bar) = (Sum of all xi multiplied by fi) / (Sum of all frequencies), represented as Σxifi / Σfi. This method provides an approximate mean for data presented in a grouped frequency table.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.3",
+      "heading": "Mean from Grouped Data: Assumed Mean Method",
+      "keywords": [
+        "Assumed Mean",
+        "Deviation",
+        "d-bar",
+        "A"
+      ],
+      "text": "The assumed mean method simplifies calculations when class marks or frequencies are large. In this method, a class mark near the middle of the distribution is chosen as the 'Assumed Mean' (A). The deviation (di) for each class is calculated as di = xi - A. The mean of the deviations (d-bar) is then calculated using the formula: d-bar = (Sum of fi multiplied by di) / (Sum of fi). Finally, the actual mean of the data is found by adding the mean of the deviations to the assumed mean: Mean (X-bar) = A + d-bar. This method reduces the magnitude of the numbers used in the summation process.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.4",
+      "heading": "Mean from Grouped Data: Step Deviation Method",
+      "keywords": [
+        "Step Deviation",
+        "G.C.D.",
+        "u-bar",
+        "g"
+      ],
+      "text": "The step deviation method further reduces calculations by dividing the deviations by a common factor. First, find the deviations di = xi - A. Second, identify the Greatest Common Divisor (g) of all deviations. Third, calculate the step deviation (ui) for each class as ui = di / g. Fourth, find the mean of the step deviations (u-bar) using the formula: u-bar = (Sum of fi multiplied by ui) / (Sum of fi). Fifth, calculate the actual mean using the formula: Mean (X-bar) = A + (u-bar multiplied by g). This method is highly efficient for data with uniform class intervals.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.5",
+      "heading": "Median for Grouped Frequency Distribution",
+      "keywords": [
+        "Median Class",
+        "Cumulative Frequency",
+        "Continuous Classes",
+        "Median Formula"
+      ],
+      "text": "To find the median of grouped data, the classes must first be made continuous. A cumulative frequency column of the 'less than' type is created. The total frequency is N, and the median is the value corresponding to the (N/2)th score. The class containing this score is called the median class. The formula for the median is: Median = L + [((N/2) - cf) / f] multiplied by h. In the median formula, L represents the lower class limit of the median class, N represents the sum of all frequencies, cf represents the cumulative frequency of the class preceding the median class, f represents the frequency of the median class, and h represents the class interval of the median class.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.6",
+      "heading": "Mode for Grouped Frequency Distribution",
+      "keywords": [
+        "Modal Class",
+        "Maximum Frequency",
+        "Mode Formula"
+      ],
+      "text": "The mode of grouped data is estimated using the modal class, which is the class with the maximum frequency. The formula for the mode is: Mode = L + [(f1 - f0) / (2f1 - f0 - f2)] multiplied by h. In the mode formula, L represents the lower class limit of the modal class, f1 represents the frequency of the modal class, f0 represents the frequency of the class preceding the modal class, f2 represents the frequency of the class succeeding the modal class, and h represents the class interval of the modal class. The mode represents the score that occurs most frequently in the data set.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.7",
+      "heading": "Pictorial Representation: Histogram",
+      "keywords": [
+        "Histogram",
+        "Rectangles",
+        "Kink Mark",
+        "Extended Class Intervals"
+      ],
+      "text": "A histogram is a graphical representation of a frequency distribution. To draw a histogram, the classes must be continuous. These continuous classes are shown on the X-axis with a proper scale, and the frequencies are shown on the Y-axis. Rectangles are drawn with the class intervals as the base and heights proportional to the frequencies. If the first class does not start from zero, a 'kink' mark (a zigzag line) is shown on the X-axis between the origin and the first class to indicate that there are no observations in that range.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.8",
+      "heading": "Pictorial Representation: Frequency Polygon",
+      "keywords": [
+        "Frequency Polygon",
+        "Mid-points",
+        "Class Mark",
+        "Line Segments"
+      ],
+      "text": "A frequency polygon is another way to represent a frequency table. A frequency polygon can be drawn in two ways. The first way is by using a histogram and joining the mid-points of the upper sides of the rectangles with line segments. The second way is without a histogram by plotting points where the X-coordinate is the class mark and the Y-coordinate is the frequency. To complete the polygon, the line is extended to the X-axis by including a class of zero frequency at both the beginning and the end of the distribution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.9",
+      "heading": "Pictorial Representation: Pie Diagram",
+      "keywords": [
+        "Pie Chart",
+        "Central Angle",
+        "Sectors",
+        "Proportional Representation"
+      ],
+      "text": "In a pie diagram, numerical data is shown in a circle where different components are represented by proportional sectors. The measure of the central angle (theta) for each component is calculated using the formula: Central Angle (theta) = (Number of scores in the component / Total number of scores) multiplied by 360 degrees. To draw the pie diagram, a circle of suitable radius is drawn, and the circle is divided into sectors based on the calculated central angles. Each sector represents a specific category of the data, and the entire circle represents the total data set.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

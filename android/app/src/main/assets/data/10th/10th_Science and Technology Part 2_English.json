@@ -1,0 +1,1406 @@
+{
+  "metadata": {
+    "file_name": "MAHARASHTRA_SSC_SCIENCE_TECH_PART2",
+    "standard": 10,
+    "subject": "Science and Technology Part 2",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "1.1",
+      "heading": "Heredity and hereditary changes",
+      "keywords": [
+        "Heredity",
+        "Gregor Johann Mendel",
+        "Genes",
+        "DNA",
+        "Genetic Engineering"
+      ],
+      "text": "Heredity is the transfer of biological characters from one generation to another via genes. Gregor Johann Mendel is the pioneer of modern genetics. The understanding of the conclusions of Gregor Johann Mendel's research about heredity took a long time. In 1901, the reasons behind sudden changes were understood due to the mutational theory of Hugo de Vries. In 1902, Walter Sutton observed paired chromosomes in the cells of a grasshopper. Research started in the direction of finding the nature of genetic material when scientists proved that genes are carried via chromosomes. In 1944, a trio of scientists consisting of Oswald Avery, Mclyn McCarty, and Colin McLeod proved that except for viruses, all living organisms have DNA as genetic material. In 1961, the French geneticists Francois Jacob and Jack Monod proposed a model for the process of protein synthesis with the help of DNA in bacterial cells. This model helped to uncover the genetic codes hidden in DNA. Consequently, the technique of recombinant DNA technology emerged, which has a vast scope in the field of genetic engineering. The science of heredity is useful for the diagnosis, treatment, and prevention of hereditary disorders, the production of hybrid varieties of animals and plants, and in industrial processes in which microbes are used.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Transcription",
+      "keywords": [
+        "Transcription",
+        "RNA",
+        "Central Dogma",
+        "mRNA",
+        "Nucleotides"
+      ],
+      "text": "With the help of RNA, the genes present in the form of DNA participate in the functioning of the cell and thereby control the structure and functioning of the body. Information about protein synthesis is stored in the DNA, and the synthesis of appropriate proteins as per requirement is necessary for the body. These proteins are synthesized by DNA through the RNA. This synthesis process is called 'Central Dogma'. mRNA is produced as per the sequence of nucleotides on DNA. Only one of the two strands of DNA is used in this process. The sequence of nucleotides in the mRNA being produced is always complementary to the DNA strand used for synthesis. Additionally, there is uracil in RNA instead of the thymine found in DNA. This process of RNA synthesis is called 'transcription'.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Translation",
+      "keywords": [
+        "Translation",
+        "Triplet Codon",
+        "Dr. Har Govind Khorana",
+        "tRNA",
+        "Amino Acids"
+      ],
+      "text": "The mRNA formed in the nucleus comes into the cytoplasm. The mRNA brings in the coded message from DNA. The message contains the codes for amino acids. The code for each amino acid consists of three nucleotides and is called a 'triplet codon'. Dr. Har Govind Khorana, a scientist of Indian origin, made an important contribution to the discovery of triplet codons for 20 amino acids. For this work, Dr. Har Govind Khorana was awarded the Nobel Prize in 1968. Each mRNA is made up of thousands of triplet codons. As per the message on mRNA, amino acids are supplied by the tRNA. For this purpose, tRNA has an 'anticodon' having a complementary sequence to the codon on mRNA. This process is called 'translation'.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Translocation",
+      "keywords": [
+        "Translocation",
+        "Ribosome",
+        "Peptide Bonds",
+        "rRNA",
+        "Proteins"
+      ],
+      "text": "The amino acids brought in by tRNA are bonded together by peptide bonds with the help of rRNA. During this process, the ribosome keeps on moving from one end of mRNA to the other end by the distance of one triplet codon. This movement is called 'translocation'. Many such amino acid chains come together to form complex proteins. These proteins control various functions in the body of living organisms and determine the appearance of the organisms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Mutation",
+      "keywords": [
+        "Mutation",
+        "Genetic Disorders",
+        "Sickle Cell Anaemia",
+        "Nucleotide"
+      ],
+      "text": "Living organisms can produce new individuals like themselves due to genes, and some of those genes are transmitted to the next generation without any changes. Due to this transmission, some of the characters of parents are transmitted to the offspring. However, sometimes sudden changes occur in those genes. Sometimes, any nucleotide of the gene changes its position, which causes a minor change known as a 'mutation'. Some mutations may be minor, but some may be considerable. For example, mutation may cause genetic disorders like sickle cell anaemia.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Evolution",
+      "keywords": [
+        "Evolution",
+        "Natural Selection",
+        "Gradual Change",
+        "Species"
+      ],
+      "text": "Evolution is the gradual change occurring in living organisms over a long duration. Evolution is a very slow-going process through which the development of organisms is achieved. All the stages in changes that occurred in various components, ranging from stars and planets in space to the biosphere present on the Earth, should be included in the study of evolution. The formation of new species due to changes in specific characters of several generations of living organisms as a response to natural selection is called evolution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.7",
+      "heading": "Theory of Evolution",
+      "keywords": [
+        "Protoplasm",
+        "Unicellular Organisms",
+        "Complex Organisms",
+        "Ocean"
+      ],
+      "text": "According to the theory of evolution, the first living material, called protoplasm, was formed in the ocean. In the due course of time, a unicellular organism was formed. Gradually, changes occurred in the unicellular organisms from which larger and more complex organisms were formed. All those changes were slow and gradual. The duration of all these changes is at most 300 crore years. Changes and development in living organisms have been all-round and multi-dimensional, and this development led to the evolution of different types of organisms. Hence, this overall process is called evolution, which is organizational. The progressive development of plants and animals from ancestors having different structural and functional organizations is called evolution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.8",
+      "heading": "Morphological Evidences",
+      "keywords": [
+        "Morphological Evidences",
+        "Common Ancestors",
+        "Anatomy",
+        "External Features"
+      ],
+      "text": "Morphological evidences are proofs of evolution based on external features. Various similarities like the structure of the mouth, position of the eyes, structure of nostrils and ear pinnae, and thickly distributed hairs on the body are seen in animals. Similarities in characters like leaf shape, leaf venation, and leaf petiole occur in the case of plants. These similarities indicate that there are common traits in those groups, and hence these traits prove that the origin of the organisms must be the same and the organisms must have common ancestors.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.9",
+      "heading": "Anatomical Evidences",
+      "keywords": [
+        "Anatomical Evidences",
+        "Bone Structure",
+        "Flipper",
+        "Patagium"
+      ],
+      "text": "If a person carefully observes the anatomical structures, there does not seem to be any superficial similarity between a human hand, the foreleg of an ox, the flipper of a whale, and the patagium of a bat. Similarly, the use of each of those structures is different in the respective animals. However, there is a similarity in the structure of bones and joints in the organs of each of those animals. This similarity indicates that those animals may have a common ancestor.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.10",
+      "heading": "Vestigial Organs",
+      "keywords": [
+        "Vestigial Organs",
+        "Appendix",
+        "Coccyx",
+        "Wisdom Teeth"
+      ],
+      "text": "Degenerated or underdeveloped useless organs of organisms are called vestigial organs. In living organisms, the sudden development of new tissues or organs for living in a changing environment is not possible. Instead, existing organs undergo gradual changes. Mostly, a specific structure in the body is useful under a certain situation. However, the same structure under a different situation may become useless or even harmful. Such a structure begins to degenerate under such a situation as per the principle of natural selection. It takes thousands of years for a structure to disappear. Such organs are seen in different phases of disappearance in different animals. A vestigial organ, though non-functional in certain organisms, may be functional in other organisms. The appendix, which is useless to humans, is a useful and fully functional organ in ruminants. Similarly, muscles of the ear pinna, which are useless to humans, are useful in monkeys for the movement of the ear pinna. Various vestigial organs like the tail-bone (coccyx), wisdom teeth, and body hairs are present in the body of a human being.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.11",
+      "heading": "Palaeontological Evidences",
+      "keywords": [
+        "Fossils",
+        "Carbon Dating",
+        "Willard Libby",
+        "C-14",
+        "Palaeontology"
+      ],
+      "text": "Large numbers of organisms get buried due to disasters like floods, earthquakes, and volcanoes. Remnants and impressions of such organisms remain preserved underground; these remnants are called fossils. The study of fossils is an important aspect of the study of evolution. Carbon consumption of animals and plants stops after death, and since then, only the decaying process of C-14 occurs continuously. In the case of dead bodies of plants and animals, instead of remaining constant, the ratio between C-14 and C-12 changes continuously as C-12 is non-radioactive. The time passed since the death of a plant or animal can be calculated by measuring the radioactivity of C-14 and the ratio of C-14 to C-12 present in the body. This calculation method is 'carbon dating'. Carbon dating is used in palaeontology and anthropology for determining the age of human fossils and manuscripts. Once the age of a fossil has been determined by such a technique, it becomes easy to deduce information about other erstwhile organisms. It seems that vertebrates have slowly originated from invertebrates. Willard Libby developed the carbon dating method based upon the radioactive decay of naturally occurring C-14 and was awarded the Nobel Prize in 1960 for this invention.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.12",
+      "heading": "Connecting Links",
+      "keywords": [
+        "Connecting Links",
+        "Peripatus",
+        "Duckbill Platypus",
+        "Lungfish"
+      ],
+      "text": "Some plants and animals show morphological characters by which the plants and animals can be related to two different groups; hence these organisms are called 'connecting links'. For example, in Peripatus, characters like a segmented body, thin cuticle, and parapodia-like organs are present. Similarly, Peripatus shows tracheal respiration and an open circulatory system similar to arthropods. This indicates that Peripatus is a connecting link between annelida and arthropoda. Similarly, the duck-billed platypus lays eggs like reptiles but shows a relationship with mammals due to the presence of mammary glands and hairs. Lungfish performs respiration with lungs irrespective of being a fish. These examples indicate that mammals evolved from reptiles and amphibians evolved from fishes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.13",
+      "heading": "Embryological Evidences",
+      "keywords": [
+        "Embryology",
+        "Vertebrates",
+        "Embryos",
+        "Evolutionary Proof"
+      ],
+      "text": "A comparative study of embryonic developmental stages of various vertebrates shows that all embryos show extreme similarities during initial stages, and those similarities decrease gradually. Similarities in initial stages indicate the common origin of all these animals, including fish, salamanders, tortoises, chickens, pigs, cows, rabbits, and humans.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.14",
+      "heading": "Darwin’s theory of natural selection",
+      "keywords": [
+        "Charles Darwin",
+        "Natural Selection",
+        "Survival of the Fittest",
+        "Origin of Species"
+      ],
+      "text": "Charles Darwin collected innumerable specimens of plants and animals and, depending upon the observations of those specimens, published the theory of natural selection which preaches the survival of the fittest. For this purpose, Charles Darwin published a book titled 'Origin of Species'. While explaining the concept, Charles Darwin says that all organisms reproduce prolifically. All organisms compete with each other in a life-threatening manner. In this competition, only those organisms sustain which show the modifications essential for winning the competition. However, besides this, natural selection also plays an important role because nature selects only those organisms which are fit to live and the rest perish. Sustaining and selected organisms can perform reproduction and thereby give rise to new species with their own specific characters. Darwin’s theory of natural selection was widely accepted for a long duration. However, some objections were raised against the theory, such as: natural selection is not the only factor responsible for evolution; Charles Darwin did not mention any explanation about useful and useless modifications; and there is no explanation about slow changes and abrupt changes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.15",
+      "heading": "Lamarckism",
+      "keywords": [
+        "Jean-Baptiste Lamarck",
+        "Acquired Characters",
+        "Use or Disuse",
+        "Inheritance"
+      ],
+      "text": "Jean-Baptiste Lamarck proposed that morphological changes occurring in living organisms are responsible for evolution and the reason behind those morphological changes is the activities or laziness of that organism. Jean-Baptiste Lamarck called this concept the principle of 'use or disuse of organs'. Further, Jean-Baptiste Lamarck said that the neck of the giraffe has become too long due to browsing on leaves of tall plants by extending the neck for several generations. Similarly, the shoulders of the ironsmith have become very strong due to frequent hammering movements. Wings of birds like the ostrich and emu have become weak due to no use. Legs of birds like the swan and duck have become useful for swimming due to living in water, and snakes have lost their legs by modifications in the body for a burrowing habit. All these examples are types of 'acquired characters' and are transferred from one generation to another. This is called the theory of inheritance of acquired characters or Lamarckism. Development of organs due to specific activities or their degeneration due to no use was widely accepted, but the transfer of those characters from generation to generation was rejected because modifications brought in humans are not transferred to the next generation, and thereby Lamarck’s theory was disproved.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.16",
+      "heading": "Speciation",
+      "keywords": [
+        "Speciation",
+        "Species",
+        "Genetic Variation",
+        "Geographical Isolation"
+      ],
+      "text": "The formation of new species of plants and animals is the effect of evolution. A species is the group of organisms that can produce fertile individuals through natural reproduction. Each species grows in specific geographical conditions. The food, habitat, reproductive ability, and period of each species is different. However, genetic variation is responsible for the formation of new species from an earlier one. Besides, geographical and reproductive changes are also responsible. Similarly, geographical or reproductive isolation also leads to speciation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.17",
+      "heading": "Human Evolution",
+      "keywords": [
+        "Human Evolution",
+        "Ramapithecus",
+        "Neanderthal Man",
+        "Homo sapiens",
+        "Cro-Magnon Man"
+      ],
+      "text": "The biodiversity known today has been formed from very simple unicellular organisms due to evolution. In this evolution, the origin of human evolution can be traced back to approximately seven crore years ago when the last dinosaurs disappeared. At that time, monkey-like animals are said to have evolved from some ancestors who were more or less similar to modern lemurs. The tail of these monkey-like animals of Africa disappeared about 4 crore years ago. These animals developed due to enlargement in the brain, their hands were improved, and thus ape-like animals evolved. Meanwhile, these ape-like animals reached South and North-East Asia and finally evolved into gibbons and orangutans. Remaining ape-like animals stayed in Africa, and from them, gorillas and chimpanzees evolved about 2.5 crore years ago. The evolution of some of the 2 crore-year-old species of apes seems to have occurred in a different way. These apes had to use their hands more for eating food and other work. Those apes started to live on land as the forests started to decline due to a dry environment. Their pelvic girdle developed in such a way that the apes started to stand in an erect posture in grasslands, and thereby their hands became available for use anytime. These first human-like animals with erect posture evolved about 2 crore years ago. The first record of a human-like animal is 'Ramapithecus' ape from North India and East Africa. Afterwards, this ape grew in size and became more intelligent, and thus the ape of South Africa evolved about 40 lakh years ago. The morphology of these human-like animals started to appear like members of the genus Homo about 20 lakh years ago, and thus skilled humans developed. About 15 lakh years ago, humans walking with an erect posture evolved. Evolution of upright man continued in the direction of developing the brain for a period of about 1 lakh years, and meanwhile, upright man discovered fire. The brain of a 50-thousand-year-old man had been sufficiently evolved to the extent that the man could be considered a member of the class wise-man (Homo sapiens). Neanderthal man can be considered the first example of wise-man. The Cro-Magnon man evolved about 50 thousand years ago, and afterwards, this evolution was faster than the earlier stages. About 10 thousand years ago, wise-man started to practice agriculture. Wise-man started to rear cattle-herds and established cities. Cultural development took place. The art of writing was invented about 5,000 years ago, and thus history started. Modern sciences emerged about 400 years ago, and industrial society was established about 200 years ago.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Living Organisms and Life Processes",
+      "keywords": [
+        "Organ-systems",
+        "Energy Production",
+        "Carbohydrates",
+        "Mitochondria",
+        "Circulatory System"
+      ],
+      "text": "Various organ-systems are continuously performing functions in the human body. Along with systems like digestive, respiratory, circulatory, excretory, and control systems, different external and internal organs are performing functions independently but through complete coordination. This overall system is in action in more or less the same way in all organisms. Organisms are in need of a continuous source of energy for this purpose. Carbohydrates, fats, and lipids are the main sources of energy, and energy is harvested by the mitochondria present in each cell. Foodstuff alone is not sufficient for energy production; oxygen is also necessary. Foodstuffs and oxygen are transported up to the cell via the circulatory system. Besides, energy production is coordinated by the control system of the body. Each life process contributes in its own way to the process of energy production. Functioning of all life processes also requires energy. Humans and other animals consume fruits and vegetables. Plants are autotrophs and prepare their own food. Plants utilize some food for themselves, whereas the remaining food is stored in various parts like fruits, leaves, stems, and roots. Humans consume these various plant materials and obtain different nutrients like carbohydrates, fats, proteins, vitamins, and minerals. Carbohydrates are obtained from milk, fruits, jaggery, cane sugar, vegetables, potatoes, sweet potatoes, sweetmeats, and cereals like wheat, maize, ragi, jowar, millet, and rice. Humans get 4 Kcal energy per gram of carbohydrates.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Living Organism and Energy Production",
+      "keywords": [
+        "Respiration",
+        "Body Level",
+        "Cellular Level",
+        "Oxidation",
+        "Glucose"
+      ],
+      "text": "In living organisms, respiration occurs at two levels: body level and cellular level. Oxygen and carbon dioxide are exchanged between the body and the surroundings in the case of respiration occurring at the body level. In the case of respiration at the cellular level, foodstuffs are oxidized either with or without the help of oxygen. Carbohydrates of the food that humans consume every day are mainly utilized for the production of energy required for daily needs. This energy is obtained in the form of ATP (Adenosine Triphosphate). For this purpose, glucose, a type of carbohydrate, is oxidized step by step in the cells. This process is called cellular respiration. Cellular respiration occurs among living organisms by two methods: aerobic respiration (where oxygen is involved) and anaerobic respiration (where oxygen is not involved). In aerobic respiration, glucose is oxidized in three steps: Glycolysis, Tricarboxylic acid cycle (Krebs cycle), and Electron transfer chain reaction.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.3",
+      "heading": "Glycolysis (EMP Pathway)",
+      "keywords": [
+        "Glycolysis",
+        "Cytoplasm",
+        "Pyruvic Acid",
+        "ATP",
+        "NADH2",
+        "Acetyl-CoA"
+      ],
+      "text": "The process of glycolysis occurs in the cytoplasm. A molecule of glucose is oxidized step by step in this process, and two molecules of each of the following are formed: pyruvic acid, ATP, NADH2, and water. Molecules of pyruvic acid formed in this process are converted into molecules of Acetyl-Coenzyme-A. Two molecules of NADH2 and two molecules of CO2 are released during this conversion process. The process of glycolysis was discovered by three scientists: Gustav Embden, Otto Meyerhof, and Jacob Parnas, along with their colleagues. For this purpose, the scientists performed experiments on muscles. Hence, glycolysis is also called the Embden-Meyerhof-Parnas pathway (EMP pathway).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.4",
+      "heading": "Tricarboxylic acid cycle (Krebs cycle)",
+      "keywords": [
+        "Krebs Cycle",
+        "Mitochondria",
+        "Sir Hans Krebs",
+        "CO2",
+        "FADH2"
+      ],
+      "text": "Both molecules of Acetyl-CoA enter the mitochondria. A cyclic chain of reactions called the tricarboxylic acid cycle is operated on the Acetyl-CoA in the mitochondria. The acetyl part of Acetyl-CoA is completely oxidized through this cyclical process, and molecules of CO2, H2O, NADH2, and FADH2 are derived. The cyclical reactions of the tricarboxylic acid cycle were discovered by Sir Hans Krebs. Hence, this cyclical process is also called the Krebs cycle. Sir Hans Krebs was awarded the Nobel Prize in 1953 for this discovery.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.5",
+      "heading": "Electron transfer chain reaction",
+      "keywords": [
+        "Electron Transfer Chain",
+        "ATP Production",
+        "NADH2",
+        "FADH2",
+        "Mitochondria"
+      ],
+      "text": "Molecules of NADH2 and FADH2 formed during all previous processes participate in the electron transfer chain reaction. Due to this reaction, 3 molecules of ATP are obtained from each NADH2 molecule and 2 molecules of ATP are obtained from each FADH2 molecule. Besides ATP, water molecules are also formed in this reaction. The electron transfer chain reaction is operated in mitochondria only. Thus, a molecule of glucose is completely oxidized in aerobic respiration, and molecules of CO2 and H2O are produced along with energy. NAD stands for Nicotinamide Adenine dinucleotide, and FAD stands for Flavin adenine dinucleotide. Both coenzymes are formed in the cells and used in cellular respiration.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.6",
+      "heading": "ATP: Energy Currency",
+      "keywords": [
+        "ATP",
+        "Adenosine Triphosphate",
+        "Energy Currency",
+        "Phosphate Bonds",
+        "ADP"
+      ],
+      "text": "ATP (Adenosine triphosphate) is an energy-rich molecule, and energy is stored in the bonds by which phosphate groups are attached to each other. These ATP molecules are stored in the cells as per need. Chemically, ATP is a triphosphate molecule formed from adenosine ribonucleoside. ATP contains a nitrogenous compound-adenine, a pentose sugar-ribose, and three phosphate groups. As per the need, energy is derived by breaking the phosphate bond of ATP; hence ATP is called the 'energy currency' of the cell. When energy is released, ATP is converted into ADP (Adenosine Diphosphate) and inorganic phosphate.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.7",
+      "heading": "Energy Production from Lipids and Proteins",
+      "keywords": [
+        "Lipids",
+        "Proteins",
+        "Fatty Acids",
+        "Amino Acids",
+        "Fasting"
+      ],
+      "text": "If there is an insufficient amount of carbohydrates in the body due to exceptional conditions like fasting and hunger, then lipids and proteins are used for energy production. In the case of lipids, lipids are converted into fatty acids, whereas proteins are converted into amino acids. Fatty acids and amino acids are converted into Acetyl-CoA, and energy is obtained through the complete oxidation of Acetyl-CoA by the process of the Krebs cycle in mitochondria.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.8",
+      "heading": "Energy Production in Microorganisms through Anaerobic Respiration",
+      "keywords": [
+        "Anaerobic Respiration",
+        "Fermentation",
+        "Lactic Acid",
+        "Yeast",
+        "Bacteria"
+      ],
+      "text": "Some organisms cannot live in the presence of oxygen, such as many bacteria. Such living organisms have to perform anaerobic respiration for energy production. Glycolysis and fermentation are two steps of anaerobic respiration. Glucose is incompletely oxidized, and a lesser amount of energy is obtained in this type of respiration. Pyruvic acid produced through glycolysis is converted into other organic acids or alcohol with the help of some enzymes in this process. This conversion is called fermentation. Some higher plants, animals, and aerobic microorganisms also perform anaerobic respiration instead of aerobic respiration if there is a depletion in the oxygen level in the surroundings. For example, seeds perform anaerobic respiration if the soil is submerged under water during germination. Similarly, human muscle cells perform anaerobic respiration while performing exercise. Due to anaerobic respiration, less amount of energy is produced in the human body, and lactic acid accumulates, due to which humans feel tired.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.9",
+      "heading": "Energy from Proteins",
+      "keywords": [
+        "Proteins",
+        "Amino Acids",
+        "First Class Proteins",
+        "Gluconeogenesis",
+        "RUBISCO"
+      ],
+      "text": "Proteins are the macromolecules formed by bonding together many amino acids. Proteins of animal origin are called 'first-class' proteins. Humans get 4 Kcal of energy per gram of proteins. Amino acids are obtained after the digestion of proteins. Those amino acids are absorbed in the body and transported up to each organ and cell via blood. From these amino acids, organs and cells produce various proteins necessary for themselves and the whole body. For example, the skin produces melanin and keratin; bones produce ossein; cells produce various proteins of the cell membrane and various enzymes; the pancreas produces insulin and trypsin; the pituitary gland produces various hormones; muscles produce actin and myosin flexible proteins; and blood produces haemoglobin and antibodies. Excess amino acids obtained from proteins are not stored in the body. Excess amino acids are broken down, and the ammonia formed is eliminated out of the body. If necessary, excess proteins are converted into other useful substances like glucose through the process of gluconeogenesis. Plants produce the necessary amino acids from minerals denovo and thereby produce different proteins. An enzyme called RUBISCO, present in the plant chloroplasts, is the most abundant protein found in nature.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.10",
+      "heading": "Energy from Lipids",
+      "keywords": [
+        "Lipids",
+        "Fatty Acids",
+        "Phospholipids",
+        "Hormones",
+        "Adipose Tissue"
+      ],
+      "text": "The substances formed by specific chemical bonds between fatty acids and alcohol are called lipids. Digestion of lipids consumed by humans is the conversion of lipids into fatty acids and alcohol. Fatty acids are absorbed and distributed everywhere within the body. From those fatty acids, different cells produce various substances necessary to the cells. For example, molecules called phospholipids, which are essential for producing the plasma membrane, are formed from fatty acids. Besides, fatty acids are used for producing hormones like progesterone, estrogen, testosterone, and aldosterone, and the covering around the axons of nerve cells. Humans get 9 Kcal of energy per gram of lipids. Excess lipids are stored in adipose connective tissue in the body.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.11",
+      "heading": "Vitamins, Water, and Fibers",
+      "keywords": [
+        "Vitamins",
+        "Water",
+        "Fibers",
+        "Essential Nutrients",
+        "Coenzymes"
+      ],
+      "text": "Vitamins are a group of heterogeneous compounds of which each vitamin is essential for the proper operation of various processes in the body. There are six main types of vitamins: A, B, C, D, E, and K. Vitamins A, D, E, and K are fat-soluble, whereas vitamins B and C are water-soluble. FADH2 and NADH2 are produced in processes like glycolysis and Krebs cycle. Vitamins like riboflavin (Vitamin B2) and nicotinamide (Vitamin B3) are necessary for the production of FADH2 and NADH2. There is about 65–70% water in the human body. Each cell contains 70% water weight by weight. Blood plasma also contains 90% water. Functioning of cells and the whole body is disturbed even if there is a little loss of water from the body; hence, water is an essential nutrient. Fibers are also essential nutrients. Humans cannot digest fibers, but fibers help in the digestion of other substances and the egestion of undigested substances. Fibers are obtained from leafy vegetables, fruits, and cereals.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.12",
+      "heading": "Cell Division: Mitosis",
+      "keywords": [
+        "Mitosis",
+        "Karyokinesis",
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase",
+        "Cytokinesis"
+      ],
+      "text": "Cell division is one of the very important properties of cells and living organisms. Due to this property, a new organism is formed from an existing one, a multicellular organism grows up, and an emaciated body can be restored. Mitosis occurs in somatic cells and stem cells of the body. Mitosis is completed through two main steps: karyokinesis (nuclear division) and cytokinesis (cytoplasmic division). Karyokinesis is completed through four steps. In Prophase, the condensation of thin thread-like chromosomes starts, making chromosomes short and thick, and chromosomes appear with pairs of sister chromatids; centrioles duplicate and move to opposite poles, and the nuclear membrane and nucleolus start to disappear. In Metaphase, the nuclear membrane completely disappears, chromosomes become clearly visible, and all chromosomes are arranged parallel to the equatorial plane of the cell; spindle fibers are formed between the centromere of each chromosome and both centrioles. In Anaphase, centromeres split, sister chromatids separate and are pulled apart in opposite directions by spindle fibers; separated sister chromatids are called daughter chromosomes. In Telophase, chromosomes at opposite poles start to decondense and become thread-like and invisible; a nuclear membrane is formed around each set of chromosomes, and two daughter nuclei are formed; the nucleolus appears, and spindle fibers disappear. Finally, in Cytokinesis, the cytoplasm divides and two new daughter cells are formed. In animal cells, a notch is formed at the equatorial plane which deepens to divide the cell, while in plant cells, a cell plate is formed along the midline.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.13",
+      "heading": "Cell Division: Meiosis",
+      "keywords": [
+        "Meiosis",
+        "Germ Cells",
+        "Crossing Over",
+        "Haploid Cells",
+        "Genetic Recombination"
+      ],
+      "text": "Meiosis occurs in germ cells and is completed through two stages: meiosis-I and meiosis-II. In meiosis-I, recombination or crossing over occurs between homologous chromosomes, and thereafter those homologous chromosomes are divided into two groups, forming two haploid cells. Meiosis-II is just like mitosis. In meiosis-II, the two haploid daughter cells formed in meiosis-I undergo division by the separation of recombined sister chromatids, and four haploid daughter cells are formed. The process of gamete production and spore formation occurs by meiosis. In this type of cell division, four haploid (n) daughter cells are formed from one diploid (2n) cell. During meiosis, crossing over occurs between homologous chromosomes, and thereby genetic recombination occurs. Due to genetic recombination, all four daughter cells are genetically different from the parent cell and from each other.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Reproduction: Introduction",
+      "keywords": [
+        "Reproduction",
+        "Species Continuity",
+        "Asexual Reproduction",
+        "Sexual Reproduction"
+      ],
+      "text": "Reproduction is the formation of a new organism of the same species by an earlier existing organism. Reproduction is one of the various important characters of living organisms and is responsible for the evolution of each species. In living organisms, reproduction occurs mainly by two methods: asexual and sexual reproduction. Reproduction does not help the individual organism to remain alive, but reproduction helps to maintain the continuity of the species of that organism.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Asexual Reproduction in Unicellular Organisms",
+      "keywords": [
+        "Binary Fission",
+        "Multiple Fission",
+        "Budding",
+        "Amoeba",
+        "Yeast"
+      ],
+      "text": "Asexual reproduction is the process of formation of a new organism by an organism of the same species without the involvement of gametes. Unicellular organisms perform asexual reproduction through various methods. Binary fission is performed by prokaryotes, protists like Amoeba, Paramecium, and Euglena, and eukaryotic cell organelles like mitochondria and chloroplasts. In binary fission, the parent cell divides to form two similar daughter cells. Amoeba divides in any plane, which is called simple binary fission. Paramecium divides by transverse binary fission, and Euglena divides by longitudinal binary fission. Multiple fission is performed by Amoeba during adverse conditions; Amoeba forms a protective covering called a cyst, and many nuclei are formed by repeated nuclear divisions inside the cyst. When favorable conditions arrive, the cyst breaks open and many amoebulae are released. Budding occurs in yeast, which is a unicellular fungus. A yeast cell produces two daughter nuclei by mitotic division, and a small bulge called a bud appears on the surface of the parent cell. One daughter nucleus enters the bud, and after sufficient growth, the bud separates from the parent yeast cell to live independently.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "Asexual Reproduction in Multicellular Organisms",
+      "keywords": [
+        "Fragmentation",
+        "Regeneration",
+        "Vegetative Propagation",
+        "Spore Formation",
+        "Hydra"
+      ],
+      "text": "Multicellular organisms reproduce asexually through several methods. Fragmentation occurs in algae like Spirogyra and sponges like Sycon, where the body of the parent organism breaks into fragments and each fragment lives as an independent new organism. Regeneration is seen in Planaria, which can break its body into parts and each part regenerates the remaining portion to form new individuals. Budding in multicellular organisms is observed in Hydra; an outgrowth or bud is formed by repeated divisions of regenerative cells of the body wall. The bud grows, forms a small Hydra, and eventually separates from the parent. Vegetative propagation is reproduction in plants using vegetative parts like roots, stems, leaves, and buds. Examples include 'eyes' on potato tubers, buds on the leaf margins of Bryophyllum, and buds on the nodes of sugarcane. Spore formation occurs in fungi like Mucor; fungi have filamentous bodies and produce sporangia. Once spores are formed, sporangia burst, and spores germinate in moist, warm places to form new fungal colonies.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Sexual Reproduction: Basics",
+      "keywords": [
+        "Gamete Formation",
+        "Fertilization",
+        "Zygote",
+        "Meiosis",
+        "Genetic Variation"
+      ],
+      "text": "Sexual reproduction always occurs with the help of two germ cells: the female gamete and the male gamete. Two main processes occur in sexual reproduction. The first process is gamete formation, where gametes are formed by meiosis, reducing the chromosome number to half and resulting in haploid gametes. The second process is fertilization, where a diploid zygote is formed by the union of haploid male and female gametes. The zygote divides by mitosis to form an embryo, which develops into a new individual. Because sexual reproduction involves the fusion of gametes from two parents, the new individual has recombined genes from both parents, leading to genetic variation. Genetic variation helps organisms adjust to changing environments and prevents extinction.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Sexual Reproduction in Plants",
+      "keywords": [
+        "Flower",
+        "Androecium",
+        "Gynaecium",
+        "Pollination",
+        "Double Fertilization"
+      ],
+      "text": "The flower is the structural unit of sexual reproduction in plants. A flower consists of four floral whorls: calyx, corolla, androecium, and gynaecium. Androecium (male whorl) and gynaecium (female whorl) are essential whorls because these whorls perform the function of reproduction. Calyx and corolla are accessory whorls responsible for protecting the inner whorls. A flower is bisexual if both androecium and gynaecium are present, and unisexual if only one is present. Pollination is the transfer of pollen grains from the anther to the sticky stigma. Pollination occurs via abiotic agents like wind and water or biotic agents like insects and animals. When pollen grains fall on the stigma, a pollen tube forms and carries two male gametes to the embryo sac in the ovule. One male gamete unites with the egg cell to form a zygote (fertilization). The second male gamete unites with two polar nuclei to form endosperm. Because two male nuclei participate in this process, the process is called double fertilization.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.6",
+      "heading": "Human Male Reproductive System",
+      "keywords": [
+        "Testes",
+        "Sperms",
+        "Seminal Vesicle",
+        "Prostate Gland",
+        "Urinogenital Duct"
+      ],
+      "text": "The human male reproductive system consists of testes, various ducts, and glands. Testes are located in the scrotum outside the abdominal cavity and contain numerous seminiferous tubules. Germinal epithelium in the tubules divides by meiosis to produce sperms. Sperms travel through a sequence of tubules: rete testes, vas efferens, epididymis, vas deferens, ejaculatory duct, and urinogenital duct. As sperms move through these ducts, sperms become mature and able to fertilize an ovum. Seminal vesicles, the prostate gland, and Cowper's glands secrete fluids that combine with sperms to form semen. Semen is ejaculated through the penis. All organs of the male reproductive system are paired except for the urinogenital duct, prostate gland, penis, and scrotum.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.7",
+      "heading": "Human Female Reproductive System",
+      "keywords": [
+        "Ovaries",
+        "Oviducts",
+        "Uterus",
+        "Vagina",
+        "Oocyte"
+      ],
+      "text": "All organs of the human female reproductive system are located in the abdominal cavity. The female reproductive system includes a pair of ovaries, a pair of oviducts, a single uterus, and a vagina. A pair of Bartholin's glands is also present. Generally, every month, an ovum (oocyte) is released into the abdominal cavity alternately from each ovary. The free end of the oviduct is funnel-like with an opening at the center. The oocyte enters the oviduct through this opening, and cilia on the inner surface of the oviduct push the oocyte towards the uterus.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.8",
+      "heading": "Gamete Formation and Fertilization in Humans",
+      "keywords": [
+        "Sperm",
+        "Ovum",
+        "Puberty",
+        "Menopause",
+        "Fertilization"
+      ],
+      "text": "Both male and female gametes (sperm and ovum) are formed by meiosis. Sperms are produced in the testes of men from puberty until death. In women, 2–4 million immature oocytes are present in the ovaries at birth. An oocyte matures and is released every month from puberty until menopause, which occurs around age 45–50. Menopause is the stoppage of the functioning of the female reproductive system due to irregular or stopping hormone secretions. Fertilization is the union of sperm and ovum to form a zygote. In humans, fertilization is internal. Millions of sperms are ejaculated into the vagina and travel through the uterus to the oviduct. One sperm fertilizes the single ovum present in the oviduct.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.9",
+      "heading": "Development and Birth",
+      "keywords": [
+        "Embryo",
+        "Implantation",
+        "Placenta",
+        "Pregnancy",
+        "Mitosis"
+      ],
+      "text": "The zygote formed after fertilization in the oviduct undergoes repeated mitotic divisions to form an embryo. The embryo is pushed towards the uterus, where the embryo is implanted. Further development occurs after implantation. An organ called the placenta is formed to supply food material to the developing embryo in the uterus. Embryonic development is completed approximately within nine months after fertilization, leading to birth.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.10",
+      "heading": "Menstrual Cycle",
+      "keywords": [
+        "FSH",
+        "LH",
+        "Estrogen",
+        "Progesterone",
+        "Ovulation"
+      ],
+      "text": "The menstrual cycle is a natural process in the female reproductive system that repeats every 28–30 days starting at puberty. The menstrual cycle is controlled by four hormones: follicle-stimulating hormone (FSH), luteinizing hormone (LH), estrogen, and progesterone. Under the effect of FSH, a follicle in the ovary develops along with an oocyte and secretes estrogen. Estrogen causes the endometrium of the uterus to regenerate. Under the effect of LH, the mature follicle bursts and releases the oocyte, a process called ovulation. The remaining tissue of the burst follicle forms the corpus luteum, which secretes progesterone. Progesterone prepares the endometrial glands for implantation. If the oocyte is not fertilized within 24 hours, the corpus luteum becomes inactive and transforms into corpus albicans. Secretion of estrogen and progesterone stops, causing the endometrium to degenerate and be discarded through the vagina along with blood, which is called menstruation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.11",
+      "heading": "Reproduction and Modern Technology",
+      "keywords": [
+        "IVF",
+        "Surrogacy",
+        "Sperm Bank",
+        "Infertility"
+      ],
+      "text": "Modern medical techniques help childless couples have children. In Vitro Fertilization (IVF) involves fertilizing an oocyte with sperms in a test tube and then implanting the resulting embryo into the woman's uterus. Surrogacy is used when a woman has problems with implantation; an oocyte from the woman is fertilized in a test tube with her husband's sperms and then implanted into the uterus of another woman, called a surrogate mother. Sperm banks or semen banks collect and store semen from healthy donors after medical check-ups. This stored semen is used to fertilize the oocyte of a woman whose husband has problems with sperm production.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.12",
+      "heading": "Twins",
+      "keywords": [
+        "Monozygotic Twins",
+        "Dizygotic Twins",
+        "Siamese Twins"
+      ],
+      "text": "Twins are two offspring delivered simultaneously from the same uterus. Monozygotic twins are formed from a single embryo that divides into two groups within 8 days of zygote formation; these twins are genetically identical and have the same gender. If the embryo divides more than 8 days after zygote formation, conjoined twins (Siamese twins) may form. Dizygotic twins are formed when two separate oocytes are released from the ovaries and fertilized by two separate sperms, resulting in two separate embryos; these twins are genetically different and may have different genders.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.13",
+      "heading": "Reproductive Health and Population Explosion",
+      "keywords": [
+        "Social Health",
+        "Syphilis",
+        "Gonorrhoea",
+        "Family Planning"
+      ],
+      "text": "Reproductive health refers to a person's state of physical, mental, and social well-being regarding the reproductive system. Lack of awareness and social customs can lead to poor reproductive health. Sexual diseases like syphilis and gonorrhoea are caused by bacteria and can have serious symptoms like fever, inflammation, and rashes. Maintaining personal hygiene, especially of the genitals, is essential. Population explosion is the excessive growth of population within a short duration. In India, the population has grown rapidly, leading to problems like unemployment and stress on natural resources. Family planning is the primary solution for population control.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Ecosystem - A review",
+      "keywords": [
+        "Ecosystem",
+        "Biotic Factors",
+        "Abiotic Factors",
+        "Producers",
+        "Decomposers"
+      ],
+      "text": "An ecosystem is formed by biotic and abiotic factors and the interactions between biotic and abiotic factors. Each factor plays a very important role in the ecosystem. Producers like plants are important for providing food. Herbivores like deer, goats, sheep, cattle, horses, and camels feed upon producers and are essential components. Predators like lions and tigers prevent the overpopulation of herbivores and are equally important. Organisms found in nature such as caterpillars, termites, and insects present in dung are responsible for cleaning the environment. Human existence is dependent on these various factors present in the surroundings; therefore, humans should care for these factors. The phrase 'Jivo Jivasya Jivanam' emphasizes that one living being serves as the life source for another.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Relationship between Environment and Ecosystem",
+      "keywords": [
+        "Environment",
+        "Ecology",
+        "Natural Environment",
+        "Artificial Environment",
+        "Environmental Balance"
+      ],
+      "text": "Environment is a broad concept that includes physical, chemical, and biological factors affecting living organisms. Environment is the condition in the surroundings and includes many biotic, abiotic, natural, and artificial factors. There are two main types of environment: natural environment and artificial environment. Natural environment consists of air, atmosphere, water, land, and living organisms. Ecology is the science that deals with the study of interactions between biotic and abiotic factors of the environment. The basic functional unit used to study ecology is called an ecosystem. Environmental balance is maintained through the continuous operation of various natural cycles like the water cycle, carbon cycle, and gaseous cycles such as the nitrogen cycle and oxygen cycle. Environmental balance is also maintained due to various food chains within the ecosystem.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.3",
+      "heading": "Environmental Conservation and Pollution",
+      "keywords": [
+        "Environmental Conservation",
+        "Pollution",
+        "Contamination",
+        "Air Pollution",
+        "Water Pollution",
+        "Soil Pollution"
+      ],
+      "text": "Environmental conservation is the basic responsibility of human beings to preserve nature without disturbing the balance of nature. Environmental pollution is the unnecessary and unacceptable change in the surrounding environment due to natural events or human activities. Pollution involves direct or indirect changes in the physical, chemical, and biological properties of air, water, and soil which are harmful to humans and other living beings. Factors responsible for environmental pollution include population explosion, fast industrialization, indiscriminate use of natural resources, deforestation, and unplanned urbanization. Air pollution components include gases like CO2, CO, hydrocarbons, sulphur, and NOx, and solids like dust, ash, and carbon. Water pollution sources include industrial wastes, domestic waste, sewage, and chemicals from industries and agriculture. Soil pollution effects include soil erosion, retarded growth of plants, and nutritional deficiency.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.4",
+      "heading": "Radioactive Pollution",
+      "keywords": [
+        "Radioactive Pollution",
+        "X-rays",
+        "Chernobyl",
+        "Radiation Effects",
+        "UV Radiations"
+      ],
+      "text": "Radioactive pollution can occur due to natural reasons like UV and IR radiations or artificial reasons like X-rays and radiations from atomic energy plants. Major radioactive mishaps include Chernobyl, Windscale, and Three Miles Island. The effects of radiations on living organisms are severe: cancerous ulceration occurs due to high radiations of X-rays; tissues in the body are destroyed; genetic changes occur; and vision is adversely affected. Pollution control is vital because the ultimate adverse effect of pollution is on the existence of all living organisms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.5",
+      "heading": "Need of Environmental Conservation",
+      "keywords": [
+        "UNEP",
+        "Public Movement",
+        "Environmental Awareness",
+        "Ministry of Environment",
+        "Education"
+      ],
+      "text": "Environmental conservation must become an effective public movement because the general public is often unaware of the rules of environment conservation. Values like a positive attitude and affection towards the environment should be inculcated in children from childhood. In 1972, the United Nations Environment Program (UNEP) was established to discuss environmental problems. In India, a separate environmental department was established, and the Ministry of Environment and Forests has been involved in planning and increasing awareness since 1985. All countries have accepted the responsibility of environmental protection and have constituted necessary laws.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.6",
+      "heading": "Environmental Conservation: Laws and Social Responsibility",
+      "keywords": [
+        "Forest Conservation Act",
+        "Environmental Conservation Act",
+        "Wildlife Protection Act",
+        "National Green Tribunal"
+      ],
+      "text": "Human beings have a crucial role in maintaining environmental balance. Laws have been enacted to enforce environmental conservation. The Forest Conservation Act of 1980 prohibits the use of reserved forest land for any other purpose without central government permission; violators are entitled to imprisonment. The Environmental Conservation Act of 1986 aims to control pollution and punish persons or institutes harming the environment; the act prohibits releasing pollutants beyond permissible limits. The National Green Tribunal was established in 2010 for effective implementation of environment-related laws. The Wildlife Protection Act of 1972 includes Clause 49A which bans trading rare animals, Clause 49B which bans using articles made from animal skin or organs, and Clause 49C which mandates disclosure of stocks of artifacts made from rare wild animals.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.7",
+      "heading": "The Big Story of a Small Man: Jadav Molai Payeng",
+      "keywords": [
+        "Jadav Molai Payeng",
+        "Molai Jungle",
+        "Afforestation",
+        "Assam",
+        "Padmashree"
+      ],
+      "text": "Jadav Molai Payeng is a highly capable person born in 1963 in Assam. At the age of 16, Jadav Molai Payeng started working as a forest worker. After a large number of snakes died in a flood of the Brahmaputra River, Jadav Molai Payeng planted 20 bamboo plantlets as a preventive measure. In 1979, the local Social Forestry Department began an afforestation project on 200 hectares, and Jadav Molai Payeng continued to plant and care for trees even after the project ended. As a result of 30 years of continuous work, a barren area was transformed into a forest covering 1360 acres, now known as 'Molai Jungle'. Jadav Molai Payeng was awarded the 'Padmashree' award by the government of India for this unparallel work, proving that a single determined person can establish a new forest.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.8",
+      "heading": "Environmental Conservation and Biodiversity",
+      "keywords": [
+        "Biodiversity",
+        "Genetic Diversity",
+        "Species Diversity",
+        "Ecosystem Diversity"
+      ],
+      "text": "Biodiversity is the richness of living organisms in nature due to the presence of varieties of organisms, ecosystems, and genetic variations within a species. Biodiversity occurs at three levels. Genetic Diversity is the occurrence of diversity among organisms of the same species; for example, each human being is different from others. Species Diversity refers to the innumerable species of organisms, including plants, animals, and microbes, occurring in nature. Ecosystem Diversity refers to the many natural and artificial ecosystems present in each region, formed through interactions between plants, animals, habitats, and environmental changes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.9",
+      "heading": "Sacred Groves and Biodiversity Conservation",
+      "keywords": [
+        "Sacred Groves",
+        "Sanctuaries",
+        "Conservation Methods",
+        "Traditional Knowledge"
+      ],
+      "text": "Sacred groves are forests conserved in the name of god and considered sacred by society. Sacred groves are effectively sanctuaries conserved by the community rather than the government forest department. Because sacred groves are conserved in the name of god, these clusters of thick forests have special protection. More than 13,000 sacred groves have been reported in India. Biodiversity can be conserved by: protecting rare species of organisms; establishing national parks and sanctuaries; declaring regions as 'bioreserves'; running projects for the conservation of special species; conserving all plants and animals; observing environmental rules; and maintaining records of traditional knowledge.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.10",
+      "heading": "Environmental Organizations and Individual Roles",
+      "keywords": [
+        "Green Peace",
+        "IUCN",
+        "WWF",
+        "BNHS",
+        "Environmental Roles"
+      ],
+      "text": "Many institutes at state, national, and international levels are involved in environmental conservation. Voluntary organizations include the Bombay Natural History Society (BNHS) in Mumbai and the Chipko Centre in Tehri Garhwal. International organizations include the International Union for Conservation of Nature (IUCN), the World Wildlife Fund (WWF), and the United Nations Environment Program (UNEP). Green Peace is the world's largest organization engaged in environmental activities. An individual's role in the environment can be categorized into: Conservation (conserving available resources); Control (preventing harm and changing mindsets); Production (revival of harmed factors); Awareness (education and guidance); Prevention (preventing possible harms); and Preservation (preserving what is leftover).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.11",
+      "heading": "Hotspots of Biodiversity and Endangered Places",
+      "keywords": [
+        "Biodiversity Hotspots",
+        "Western Ghats",
+        "Manas Sanctuary",
+        "Sunderban Sanctuary"
+      ],
+      "text": "There are 34 highly sensitive biodiversity spots reported globally, which once occupied 15.7% of the Earth's area but now only 2.3% remains. India has two major hotspots in the eastern region and the Western Ghats. Three endangered heritage places in India are: the Western Ghats, which are threatened by the mining industry and natural gas search; the Manas Sanctuary in Assam, which is under threat due to dams and indiscriminate water use affecting tigers and rhinos; and the Sunderban Sanctuary in West Bengal, where the tiger population is challenged by dams, deforestation, and excessive fishing.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.12",
+      "heading": "Classification of Threatened Species",
+      "keywords": [
+        "Endangered Species",
+        "Rare Species",
+        "Vulnerable Species",
+        "Indeterminate Species",
+        "Red List"
+      ],
+      "text": "Threatened species are classified into four categories. Endangered Species are organisms whose numbers have declined or habitats have shrunk to the extent that the organisms can become extinct if conservative measures are not implemented, such as the Lion-tailed monkey. Rare Species are endemic organisms whose numbers are considerably declined and may become extinct fast, such as the Red panda. Vulnerable Species are organisms whose numbers are extremely low and continue to decline, such as tigers and lions. Indeterminate Species appear to be endangered but lack definite information due to behavioral habits like shyness, such as the Giant squirrel. The International Union for Conservation of Nature (IUCN) prepares the 'Red List' containing names of endangered species.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Energy and use of energy",
+      "keywords": [
+        "Energy Forms",
+        "Mechanical Energy",
+        "Chemical Energy",
+        "Energy Conversion"
+      ],
+      "text": "In modern civilization, energy has become a primary need along with food, cloth, and shelter. Energy is required in different forms for diverse types of works, such as mechanical energy, chemical energy, sound energy, light energy, or heat energy. Energy can be converted from one form to another. Different sources of energy are used to provide the various forms of energy necessary for human activities.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Generation of electrical energy",
+      "keywords": [
+        "Electromagnetic Induction",
+        "Michael Faraday",
+        "Potential Difference",
+        "Electric Generator"
+      ],
+      "text": "Most electric power plants are based on the principle of electromagnetic induction invented by Michael Faraday. According to the principle of electromagnetic induction, whenever the magnetic field around a conductor changes, a potential difference is generated across the conductor. The magnetic field around a conductor can be changed in two ways: if a conductor is stationary and a magnet is rotating, or if a magnet is stationary and the conductor is moving. In both cases, a potential difference is created across the conductor. The electrical power generating machine based on the principle of electromagnetic induction is called an electric generator.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.3",
+      "heading": "Thermal energy based electric power station",
+      "keywords": [
+        "Coal",
+        "Boiler",
+        "Steam Turbine",
+        "Condenser",
+        "Cooling Tower"
+      ],
+      "text": "In a thermal power station, a turbine is rotated using steam. Water is heated in a boiler using the thermal energy released due to the burning of coal. Steam of very high temperature and pressure is generated, and the energy in the steam drives the turbine. The generator connected to the turbine rotates, and electrical energy is produced. The steam is converted back into water in a condenser and the water is re-circulated to the boiler. This conversion is done using water in a cooling tower. In thermal power plants, the chemical energy in coal is converted into thermal energy, then into kinetic energy in steam, then into kinetic energy in the turbine, and finally into electrical energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.4",
+      "heading": "Problems of Thermal Power Generation",
+      "keywords": [
+        "Air Pollution",
+        "Carbon Dioxide",
+        "Soot Particles",
+        "Respiratory Problems",
+        "Coal Reserves"
+      ],
+      "text": "Thermal power generation suffers from several problems. Burning coal results in the emission of gases like carbon dioxide, sulphur oxide, and nitrogen oxide, which are harmful to health. Along with the emission of gases, soot particles are released into the environment, which may cause serious health problems related to the respiratory system, such as asthma. Furthermore, the reserves of fuel used in this method, specifically coal, are limited, meaning there will be limitations on the availability of coal in the future.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.5",
+      "heading": "Power plant based on Nuclear Energy",
+      "keywords": [
+        "Nuclear Fission",
+        "Uranium-235",
+        "Chain Reaction",
+        "Radioactive Waste",
+        "Neutron Bombardment"
+      ],
+      "text": "In a nuclear power plant, a steam turbine is used to rotate the generator. The energy released by the fission of nuclei of atoms like Uranium or Plutonium is used to generate steam of high temperature and pressure. When a neutron is bombarded on an atom of Uranium-235, the atom absorbs the neutron and converts into its isotope Uranium-236. Uranium-236 is extremely unstable and converts into atoms of Barium and Krypton through a process of fission, releasing three neutrons and 200 MeV energy. The three neutrons cause the fission of three other Uranium-235 atoms, creating a chain reaction. In nuclear power plants, a controlled chain reaction results in the release of thermal energy used for electric energy generation. Problems include the fact that the products after fission are radioactive and emit harmful radiations, known as nuclear waste, which is difficult to dispose of safely. Additionally, an accident in a nuclear power plant can be fatal due to the release of very harmful radiations.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.6",
+      "heading": "Power generation plant based on energy of natural gas",
+      "keywords": [
+        "Natural Gas",
+        "Combustion Chamber",
+        "Gas Turbine",
+        "Efficiency",
+        "Pollution"
+      ],
+      "text": "In a natural gas power plant, the turbine is run by gas at very high temperature and pressure generated by the combustion of natural gas. Pressurized air is introduced into a combustion chamber using a compressor. In the combustion chamber, natural gas burns in the presence of air. The gas generated in the combustion chamber runs the gas turbine, which drives the generator to produce electricity. The efficiency of this type of power generation plant is higher than that of power generation plants based on coal. Moreover, since natural gas does not contain sulphur, the burning of natural gas results in less pollution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.7",
+      "heading": "Electric energy generation and environment",
+      "keywords": [
+        "Fossil Fuels",
+        "Global Warming",
+        "Acid Rain",
+        "Green Energy",
+        "Perpetual Sources"
+      ],
+      "text": "Electricity generation based on fossil fuels like coal and natural gas, and nuclear fuels like uranium and plutonium, is not environment-friendly and can lead to environmental degradation. Burning fossil fuels leads to the emission of gases and soot particles, resulting in air pollution. Increased carbon dioxide leads to global warming, while nitrogen dioxide leads to acid rain. Fossil fuel reserves took millions of years to form and are limited. In contrast, electricity generation from water reservoirs, wind, sunlight, and biofuels is environment-friendly because these energy sources are perpetual and do not lead to environmental problems. This type of energy is called green energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.8",
+      "heading": "Hydroelectric Energy",
+      "keywords": [
+        "Potential Energy",
+        "Kinetic Energy",
+        "Dam",
+        "Sluice Gates",
+        "Environment Friendly"
+      ],
+      "text": "In a hydroelectric power plant, the potential energy in water stored in a dam is converted into kinetic energy of water. Fast-flowing water is brought from the dam to the turbine at the bottom of the dam. The kinetic energy of the flowing water drives the turbine, which in turn drives the generator to generate electricity. Advantages include the absence of pollution from combustion and the ability to generate electricity whenever necessary if sufficient water is stored. Problems include the fact that back-water may submerge villages, towns, and forests, leading to rehabilitation issues for displaced populations. Obstruction of river flow may also have adverse effects on the living world in the river.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.9",
+      "heading": "Electricity generation using wind energy",
+      "keywords": [
+        "Wind Turbine",
+        "Kinetic Energy",
+        "Gear Box",
+        "Clean Energy",
+        "Wind Velocity"
+      ],
+      "text": "A wind turbine is a machine that converts the kinetic energy of wind into electrical energy. As wind strikes the blades of the turbine, the blades rotate. The axle of the turbine is connected to an electric generator through a gear box, which increases the rotations per unit time. The rotating blades drive the turbine, and the turbine drives the generator to generate electricity. Wind energy is a clean energy source, but wind velocity necessary for wind-energy generation is not available everywhere, which limits the use of wind energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.10",
+      "heading": "Electric Energy generation using solar energy",
+      "keywords": [
+        "Solar Photovoltaic Cell",
+        "Photovoltaic Effect",
+        "Semiconductor",
+        "Silicon",
+        "DC Power"
+      ],
+      "text": "Solar energy can be generated in two ways. The first method uses solar photovoltaic cells, which convert solar radiation energy directly into electrical energy through the solar photovoltaic effect. The electrical energy generated is DC (Direct Current) in nature. Solar cells are made of a special type of material called a semiconductor, such as silicon. A silicon solar cell of dimension 1 cm² generates current of about 30 mA and a potential difference of about 0.5 V. The potential difference available from a solar cell is independent of the area of the solar cell.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.11",
+      "heading": "Solar Panels, Strings, and Arrays",
+      "keywords": [
+        "Series Connection",
+        "Parallel Connection",
+        "Solar Panel",
+        "Solar Array",
+        "Inverter"
+      ],
+      "text": "If two solar cells are connected in series, the potential difference is the addition of the potential differences of individual cells, but the current remains the same. If two solar cells are connected in parallel, the current is the summation of the currents from individual cells, but the potential difference remains the same. By connecting many solar cells in series and parallel, solar panels are made. Many solar panels connected in series form solar strings, and many solar strings connected in parallel form a solar array. Since most equipment runs on AC power, the DC solar power must be converted to AC power using an electronic device called an inverter. A transformer then transforms the voltage and current levels before the power is fed into the electricity distribution network.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.12",
+      "heading": "Solar Thermal Power Plant",
+      "keywords": [
+        "Reflectors",
+        "Absorbers",
+        "Heat Energy",
+        "Steam Turbine",
+        "Solar Radiation"
+      ],
+      "text": "In a solar thermal power plant, many reflectors reflect and concentrate solar radiation on absorbers. Solar energy is converted into heat energy on the absorbers. Using this heat energy, steam is generated to drive a turbine and a generator, which produces electricity. This method allows for the generation of electricity from solar radiation without using the photovoltaic effect.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "History and Benefits of Animal Classification",
+      "keywords": [
+        "Aristotle",
+        "Artificial Method",
+        "Natural System",
+        "Evolutionary Classification"
+      ],
+      "text": "Animal classification is the formation of groups and sub-groups of animals depending upon similarities and differences among animals. Greek philosopher Aristotle was the first to perform animal classification. Aristotle classified animals according to criteria like body size, habits, and habitats. The classification method proposed by Aristotle is known as the 'Artificial method'. Later, the 'Natural system of classification' was followed, which was based on criteria like body organization, types of cells, chromosomes, and bio-chemical properties. Recently, classification based on evolution was brought into practice by Dobzhansky and Meyer. Benefits of animal classification include: the study of animals becomes convenient; the study of a few animals from a group helps to understand the entire animal group; classification gives an idea about animal evolution; animals can be identified with great accuracy; and classification helps to understand the relationship of animals with other living organisms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Traditional Method of Animal Classification",
+      "keywords": [
+        "Non-chordates",
+        "Chordates",
+        "Notochord",
+        "Pharyngeal Gill-slits"
+      ],
+      "text": "Traditionally, the animal kingdom has been divided into two groups: Non-chordates and Chordates. Non-chordates have characters such as: the body is not supported by a rod-like notochord; pharyngeal gill-slits are absent; the nerve cord, if present, is on the ventral side and is solid and paired; and the heart, if present, is on the dorsal side. Chordates have characters such as: the body is supported by a notochord; pharyngeal gill-slits or lungs are present for respiration; the nerve cord is present on the dorsal side of the body and is hollow; and the heart is present on the ventral side of the body. The notochord is a long rod-like supporting structure present on the dorsal side of the animal body that keeps the nerve tissue isolated from the remaining body.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.3",
+      "heading": "Criteria for New System of Classification: Grades of Organization",
+      "keywords": [
+        "Protoplasmic Grade",
+        "Cellular Grade",
+        "Cell-Tissue Grade",
+        "Tissue-Organ Grade",
+        "Organ-System Grade"
+      ],
+      "text": "The new system of classification uses several criteria, starting with grades of organization. In unicellular organisms, all functions of life are performed by the same cell, and this organization is called 'Protoplasmic grade'. In multicellular animals, if tissues are not formed, the organization is called 'Cellular grade organization', as seen in Phylum Porifera. When cells come together to form tissues to perform body functions, the organization is 'Cell-tissue grade', as seen in Phylum Cnidaria. Flatworms show 'Tissue-organ grade' organization where tissues are organized to form some organs, but complete organ systems are not formed. Most other animals show 'Organ-system grade organization' where different organs are joined to form organ systems that perform specific functions, such as in crabs, frogs, and humans.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.4",
+      "heading": "Criteria for New System of Classification: Body Symmetry",
+      "keywords": [
+        "Asymmetrical Body",
+        "Radial Symmetry",
+        "Bilateral Symmetry"
+      ],
+      "text": "Body symmetry is determined by whether an imaginary cut through the axis of the body produces two equal halves. In an 'Asymmetrical body', there is no imaginary axis through which the body can be cut into two equal halves, as seen in some sponges. In 'Radial symmetry', if an imaginary cut passes through the central axis but any plane of the body, the cut gives two equal halves, as seen in starfish. In 'Bilateral symmetry', there is only one imaginary axis of the body through which the body can be cut into two equal halves, as seen in insects, fishes, frogs, birds, and humans.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.5",
+      "heading": "Criteria for New System of Classification: Germ Layers and Coelom",
+      "keywords": [
+        "Diploblastic",
+        "Triploblastic",
+        "Acoelomate",
+        "Pseudocoelomate",
+        "Eucoelomate"
+      ],
+      "text": "Germ layers are formed during the initial period of embryonic development. Some animals are 'Diploblastic', having only two germ layers (endoderm and ectoderm), such as Cnidarians. Most other animals are 'Triploblastic', having three germ layers (mesoderm, endoderm, and ectoderm). The body cavity, or coelom, is the cavity between the body wall and internal organs. Animals without a body cavity are called 'Acoelomate', such as those in Phyla Porifera, Cnidaria, and Platyhelminthes. Animals from Phylum Aschelminthes have a body cavity that is not formed from the mesoderm, and these animals are called 'Pseudocoelomates'. Animals from Phylum Annelida and all subsequent phyla have a true body cavity formed from the mesoderm and are called 'Eucoelomates'.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.6",
+      "heading": "Phylum Porifera and Phylum Coelenterata/Cnidaria",
+      "keywords": [
+        "Sponges",
+        "Ostia",
+        "Collar Cells",
+        "Polyp",
+        "Medusa",
+        "Cnidoblasts"
+      ],
+      "text": "Phylum Porifera consists of animals with the simplest body plan called 'Sponges'. Sponges bear numerous pores called 'Ostia' and 'Oscula' on the body. Sponges are aquatic, mostly marine, and have special types of cells called collar cells. Sponges are sedentary and their bodies are supported by spicules or spongin fibres. Phylum Coelenterata, or Cnidaria, includes animals with cylindrical (Polyp) or umbrella-like (Medusa) bodies. Cnidarians are mostly marine and show radial symmetry. Cnidarians possess tentacles around the mouth with cnidoblasts that inject toxins into prey for capturing and protection. Examples include Hydra, Sea anemone, and Jellyfish.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.7",
+      "heading": "Phylum Platyhelminthes and Phylum Aschelminthes",
+      "keywords": [
+        "Flatworms",
+        "Hermaphrodite",
+        "Roundworms",
+        "Pseudocoelom"
+      ],
+      "text": "Phylum Platyhelminthes includes animals with slender, flat bodies called 'flatworms'. Flatworms are mostly endoparasites, acoelomate, and show bilateral symmetry. Flatworms are triploblastic and hermaphrodite, meaning male and female reproductive systems are present in the same animal body. Examples include Planaria and Liver fluke. Phylum Aschelminthes includes animals with long thread-like or cylindrical bodies called 'roundworms'. Roundworms are triploblastic, pseudocoelomate, and non-segmented. Roundworms are covered with a tough cuticle and are unisexual. Examples include Ascaris (Intestinal worm) and Filarial worm.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.8",
+      "heading": "Phylum Annelida and Phylum Arthropoda",
+      "keywords": [
+        "Segmented Body",
+        "Setae",
+        "Jointed Appendages",
+        "Chitinous Exoskeleton"
+      ],
+      "text": "Phylum Annelida consists of animals with long, cylindrical, and metamerically segmented bodies. Annelids are triploblastic, bilaterally symmetrical, and eucoelomate. Annelids use setae, parapodia, or suckers for locomotion. Examples include Earthworms and Leeches. Phylum Arthropoda includes animals with jointed appendages. Arthropoda is the largest phylum in the animal kingdom. Arthropods are found in all types of habitats and have triploblastic, eucoelomate, bilaterally symmetrical, and segmented bodies. A chitinous exoskeleton is present around the body of arthropods. Arthropods are unisexual. Examples include Crabs, spiders, scorpions, cockroaches, and butterflies.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.9",
+      "heading": "Phylum Mollusca and Phylum Echinodermata",
+      "keywords": [
+        "Mantle",
+        "Calcareous Shell",
+        "Calcareous Spines",
+        "Tube-feet"
+      ],
+      "text": "Phylum Mollusca includes animals with soft and slimy bodies. Mollusca is the second largest phylum. Molluscs are aquatic or terrestrial and have triploblastic, eucoelomate, and non-segmented bodies. The visceral mass of molluscs is covered with a mantle, which secretes a hard calcareous shell. Molluscs are unisexual. Examples include Snails and Octopuses. Phylum Echinodermata consists of marine animals with calcareous spines on the body. Echinoderms are triploblastic and eucoelomate. Adult echinoderms show radial symmetry, while larvae show bilateral symmetry. Echinoderms perform locomotion with the help of tube-feet, which are also used for capturing prey. Echinoderms have a good ability for regeneration and are mostly unisexual. Examples include Starfish and Sea-urchins.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.10",
+      "heading": "Phylum Hemichordata and Phylum Chordata",
+      "keywords": [
+        "Balanoglossus",
+        "Connecting Link",
+        "Notochord",
+        "Vertebrata"
+      ],
+      "text": "Phylum Hemichordata includes animals with bodies divided into three parts: proboscis, collar, and trunk. A notochord is present in the proboscis region only. Hemichordates are marine animals called 'acorn worms'. Balanoglossus is considered a connecting link between non-chordates and chordates. Phylum Chordata includes animals that have a supporting notochord in the body during at least one developmental stage. Chordates have pharyngeal gill slits, a single tubular spinal cord on the dorsal side, and a heart on the ventral side. Phylum Chordata is classified into three subphyla: Urochordata, Cephalochordata, and Vertebrata. In Subphylum Vertebrata, the notochord is replaced by a vertebral column, the head is well developed, and the brain is protected by a cranium.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.11",
+      "heading": "Classes of Subphylum Vertebrata",
+      "keywords": [
+        "Cyclostomata",
+        "Pisces",
+        "Amphibia",
+        "Reptilia",
+        "Aves",
+        "Mammalia"
+      ],
+      "text": "Subphylum Vertebrata is divided into six classes. Class Cyclostomata includes jawless animals with suckers and cartilaginous endoskeletons, like Petromyzon. Class Pisces includes cold-blooded aquatic animals with spindle-shaped bodies, fins for swimming, and gills for respiration, like sharks and rohu. Class Amphibia includes animals that are aquatic during larval life and can live on both land and water during adult life, having moist skin and lacking scales, like frogs and toads. Class Reptilia includes the first true terrestrial animals with creeping movement and dry scaly skin, like lizards and snakes. Class Aves includes vertebrates completely adapted for aerial life, being warm-blooded with feathers and forelimbs modified into wings, like pigeons and ducks. Class Mammalia is characterized by the presence of mammary glands, being warm-blooded, and having bodies covered with hair or fur, like humans, elephants, and bats.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.1",
+      "heading": "Applied and Industrial Microbiology",
+      "keywords": [
+        "Applied Microbiology",
+        "Industrial Microbiology",
+        "Fermentation",
+        "Enzymes"
+      ],
+      "text": "Applied microbiology is the branch of biology in which the study of enzymes related to some prokaryotes and eukaryotic microbes, proteins, applied genetics, and molecular biology is performed. This study is used for society, and various products like food and medicines are produced on a large scale with the help of microorganisms. Industrial microbiology is related to the commercial use of microbes in which various economic, social, and environment-related processes and products are included. Main features of industrial microbiology include various productions with the help of fermentation processes, such as bread, cheese, wine, enzymes, nutrients, and medicines, as well as the use of microbes for garbage management and pollution control.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.2",
+      "heading": "Dairy Products and Cheese Production",
+      "keywords": [
+        "Lactobacilli",
+        "Pasteurization",
+        "Yoghurt",
+        "Cheese",
+        "Rennet",
+        "Protease"
+      ],
+      "text": "Since ancient days, milk has been converted into various products for preservation purposes, such as cheese, butter, cream, kefir, and yoghurt. During these processes, the water content and acidity of milk change, and texture, taste, and flavor are improved. For the production of yoghurt, milk is pasteurized to destroy unwanted microbes and then fermented with the help of lactobacilli. In this process, lactose sugar of the milk is converted into lactic acid, and milk proteins are coagulated. Cheese is produced on a large scale from cow milk. Microbes like Lactobacillus lactis and Streptococcus thermophilus are mixed with milk to impart sourness. An enzyme called rennet, traditionally obtained from the alimentary canal of cattle, was used earlier, but currently, an enzyme called protease obtained from fungi is used to produce vegetarian cheese. The solid yoghurt is cut into pieces, washed, salted, and mixed with essential microbes and pigments before being pressed and stored for ripening.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.3",
+      "heading": "Probiotics",
+      "keywords": [
+        "Probiotics",
+        "Lactobacillus",
+        "Bifidobacterium",
+        "Intestinal Microorganisms"
+      ],
+      "text": "Probiotics are milk products that contain active bacteria like Lactobacillus acidophilus and Bifidobacterium bifidum. These microbes maintain the balance of intestinal microorganisms by increasing the population of microbes that help digestion and decreasing the population of harmful microbes like Clostridium. Probiotic products are available in forms like yoghurt, kefir, sauerkraut, dark chocolate, and miso soup. Probiotics form colonies of useful microbes in the alimentary canal, improve resistance, and lower the ill-effects of harmful substances formed during metabolic activities. Probiotics are also used for the treatment of diarrhoea and in poultry.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.4",
+      "heading": "Bread and Vinegar Production",
+      "keywords": [
+        "Saccharomyces cerevisiae",
+        "Baker's Yeast",
+        "Acetic Acid",
+        "Acetobacter"
+      ],
+      "text": "Different types of breads are produced from the flour of cereals. Dough is formed by mixing baker’s yeast (Saccharomyces cerevisiae), water, salt, and other materials with flour. Due to the fermentation of carbohydrates by yeast, sugar is converted into carbon dioxide and ethanol, causing the dough to rise and the bread to become spongy. Vinegar is used for the preservation of pickles, sauce, and ketch-up. Chemically, vinegar is 4% acetic acid. Ethanol is obtained by the fermentation of carbon compounds like fruit juices or molasses with the help of yeast. This ethanol is then mixed with bacterial strains like Acetobacter and Glucanobacter for microbial degradation to produce acetic acid.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.5",
+      "heading": "Microbial Enzymes",
+      "keywords": [
+        "Microbial Enzymes",
+        "Oxidoreductases",
+        "Transferases",
+        "Hydrolases"
+      ],
+      "text": "Nowadays, instead of chemical catalysts, microbial enzymes are used in the chemical industry. These enzymes are active at low temperature, pH, and pressure, which saves energy and eliminates the need for erosion-proof instruments. Microbial enzymes carry out specific processes, minimizing expenses on purification because unnecessary by-products are not formed. Examples of microbial enzymes include oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases. These enzymes are used in various industries like cheese, plant extracts, textile, leather, and paper. For example, enzymes obtained from bacilli and streptomyces are used to obtain glucose and fructose syrup from corn flour.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.6",
+      "heading": "Organic Acids and Other Microbial Products",
+      "keywords": [
+        "L-glutamic acid",
+        "Citric acid",
+        "Gluconic acid",
+        "Xanthan gum"
+      ],
+      "text": "Various organic acids used in commercial products are obtained using microbes. L-glutamic acid, used for producing monosodium glutamate (Ajinomoto), is obtained from Brevibacterium and Corynebacterium. Citric acid, used in drinks and toffees, is obtained from Aspergillus niger. Gluconic acid, used for calcium and iron supplements, is also obtained from Aspergillus niger. Xanthan gum, which imparts thickness to ice creams, puddings, and milkshakes, is obtained by the fermentation of starch and molasses with the help of Xanthomonas species. Xanthan gum is useful due to properties like solubility in hot and cold water and high density.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.7",
+      "heading": "Antibiotics",
+      "keywords": [
+        "Antibiotics",
+        "Penicillin",
+        "Rifamycin",
+        "Tuberculosis"
+      ],
+      "text": "Many diseases of humans and animals have been controlled due to antibiotics obtained from different types of bacteria and fungi. Antibiotics like penicillin, cephalosporins, monobactam, erythromycin, and gentamycin are used against various strains of gram-positive and gram-negative bacteria. Rifamycin is an antibiotic that is particularly effective against tuberculosis.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.8",
+      "heading": "Microbes and Fuels",
+      "keywords": [
+        "Methane",
+        "Ethanol",
+        "Hydrogen Gas",
+        "Bio-fuel"
+      ],
+      "text": "Microbes are used to produce various fuels. Gaseous fuel like methane can be obtained by the microbial anaerobic decomposition of urban, agricultural, and industrial waste. Ethanol is a clean, smokeless liquid fuel obtained during the fermentation of molasses by the yeast Saccharomyces. Hydrogen gas is considered the fuel of the future and is released during the bio-photolysis of water, where bacteria perform photoreduction. Bio-fuels are important renewable sources of energy available in solid (coal, dung), liquid (vegetable oils, alcohol), and gaseous (gobar gas) forms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.9",
+      "heading": "Microbial Pollution Control and Sewage Management",
+      "keywords": [
+        "Land-filling",
+        "Bioremediation",
+        "Sewage Management",
+        "Xenobiotic Chemicals"
+      ],
+      "text": "Microbes play a vital role in environmental protection. In modern landfill sites, degradable waste is dumped into large pits lined with plastic sheets to prevent soil pollution. Microbes in the soil decompose the waste, and high-quality compost is formed. In cities, sewage is carried to processing units where microbes decompose carbon compounds and destroy pathogens of diseases like cholera and typhoid. Phenol-oxidizing bacteria are used to decompose xenobiotic chemicals present in sewage. The sludge that settles during this process can be used as fertilizer, and the released water is environmentally safe.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.10",
+      "heading": "Clean Technology and Bioremediation",
+      "keywords": [
+        "Alcanivorax borkumensis",
+        "Hydrocarbonoclastic Bacteria",
+        "Geobacter",
+        "Phyto-remediation"
+      ],
+      "text": "Microbes have the natural ability to decompose man-made chemicals. Some microbes remove sulphur from fuels, while others like Thiobacilli and Sulphobacilli convert metals like copper and iron into compounds before leaching. Spilling of petroleum oil in oceans is fatal to aquatic organisms; however, hydrocarbonoclastic bacteria (HCB) like Pseudomonas and Alcanivorax borkumensis are used to clear oil spills by decomposing hydrocarbons into CO2 and water. Geobacter bacteria convert water-soluble salts of uranium into insoluble salts, preventing groundwater contamination. Bioremediation using plants is called phyto-remediation; for example, the fern Pteris vittata absorbs arsenic from soil, and the bacterium Deinococcus radiodurans is used to absorb radiations from radioactive debris.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.11",
+      "heading": "Microbes and Farming",
+      "keywords": [
+        "Microbial Inoculants",
+        "Azotobacter",
+        "Bioinsecticides",
+        "Spinosad"
+      ],
+      "text": "Microbial inoculants containing bacteria like Rhizobium and Azotobacter are sprayed on seeds to help plant growth by supplying nutrients and improving food quality. These inoculants prevent soil pollution caused by chemical fertilizers. Microbial solutions can also destroy harmful pesticides like fluoroacetamide in the soil. Bioinsecticides are bacterial and fungal toxins that destroy pests and pathogens. For example, Spinosad is a biopesticide produced as a by-product of fermentation. These biological methods are essential for organic farming and maintaining natural balance.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

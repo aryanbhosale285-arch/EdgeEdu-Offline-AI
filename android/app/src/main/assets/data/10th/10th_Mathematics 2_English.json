@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "file_name": "MATHEMATICS_PART_II_STANDARD_X_MAHARASHTRA",
+    "standard": 10,
+    "subject": "Mathematics Part-II",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "1.1",
+      "heading": "Ratio of Areas of Two Triangles",
+      "keywords": [
+        "Area of triangle",
+        "Base",
+        "Height",
+        "Ratio"
+      ],
+      "text": "The area of a triangle is calculated as one-half the product of the base and the height. When considering the ratio of the areas of two triangles, the ratio is equal to the ratio of the products of the bases and corresponding heights of the triangles. If the heights of both triangles are equal, the ratio of the areas of the two triangles is equal to the ratio of the corresponding bases. If the bases of both triangles are equal, the ratio of the areas of the two triangles is equal to the ratio of the corresponding heights.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Basic Proportionality Theorem",
+      "keywords": [
+        "Parallel line",
+        "Proportion",
+        "Triangle sides"
+      ],
+      "text": "The Basic Proportionality Theorem states that if a line parallel to a side of a triangle intersects the remaining sides in two distinct points, then the line divides the sides in the same proportion. In triangle ABC, if line l is parallel to side BC and intersects side AB at point P and side AC at point Q, then the ratio of AP to PB is equal to the ratio of AQ to QC. The converse of the Basic Proportionality Theorem states that if a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Property of an Angle Bisector of a Triangle",
+      "keywords": [
+        "Angle bisector",
+        "Ratio",
+        "Opposite side"
+      ],
+      "text": "The theorem of the bisector of an angle of a triangle states that the bisector of an angle of a triangle divides the side opposite to the angle in the ratio of the remaining sides. In triangle ABC, if ray BD bisects angle ABC and point D lies on side AC, then the ratio of AB to BC is equal to the ratio of AD to DC. The converse of the angle bisector theorem states that if a point D on side BC of triangle ABC satisfies the condition that the ratio of AB to AC equals the ratio of BD to DC, then ray AD bisects angle BAC.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Property of Three Parallel Lines and Their Transversals",
+      "keywords": [
+        "Parallel lines",
+        "Transversals",
+        "Intercepts"
+      ],
+      "text": "The ratio of the intercepts made on a transversal by three parallel lines is equal to the ratio of the corresponding intercepts made on any other transversal by the same parallel lines. If line l, line m, and line n are parallel, and transversal t1 intersects these lines at points A, B, and C, while transversal t2 intersects these lines at points P, Q, and R, then the ratio of AB to BC is equal to the ratio of PQ to QR.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Tests of Similarity of Triangles",
+      "keywords": [
+        "AAA test",
+        "AA test",
+        "SAS test",
+        "SSS test"
+      ],
+      "text": "Two triangles are similar if their corresponding angles are congruent and their corresponding sides are in the same proportion. The AAA test for similarity states that for a given correspondence of vertices, if the corresponding angles of two triangles are congruent, then the two triangles are similar. The AA test is a corollary stating that if two angles of one triangle are congruent to two corresponding angles of another triangle, the triangles are similar. The SAS test states that if two pairs of corresponding sides are in the same proportion and the angles between these sides are congruent, the triangles are similar. The SSS test states that if three sides of one triangle are in proportion to the corresponding three sides of another triangle, the triangles are similar.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Theorem of Areas of Similar Triangles",
+      "keywords": [
+        "Similar triangles",
+        "Area ratio",
+        "Square of sides"
+      ],
+      "text": "The theorem of areas of similar triangles states that when two triangles are similar, the ratio of the areas of those triangles is equal to the ratio of the squares of their corresponding sides. If triangle ABC is similar to triangle PQR, then the ratio of the area of triangle ABC to the area of triangle PQR is equal to the square of AB divided by the square of PQ, which is also equal to the square of BC divided by the square of QR, and equal to the square of AC divided by the square of PR.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Pythagorean Triplet",
+      "keywords": [
+        "Natural numbers",
+        "Hypotenuse",
+        "Pythagoras"
+      ],
+      "text": "In a triplet of natural numbers, if the square of the largest number is equal to the sum of the squares of the remaining two numbers, then the triplet is called a Pythagorean triplet. For example, in the triplet (11, 60, 61), the square of 61 is 3721, the square of 11 is 121, and the square of 60 is 3600; since 121 plus 3600 equals 3721, the numbers form a Pythagorean triplet. Common triplets include (3, 4, 5), (5, 12, 13), and (8, 15, 17).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Similarity and Right Angled Triangles",
+      "keywords": [
+        "Altitude",
+        "Right angled triangle",
+        "Similarity"
+      ],
+      "text": "In a right-angled triangle, if the altitude is drawn to the hypotenuse, then the two triangles formed are similar to the original triangle and to each other. In right-angled triangle ABC with angle ABC equal to 90 degrees, if segment BD is perpendicular to hypotenuse AC, then triangle ADB is similar to triangle ABC, triangle BDC is similar to triangle ABC, and triangle ADB is similar to triangle BDC.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.3",
+      "heading": "Theorem of Geometric Mean",
+      "keywords": [
+        "Geometric mean",
+        "Altitude",
+        "Hypotenuse segments"
+      ],
+      "text": "In a right-angled triangle, the perpendicular segment to the hypotenuse from the opposite vertex is the geometric mean of the segments into which the hypotenuse is divided. In right-angled triangle PQR with angle PQR equal to 90 degrees, if segment QS is perpendicular to hypotenuse PR, then the square of QS is equal to the product of segment PS and segment SR.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.4",
+      "heading": "Pythagoras Theorem and its Converse",
+      "keywords": [
+        "Hypotenuse",
+        "Right angle",
+        "Square of sides"
+      ],
+      "text": "Pythagoras Theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the remaining two sides. In triangle ABC where angle ABC is 90 degrees, the square of side AC equals the sum of the square of side AB and the square of side BC. The converse of Pythagoras Theorem states that in a triangle, if the square of one side is equal to the sum of the squares of the remaining two sides, then the triangle is a right-angled triangle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.5",
+      "heading": "Apollonius Theorem",
+      "keywords": [
+        "Median",
+        "Triangle sides",
+        "Midpoint"
+      ],
+      "text": "Apollonius Theorem describes the relationship between the sides and the median of a triangle. In triangle ABC, if M is the midpoint of side BC, then the sum of the square of side AB and the square of side AC is equal to twice the square of median AM plus twice the square of segment BM (or segment MC).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Tangent Theorem and Converse",
+      "keywords": [
+        "Tangent",
+        "Radius",
+        "Perpendicular",
+        "Point of contact"
+      ],
+      "text": "The tangent theorem states that a tangent at any point of a circle is perpendicular to the radius at the point of contact. The converse of the tangent theorem states that a line perpendicular to a radius at the point where the radius intersects the circle is a tangent to the circle. Only one tangent can be drawn to a circle at a given point on the circle. From an external point, exactly two tangents can be drawn to a circle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Tangent Segment Theorem",
+      "keywords": [
+        "Tangent segments",
+        "External point",
+        "Congruent"
+      ],
+      "text": "The tangent segment theorem states that tangent segments drawn from an external point to a circle are congruent. If point D is outside a circle with centre A, and segments DP and DQ are tangents touching the circle at points P and Q, then segment DP is congruent to segment DQ. This congruence is proved by showing that triangle PAD and triangle QAD are congruent using the hypotenuse-side test.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "Touching Circles",
+      "keywords": [
+        "Externally touching",
+        "Internally touching",
+        "Collinear centres"
+      ],
+      "text": "Two circles are said to be touching circles if the two circles intersect at exactly one point. The theorem of touching circles states that if two circles touch each other, the point of contact lies on the line joining the centres of the two circles. If the circles touch externally, the distance between the centres of the circles is equal to the sum of the radii of the circles. If the circles touch internally, the distance between the centres of the circles is equal to the difference of the radii of the circles.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Arc of a Circle and Central Angle",
+      "keywords": [
+        "Minor arc",
+        "Major arc",
+        "Central angle",
+        "Measure of arc"
+      ],
+      "text": "A secant divides a circle into two parts, each of which is an arc. A central angle is an angle whose vertex is the centre of the circle. The measure of a minor arc is equal to the measure of the corresponding central angle. The measure of a major arc is equal to 360 degrees minus the measure of the corresponding minor arc. The measure of a semicircular arc is 180 degrees. Two arcs are congruent if the measures and the radii of the two arcs are equal. Chords corresponding to congruent arcs are congruent, and arcs corresponding to congruent chords are congruent.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Inscribed Angle Theorem",
+      "keywords": [
+        "Inscribed angle",
+        "Intercepted arc",
+        "Theorem"
+      ],
+      "text": "The inscribed angle theorem states that the measure of an inscribed angle is half of the measure of the arc intercepted by the angle. An angle is inscribed in an arc if the vertex of the angle lies on the arc and the arms of the angle intersect the circle. Angles inscribed in the same arc are congruent. An angle inscribed in a semicircle is a right angle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.6",
+      "heading": "Cyclic Quadrilateral Theorem",
+      "keywords": [
+        "Cyclic quadrilateral",
+        "Supplementary angles",
+        "Converse"
+      ],
+      "text": "A quadrilateral is called cyclic if all the vertices of the quadrilateral lie on the same circle. The theorem of cyclic quadrilateral states that opposite angles of a cyclic quadrilateral are supplementary. The corollary to this theorem states that an exterior angle of a cyclic quadrilateral is congruent to the angle opposite to the adjacent interior angle of the exterior angle. The converse of the cyclic quadrilateral theorem states that if a pair of opposite angles of a quadrilateral is supplementary, then the quadrilateral is cyclic.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.7",
+      "heading": "Theorems of Intersecting Chords",
+      "keywords": [
+        "Internal division",
+        "External division",
+        "Chord segments"
+      ],
+      "text": "The theorem of internal division of chords states that if two chords of a circle intersect in the interior of the circle, the product of the lengths of the segments of one chord is equal to the product of the lengths of the segments of the other chord. The theorem of external division of chords states that if secants containing chords AB and CD intersect outside the circle at point E, then the product of AE and EB is equal to the product of CE and ED. The tangent secant segments theorem states that if a tangent segment ET and a secant EAB are drawn from an external point E, then the product of EA and EB is equal to the square of ET.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Construction of Similar Triangles",
+      "keywords": [
+        "Geometric construction",
+        "Scale factor",
+        "Corresponding sides"
+      ],
+      "text": "To construct a triangle similar to a given triangle, the lengths of the sides of the new triangle are determined using the given ratio of corresponding sides. If the two triangles have no common vertex, the sides of the second triangle are calculated and the triangle is constructed independently. If the two triangles have a common vertex, the construction involves dividing a side into equal parts according to the ratio and drawing parallel lines to locate the remaining vertices of the similar triangle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Construction of Tangents to a Circle",
+      "keywords": [
+        "Tangent construction",
+        "Circle centre",
+        "External point"
+      ],
+      "text": "A tangent to a circle at a point on the circle can be constructed using the centre of the circle by drawing a radius and then a perpendicular line at the point of contact. A tangent can also be constructed without using the centre by using the property of the angle between a tangent and a secant. To construct tangents from an external point, a circle is drawn with the segment joining the centre and the external point as the diameter; the points where this circle intersects the original circle are the points of contact for the tangents.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Distance Formula",
+      "keywords": [
+        "Co-ordinate geometry",
+        "Distance",
+        "XY plane"
+      ],
+      "text": "The distance formula is used to find the distance between any two points in the XY plane. For points A with coordinates (x1, y1) and B with coordinates (x2, y2), the distance AB is the square root of the quantity (x2 minus x1) squared plus (y2 minus y1) squared. This formula is derived using the Pythagoras theorem. If a point P has coordinates (x, y), the distance of point P from the origin (0, 0) is the square root of x squared plus y squared.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Section Formula and Midpoint Formula",
+      "keywords": [
+        "Section formula",
+        "Midpoint",
+        "Ratio"
+      ],
+      "text": "The section formula provides the coordinates of a point P that divides a segment AB joining A(x1, y1) and B(x2, y2) in the ratio m to n. The x-coordinate of P is (m times x2 plus n times x1) divided by (m plus n), and the y-coordinate of P is (m times y2 plus n times y1) divided by (m plus n). The midpoint formula is a special case of the section formula where the ratio is 1 to 1; the coordinates of the midpoint are the average of the x-coordinates and the average of the y-coordinates of the endpoints.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.3",
+      "heading": "Centroid Formula",
+      "keywords": [
+        "Centroid",
+        "Triangle vertices",
+        "Median"
+      ],
+      "text": "The centroid of a triangle is the point where the three medians of the triangle intersect. The centroid divides each median in the ratio 2 to 1. If the vertices of a triangle are (x1, y1), (x2, y2), and (x3, y3), the coordinates of the centroid are calculated by taking the sum of the x-coordinates divided by three and the sum of the y-coordinates divided by three.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.4",
+      "heading": "Slope of a Line",
+      "keywords": [
+        "Slope",
+        "Tangent ratio",
+        "Parallel lines"
+      ],
+      "text": "The slope of a line passing through points (x1, y1) and (x2, y2) is defined as the ratio of the difference in y-coordinates to the difference in x-coordinates, represented as m equals (y2 minus y1) divided by (x2 minus x1). In trigonometry, the slope is also equal to the tangent of the angle that the line makes with the positive direction of the X-axis. The slope of the X-axis and any line parallel to the X-axis is zero. The slope of the Y-axis and any line parallel to the Y-axis cannot be determined. Two non-vertical lines are parallel if and only if the slopes of the lines are equal.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "Trigonometric Ratios: Cosec, Sec, and Cot",
+      "keywords": [
+        "Multiplicative inverse",
+        "Cosecant",
+        "Secant",
+        "Cotangent"
+      ],
+      "text": "The cosecant ratio is the multiplicative inverse or the reciprocal of the sine ratio. Cosecant theta equals one divided by sine theta. The secant ratio is the multiplicative inverse or the reciprocal of the cosine ratio. Secant theta equals one divided by cosine theta. The cotangent ratio is the multiplicative inverse or the reciprocal of the tangent ratio. Cotangent theta equals one divided by tangent theta. In a right-angled triangle, cosecant theta is the ratio of the hypotenuse to the opposite side, secant theta is the ratio of the hypotenuse to the adjacent side, and cotangent theta is the ratio of the adjacent side to the opposite side.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Trigonometric Identities",
+      "keywords": [
+        "Fundamental identities",
+        "Sine squared",
+        "Cosine squared",
+        "Tangent squared"
+      ],
+      "text": "Trigonometric identities are fundamental relations between trigonometric ratios. The first identity states that the square of sine theta plus the square of cosine theta equals one. The second identity states that one plus the square of tangent theta equals the square of secant theta. The third identity states that one plus the square of cotangent theta equals the square of cosecant theta. These identities are derived using the Pythagoras theorem in a right-angled triangle and are used to simplify trigonometric expressions and solve equations.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.3",
+      "heading": "Angle of Elevation and Angle of Depression",
+      "keywords": [
+        "Line of vision",
+        "Horizontal line",
+        "Elevation",
+        "Depression"
+      ],
+      "text": "The line of vision is the line joining the eye of an observer and the object being viewed. If an observer looks at an object above the horizontal line, the angle between the line of vision and the horizontal line is called the angle of elevation. If an observer looks at an object below the horizontal line, the angle between the line of vision and the horizontal line is called the angle of depression. These concepts are applied to find the heights of towers, buildings, or trees and the distances of objects from a specific point using trigonometric ratios.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.1",
+      "heading": "Surface Area and Volume of Three-Dimensional Figures",
+      "keywords": [
+        "Cuboid",
+        "Cylinder",
+        "Cone",
+        "Sphere",
+        "Hemisphere"
+      ],
+      "text": "Mensuration involves calculating the surface areas and volumes of solid figures. For a cuboid, the volume is the product of length, breadth, and height. For a cylinder, the curved surface area is two times pi times radius times height, and the volume is pi times radius squared times height. For a cone, the slant height is the square root of the sum of the square of the radius and the square of the height; the curved surface area is pi times radius times slant height, and the volume is one-third of the volume of a cylinder with the same radius and height. For a sphere, the surface area is four times pi times radius squared, and the volume is four-thirds times pi times radius cubed. For a hemisphere, the curved surface area is two times pi times radius squared, and the volume is two-thirds times pi times radius cubed.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.2",
+      "heading": "Frustum of a Cone",
+      "keywords": [
+        "Frustum",
+        "Slant height",
+        "Curved surface area",
+        "Volume"
+      ],
+      "text": "A frustum of a cone is the part of a cone that remains after the cone is cut by a plane parallel to the base of the cone. A frustum has two circular faces with different radii, r1 and r2. The slant height of the frustum is the square root of the sum of the square of the height and the square of the difference between the two radii. The curved surface area of the frustum is pi times slant height times the sum of the two radii. The total surface area is the sum of the curved surface area and the areas of the two circular faces. The volume of the frustum is one-third times pi times height times the sum of the square of r1, the square of r2, and the product of r1 and r2.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.3",
+      "heading": "Sector of a Circle",
+      "keywords": [
+        "Minor sector",
+        "Major sector",
+        "Area of sector",
+        "Length of arc"
+      ],
+      "text": "A sector of a circle is the part of a circular region enclosed by two radii and the arc joining the endpoints of the radii. A minor sector is enclosed by a minor arc, and a major sector is enclosed by a major arc. The area of a sector with central angle theta is calculated as theta divided by 360, multiplied by the area of the circle (pi times radius squared). The length of an arc is calculated as theta divided by 360, multiplied by the circumference of the circle (two times pi times radius). A relationship exists between the area of a sector and the length of the arc, where the area of the sector equals one-half the product of the length of the arc and the radius of the circle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.4",
+      "heading": "Area of a Segment of a Circle",
+      "keywords": [
+        "Segment",
+        "Chord",
+        "Minor segment",
+        "Major segment"
+      ],
+      "text": "A segment of a circle is the region bounded by a chord and the corresponding arc of the circle. The area of a minor segment is calculated by subtracting the area of the triangle formed by the chord and the radii from the area of the corresponding sector. The formula for the area of segment PXQ is the radius squared multiplied by the quantity (pi times theta divided by 360, minus sine theta divided by two). The area of a major segment is calculated by subtracting the area of the minor segment from the total area of the circle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

@@ -1,0 +1,1725 @@
+{
+  "metadata": {
+    "file_name": "Science_and_Technology_Standard_Nine_Maharashtra_Board",
+    "standard": 9,
+    "subject": "Science and Technology",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "1.1",
+      "heading": "Motion of an Object",
+      "keywords": [
+        "motion",
+        "relative concept",
+        "rest"
+      ],
+      "text": "Motion is a relative concept. If the position of an object is changing with respect to the surroundings of the object, then the object is said to be in motion. Otherwise, the object is said to be at rest. Examples of motion include the flight of a bird, leaves flying through the air, and a moving train. A stone lying on a hill is an example of an object at rest.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Displacement and Distance",
+      "keywords": [
+        "distance",
+        "displacement",
+        "actual path",
+        "minimum distance"
+      ],
+      "text": "Distance is the length of the actual path travelled by an object in motion while going from one point to another. Displacement is the minimum distance between the starting and finishing points of the motion. Even if the displacement of an object is zero, the actual distance traversed by the object may not be zero. For example, if a car travels from point P to point Q and returns to point P, the distance is the total path length, but the displacement is zero.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Speed and Velocity",
+      "keywords": [
+        "speed",
+        "velocity",
+        "scalar",
+        "vector",
+        "SI unit"
+      ],
+      "text": "Speed is defined as the total distance travelled divided by the time required. Speed is a scalar quantity related to distance. Velocity is the displacement that occurs in unit time. Velocity is a vector quantity related to displacement. The units of speed and velocity are the same. In the SI system, the unit is meters per second (m/s), while in the CGS system, the unit is centimeters per second (cm/s). If the motion is along a straight line, the values of speed and velocity are the same; otherwise, the values can be different.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Effect of Speed and Direction on Velocity",
+      "keywords": [
+        "velocity change",
+        "direction",
+        "speed"
+      ],
+      "text": "Velocity depends on speed as well as direction. Velocity changes by changing the speed while keeping the direction the same, by changing the direction while keeping the speed the same, or by changing both the speed and the direction. For example, when a motorcyclist turns on a road, the velocity changes even if the speed remains constant because the direction of motion changes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Uniform and Non-uniform Linear Motion",
+      "keywords": [
+        "uniform speed",
+        "non-uniform speed",
+        "equal distance"
+      ],
+      "text": "If an object covers equal distances in equal time intervals, the object is said to be moving with uniform speed. If an object covers unequal distances in equal time intervals, the object is said to be moving with non-uniform speed. An example of non-uniform speed is the motion of a vehicle being driven through heavy traffic.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Acceleration",
+      "keywords": [
+        "acceleration",
+        "rate of change of velocity",
+        "initial velocity",
+        "final velocity"
+      ],
+      "text": "The rate of change of velocity is called acceleration. Acceleration is calculated as the change in velocity divided by time. If the initial velocity is 'u' and in time 't' the velocity changes to the final velocity 'v', then acceleration 'a' equals (v - u) divided by t. If the velocity of an object changes during a certain time period, then the object is said to have accelerated motion.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.7",
+      "heading": "Positive, Negative and Zero Acceleration",
+      "keywords": [
+        "positive acceleration",
+        "negative acceleration",
+        "deceleration",
+        "zero acceleration"
+      ],
+      "text": "An object can have positive, negative, or zero acceleration. When the velocity of an object increases, the acceleration is positive and is in the direction of velocity. When the velocity of an object decreases with time, the object has negative acceleration, also called deceleration. The direction of negative acceleration is opposite to the direction of velocity. If the velocity of the object does not change with time, the object has zero acceleration.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.8",
+      "heading": "Distance-Time Graph for Uniform Motion",
+      "keywords": [
+        "distance-time graph",
+        "uniform motion",
+        "straight line"
+      ],
+      "text": "In uniform motion, an object covers equal distances in equal time intervals. Therefore, the graph between distance and time is a straight line. The slope of the straight line in a distance-time graph indicates the speed of the object.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.9",
+      "heading": "Velocity-Time Graph for Uniform Velocity",
+      "keywords": [
+        "velocity-time graph",
+        "uniform velocity",
+        "distance calculation"
+      ],
+      "text": "When a train moves with a uniform velocity, the velocity-time graph is a horizontal line parallel to the time axis. The distance covered by the train between two time intervals can be determined by calculating the area of the quadrangle formed under the graph between those two time points. For uniform velocity, the acceleration of the train is zero.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.10",
+      "heading": "Velocity-Time Graph for Uniform Acceleration",
+      "keywords": [
+        "uniform acceleration",
+        "straight line graph",
+        "average velocity"
+      ],
+      "text": "For all uniformly accelerated motions, the velocity-time graph is a straight line. The velocity changes by equal amounts in equal time intervals. To determine the distance covered by an object in a specific time interval from this graph, the average velocity of the object in that interval must be used. The distance covered is also given by the area of the quadrangle (such as a trapezium) under the graph line for that time interval.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.11",
+      "heading": "Equations of Motion Using Graphical Method",
+      "keywords": [
+        "Newton",
+        "equations of motion",
+        "kinematics"
+      ],
+      "text": "Newton studied the motion of an object and gave a set of three equations of motion relating displacement (s), velocity (u and v), acceleration (a), and time (t). The first equation, v = u + at, describes the relation between velocity and time. The second equation, s = ut + 1/2 at², describes the relation between displacement and time. The third equation, v² = u² + 2as, describes the relation between displacement and velocity.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.12",
+      "heading": "Uniform Circular Motion",
+      "keywords": [
+        "circular motion",
+        "constant speed",
+        "accelerated motion"
+      ],
+      "text": "When an object moves with constant speed along a circular path, the motion is called uniform circular motion. In uniform circular motion, the speed is constant, but the direction of velocity changes at every point, making the motion accelerated. Examples include the motion of a stone in a sling or any point on a bicycle wheel. The speed 'v' of an object in circular motion is calculated as the circumference divided by time, or v = 2πr / t, where 'r' is the radius of the circle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.13",
+      "heading": "Newton’s First Law of Motion",
+      "keywords": [
+        "inertia",
+        "unbalanced force",
+        "Newton's first law"
+      ],
+      "text": "Newton’s first law of motion states that an object continues to remain at rest or in a state of uniform motion along a straight line unless an external unbalanced force acts on the object. This law explains the phenomenon of inertia, which is the inability of an object to change its state of motion on its own. All instances of inertia are examples of Newton’s first law of motion.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.14",
+      "heading": "Newton’s Second Law of Motion",
+      "keywords": [
+        "momentum",
+        "force",
+        "rate of change of momentum"
+      ],
+      "text": "Newton’s second law of motion states that the rate of change of momentum is proportional to the applied force and the change of momentum occurs in the direction of the force. Momentum (P) is the product of the mass (m) and velocity (v) of an object (P = mv). Momentum is a vector quantity. The mathematical expression for the second law is Force (F) = mass (m) × acceleration (a). The SI unit of force is the Newton (N), and the CGS unit is the dyne.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.15",
+      "heading": "Newton’s Third Law of Motion",
+      "keywords": [
+        "action force",
+        "reaction force",
+        "pairs"
+      ],
+      "text": "Newton’s third law of motion states that every action force has an equal and opposite reaction force which acts simultaneously. Forces always apply in pairs; one force cannot exist by itself. Action and reaction forces act on different objects and therefore do not cancel each other's effect. Examples include the recoil of a gun when a bullet is fired and the mechanism of a rocket launch.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.16",
+      "heading": "Law of Conservation of Momentum",
+      "keywords": [
+        "conservation of momentum",
+        "collision",
+        "external force"
+      ],
+      "text": "The law of conservation of momentum states that when no external force acts on two interacting objects, the total momentum of the objects remains constant. When two objects collide, the total momentum before the collision is equal to the total momentum after the collision. In a collision, momentum is redistributed between the objects; the momentum of one object decreases while the momentum of the other object increases.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Work and Energy: Concept of Work",
+      "keywords": [
+        "work",
+        "force",
+        "displacement",
+        "physics definition"
+      ],
+      "text": "In physics, work has a specific meaning. Work is said to be done when a force applied on an object causes displacement of the object. The work done by a force acting on an object is the product of the magnitude of the force and the displacement of the object in the direction of the force. Mathematically, Work = force × displacement. If the displacement is not in the direction of the applied force, the component of the force in the direction of displacement is used to calculate the amount of work done.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Calculating Work at an Angle",
+      "keywords": [
+        "trigonometry",
+        "cosine",
+        "force component"
+      ],
+      "text": "When a force is applied at an angle to the direction of displacement, such as a child pulling a toy cart with a string, the work is calculated using trigonometry. Let F be the applied force and theta be the angle the string makes with the horizontal. The component of force F acting in the direction of displacement is F1 = F cos(theta). Therefore, the work done is W = F s cos(theta). If theta is 0 degrees, cos(theta) is 1 and W = Fs. If theta is 90 degrees, cos(theta) is 0 and W = 0. If theta is 180 degrees, cos(theta) is -1 and W = -Fs.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.3",
+      "heading": "Unit of Work",
+      "keywords": [
+        "Joule",
+        "Erg",
+        "SI unit",
+        "CGS unit"
+      ],
+      "text": "In the SI system, the unit of force is Newton (N) and the unit of displacement is meter (m). Thus, the unit of work is Newton-meter, which is called a Joule (J). One Joule is the amount of work done when a force of 1 Newton displaces an object through 1 meter in the direction of the force. In the CGS system, the unit of force is dyne and displacement is centimeter (cm), making the unit of work dyne-centimeter, called an erg. One Joule is equal to 10 to the power of 7 ergs.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.4",
+      "heading": "Positive, Negative and Zero Work",
+      "keywords": [
+        "positive work",
+        "negative work",
+        "zero work"
+      ],
+      "text": "Work can be positive, negative, or zero depending on the direction of force and displacement. When the force and displacement are in the same direction, the work done is positive. When the force and displacement are in opposite directions, such as when brakes are applied to a moving car, the work done is negative. When the applied force does not cause any displacement or when the force and displacement are perpendicular to each other, such as an artificial satellite moving around the earth, the work done by the force is zero.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.5",
+      "heading": "Energy",
+      "keywords": [
+        "capacity to work",
+        "forms of energy",
+        "units"
+      ],
+      "text": "The capacity of a body to perform work is called energy. The units of work and energy are the same: Joule in the SI system and erg in the CGS system. Energy exists in various forms such as mechanical, heat, light, sound, electromagnetic, chemical, nuclear, and solar. Mechanical energy consists of two main forms: potential energy and kinetic energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.6",
+      "heading": "Kinetic Energy",
+      "keywords": [
+        "motion",
+        "velocity",
+        "mass"
+      ],
+      "text": "The energy which an object has because of its motion is called kinetic energy. The work done by a force to displace a stationary object through a distance 's' is the kinetic energy gained by the object. The formula for kinetic energy is K.E. = 1/2 mv², where 'm' is the mass of the object and 'v' is its velocity. If the mass of a moving body is doubled, the kinetic energy increases four times because kinetic energy is proportional to the square of the velocity.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.7",
+      "heading": "Potential Energy",
+      "keywords": [
+        "position",
+        "state",
+        "gravitational potential energy"
+      ],
+      "text": "The energy stored in an object because of its specific state or position is called potential energy. To carry an object of mass 'm' to a height 'h' above the earth's surface, work must be done against gravity. This work is calculated as W = mgh, where 'g' is the acceleration due to gravity. This work is stored as potential energy (P.E. = mgh). Potential energy is relative; the height of an object depends on the reference level chosen.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.8",
+      "heading": "Transformation of Energy and Law of Conservation",
+      "keywords": [
+        "energy conversion",
+        "conservation of energy",
+        "universe"
+      ],
+      "text": "Energy can be transformed from one type to another. For example, firecrackers convert chemical energy into light, sound, and heat energy. An electric lamp converts electrical energy into light energy. The Law of Conservation of Energy states that energy can neither be created nor destroyed; it can only be converted from one form into another. Thus, the total amount of energy in the universe remains constant.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.9",
+      "heading": "Free Fall",
+      "keywords": [
+        "gravity",
+        "total energy",
+        "potential to kinetic"
+      ],
+      "text": "An object falling solely under the influence of gravitational force is said to be in free fall. During free fall, the potential energy of the object decreases as the height decreases, while its kinetic energy increases as the velocity increases. However, the total energy (the sum of potential and kinetic energy) remains constant at every point during the fall. At the maximum height, all energy is potential; on reaching the ground, all potential energy has been converted into kinetic energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.10",
+      "heading": "Power",
+      "keywords": [
+        "rate of work",
+        "Watt",
+        "Horsepower"
+      ],
+      "text": "Power is the rate at which work is done. If W amount of work is done in time t, then Power (P) = W / t. In the SI system, the unit of power is the Watt (W), where 1 Watt = 1 Joule / 1 second. In the industrial sector, power is often measured in 'horse power', where 1 horse power = 746 Watts. Commercial energy consumption is measured in kilowatt-hours (kWh). One kWh is equal to 3.6 million Joules and is commonly referred to as one 'unit' of electricity.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Current Electricity: Electric Potential",
+      "keywords": [
+        "electric potential",
+        "potential difference",
+        "flow of charge"
+      ],
+      "text": "Just as water flows from a higher level to a lower level, electric charge flows between two points depending on a kind of electric level at those points, called electric potential. A positive charge flows from a point of higher potential to a point of lower potential. Electricity in a circuit flows due to the movement of negatively charged electrons, which move from a point of lower potential to a point of higher potential.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Potential Difference of a Cell",
+      "keywords": [
+        "voltage",
+        "Volt",
+        "work per charge"
+      ],
+      "text": "The difference in potential between the positive and negative terminals of a cell is the potential difference of that cell. This difference is caused by chemical reactions inside the cell and sets electrons in motion. The amount of work done to carry a unit positive charge from point A to point B is the electric potential difference between the two points. Potential difference (V) = Work (W) / Total charge transferred (Q). The SI unit of potential difference is the Volt (V).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "Free Electrons and Current Flow",
+      "keywords": [
+        "free electrons",
+        "conductors",
+        "charge carriers"
+      ],
+      "text": "Every atom of a metallic conductor has one or more outermost electrons which are very weakly bound to the nucleus. These electrons are called free electrons. Free electrons can easily move from one part of a conductor to other parts. The negative charge of the electrons gets transferred as a result of this motion. Therefore, free electrons in a conductor are the carriers of negative charge. When a conducting wire is not connected to a cell, free electrons move randomly in all directions. When the ends of the wire are connected to the terminals of a cell, electric force acts on the electrons, and the electrons start moving from the negative terminal to the positive terminal. This motion of electrons causes electric current to flow through the wire.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Electric Current Definition and Units",
+      "keywords": [
+        "Ampere",
+        "Coulomb",
+        "rate of flow"
+      ],
+      "text": "Electric current is the flow of electrons through a conductor. Quantitatively, current (I) is defined as the charge (Q) passing through a conductor in unit time (t). Mathematically, I = Q / t. The unit of charge in SI units is the Coulomb (C), and current is expressed in Ampere (A). One Ampere of current is said to flow in a conductor if one Coulomb of charge flows through the conductor every second. Conventionally, the direction of current flow is taken to be opposite to the direction of the flow of electrons, meaning current flows from the positive end to the negative end of a cell.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Ohm’s Law",
+      "keywords": [
+        "George Simon Ohm",
+        "resistance",
+        "proportionality"
+      ],
+      "text": "Ohm’s law states that if the physical state of a conductor remains constant, the current (I) flowing through the conductor is directly proportional to the potential difference (V) between the two ends of the conductor. This is expressed as V = IR, where R is the resistance of the conductor. The SI unit of resistance is the Ohm, indicated by the symbol Ω. One Ohm is the resistance of a conductor if one Ampere of current flows through the conductor when a potential difference of one Volt is applied between the ends of the conductor. The physical state of a conductor includes the length, area of cross-section, temperature, and the material of the conductor.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.6",
+      "heading": "Resistance and Resistivity",
+      "keywords": [
+        "resistivity",
+        "specific property",
+        "collisions"
+      ],
+      "text": "Resistance occurs because moving electrons strike the atoms and ions along the path in a conductor, causing hindrance to the flow of current. At a given temperature, the resistance (R) of a conductor depends on the length (L) of the conductor, the area of cross-section (A), and the material. Resistance is directly proportional to length and inversely proportional to the area of cross-section. This leads to the formula R = ρ (L / A), where ρ (rho) is the constant of proportionality called the resistivity of the material. The SI unit of resistivity is Ohm-meter (Ωm). Resistivity is a specific property of a material; for example, copper has a resistivity of 1.7 x 10^-8 Ωm, while diamond has a much higher resistivity.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.7",
+      "heading": "Electric Circuit and Components",
+      "keywords": [
+        "circuit diagram",
+        "ammeter",
+        "voltmeter"
+      ],
+      "text": "A continuous path of an electric current through conducting wires connected to the ends of a cell and other resistances is called an electric circuit. An electric circuit diagram uses special symbols for components. An ammeter is used to measure current and is always connected in series. A voltmeter is used to measure the potential difference between two ends of a resistor and is connected in parallel. Other components include the electric cell, battery (collection of cells), plug keys (open or closed), connecting wires, crossing wires, light bulbs, and variable resistances (rheostats) used to change the resistance and control current.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.8",
+      "heading": "Conductors and Insulators",
+      "keywords": [
+        "low resistance",
+        "high resistance",
+        "dielectrics"
+      ],
+      "text": "Substances can be divided into conductors and insulators based on the resistance to electric current. Conductors are substances which have very low resistance, allowing current to flow easily through the materials. Insulators are substances which have extremely high resistance, through which current cannot flow. The human body can conduct electricity, which is why precautions must be taken when handling electrical appliances.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.9",
+      "heading": "Resistors in Series",
+      "keywords": [
+        "series circuit",
+        "effective resistance",
+        "current"
+      ],
+      "text": "Resistors are said to be connected in series when the ends of the resistors are connected one after the other in a single line. In a series arrangement, the same current flows through each resistor. The effective resistance (Rs) of resistors in series is equal to the sum of the individual resistances: Rs = R1 + R2 + R3 + ... + Rn. The potential difference across the entire arrangement is equal to the sum of the potential differences across individual resistors. The effective resistance in a series circuit is always larger than each of the individual resistances. This arrangement is used to increase the resistance in a circuit.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.10",
+      "heading": "Resistors in Parallel",
+      "keywords": [
+        "parallel circuit",
+        "inverse resistance",
+        "voltage"
+      ],
+      "text": "Resistors are connected in parallel when the ends of the resistors are connected at both sides to common points. In a parallel arrangement, the potential difference across each resistor is the same. The total current flowing through the circuit is the sum of the currents flowing through individual resistors. The inverse of the effective resistance (1/Rp) is equal to the sum of the inverses of the individual resistances: 1/Rp = 1/R1 + 1/R2 + 1/R3 + ... + 1/Rn. The effective resistance of resistors connected in parallel is always less than the least resistance of the individual resistors. This arrangement is used to reduce the resistance in a circuit.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.11",
+      "heading": "Domestic Electrical Connections",
+      "keywords": [
+        "live wire",
+        "neutral wire",
+        "earth wire",
+        "fuse"
+      ],
+      "text": "Electricity in homes is brought through a main cable containing three wires: the live wire (red or brown insulation), the neutral wire (blue or black insulation), and the earth wire (yellow or green insulation). In India, the voltage difference between the live and neutral wires is about 220V. Wires are connected to the electric meter through a fuse. Different appliances in a home are connected in parallel so that the potential difference across every appliance is the same. The earth wire is connected to a metal plate buried deep underground for safety purposes to prevent electric shocks.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.12",
+      "heading": "Fuse Wire and Safety Precautions",
+      "keywords": [
+        "melting point",
+        "overload",
+        "insulation"
+      ],
+      "text": "A fuse wire is used to protect domestic appliances. It is made of a mixture of substances with a specific low melting point and is connected in series to the appliances. If the current in the circuit increases excessively, the fuse wire heats up and melts, breaking the circuit and stopping the flow of current. Precautions when using electricity include fitting switches at heights children cannot reach, switching off and removing plugs before cleaning appliances, using footwear with rubber soles (as rubber is an insulator), and not touching a person who has received an electric shock until the main switch is turned off.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Measurement of Matter: Laws of Chemical Combination",
+      "keywords": [
+        "Dalton",
+        "chemical change",
+        "molecular formulae"
+      ],
+      "text": "Compounds are formed by the chemical combination of elements. Dalton’s atomic theory states that molecules of a compound are formed by joining atoms of different elements. Scientists in the 18th and 19th centuries discovered the laws of chemical combination by measuring the substances used and formed during chemical changes. These laws allow for the writing of molecular formulae for various compounds.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Law of Conservation of Matter",
+      "keywords": [
+        "Antoine Lavoisier",
+        "reactants",
+        "products"
+      ],
+      "text": "The Law of Conservation of Matter, inferred by Antoine Lavoisier in 1785, states that there is no rise or drop in the mass of matter during a chemical reaction. In a chemical reaction, the total mass of the reactants is exactly the same as the total mass of the products formed. For example, if calcium oxide reacts with water to form calcium hydroxide, the combined mass of the calcium oxide and water equals the mass of the calcium hydroxide produced.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.3",
+      "heading": "Law of Constant Proportion",
+      "keywords": [
+        "J. L. Proust",
+        "fixed proportion",
+        "mass ratio"
+      ],
+      "text": "In 1794, the French scientist J. L. Proust stated the law of constant proportions: 'The proportion by mass of the constituent elements in the different samples of a compound is fixed.' For example, the proportion by mass of hydrogen and oxygen in water obtained from any source is always 1:8. This means that 9 grams of water is always formed by the chemical combination of 1 gram of hydrogen and 8 grams of oxygen. Similarly, in carbon dioxide, the proportion by mass of carbon and oxygen is 3:8.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.4",
+      "heading": "Atom: Size, Mass, and Valency",
+      "keywords": [
+        "atomic radius",
+        "nanometres",
+        "nucleus"
+      ],
+      "text": "The size of an atom is determined by the radius of the atom. The atomic radius of an isolated atom is the distance between the nucleus of the atom and the outermost orbit of the atom. Atomic radius is expressed in nanometres (nm). One metre is equal to 10 to the power of 9 nanometres. For example, the atomic radius of a hydrogen atom is approximately 10 to the power of negative 10 metres. The atomic size depends on the number of electron orbits; more orbits mean a larger atom.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.5",
+      "heading": "The Mass of an Atom",
+      "keywords": [
+        "atomic mass number",
+        "nucleons",
+        "relative mass"
+      ],
+      "text": "The mass of an atom is concentrated in the nucleus of the atom and is due to the protons and neutrons in the nucleus. The total number of protons and neutrons in the atomic nucleus is called the atomic mass number. Protons and neutrons are together called nucleons. Because atoms are extremely tiny, scientists use the concept of relative mass. Initially, hydrogen was the reference, but in 1961, the carbon atom was selected as the reference atom. On this scale, the relative mass of a carbon atom is accepted as 12, and the relative atomic mass of one hydrogen atom becomes 1.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.6",
+      "heading": "Unified Mass and Dalton",
+      "keywords": [
+        "Dalton unit",
+        "u",
+        "atomic mass unit"
+      ],
+      "text": "Today, highly accurate methods exist for measuring the mass of an atom directly. Instead of relative mass, Unified Mass has been accepted as the unit of atomic mass. This unit is called the Dalton, and the symbol for the Dalton is 'u'. One Dalton (1u) is approximately equal to 1.66053904 multiplied by 10 to the power of negative 27 kilograms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.7",
+      "heading": "Chemical Symbols of Elements",
+      "keywords": [
+        "IUPAC",
+        "Berzelius",
+        "nomenclature"
+      ],
+      "text": "The current method of choosing chemical symbols is based on the method invented by Berzelius. The symbol of an element is either the first letter or the first and second (or another specific) letter of the name of the element. The first letter is always written as a capital letter, and the second letter is written as a small letter. These symbols are determined by the International Union of Pure and Applied Chemistry (IUPAC) and are used officially all over the world.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.8",
+      "heading": "Molecules of Elements and Compounds",
+      "keywords": [
+        "mono-atomic",
+        "diatomic",
+        "poly-atomic"
+      ],
+      "text": "Atoms of some elements like helium and neon exist independently in a mono-atomic molecular state. Sometimes, two or more atoms of an element combine to form molecules, such as oxygen (O2) and nitrogen (N2), which are in a diatomic molecular state. When atoms of different elements combine with each other through chemical attraction, the molecules of compounds are formed.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.9",
+      "heading": "Molecular Mass and the Concept of Mole",
+      "keywords": [
+        "molecular mass",
+        "sum of atomic masses",
+        "Dalton"
+      ],
+      "text": "The molecular mass of a substance is the sum of the atomic masses of all the atoms in a single molecule of that substance. Like atomic mass, molecular mass is expressed in the unit Dalton (u). For example, the molecular mass of water (H2O) is calculated by adding the atomic mass of two hydrogen atoms (1u each) and one oxygen atom (16u), resulting in a molecular mass of 18u.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.10",
+      "heading": "The Mole",
+      "keywords": [
+        "mole",
+        "gram molecular mass",
+        "substance quantity"
+      ],
+      "text": "A mole is the quantity of a substance whose mass in grams is equal in magnitude to the molecular mass of that substance in Daltons. For example, the molecular mass of oxygen is 32u, so 32 grams of oxygen is 1 mole of oxygen. The number of moles of a substance (n) is calculated as the mass of the substance in grams divided by the molecular mass of the substance.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.11",
+      "heading": "Avogadro’s Number",
+      "keywords": [
+        "6.022 x 10^23",
+        "constant",
+        "NA"
+      ],
+      "text": "The number of molecules in one mole of any substance is constant and is called Avogadro’s number, denoted by the symbol NA. The value of Avogadro’s number is 6.022 multiplied by 10 to the power of 23. A mole of any substance stands for this specific number of molecules. For example, 18 grams of water (1 mole) contains 6.022 x 10^23 molecules of water.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.12",
+      "heading": "Valency",
+      "keywords": [
+        "chemical bonds",
+        "electronic configuration",
+        "octet"
+      ],
+      "text": "Valency is the capacity of an element to combine and is indicated by a specific number representing the number of chemical bonds formed by one atom of that element. The electronic definition of valency is the number of electrons that an atom of an element gives away or takes up while forming an ionic bond. Atoms strive to achieve a stable electronic configuration with a complete octet (eight electrons in the outermost orbit).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.13",
+      "heading": "Variable Valency",
+      "keywords": [
+        "multiple valencies",
+        "iron",
+        "copper"
+      ],
+      "text": "Under different conditions, the atoms of some elements give away or take up different numbers of electrons. In such cases, those elements exhibit more than one valency, a property called variable valency. For example, iron (Fe) can have a valency of 2 (ferrous) or 3 (ferric), and copper (Cu) can have a valency of 1 (cuprous) or 2 (cupric).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.14",
+      "heading": "Radicals",
+      "keywords": [
+        "cations",
+        "anions",
+        "basic radicals",
+        "acidic radicals"
+      ],
+      "text": "Compounds with ionic bonds have two constituents: cations (positively charged ions) and anions (negatively charged ions). These constituents take part independently in chemical reactions and are called radicals. Cationic radicals are also called basic radicals (e.g., Na+, NH4+), while anionic radicals are called acidic radicals (e.g., Cl-, SO4^2-). Simple radicals are monoatomic, while composite radicals are groups of atoms carrying a charge.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.15",
+      "heading": "Chemical Formulae of Compounds",
+      "keywords": [
+        "cross multiplication",
+        "symbols",
+        "subscripts"
+      ],
+      "text": "The chemical formula of an ionic compound is written by placing the symbol of the cation on the left and the symbol of the anion on the right. The number of ions is written as a subscript on the right of the symbol. This number is obtained by the method of cross multiplication of the valencies of the radicals. For example, to write the formula for sodium sulphate, the valency of sodium (1) and sulphate (2) are cross-multiplied to get Na2SO4.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Acids, Bases and Salts: Recapitulation",
+      "keywords": [
+        "ionic compounds",
+        "ionic bond",
+        "stability"
+      ],
+      "text": "Ionic compounds have two constituents, namely a cation (positive ion or basic radical) and an anion (negative ion or acidic radical). A force of attraction exists between these ions because the ions are oppositely charged, and this force is called the ionic bond. The explanation for the formation of an ionic bond lies in the electronic configuration of atoms. For example, a sodium atom gives away one electron to form a sodium cation with a complete octet, and a chlorine atom takes up one electron to form a chloride anion with a complete octet. The resulting ionic compound, sodium chloride, has very high stability.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Dissociation of Ionic Compounds",
+      "keywords": [
+        "aqueous solution",
+        "dissociation",
+        "water molecules"
+      ],
+      "text": "An ionic compound forms an aqueous solution on dissolving in water. In the solid state, the oppositely charged ions in the ionic compound sit side by side. When an ionic compound begins to dissolve in water, the water molecules penetrate between the ions of the compound and separate the ions from each other. This process is called dissociation. Each of the dissociated ions in the aqueous solution is surrounded by water molecules, indicated by writing (aq) after the symbol of the ion.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.3",
+      "heading": "Arrhenius Theory of Acids and Bases",
+      "keywords": [
+        "H+ ions",
+        "OH- ions",
+        "Swedish scientist"
+      ],
+      "text": "The Swedish scientist Arrhenius put forth a theory of acids and bases in 1887. According to Arrhenius, an acid is a substance which, on dissolving in water, gives rise to H+ ions (hydrogen ions) as the only cation. Examples include hydrochloric acid (HCl) and sulphuric acid (H2SO4). A base is a substance which, on dissolving in water, gives rise to the OH- ion (hydroxide ion) as the only anion. Examples include sodium hydroxide (NaOH) and calcium hydroxide (Ca(OH)2).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.4",
+      "heading": "Classification of Acids and Bases",
+      "keywords": [
+        "strong acid",
+        "weak acid",
+        "alkali"
+      ],
+      "text": "Acids and bases are classified as strong or weak based on the extent to which the acids or bases dissociate in aqueous solutions. A strong acid dissociates almost completely in water, resulting in a solution containing mainly H+ ions. A weak acid does not dissociate completely, leaving a large proportion of undissociated molecules. Similarly, a strong base dissociates almost completely into OH- ions, while a weak base dissociates only partially. Bases that are highly soluble in water are called alkali, such as sodium hydroxide and potassium hydroxide.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.5",
+      "heading": "Basicity of Acids and Acidity of Bases",
+      "keywords": [
+        "monobasic",
+        "dibasic",
+        "tribasic"
+      ],
+      "text": "The number of H+ ions obtainable by the dissociation of one molecule of an acid is called the basicity of the acid. Acids can be monobasic (e.g., HCl), dibasic (e.g., H2SO4), or tribasic (e.g., H3PO4). The number of OH- ions obtainable by the dissociation of one molecule of a base is called the acidity of the base. Bases are classified similarly based on the number of hydroxide ions the bases produce.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.6",
+      "heading": "Concentration of Acid and Base",
+      "keywords": [
+        "molarity",
+        "solute",
+        "solvent"
+      ],
+      "text": "The proportion of a solute in a solution is called the concentration of the solute. When the concentration of a solute is high, the solution is a concentrated solution; when the concentration is low, the solution is a dilute solution. Concentration is expressed in grams per litre (g/L) or in molarity (M). Molarity is the number of moles of the solute dissolved in one litre of the solution. The molarity of a solute is indicated by writing the molecular formula of the solute inside square brackets, such as [NaCl] = 1M.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.7",
+      "heading": "pH of Solution",
+      "keywords": [
+        "pH scale",
+        "Sorensen",
+        "neutral"
+      ],
+      "text": "The pH scale, introduced by the Danish scientist Sorensen in 1909, expresses the concentration of H+ ions in a solution. The pH scale extends from 0 to 14. A pH of 7 indicates a neutral solution, such as pure water. An acidic solution has a pH less than 7, and a basic solution has a pH greater than 7. The proportion of H+ and OH- ions determines the properties of natural aqueous solutions like soil, blood, and cell sap.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.8",
+      "heading": "Universal Indicators",
+      "keywords": [
+        "pH paper",
+        "pH meter",
+        "synthetic indicators"
+      ],
+      "text": "A universal indicator is made by mixing several synthetic indicators in specific proportions. The pH of a solution can be determined using a universal indicator solution or pH paper, which shows different colours at different pH values. The most accurate method of measuring pH is using a pH meter, an electrical instrument that measures pH by dipping electrodes into the solution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.9",
+      "heading": "Neutralization Reaction",
+      "keywords": [
+        "salt",
+        "water",
+        "ionic equation"
+      ],
+      "text": "Neutralization is the reaction between an acid and a base to form a salt and water. In this reaction, H+ ions from the acid combine with OH- ions from the base to form H2O molecules. For example, HCl + NaOH results in NaCl (salt) and H2O (water). As the base is added to the acid, the concentration of H+ ions decreases, and the pH of the solution increases until the solution reaches neutrality at pH 7.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.10",
+      "heading": "Reaction of Acids with Metals and Oxides",
+      "keywords": [
+        "hydrogen gas",
+        "metal oxides",
+        "reactivity"
+      ],
+      "text": "Acids react with metals to form a salt and release hydrogen gas. For example, magnesium reacts with dilute HCl to form magnesium chloride and hydrogen gas. Acids also react with metal oxides to form salt and water. Since metal oxides react with acids to form salt and water, metal oxides are basic in nature. For example, calcium oxide reacts with HCl to form calcium chloride and water.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.11",
+      "heading": "Reaction of Bases with Oxides of Non-metals",
+      "keywords": [
+        "acidic oxides",
+        "non-metal oxides",
+        "sodium carbonate"
+      ],
+      "text": "Bases react with oxides of non-metals to form a salt and water. Therefore, oxides of non-metals are said to be acidic in nature. For example, carbon dioxide reacts with sodium hydroxide to form sodium carbonate and water. Some oxides, like zinc oxide and aluminium oxide, react with both acids and bases; these oxides are called amphoteric oxides.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.12",
+      "heading": "Types of Salts",
+      "keywords": [
+        "neutral salt",
+        "acidic salt",
+        "basic salt"
+      ],
+      "text": "Salts are formed by the reaction between acids and bases. A neutral salt is formed from a strong acid and a strong base, having a pH of 7. An acidic salt is formed from a strong acid and a weak base, having a pH less than 7. A basic salt is formed from a weak acid and a strong base, having a pH greater than 7. Examples include sodium chloride (neutral), ammonium chloride (acidic), and sodium bicarbonate (basic).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.13",
+      "heading": "Water of Crystallization",
+      "keywords": [
+        "crystalline",
+        "blue vitriol",
+        "physical change"
+      ],
+      "text": "Ionic compounds are crystalline in nature due to a definite arrangement of ions. In some crystals, water molecules are included in this arrangement, known as water of crystallization. For example, blue vitriol is CuSO4.5H2O. Heating these crystals causes the crystals to lose the water of crystallization and the crystalline shape, turning the crystals into a colourless powder. This is a physical change, as adding water restores the original colour and shape.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.14",
+      "heading": "Electrolysis",
+      "keywords": [
+        "cathode",
+        "anode",
+        "electrical conductivity"
+      ],
+      "text": "Electrolysis is the process of decomposition of a solute in a solution due to the passage of an electric current. In an electrolytic cell, the electrode connected to the negative terminal is the cathode, and the electrode connected to the positive terminal is the anode. Cations move towards the cathode, and anions move towards the anode. For example, in the electrolysis of copper sulphate, copper is deposited at the cathode. Electrolysis of water produces hydrogen gas at the cathode and oxygen gas at the anode.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "Classification of Plants: Kingdom Plantae",
+      "keywords": [
+        "autotrophic",
+        "eukaryotic",
+        "chlorophyll",
+        "photosynthesis"
+      ],
+      "text": "The group of autotrophic living organisms having eukaryotic cells with cell walls is the group of plants. Plants have become autotrophic as plants can perform photosynthesis with the help of chlorophyll. Living organisms of kingdom plantae are the main source of food for all other living organisms. In 1883, the botanist Eichler classified the Kingdom Plantae into two subkingdoms: cryptogams and phanerogams.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Basis for Plant Classification",
+      "keywords": [
+        "conducting tissues",
+        "seeds",
+        "cotyledons",
+        "organs"
+      ],
+      "text": "The presence or absence of organs is the first criterion for the classification of plants. The next consideration is the presence or absence of separate conducting tissues for the conduction of water and food. Whether plants bear seeds, and whether the seeds are enclosed in a fruit or not, are also important criteria. Finally, plants are grouped depending upon the number of cotyledons in the seeds. Plants are classified as cryptogams if the reproductive organs are hidden, and phanerogams if the plants have special structures for reproduction and produce seeds.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.3",
+      "heading": "Cryptogams: Division I - Thallophyta",
+      "keywords": [
+        "algae",
+        "Spirogyra",
+        "aquatic",
+        "autotrophic"
+      ],
+      "text": "Thallophyta plants grow mainly in water. This group of plants does not have specific parts like root, stem, leaves, or flowers but is autotrophic due to the presence of chlorophyll. This group is called algae. Algae show great diversity and can be unicellular or multicellular, microscopic or large. Examples of algae include Spirogyra, Ulothrix, Ulva, and Sargassum. Some algae are found in fresh water while others are found in saline water. These plants usually have a soft and fibre-like body. Fungi like yeasts and moulds, which do not have chlorophyll, are also included in this group.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.4",
+      "heading": "Cryptogams: Division II - Bryophyta",
+      "keywords": [
+        "amphibians",
+        "spore formation",
+        "thalloid",
+        "rhizoids"
+      ],
+      "text": "Bryophyta is called the 'amphibians' of the plant kingdom because these plants grow in moist soil but need water for reproduction. These plants are thalloid, multicellular, and autotrophic. Bryophyta plants reproduce by spore formation. The structure of the plant body of bryophytes is flat and ribbon-like long, without true roots, stems, and leaves. Instead, these plants have stem-like or leaf-like parts and root-like rhizoids. These plants do not have specific tissues for the conduction of food and water. Examples include Moss (Funaria), Marchantia, Anthoceros, and Riccia.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.5",
+      "heading": "Cryptogams: Division III - Pteridophyta",
+      "keywords": [
+        "conducting system",
+        "ferns",
+        "sporangia",
+        "zygote"
+      ],
+      "text": "Pteridophyta plants have well-developed roots, stems, and leaves and separate tissues for the conduction of food and water. However, these plants do not bear flowers and fruits. Pteridophyta plants reproduce asexually by spore formation and sexually by zygote formation. Spores are formed along the back or posterior surface of the leaves. Examples include ferns like Nephrolepis, Marsilea, Pteris, Adiantum, Equisetum, Selaginella, and Lycopodium.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.6",
+      "heading": "Phanerogams: Gymnosperms and Angiosperms",
+      "keywords": [
+        "seeds",
+        "embryo",
+        "germination",
+        "reproductive organs"
+      ],
+      "text": "Phanerogams are plants which have special structures for reproduction and produce seeds. In these plants, after the process of reproduction, seeds are formed which contain the embryo and stored food. During germination of the seed, the stored food is used for the initial growth of the embryo. Depending upon whether seeds are enclosed in a fruit or not, phanerogams are classified into gymnosperms and angiosperms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.7",
+      "heading": "Division I - Gymnosperms",
+      "keywords": [
+        "naked seeds",
+        "evergreen",
+        "conifers",
+        "Cycas"
+      ],
+      "text": "Gymnosperms are mostly evergreen, perennial, and woody. The stems of gymnosperms are without branches, and the leaves form a crown. These plants bear male and female flowers on different sporophylls of the same plant. Seeds of these plants do not have natural coverings, meaning these plants do not form fruits and are therefore called gymnosperms (gymnos: naked, sperms: seeds). Examples include Cycas, Picea (Christmas tree), Thuja (Morpankhi), and Pinus (Deodar).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.8",
+      "heading": "Division II - Angiosperms",
+      "keywords": [
+        "covered seeds",
+        "flowers",
+        "dicotyledons",
+        "monocotyledons"
+      ],
+      "text": "The flowers that angiosperms bear are the reproductive organs of the plants. Flowers develop into fruits, and seeds are formed within the fruits. Thus, these seeds are covered; hence, the plants are called angiosperms (angios: cover, sperms: seeds). The plants whose seeds can be divided into two equal halves or dicotyledons are called dicotyledonous plants. The plants whose seeds cannot be divided into equal parts are called monocotyledonous plants.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.9",
+      "heading": "Comparison of Dicotyledonous and Monocotyledonous Plants",
+      "keywords": [
+        "venation",
+        "fibrous roots",
+        "tap root",
+        "cotyledon"
+      ],
+      "text": "Dicotyledonous plants have seeds with two cotyledons, a well-developed primary tap root, and a strong, hard stem (e.g., Banyan tree). The leaves show reticulate venation, and the flowers have 4 or 5 parts or multiples thereof. Monocotyledonous plants have seeds with a single cotyledon, fibrous roots, and hollow, false, or disc-like stems (e.g., Bamboo, Banana, Onion). The leaves show parallel venation, and the flowers have 3 parts or multiples of three.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.1",
+      "heading": "Energy Flow in an Ecosystem: Trophic Levels",
+      "keywords": [
+        "producers",
+        "consumers",
+        "herbivores",
+        "carnivores"
+      ],
+      "text": "Living organisms are classified according to the mode of nutrition into producers, consumers, saprotrophs, and decomposers. Primary consumers (herbivores) like grasshoppers and squirrels are directly dependent on autotrophs (producers). Secondary consumers (carnivores) like frogs and owls use herbivores as food. Apex or top consumers (carnivores) like tigers and lions use herbivores and carnivores as food, and no other animals feed on top consumers. Omnivores (mixed consumers) like humans and bears feed on herbivores, carnivores, and producers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.2",
+      "heading": "Food Chain and Food Web",
+      "keywords": [
+        "interactions",
+        "energy transfer",
+        "ecosystem balance"
+      ],
+      "text": "Interactions go on continuously between producers, consumers, and saprophytes. There is a definite sequence in these interactions called the food chain. Each chain consists of four, five, or more links. An ecosystem consists of many food chains that are interconnected at various levels, forming a food web. An organism may be the prey for many other organisms, creating an intricate network. Balance or equilibrium is necessary in a food web to maintain the ecosystem.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.3",
+      "heading": "The Energy Pyramid",
+      "keywords": [
+        "trophic level",
+        "energy transfer",
+        "Lindeman",
+        "10% law"
+      ],
+      "text": "Each level in the food chain is called a trophic level. A trophic level is the step at which the organism obtains food in the chain. The amount of matter and energy gradually decreases from producers at the lowest level to top consumers at the highest level. Figure 7.4 shows the energy transfer that takes place at each trophic level. The initial quantity of energy goes on decreasing at every level of energy exchange. Similarly, the number of organisms also decreases from the lowest level to the highest level. This pattern of energy exchange in an ecosystem is called a Pyramid of energy. For example, in an aquatic ecosystem, phytoplanktons have 10,000 kcal, zooplanktons have 1,000 kcal, fishes have 100 kcal, and humans at the apex have 10 kcal.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.4",
+      "heading": "One-way Transport of Energy",
+      "keywords": [
+        "sun",
+        "decomposers",
+        "heat dissipation"
+      ],
+      "text": "The sun is the most important source of energy in any ecosystem. Green plants of the ecosystem store some of the solar energy in the form of food. Before reaching the decomposers, this energy is passed on from one trophic level to the next. Decomposers dissipate some amount of energy in the form of heat. However, no part of the energy ever returns to the sun. Hence, such passage of energy is referred to as one-way transport. Nutrients, however, circulate continuously in the ecosystem.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.5",
+      "heading": "Bio-geo-chemical Cycle",
+      "keywords": [
+        "nutrient cycle",
+        "biosphere",
+        "lithosphere",
+        "atmosphere"
+      ],
+      "text": "The cyclical flow of nutrients within an ecosystem is called the bio-geo-chemical cycle. Nutrients necessary for the growth of organisms are continuously transferred from abiotic to biotic factors and biotic to abiotic factors within an ecosystem. This cycle operates continuously through the medium of the biosphere formed by the lithosphere, atmosphere, and hydrosphere. The recycling of biological, geological, and chemical sources of nutrients is a complex process and depends upon the level of energy transfer in the ecosystem.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.6",
+      "heading": "Types of Bio-geo-chemical Cycles",
+      "keywords": [
+        "gaseous cycle",
+        "sedimentary cycle",
+        "nitrogen",
+        "phosphorus"
+      ],
+      "text": "There are two main types of bio-geo-chemical cycles: the gaseous cycle and the sedimentary cycle. In a gaseous cycle, an accumulation of the main abiotic gaseous nutrient materials is found in the earth’s atmosphere. This includes nitrogen, oxygen, carbon dioxide, and water vapour. In a sedimentary cycle, an accumulation of the main abiotic nutrient materials is found in soil, sediment, and sedimentary rocks of the earth. This includes soil components like iron, calcium, and phosphorus. The gaseous cycle is a speedier cycle than the sedimentation cycle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.7",
+      "heading": "The Carbon Cycle",
+      "keywords": [
+        "photosynthesis",
+        "respiration",
+        "fossil fuels"
+      ],
+      "text": "The circulation and recycling of carbon from the atmosphere to living organisms and after the death of living organisms back to the atmosphere is called the carbon cycle. Abiotic carbon atoms are circulated and recycled into biotic form mainly through photosynthesis and respiration. Plants convert carbon dioxide into carbohydrates. Herbivores feed upon plants, and carnivores feed upon herbivores. Eventually, after death, all types of consumers are decomposed by decomposers like bacteria and fungi, and carbon dioxide is released again into the atmosphere. Main processes include: 6CO2 + 12H2O + Sunlight + Chlorophyll -> C6H12O6 + 6H2O + 6O2, and C6H12O6 + 6O2 -> 6CO2 + 6H2O + Energy.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.8",
+      "heading": "The Oxygen Cycle",
+      "keywords": [
+        "atmosphere",
+        "aerobes",
+        "combustion"
+      ],
+      "text": "Oxygen forms 21% of the atmosphere and is also present in the hydrosphere and lithosphere. Circulation and recycling of oxygen within the biosphere is called the oxygen cycle. Oxygen is continuously produced as well as used up in the atmosphere. Oxygen is highly reactive and reacts with other elements and compounds. Oxygen is released in the process of photosynthesis, whereas oxygen is used up in processes like respiration, combustion, decomposition, corrosion, and rusting. Most micro-organisms use oxygen for respiration and are called aerobes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.9",
+      "heading": "The Nitrogen Cycle",
+      "keywords": [
+        "nitrogen fixation",
+        "ammonification",
+        "nitrification",
+        "denitrificaton"
+      ],
+      "text": "Nitrogen forms 78% of the atmosphere. The circulation and recycling of nitrogen gas into the form of different compounds through various biotic and abiotic processes in nature is called the nitrogen cycle. Important processes include: 1. Nitrogen fixation (conversion of nitrogen into nitrates and nitrites). 2. Ammonification (release of ammonia through decomposition). 3. Nitrification (conversion of ammonia into a nitrite and then nitrate). 4. Denitrification (conversion of nitrogen compounds into gaseous nitrogen).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.1",
+      "heading": "Useful and Harmful Microbes: Lactobacilli",
+      "keywords": [
+        "anaerobic",
+        "fermentation",
+        "lactic acid",
+        "yoghurt"
+      ],
+      "text": "Lactobacilli are blue, rod-shaped, minute, and rectangular bacteria. Lactobacilli are anaerobic bacteria, meaning Lactobacilli can produce energy without the use of oxygen. Lactobacilli convert lactose, the sugar in milk, into lactic acid through a process called fermentation. This process causes the coagulation of milk proteins, changing milk into yoghurt. Yoghurt has a specific sour taste due to lactic acid. Lactobacilli are used to produce various milk products, cider, cocoa, and pickles, and are also used to treat abdominal discomfort.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.2",
+      "heading": "Rhizobium: Symbiotic Bacteria",
+      "keywords": [
+        "nitrogen fixation",
+        "root nodules",
+        "leguminous plants"
+      ],
+      "text": "Rhizobia are bacteria living in the root nodules of leguminous plants. Rhizobia supply nitrates, nitrites, and amino acids to the plant and in exchange get energy in the form of carbohydrates from the plant. This mutually beneficial relationship is called symbiosis. Rhizobia produce nitrogenous compounds from atmospheric nitrogen. This process of nitrogen fixation helps reduce the use of chemical fertilizers and their adverse effects. Seeds are often coated with rhizobial solution before sowing, a process called rhizobial inoculation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.3",
+      "heading": "Yeast",
+      "keywords": [
+        "budding",
+        "eukaryotic",
+        "fungus",
+        "alcohol"
+      ],
+      "text": "Yeast is a heterotrophic fungal microbe that grows on carbon compounds. Yeast is a unicellular fungus with 1500 different species. The yeast cell is a eukaryotic type of cell. Yeast reproduces asexually by a method called budding. In the process of obtaining nutrition, yeast cells convert carbohydrates into alcohol and carbon dioxide. This process is called fermentation. Yeast is used in making bread, making the bread spongy, and in the production of ethanol from molasses.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.4",
+      "heading": "Antibiotics",
+      "keywords": [
+        "penicillin",
+        "broad-spectrum",
+        "narrow-spectrum"
+      ],
+      "text": "Carbon compounds obtained from some bacteria and fungi for destroying or preventing the growth of harmful micro-organisms are called antibiotics. Broad-spectrum antibiotics, like ampicillin and amoxicillin, are useful against a wide variety of bacteria. Narrow-spectrum antibiotics, like penicillin and gentamycin, are used when the pathogenic micro-organism is definitely known. Penicillin is a group of antibiotics obtained from the fungus Penicillium and is used to treat infections caused by Staphylococci, Clostridia, and Streptococci.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.5",
+      "heading": "Harmful Micro-organisms: Fungi",
+      "keywords": [
+        "spores",
+        "mycotoxins",
+        "food poisoning"
+      ],
+      "text": "Microscopic spores of fungi are present in the air. If sufficient moisture is available, spores germinate on cotton fabric, gunny bags, leather, and wooden items. Fungal hyphae penetrate deep into the material to obtain nutrition and to reproduce, causing the materials to wear and become weak. Various species of fungi grow on food items like pickles, murabba, jam, and chutney. During growth, fungi release mycotoxins, which are poisonous chemicals, into the food. Therefore, food on which fungi have grown cannot be eaten as the food becomes poisonous.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.6",
+      "heading": "Clostridium",
+      "keywords": [
+        "anaerobic",
+        "endospores",
+        "food spoilage"
+      ],
+      "text": "Clostridium are bacteria that spoil cooked food. Out of about 100 different species of Clostridium, some are free-living in the soil while others live in the alimentary canal of humans and animals. Clostridium bacteria are rod-shaped and produce bottle-shaped endospores in adverse conditions. A special characteristic of Clostridium bacteria is that Clostridium bacteria cannot withstand the normal oxygen level of the air because Clostridium bacteria grow in anaerobic conditions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.7",
+      "heading": "Spread and Prevention of Disease",
+      "keywords": [
+        "pathogen",
+        "infection",
+        "vaccination"
+      ],
+      "text": "Different diseases are caused by viruses, bacteria, protozoa, and fungi. AIDS is caused by a virus and spreads through blood, semen, or mother's milk; prevention includes safe sexual contact and avoiding reuse of needles. Hepatitis is a viral disease spread through contaminated water and food. Influenza is spread by contact with an infected person. Bacteria cause diseases like Pneumonia (spread by droplets in the air), Leprosy (long-term contact), and Cholera (contaminated food and water). Malaria is caused by a protozoa spread by mosquito bites. Fungal diseases like dandruff and ringworm spread through contact with an infected person or their belongings.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.1",
+      "heading": "Environmental Management: Weather and Climate",
+      "keywords": [
+        "atmospheric conditions",
+        "meteorology",
+        "climatic factors"
+      ],
+      "text": "Atmospheric conditions at a specific time at a particular place are referred to as weather. Weather depends upon factors like atmospheric pressure, sunlight, clouds, humidity, rainfall, visibility, and temperature. Climate is the long-term predominant condition of the atmosphere and remains constant in a region for a long duration. Meteorology is the science that studies the inter-relationships between the components of air, natural cycles, and geological movements of the earth. The India Meteorological Department (IMD), founded in 1875, provides weather forecasts and predictions regarding calamities like dust storms and tsunamis.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.2",
+      "heading": "Solid Waste Management",
+      "keywords": [
+        "biodegradable",
+        "non-biodegradable",
+        "recycling"
+      ],
+      "text": "Waste materials generated through daily human activities are called solid waste. Biodegradable waste (wet waste) is easily degraded by microbes and includes kitchen waste, fruits, and vegetables. Non-biodegradable waste (dry waste) is not easily degraded and includes plastic and metal. The 7 principles of solid waste management are Reuse, Refuse, Recycle, Rethink, Reduce, Research, and Regulation. Improper management can lead to environmental pollution and calamities like the 2005 Mumbai floods.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.3",
+      "heading": "Disaster Management and First Aid",
+      "keywords": [
+        "CPR",
+        "resuscitation",
+        "bleeding"
+      ],
+      "text": "Disaster management involves prevention of losses, improving tolerance, and providing relief through proper planning. First aid for victims follows the ABC principle: Airway (ensuring the respiratory passage is open), Breathing (artificial ventilation), and Circulation (cardio-pulmonary resuscitation or CPR). For bleeding, wounds should be covered with antiseptic pads and pressure applied. For fractures, the part must be immobilized. For burns, the injured part should be held under clean, cold flowing water for at least 10 minutes. The 'RICE' remedy (Rest, Ice, Compression, Elevation) is used for sprains and contusions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.1",
+      "heading": "Information Communication Technology (ICT)",
+      "keywords": [
+        "hardware",
+        "software",
+        "operating system"
+      ],
+      "text": "ICT includes communication devices and the services provided with the help of communication devices. A computer consists of hardware (electronic and mechanical parts) and software (commands given to the computer). Important components include the Input unit (keyboard, mouse), Processing unit (Memory unit, Control unit, ALU unit), and Output unit (monitor, printer). Memory is divided into RAM (Random Access Memory, which is volatile) and ROM (Read Only Memory). The operating system, like DOS, provides a means of communication between the computer and the person.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.2",
+      "heading": "ICT Applications in Science",
+      "keywords": [
+        "simulation",
+        "prediction",
+        "data collection"
+      ],
+      "text": "ICT is used in science for demonstration (using simulation and animation to explain concepts like the nervous system), prediction (compiling and processing information for meteorology), and collecting scientific information (via the internet, emails, and Wikipedia). Microsoft Word is used for creating documents and writing equations, Excel for drawing graphs from numerical data, and PowerPoint for creating presentations. C-DAC in Pune developed the first Indian supercomputer, the Param computer.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "11.1",
+      "heading": "Reflection of Light: Mirrors",
+      "keywords": [
+        "plane mirror",
+        "spherical mirror",
+        "reflection"
+      ],
+      "text": "A surface which reflects light and creates clear images is called a mirror. A plane mirror is made by coating the back surface of flat glass with a thin reflecting film of aluminium or silver, protected by lead oxide. Spherical mirrors are parts of a hollow glass sphere. If the inner surface is reflecting, the mirror is a concave mirror. If the outer surface is reflecting, the mirror is a convex mirror. Terms include the Pole (centre of mirror surface), Centre of curvature (centre of the sphere), and Principal axis (line passing through pole and centre of curvature).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "11.2",
+      "heading": "Image Formation and Mirror Formula",
+      "keywords": [
+        "magnification",
+        "focal length",
+        "Cartesian sign convention"
+      ],
+      "text": "The relationship between object distance (u), image distance (v), and focal length (f) is the mirror formula: 1/v + 1/u = 1/f. According to Cartesian sign convention, the pole is the origin, and the object is always kept on the left. Distances to the right are positive, and to the left are negative. Magnification (M) is the ratio of the height of the image (h2) to the height of the object (h1), also expressed as M = -v/u. Concave mirrors are used in torches and headlamps, while convex mirrors are used as rearview mirrors in cars.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "12.1",
+      "heading": "Study of Sound: Sound Waves",
+      "keywords": [
+        "longitudinal waves",
+        "compression",
+        "rarefaction",
+        "frequency"
+      ],
+      "text": "Sound is a form of energy which creates the sensation of hearing in human ears. Sound energy travels in the form of waves. A medium is necessary for the propagation of sound waves. Sound waves are longitudinal waves where particles of the medium oscillate in a direction parallel to the propagation of the wave, creating a chain of compression (high density) and rarefaction (low density). The wavelength is indicated by lambda (λ), frequency by nu (ν), and amplitude by A. The time taken for one oscillation is the time period (T). The velocity of sound is calculated as wavelength multiplied by frequency (v = νλ).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "12.2",
+      "heading": "Velocity of Sound in Different Media",
+      "keywords": [
+        "medium",
+        "temperature",
+        "density",
+        "molecular weight"
+      ],
+      "text": "The velocity of sound is highest in solids and least in gases. In a gaseous medium, the velocity of sound is directly proportional to the square root of the temperature (T) and inversely proportional to the square root of the density (ρ) and molecular weight (M). For a fixed temperature, the velocity of sound does not depend on the pressure of the gas. At 25 degrees Celsius, the speed of sound in aluminum is 5420 m/s, in sea water is 1531 m/s, and in air is 346 m/s.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "12.3",
+      "heading": "Audible, Infra, and Ultra-sound",
+      "keywords": [
+        "hearing range",
+        "ultrasonic",
+        "infrasonic",
+        "SONAR"
+      ],
+      "text": "The limits of hearing for the human ear are 20 Hz to 20,000 Hz (20 kHz). Sounds with frequencies lower than 20 Hz are called infra sound, while frequencies greater than 20 kHz are called ultrasound. Bats, dolphins, and dogs can hear ultrasound. Ultrasonic sound is used in SONAR (Sound Navigation and Ranging) to determine the direction, distance, and speed of underwater objects. It is also used in sonography to generate images of internal organs of the human body.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "12.4",
+      "heading": "Reflection of Sound and Echo",
+      "keywords": [
+        "echo",
+        "reverberation",
+        "reflectors"
+      ],
+      "text": "Sound waves follow the laws of reflection where the angle of incidence equals the angle of reflection. An echo is the repetition of the original sound because of reflection by a surface. To hear a distinct echo at 22 degrees Celsius, the minimum distance between the source and the reflecting surface must be 17.2 meters. Reverberation occurs when sound waves reflect from walls and roofs multiple times, causing a single sound to be heard continuously. Sound absorbing materials are used in auditoriums to reduce reverberation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "13.1",
+      "heading": "Carbon: An Important Element",
+      "keywords": [
+        "allotropy",
+        "diamond",
+        "graphite",
+        "fullerene"
+      ],
+      "text": "Carbon is a non-metallic element with atomic number 6 and valency 4. Carbon occurs in nature in free states as diamond, graphite, and fullerene, and in combined states as carbon dioxide and carbonates. Allotropy is the property where an element occurs in more than one form with different physical properties but similar chemical properties. Diamond is the hardest natural substance and a bad conductor of electricity. Graphite is soft, brittle, and a good conductor of electricity due to free electrons. Fullerenes, like Buckyball (C60), are found in soot.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "13.2",
+      "heading": "Hydrocarbons and Carbon Compounds",
+      "keywords": [
+        "methane",
+        "saturated",
+        "unsaturated",
+        "covalent bond"
+      ],
+      "text": "Compounds formed from only carbon and hydrogen are called hydrocarbons. Saturated hydrocarbons have only single bonds between carbon atoms (e.g., methane, ethane). Unsaturated hydrocarbons have at least one multiple bond (double or triple) between carbon atoms (e.g., ethene, ethyne). Methane (CH4) is the simplest hydrocarbon, highly inflammable, and is the main component of natural gas and biogas. Carbon dioxide (CO2) is used in fire extinguishers because carbon dioxide does not support combustion and is heavier than air.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "14.1",
+      "heading": "Substances in Common Use: Salts",
+      "keywords": [
+        "sodium chloride",
+        "baking soda",
+        "washing soda",
+        "bleaching powder"
+      ],
+      "text": "Common salt (NaCl) is a neutral salt used in food and for producing other salts. Sodium bicarbonate (Baking soda, NaHCO3) is basic and used in making bread and fire extinguishers. Sodium carbonate (Washing soda, Na2CO3.H2O) is used for washing clothes and softening hard water. Bleaching powder (Calcium oxychloride, CaOCl2) is used as a disinfectant for water and for bleaching cloth. These salts often contain water of crystallization, which is a definite proportion of water molecules in the crystal structure.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "14.2",
+      "heading": "Radioactive Substances",
+      "keywords": [
+        "alpha rays",
+        "beta rays",
+        "gamma rays",
+        "isotopes"
+      ],
+      "text": "Elements with high atomic numbers like uranium and thorium emit invisible, high-energy radiation called radioactivity. The three types of radiation are alpha rays (positively charged), beta rays (negatively charged), and gamma rays (electrically neutral electromagnetic radiation). Radioactive isotopes are used in industry (radiography), agriculture (food preservation), and medicine (treating polycythemia with Phosphorus-32 or bone cancer with Strontium-89). However, radioactive radiation can cause skin cancer and hereditary defects.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "14.3",
+      "heading": "Chemical Substances in Daily Life",
+      "keywords": [
+        "food colours",
+        "dyes",
+        "teflon",
+        "ceramics"
+      ],
+      "text": "Food colours and essences are added to foodstuffs but artificial versions can contain lead and mercury. Dyes are used for coloring cloth and hair. Teflon (polytetrafluoroethene) is used for coating non-stick kitchenware because neither water nor oil sticks to Teflon. Ceramics are heat-resistant substances formed by firing clay in a kiln. Advanced ceramics like Alumina and Zirconia are used in electrical instruments and space shuttles. Anodizing and powder coating are methods used to protect metals from rusting.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "15.1",
+      "heading": "Life Processes in Living Organisms: Transportation",
+      "keywords": [
+        "xylem",
+        "phloem",
+        "root pressure",
+        "transpiration"
+      ],
+      "text": "Transportation is the process where substances synthesized or absorbed in one part of the body reach another. In plants, xylem conducts water and minerals upwards from the roots, while phloem conducts food (sucrose) in both directions. Root pressure and transpiration pull are the main forces moving water in plants. Transpiration is the loss of water in the form of vapor through stomata on leaves. Translocation is the transport of food in plants, which requires energy in the form of ATP.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "15.2",
+      "heading": "Excretion in Plants and Humans",
+      "keywords": [
+        "kidneys",
+        "nephron",
+        "dialysis",
+        "homeostasis"
+      ],
+      "text": "Excretion is the removal of waste or harmful substances from the body. In plants, waste products like oxygen, water vapor, and carbon dioxide are released through stomata, while other wastes are stored in vacuoles, resin, or gum. In humans, the excretory system consists of a pair of kidneys, ureters, urinary bladder, and urethra. The functional unit of the kidney is the nephron, which filters blood to form urine. If kidneys fail, nitrogenous wastes are separated from the blood using a man-made machine in a process called dialysis. Proper coordination between systems helps maintain a state of equilibrium called homeostasis.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "15.3",
+      "heading": "Coordination in Plants",
+      "keywords": [
+        "tropism",
+        "phototropic",
+        "hormones",
+        "auxin"
+      ],
+      "text": "Plants bring about coordination through responses to stimuli called tropism or tropic movements. Phototropic movement is growth towards light, gravitropic movement is response to gravity, and hydrotropic movement is response to water. Chemotropic movement is growth in response to specific chemicals, such as the growth of a pollen tube towards the ovule. Plant hormones like auxin help in cell enlargement, gibberellins help in stem elongation, and abscisic acid is effective in prevention and retardation of growth.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "15.4",
+      "heading": "Nervous Control in Humans",
+      "keywords": [
+        "neurons",
+        "brain",
+        "spinal cord",
+        "reflex action"
+      ],
+      "text": "Nervous control is achieved through neurons (nerve cells), which conduct electro-chemical impulses. The human nervous system is divided into the Central Nervous System (CNS), Peripheral Nervous System (PNS), and Autonomic Nervous System. The CNS consists of the brain and spinal cord. The brain has three main parts: the cerebrum (voluntary movements and intelligence), cerebellum (body balance), and medulla oblongata (involuntary activities like heartbeat). A reflex action is an immediate, involuntary response to a stimulus that does not involve the brain's conscious intervention.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "15.5",
+      "heading": "Chemical Control: Endocrine Glands",
+      "keywords": [
+        "hormones",
+        "pituitary",
+        "thyroid",
+        "insulin"
+      ],
+      "text": "Chemical control is brought about by hormones secreted by ductless endocrine glands directly into the blood. The pituitary gland (master gland) controls other glands and stimulates growth. The thyroid gland secretes thyroxine to control metabolism. The pancreas secretes insulin and glucagon to regulate blood-glucose levels. Adrenal glands secrete adrenaline during crisis situations. Ovaries and testes secrete hormones responsible for secondary sexual characteristics. Unlike nerve impulses, the action of hormones is slow but long-lasting.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "16.1",
+      "heading": "Heredity and Variation",
+      "keywords": [
+        "genetics",
+        "DNA",
+        "chromosomes",
+        "genes"
+      ],
+      "text": "Genetics is the branch of biology studying the transfer of characteristics from one generation to the next. Heredity is the transfer of traits from parents to offspring. Chromosomes, made of DNA and proteins, carry hereditary information in the nucleus. Each species has a specific number of chromosomes; humans have 46 (23 pairs). DNA (Deoxyribonucleic acid) is a double helix molecule consisting of nucleotides (adenine, guanine, cytosine, thymine). Genes are segments of DNA that serve as functional units of heredity and control protein synthesis.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "16.2",
+      "heading": "Mendel’s Principles of Heredity",
+      "keywords": [
+        "monohybrid cross",
+        "dihybrid cross",
+        "dominant",
+        "recessive"
+      ],
+      "text": "Gregor Johann Mendel is the father of modern genetics. Mendel studied the inheritance of traits in pea plants. In a monohybrid cross, Mendel crossed plants with one pair of contrasting characters (e.g., tall vs. dwarf), resulting in a 3:1 phenotypic ratio in the F2 generation. In a dihybrid cross, Mendel studied two pairs of traits (e.g., seed shape and color), resulting in a 9:3:3:1 ratio. Mendel concluded that traits are determined by pairs of factors (genes), where one trait is dominant and the other is recessive.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "16.3",
+      "heading": "Genetic Disorders",
+      "keywords": [
+        "Down syndrome",
+        "Sickle-cell anaemia",
+        "albinism",
+        "mutations"
+      ],
+      "text": "Genetic disorders arise from chromosomal abnormalities or gene mutations. Down syndrome (Trisomy 21) is caused by an extra 21st chromosome. Turner syndrome (44+X) and Klinefelter syndrome (44+XXY) are sex chromosome abnormalities. Monogenic disorders like albinism (lack of melanin) and sickle-cell anaemia (abnormal hemoglobin shape) are caused by mutations in a single gene. Polygenic disorders like diabetes and heart disease result from mutations in multiple genes and environmental factors. Tobacco consumption is linked to uncontrolled cell division and cancer.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "17.1",
+      "heading": "Introduction to Biotechnology: Tissues",
+      "keywords": [
+        "epithelial",
+        "connective",
+        "muscular",
+        "meristematic"
+      ],
+      "text": "A tissue is a group of cells having the same origin, structure, and function. Animal tissues include epithelial (protective), connective (supportive, e.g., blood, bone), muscular (movement), and nervous (coordination). Plant tissues are divided into meristematic (dividing cells for growth) and permanent tissues. Permanent tissues include simple tissues (parenchyma, collenchyma, sclerenchyma) and complex tissues (xylem for water transport and phloem for food transport).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "17.2",
+      "heading": "Biotechnology and Tissue Culture",
+      "keywords": [
+        "GM crops",
+        "totipotency",
+        "agritourism",
+        "animal husbandry"
+      ],
+      "text": "Biotechnology involves artificial genetic changes and hybridization for human welfare. Tissue culture is the ex vivo growth of cells or tissues in an aseptic, nutrient-rich medium, based on the property of totipotency. Genetically Modified (GM) crops like BT cotton and Golden Rice are produced for pest resistance and better nutrition. Agro-complementary occupations include animal husbandry (rearing cattle for milk and labor), poultry farming (rearing chickens for eggs and meat), and sericulture (rearing silkworms for silk production).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "18.1",
+      "heading": "Observing Space: Telescopes",
+      "keywords": [
+        "refracting",
+        "reflecting",
+        "radio telescope",
+        "ISRO"
+      ],
+      "text": "Telescopes are used to observe distant objects in space. Optical telescopes include refracting telescopes (using lenses) and reflecting telescopes (using concave mirrors, e.g., Newtonian and Cassegrain types). Radio telescopes, like the GMRT near Pune, receive radio waves from heavenly bodies. To avoid atmospheric interference, telescopes are placed in space, such as the Hubble (visible light) and Chandra (X-ray) telescopes. ISRO (Indian Space Research Organization) develops satellite technology for telecommunication, meteorology, and space exploration, including the Astrosat satellite.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

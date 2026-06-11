@@ -1,0 +1,844 @@
+{
+  "metadata": {
+    "file_name": "Science_and_Technology_Standard_Ten_Part_1",
+    "standard": 10,
+    "subject": "Science and Technology Part 1",
+    "language": "English",
+    "board": "Maharashtra State Board",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "1.1",
+      "heading": "Introduction to Gravitation",
+      "keywords": [
+        "Gravitation",
+        "Sir Isaac Newton",
+        "Universal Force"
+      ],
+      "text": "The phenomenon of gravitation was discovered by Sir Isaac Newton. Sir Isaac Newton discovered the gravitational force by observing an apple fall from a tree toward the ground. Sir Isaac Newton concluded that the Earth must be attracting the apple towards the Earth and this attractive force must be directed towards the center of the Earth. The gravitational force is a universal force that acts not only between two objects on the Earth but also between any two objects in the universe.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Force and Motion",
+      "keywords": [
+        "Force",
+        "Motion",
+        "Velocity"
+      ],
+      "text": "A force is necessary to change the speed as well as the direction of motion of an object. Sir Isaac Newton's laws of motion describe the relationship between the motion of an object and the forces acting on the object.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Circular Motion and Centripetal Force",
+      "keywords": [
+        "Circular Motion",
+        "Centripetal Force",
+        "Tangent"
+      ],
+      "text": "A force acts on any object moving along a circle and the force is directed towards the centre of the circle. This force is called the centripetal force. Centripetal means 'centre seeking'. If the centripetal force stops acting, the object will fly off along a straight line which is the tangent to the circle at the position of the object.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Kepler’s Laws",
+      "keywords": [
+        "Kepler's Laws",
+        "Ellipse",
+        "Planetary Motion"
+      ],
+      "text": "Johannes Kepler studied planetary positions and motion and stated three laws. Kepler's First Law states that the orbit of a planet is an ellipse with the Sun at one of the foci. Kepler's Second Law states that the line joining the planet and the Sun sweeps equal areas in equal intervals of time. Kepler's Third Law states that the square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun (T squared is proportional to r cubed).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Newton’s Universal Law of Gravitation",
+      "keywords": [
+        "Universal Law of Gravitation",
+        "Gravitational Constant",
+        "Inverse Square Law"
+      ],
+      "text": "According to Newton's Universal Law of Gravitation, every object in the Universe attracts every other object with a definite force. This gravitational force is directly proportional to the product of the masses of the two objects and is inversely proportional to the square of the distance between the two objects. Mathematically, F = G * (m1 * m2) / d squared, where G is the universal gravitational constant. The value of G in SI units is 6.673 x 10^-11 N m^2 kg^-2.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Earth’s Gravitational Acceleration",
+      "keywords": [
+        "Acceleration due to gravity",
+        "g",
+        "Vector Quantity"
+      ],
+      "text": "The Earth exerts gravitational force on objects near the Earth. According to Newton’s second law of motion, a force acting on a body results in the acceleration of the body. The gravitational force due to the Earth on a body results in the acceleration of the body, which is called acceleration due to gravity and is denoted by 'g'. Acceleration due to gravity is a vector quantity directed towards the centre of the Earth. On the surface of the Earth, the value of g is approximately 9.77 m/s^2.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.7",
+      "heading": "Variation in Value of g",
+      "keywords": [
+        "Variation of g",
+        "Latitude",
+        "Altitude",
+        "Depth"
+      ],
+      "text": "The value of g changes along the surface of the Earth because the Earth is not exactly spherical; the value of g is highest at the poles (9.832 m/s^2) and lowest at the equator (9.78 m/s^2). The value of g also decreases as height above the Earth's surface increases. Furthermore, the value of g decreases as depth inside the Earth increases because the part of the Earth contributing to the gravitational force decreases.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.8",
+      "heading": "Mass and Weight",
+      "keywords": [
+        "Mass",
+        "Weight",
+        "Scalar",
+        "Vector"
+      ],
+      "text": "Mass is the amount of matter present in an object and is a scalar quantity that remains constant everywhere. Weight is the force with which the Earth attracts the object and is a vector quantity (W = mg). Weight changes from place to place because the value of g changes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.9",
+      "heading": "Free Fall",
+      "keywords": [
+        "Free Fall",
+        "Vacuum",
+        "Initial Velocity"
+      ],
+      "text": "Whenever an object moves under the influence of the force of gravity alone, the object is said to be falling freely. In free fall, the initial velocity of the object is zero. True free fall is possible only in a vacuum because air resistance opposes the motion of the object.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.10",
+      "heading": "Gravitational Potential Energy and Escape Velocity",
+      "keywords": [
+        "Potential Energy",
+        "Escape Velocity",
+        "Conservation of Energy"
+      ],
+      "text": "Gravitational potential energy is the energy stored in an object because of the position of the object relative to the Earth. For large values of height (h), potential energy is given by -GMm/(R+h). Escape velocity is the minimum initial velocity required for an object to overcome the Earth's gravitational attraction and escape to infinite distance. For Earth, the escape velocity is 11.2 km/s.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Periodic Classification of Elements: Introduction",
+      "keywords": [
+        "Elements",
+        "Classification",
+        "Metals",
+        "Nonmetals"
+      ],
+      "text": "Today 118 elements are known to the scientific world. In the initial classification, elements were classified into groups of metals and nonmetals, with a later category called metalloids. Scientists started studying patterns in the properties of elements to ease the study of elements.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Dobereiner’s Triads",
+      "keywords": [
+        "Dobereiner",
+        "Triads",
+        "Atomic Mass"
+      ],
+      "text": "In 1817, Johann Wolfgang Dobereiner suggested that properties of elements are related to the atomic masses of the elements. Dobereiner made groups of three elements each, called triads, where the atomic mass of the middle element was approximately equal to the mean of the atomic masses of the other two elements.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.3",
+      "heading": "Newlands’ Law of Octaves",
+      "keywords": [
+        "Newlands",
+        "Octaves",
+        "Law of Octaves"
+      ],
+      "text": "In 1866, John Newlands arranged elements in increasing order of their atomic masses. Newlands found that every eighth element had properties similar to those of the first element, similar to octaves in music. This observation is known as the Law of Octaves.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.4",
+      "heading": "Mendeleev’s Periodic Table",
+      "keywords": [
+        "Mendeleev",
+        "Periodic Law",
+        "Atomic Mass"
+      ],
+      "text": "Dmitri Mendeleev developed the periodic table between 1869 and 1872. Mendeleev stated the periodic law: 'Properties of elements are periodic function of their atomic masses.' Mendeleev arranged 63 known elements in groups (vertical columns) and periods (horizontal rows) based on their chemical and physical properties.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.5",
+      "heading": "Merits and Demerits of Mendeleev’s Periodic Table",
+      "keywords": [
+        "Merits",
+        "Demerits",
+        "Isotopes",
+        "Noble Gases"
+      ],
+      "text": "Merits of Mendeleev's table include the revision of atomic masses of some elements (e.g., Beryllium) and the prediction of properties of undiscovered elements (Eka-boron, Eka-aluminium, Eka-silicon). Demerits include ambiguity in the position of Cobalt and Nickel, the lack of a place for isotopes, and the non-uniform rise in atomic masses. The position of Hydrogen was also not clearly defined.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.6",
+      "heading": "Modern Periodic Law and Table",
+      "keywords": [
+        "Henry Moseley",
+        "Atomic Number",
+        "Modern Periodic Law"
+      ],
+      "text": "In 1913, Henry Moseley demonstrated that the atomic number (Z) is a more fundamental property of an element than the atomic mass. The Modern Periodic Law states: 'Properties of elements are a periodic function of their atomic numbers.' The Modern Periodic Table (long form) arranges elements in increasing order of their atomic numbers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.7",
+      "heading": "Structure of the Modern Periodic Table",
+      "keywords": [
+        "Groups",
+        "Periods",
+        "Blocks",
+        "s-block",
+        "p-block",
+        "d-block",
+        "f-block"
+      ],
+      "text": "The Modern Periodic Table contains seven horizontal rows called periods and eighteen vertical columns called groups. The table is divided into four blocks: s-block (Groups 1 and 2), p-block (Groups 13 to 18), d-block (Groups 3 to 12 - transition elements), and f-block (lanthanide and actinide series at the bottom). A zig-zag line in the p-block separates metals on the left from nonmetals on the right, with metalloids lying along the border.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.8",
+      "heading": "Periodic Trends in the Modern Periodic Table",
+      "keywords": [
+        "Valency",
+        "Atomic Size",
+        "Metallic Character",
+        "Electronegativity"
+      ],
+      "text": "Valency is determined by the number of valence electrons in the outermost shell. Atomic size (atomic radius) decreases across a period from left to right due to increased nuclear charge and increases down a group as new shells are added. Metallic character (electropositivity) decreases across a period and increases down a group. Nonmetallic character (electronegativity) increases across a period and decreases down a group.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Chemical Reaction and Physical Change",
+      "keywords": [
+        "Physical Change",
+        "Chemical Change",
+        "Reactants",
+        "Products"
+      ],
+      "text": "A physical change takes place due to change in parameters such as temperature or pressure. A physical change is often reversible, and the composition of matter remains the same. For example, ice transforms into water on heating. A chemical change involves a change in the composition of matter and is permanent. A chemical reaction is a process in which some substances undergo bond breaking and are transformed into new substances by the formation of new bonds. The substances taking part in a chemical reaction are called reactants, and the substances formed as a result of the chemical reaction are called products.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Writing and Balancing Chemical Equations",
+      "keywords": [
+        "Chemical Equation",
+        "Balanced Equation",
+        "Conventions"
+      ],
+      "text": "In a chemical equation, reactants are written on the left-hand side and products on the right-hand side, separated by an arrow pointing towards the products. Physical states are indicated as (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution. Heat given to a reaction is indicated by a triangle symbol above the arrow. A balanced equation has an equal number of atoms of each element on both sides of the equation. Balancing is achieved through a trial and error method by applying proper factors to the formulae of reactants or products without changing the molecular formulae themselves.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "Types of Chemical Reactions: Combination and Decomposition",
+      "keywords": [
+        "Combination Reaction",
+        "Decomposition Reaction",
+        "Electrolysis"
+      ],
+      "text": "When two or more reactants combine in a reaction to form a single product, the reaction is called a combination reaction. For example, ammonia gas reacts with hydrogen chloride gas to form solid ammonium chloride. A reaction in which there is only one reactant giving rise to two or more products is called a decomposition reaction. Thermal decomposition involves heat, such as the decomposition of calcium carbonate into calcium oxide and carbon dioxide. Electrolysis is decomposition using electrical energy, such as the decomposition of water into hydrogen and oxygen.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Types of Chemical Reactions: Displacement and Double Displacement",
+      "keywords": [
+        "Displacement Reaction",
+        "Double Displacement Reaction",
+        "Precipitate"
+      ],
+      "text": "A displacement reaction occurs when the place of the ion of a less reactive element in a compound is taken by another more reactive element by the formation of its own ions. For example, zinc displaces copper from copper sulphate solution. A double displacement reaction is a reaction in which the ions in the reactants are exchanged to form a precipitate.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Endothermic and Exothermic Processes and Rate Factors",
+      "keywords": [
+        "Endothermic",
+        "Exothermic",
+        "Catalyst",
+        "Reaction Rate"
+      ],
+      "text": "Processes that absorb heat from the surroundings are endothermic, while processes that give out heat are exothermic. The rate of a chemical reaction depends on the nature of reactants, the size of reactant particles (smaller particles increase the rate), the concentration of reactants, the temperature of the reaction, and the presence of a catalyst. A catalyst is a substance in whose presence the rate of a chemical reaction increases without the substance itself undergoing any permanent chemical change.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.6",
+      "heading": "Oxidation, Reduction, Corrosion and Rancidity",
+      "keywords": [
+        "Oxidation",
+        "Reduction",
+        "Redox Reaction",
+        "Corrosion",
+        "Rancidity"
+      ],
+      "text": "Oxidation is a chemical reaction in which a reactant combines with oxygen or loses hydrogen. Reduction is a reaction in which reactants gain hydrogen or lose oxygen. Oxidation also means losing one or more electrons, while reduction means gaining electrons. When oxidation and reduction occur simultaneously, the reaction is called a redox reaction. Corrosion is the slow degradation of metals due to the action of air, moisture, and acids, such as the rusting of iron (Fe2O3.H2O). Rancidity occurs when oils or fats are left for a long time and undergo air oxidation, resulting in a foul odour and change in taste.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Energy Transfer and Heating Effect of Electric Current",
+      "keywords": [
+        "Electrical Power",
+        "Joule's Law",
+        "Heating Effect",
+        "Fuse"
+      ],
+      "text": "Electrical power (P) is the rate at which electrical energy is transferred in a circuit (P = VI). When a resistor is connected in a circuit, electrical energy is converted into heat energy; this is the heating effect of electric current. Joule's law of heating states that the heat produced (H) is equal to I squared * R * t. Applications include electric heaters, cookers, and bulbs (using tungsten). A fuse wire is a safety device with a low melting point that protects electrical equipment by breaking the circuit during overloading or short circuits. Modern buildings use Miniature Circuit Breakers (MCBs) for the same purpose.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Magnetic Effect of Electric Current and Rules",
+      "keywords": [
+        "Magnetic Field",
+        "Hans Christian Oersted",
+        "Right Hand Thumb Rule"
+      ],
+      "text": "Hans Christian Oersted discovered that an electric current flowing through a wire produces a magnetic field around the wire. The magnetic field around a straight current-carrying conductor forms concentric circles. The Right Hand Thumb Rule is used to find the direction of the magnetic field: if the thumb of the right hand points in the direction of the current, the curled fingers show the direction of the magnetic field lines.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.3",
+      "heading": "Magnetic Field in Solenoid and Force on Conductor",
+      "keywords": [
+        "Solenoid",
+        "Fleming's Left Hand Rule",
+        "Magnetic Force"
+      ],
+      "text": "A solenoid is a copper wire with a resistive coating wound in a chain of loops. The magnetic field produced by a solenoid is similar to that of a bar magnet, with one end acting as a North pole and the other as a South pole. A current-carrying conductor placed in a magnetic field experiences a force. Fleming's Left Hand Rule determines the direction of this force: if the index finger points in the direction of the magnetic field and the middle finger in the direction of the current, the thumb points in the direction of the force.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.4",
+      "heading": "Electric Motor",
+      "keywords": [
+        "Electric Motor",
+        "Split Rings",
+        "Armature Coil"
+      ],
+      "text": "An electric motor is a device that converts electrical energy into mechanical energy. An electric motor consists of a rectangular loop of copper wire (armature coil) placed between the North and South poles of a magnet. The ends of the loop are connected to two halves of a split ring (commutator). Carbon brushes provide electrical contact. When current flows, the magnetic force causes the coil to rotate. The split rings reverse the direction of the current every half rotation, ensuring continuous rotation in one direction.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.5",
+      "heading": "Electromagnetic Induction and Faraday's Law",
+      "keywords": [
+        "Electromagnetic Induction",
+        "Michael Faraday",
+        "Galvanometer",
+        "Induced Current"
+      ],
+      "text": "Michael Faraday discovered that an electric current can be produced in a conductor by a changing magnetic field; this process is called electromagnetic induction. A galvanometer is a sensitive device used to detect the presence of current. Faraday's law of induction states that whenever the number of magnetic lines of force passing through a coil changes, a current is induced in the coil. Fleming's Right Hand Rule determines the direction of induced current: if the thumb points in the direction of motion of the conductor and the index finger in the direction of the magnetic field, the middle finger shows the direction of the induced current.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.6",
+      "heading": "AC, DC and Electric Generator",
+      "keywords": [
+        "Alternating Current",
+        "Direct Current",
+        "Electric Generator"
+      ],
+      "text": "Direct Current (DC) flows in only one direction, while Alternating Current (AC) changes its magnitude and direction periodically. In India, the frequency of AC is 50 Hz. An electric generator converts mechanical energy into electrical energy using electromagnetic induction. An AC generator uses two full rings to produce alternating current. A DC generator uses a split ring (commutator) to ensure the current in the external circuit flows in only one direction.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Heat: Latent Heat and Regelation",
+      "keywords": [
+        "Latent Heat",
+        "Fusion",
+        "Vaporization",
+        "Regelation"
+      ],
+      "text": "Latent heat of fusion is the heat energy absorbed at constant temperature by a unit mass of a solid to convert into liquid phase. Latent heat of vaporization is the heat energy absorbed at constant temperature by a unit mass of a liquid to convert into gaseous phase. Regelation is the phenomenon in which ice converts to liquid due to applied pressure and then re-converts to ice once the pressure is removed.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Anomalous Behaviour of Water",
+      "keywords": [
+        "Anomalous Behaviour",
+        "Hope's Apparatus",
+        "Density of Water"
+      ],
+      "text": "Water shows exceptional behaviour between 0 degrees Celsius and 4 degrees Celsius; instead of expanding, water contracts when heated in this range. This is called the anomalous behaviour of water. Water has maximum density at 4 degrees Celsius. Hope's Apparatus is used to study this behaviour. This anomalous expansion allows aquatic plants and animals to survive in cold regions as the top layer of water freezes into ice while the water below remains at 4 degrees Celsius.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.3",
+      "heading": "Humidity, Dew Point and Specific Heat Capacity",
+      "keywords": [
+        "Humidity",
+        "Dew Point",
+        "Specific Heat Capacity",
+        "Calorimeter"
+      ],
+      "text": "Humidity is the presence of water vapour in the air. Saturated air contains the maximum possible water vapour at a given temperature. The temperature at which unsaturated air becomes saturated is the dew point. Absolute humidity is the mass of vapour per unit volume of air. Relative humidity is the ratio of actual vapour mass to the mass required for saturation. Specific heat capacity is the amount of heat energy required to raise the temperature of a unit mass of an object by 1 degree Celsius. The principle of heat exchange states that heat lost by a hot object equals heat gained by a cold object in an isolated system. Specific heat is measured using a calorimeter.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "Refraction of Light and Laws",
+      "keywords": [
+        "Refraction",
+        "Snell's Law",
+        "Refractive Index"
+      ],
+      "text": "Light changes the direction of light when going from one transparent medium to another transparent medium; this phenomenon is called the refraction of light. The laws of refraction state that the incident ray, the refracted ray, and the normal at the point of incidence are in the same plane. For a given pair of media, the ratio of the sine of the angle of incidence to the ratio of the sine of the angle of refraction is constant. This constant is called the refractive index (n) of the second medium with respect to the first medium, also known as Snell’s law. Refractive index depends on the velocity of light in the medium. Absolute refractive index is the refractive index of a medium with respect to a vacuum.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Refraction in Different Media and Atmospheric Effects",
+      "keywords": [
+        "Twinkling of Stars",
+        "Mirage",
+        "Apparent Position"
+      ],
+      "text": "When a light ray passes from a rarer medium to a denser medium, the light ray bends towards the normal. When a light ray passes from a denser medium to a rarer medium, the light ray bends away from the normal. A mirage is an illusion of the appearance of water on a hot road or in a desert caused by local atmospheric conditions affecting the refraction of light. Twinkling of stars occurs because stars are point sources at great distances, and the apparent position and brightness of the stars change continuously due to the motion of atmospheric air and changing air density and temperature.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.3",
+      "heading": "Dispersion and Internal Reflection",
+      "keywords": [
+        "Dispersion",
+        "Spectrum",
+        "Total Internal Reflection",
+        "Rainbow"
+      ],
+      "text": "The process of separation of light into the component colours of light while passing through a medium is called the dispersion of light. Sir Isaac Newton used a glass prism to show that sunlight emerges as a spectrum of seven colours: violet, indigo, blue, green, yellow, orange, and red. Partial reflection occurs when light enters a rarer medium from a denser medium and part of the light gets reflected back. Total internal reflection occurs when the angle of incidence is larger than the critical angle, causing all light to reflect back into the denser medium. A rainbow is a natural phenomenon produced by the combined effect of dispersion, refraction, and total internal reflection of light within water droplets.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.1",
+      "heading": "Lenses: Types and Terminology",
+      "keywords": [
+        "Convex Lens",
+        "Concave Lens",
+        "Focal Length",
+        "Optical Centre"
+      ],
+      "text": "A lens is a transparent medium bound by two surfaces. A convex lens has two spherical surfaces puffed up outwards and is a converging lens. A concave lens has both surfaces spherical on the inside and is a divergent lens. Key terms include the centre of curvature (the centre of the spheres forming the lens surfaces), the principal axis (the line passing through both centres of curvature), the optical centre (the point inside the lens through which light rays pass without changing path), and the principal focus (the point where parallel rays converge or appear to diverge from). Focal length is the distance between the optical centre and the principal focus.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.2",
+      "heading": "Image Formation and Lens Formula",
+      "keywords": [
+        "Ray Diagrams",
+        "Lens Formula",
+        "Magnification",
+        "Power"
+      ],
+      "text": "Ray diagrams for lenses follow specific rules: rays parallel to the principal axis pass through the focus, rays passing through the focus emerge parallel to the principal axis, and rays passing through the optical centre do not change direction. The lens formula is 1/v - 1/u = 1/f, where u is the object distance, v is the image distance, and f is the focal length. Magnification (M) is the ratio of the height of the image to the height of the object (h2/h1) or v/u. The power of a lens (P) is the inverse of the focal length in meters (P = 1/f), measured in Dioptres (D). Convex lenses have positive focal length, while concave lenses have negative focal length.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.3",
+      "heading": "The Human Eye and Defects of Vision",
+      "keywords": [
+        "Retina",
+        "Myopia",
+        "Hypermetropia",
+        "Presbyopia"
+      ],
+      "text": "The human eye has a transparent cover called the cornea, an iris with a central hole called the pupil, and a double convex crystalline lens that focuses images on the retina. The retina contains light-sensitive rod and cone cells. Nearsightedness (Myopia) is a defect where the eye can see nearby objects clearly but not distant ones; Myopia is corrected using a concave lens. Farsightedness (Hypermetropia) is a defect where the eye can see distant objects clearly but not nearby ones; Hypermetropia is corrected using a convex lens. Presbyopia is the loss of accommodation power with age, often requiring bifocal lenses. Persistence of vision is the sensation on the retina that persists for 1/16th of a second after an object is removed.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.4",
+      "heading": "Optical Instruments",
+      "keywords": [
+        "Microscope",
+        "Telescope",
+        "Magnifying Lens"
+      ],
+      "text": "A simple microscope is a convex lens with a small focal length used as a magnifying lens. A compound microscope uses two convex lenses, the objective and the eyepiece, to provide high magnification of minute objects like cells. A telescope is used to see distant objects clearly. Refracting telescopes use lenses, while reflecting telescopes use mirrors and lenses. In these instruments, the objective lens collects light from the object, and the eyepiece forms the final magnified image.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.1",
+      "heading": "Metallurgy: Physical and Chemical Properties",
+      "keywords": [
+        "Metals",
+        "Nonmetals",
+        "Reactivity Series",
+        "Electropositivity"
+      ],
+      "text": "Metals are generally solid, lustrous, ductile, malleable, and good conductors of heat and electricity. Metals have high melting points and are sonorous. Nonmetals exist as solids or gases (except bromine), lack luster (except iodine), are brittle, and are bad conductors (except graphite). Metals are electropositive because metals lose electrons to form cations. Metals react with oxygen to form metal oxides, with water to form hydroxides or oxides, and with acids to produce salts and hydrogen gas. The reactivity series arranges metals in decreasing order of their reactivity based on these chemical reactions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.2",
+      "heading": "Ionic Compounds and Basic Metallurgy",
+      "keywords": [
+        "Ionic Bond",
+        "Ores",
+        "Gangue",
+        "Concentration"
+      ],
+      "text": "Ionic compounds are formed from cations and anions held by electrostatic forces. Ionic compounds are crystalline, hard, brittle, have high melting points, and are generally water-soluble. Metallurgy is the science of extracting metals from ores and purifying the metals for use. Ores are minerals from which metals can be separated economically. Gangue refers to impurities like soil and sand present in ores. Concentration of ores is the process of separating gangue from ores using methods like Wilfley table (gravitation), magnetic separation, froth floatation (for sulphides), and leaching (chemical reaction).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.3",
+      "heading": "Extraction and Prevention of Corrosion",
+      "keywords": [
+        "Electrolysis",
+        "Roasting",
+        "Calcination",
+        "Galvanizing",
+        "Alloying"
+      ],
+      "text": "Reactive metals like aluminium are extracted by electrolytic reduction of their molten salts. Moderately reactive metals are extracted by roasting (heating sulphide ores in excess air) or calcination (heating carbonate ores in limited air) followed by reduction with carbon. Less reactive metals like copper are obtained by heating their ores in air. Corrosion of metals can be prevented by isolating the metal from air and moisture. Methods include applying paint, oil, or varnish; galvanizing (coating with zinc); tinning (coating with molten tin); anodization (forming a thick oxide layer); electroplating (coating a less reactive metal on a more reactive one); and alloying (mixing metals with other elements, such as stainless steel or bronze).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.1",
+      "heading": "Bonds in Carbon Compounds",
+      "keywords": [
+        "Covalent Bond",
+        "Valency",
+        "Electronic Configuration"
+      ],
+      "text": "Carbon compounds possess covalent bonds. Carbon has an atomic number of 6 and an electronic configuration of 2, 4. To attain a stable noble gas configuration, carbon shares four electrons of the valence shell with four valence electrons of other atoms. This sharing of electrons results in the formation of covalent bonds. Carbon compounds generally have low melting and boiling points (less than 300 degrees Celsius) and are bad conductors of electricity because carbon compounds do not produce ions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.2",
+      "heading": "Carbon: A Versatile Element",
+      "keywords": [
+        "Catenation",
+        "Tetravalency",
+        "Isomerism"
+      ],
+      "text": "Carbon has the unique ability to form strong covalent bonds with other carbon atoms, resulting in the formation of big molecules; this property is called catenation power. Carbon compounds can contain open chains (straight or branched) or closed chains (rings). Carbon is tetravalent, meaning one carbon atom can form bonds with four other atoms. Carbon also exhibits isomerism, where compounds have the same molecular formula but different structural formulae, such as n-butane and isobutane.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.3",
+      "heading": "Hydrocarbons: Saturated and Unsaturated",
+      "keywords": [
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Hydrocarbons"
+      ],
+      "text": "Compounds containing only carbon and hydrogen are called hydrocarbons. Saturated hydrocarbons contain only single bonds between carbon atoms and are called alkanes (General formula: CnH2n+2). Unsaturated hydrocarbons contain at least one double or triple bond between carbon atoms. Hydrocarbons with double bonds are called alkenes (General formula: CnH2n), and hydrocarbons with triple bonds are called alkynes (General formula: CnH2n-2). Unsaturated compounds are generally more reactive than saturated compounds.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.4",
+      "heading": "Functional Groups and Homologous Series",
+      "keywords": [
+        "Heteroatom",
+        "Functional Group",
+        "Homologous Series"
+      ],
+      "text": "In carbon compounds, atoms of elements like halogens, oxygen, nitrogen, or sulphur can substitute one or more hydrogen atoms; these atoms are called heteroatoms. A heteroatom or a group of atoms containing a heteroatom that confers specific chemical properties to the compound is called a functional group (e.g., -OH for alcohol, -CHO for aldehyde, -COOH for carboxylic acid). A series of compounds formed by joining the same functional group to carbon chains of progressively increasing length is called a homologous series. Members of a homologous series show similar chemical properties and a gradation in physical properties.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.5",
+      "heading": "Nomenclature of Carbon Compounds",
+      "keywords": [
+        "IUPAC",
+        "Common Names",
+        "Naming Rules"
+      ],
+      "text": "Carbon compounds are named using common names or the systematic IUPAC (International Union of Pure and Applied Chemistry) nomenclature. IUPAC names are constructed from a parent alkane name, a prefix, and a suffix. The parent name depends on the number of carbon atoms in the longest chain. The suffix indicates the functional group (e.g., '-ol' for alcohols, '-oic acid' for carboxylic acids). Numbers are used to indicate the position of the functional group or substituents in the carbon chain.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.6",
+      "heading": "Chemical Properties of Carbon Compounds",
+      "keywords": [
+        "Combustion",
+        "Oxidation",
+        "Addition Reaction",
+        "Substitution Reaction"
+      ],
+      "text": "Carbon compounds undergo combustion in the presence of oxygen to emit heat and light, forming carbon dioxide and water. Saturated hydrocarbons burn with a clean blue flame, while unsaturated ones burn with a yellow sooty flame. Oxidation involves the use of oxidants like alkaline potassium permanganate to convert alcohols into carboxylic acids. Addition reactions occur when unsaturated compounds react with reagents like hydrogen (hydrogenation) or halogens to become saturated. Substitution reactions occur in saturated hydrocarbons where chlorine atoms replace hydrogen atoms one by one in the presence of sunlight.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.7",
+      "heading": "Important Carbon Compounds: Ethanol and Ethanoic Acid",
+      "keywords": [
+        "Ethanol",
+        "Ethanoic Acid",
+        "Esterification",
+        "Saponification"
+      ],
+      "text": "Ethanol (C2H5OH) is a colourless liquid, soluble in water, and used as a solvent and in medicines. Ethanol reacts with sodium to liberate hydrogen gas and undergoes dehydration with concentrated sulphuric acid to form ethene. Ethanoic acid (CH3COOH), also known as acetic acid, is a weak acid used in vinegar. Ethanoic acid reacts with bases to form salts and with alcohols in the presence of an acid catalyst to form sweet-smelling esters; this is called an esterification reaction. Esters react with alkali to form back the alcohol and the sodium salt of the carboxylic acid; this is called a saponification reaction.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.8",
+      "heading": "Macromolecules and Polymers",
+      "keywords": [
+        "Polymers",
+        "Monomers",
+        "Polymerization",
+        "Natural Polymers"
+      ],
+      "text": "Giant carbon molecules formed from hundreds of thousands of atoms are called macromolecules. Polymers are macromolecules formed by the regular repetition of a small unit called a monomer. The process of converting monomers into a polymer is called polymerization. Natural macromolecules include polysaccharides (starch, cellulose), proteins, and nucleic acids (DNA, RNA). Manmade polymers include polyethylene (for bags), polyvinyl chloride (PVC for pipes), teflon (for nonstick cookware), and polypropylene.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.1",
+      "heading": "Space Missions: Introduction and Importance",
+      "keywords": [
+        "Space Missions",
+        "Artificial Satellites",
+        "Space Technology"
+      ],
+      "text": "Space missions involve putting artificial satellites into Earth's orbit for research or sending spacecraft to outer space for close observation of solar system objects. Space missions have made the world a global village through instant communication and provide advance alerts for natural calamities. Space technology is essential for national development and defense.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.2",
+      "heading": "Artificial Satellites and Their Classification",
+      "keywords": [
+        "INSAT",
+        "GSAT",
+        "IRNSS",
+        "IRS"
+      ],
+      "text": "An artificial satellite is a manmade object that revolves around the Earth or another planet in a fixed orbit. Satellites are classified by function: weather satellites (INSAT, GSAT), communication satellites, broadcast satellites, navigational satellites (IRNSS), military satellites, and Earth observation satellites (IRS). Satellites use solar energy through photovoltaic panels.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.3",
+      "heading": "Orbits of Artificial Satellites",
+      "keywords": [
+        "HEO",
+        "MEO",
+        "LEO",
+        "Geosynchronous"
+      ],
+      "text": "Satellite orbits are classified based on their height above the Earth's surface. High Earth Orbits (HEO) are at heights greater than 35780 km; satellites in HEO take 24 hours for one revolution and appear stationary relative to Earth (geosynchronous). Medium Earth Orbits (MEO) are between 2000 km and 35780 km, used for Global Positioning Systems (GPS). Low Earth Orbits (LEO) are between 180 km and 2000 km, used for scientific experiments, the International Space Station, and the Hubble telescope.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.4",
+      "heading": "Satellite Launch Vehicles",
+      "keywords": [
+        "Launch Vehicle",
+        "PSLV",
+        "Newton's Third Law"
+      ],
+      "text": "Satellite launch vehicles place satellites in specific orbits using the principle of Newton's third law of motion. Launch vehicles use specific fuels that produce expanding gases expelled through nozzles, creating a reactive thrust. To reduce weight, launch vehicles consist of multiple stages. As the fuel in one stage is exhausted, the empty tank and engine are detached, and the next stage ignites. India's Polar Satellite Launch Vehicle (PSLV) is a prominent example developed by ISRO.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.5",
+      "heading": "Space Missions Away from Earth",
+      "keywords": [
+        "Escape Velocity",
+        "Moon Missions",
+        "Mars Missions"
+      ],
+      "text": "Spacecraft sent to the moon or other planets must reach a velocity greater than the Earth's escape velocity (11.2 km/s) to overcome Earth's gravitational pull. Moon missions have been executed by the USSR (Luna series), USA (Apollo missions), and India (Chandrayaan-1). Chandrayaan-1 discovered water on the moon's surface. Mars missions include ISRO's Mangalyaan, which was placed into Mars' orbit in 2014 to study the Martian surface and atmosphere.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "10.6",
+      "heading": "India and Space Technology",
+      "keywords": [
+        "ISRO",
+        "Vikram Sarabhai",
+        "Space Debris"
+      ],
+      "text": "Vikram Sarabhai is considered the father of the Indian space program. The Indian Space Research Organization (ISRO) has developed advanced launch vehicles like PSLV and GSLV. Indian satellite series like INSAT and GSAT contribute to telecommunications and education (EDUSAT). Space debris consists of non-functional satellites and launcher parts revolving around Earth, which pose a collision risk to active spacecraft and must be managed.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "file_name": "GEOGRAPHY_STANDARD_TEN_MAHARASHTRA_STATE_BOARD",
+    "standard": 10,
+    "subject": "Geography",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
+  },
+  "content_chunks": [
+    {
+      "chunk_id": "1.1",
+      "heading": "Introduction to Field Visit",
+      "keywords": [
+        "Field Visit",
+        "Naldurg",
+        "Alibag",
+        "Practical Geography"
+      ],
+      "text": "Rahul is going on a field visit with Rahul's classmates and school teachers from Naldurg in Osmanabad district to Alibag in Raigad district. The school has engaged a special bus from State Transport for the purpose of the field visit. Rahul and Rahul's classmates have organized this field visit under the teachers’ guidance. The students are experiencing the changes occurring in the relief, soil, vegetation and human settlements as the students travel from Naldurg to Alibag.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.2",
+      "heading": "Preparations and Items for Field Visit",
+      "keywords": [
+        "I-Cards",
+        "Notebook",
+        "Binoculars",
+        "Camera",
+        "First-aid kit"
+      ],
+      "text": "Besides personal luggage and I-Cards, students are carrying items required for the field visit including a notebook, pen, binoculars, camera, cap, map, and water bottle. A first-aid kit is also carried by the students for safety during the trip. The teacher instructs the students to observe both sides along the roads and note down observations in notebooks with reference to relief, water bodies, vegetation, soil, agriculture, human settlement, and settlement patterns.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.3",
+      "heading": "Observations from Naldurg to Solapur",
+      "keywords": [
+        "Undulating topography",
+        "Plains",
+        "Agricultural fields",
+        "Dry deciduous vegetation"
+      ],
+      "text": "As the bus travels from Naldurg to Solapur, Rahul observes undulating topography and plains. The students see small settlements along the roads, tea stalls, dhaabas, petrol pumps, and other shops. The teacher explains that the bus is in the southern part of the Balaghat Ranges, which are the eastern off-shoots of the Sahyadris. Suraj observes that in rural areas, houses are in a straight line along the road with walls made of clay and roofs made of mud and wood. Renuka notices dry grass and trees that have shed the leaves, which the teacher identifies as dry deciduous type vegetation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.4",
+      "heading": "Urban Characteristics of Solapur City",
+      "keywords": [
+        "Population density",
+        "Multi-storeyed houses",
+        "Urbanization",
+        "Amenities"
+      ],
+      "text": "Upon reaching Solapur city, the teacher points out that in urban areas, the population density is high. The students see multi-storeyed houses made of a mixture of cement, sand, rubble, and water, constructed using bricks. Shops with modern amenities like shopping malls and big restaurants are found along the roads of Solapur.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.5",
+      "heading": "Agricultural Changes and Irrigation",
+      "keywords": [
+        "Sugarcane",
+        "Pulses",
+        "Irrigation",
+        "Ujani Dam"
+      ],
+      "text": "After crossing Solapur, Savitri notices that the fields are greener and mainly sugarcane is being cultivated. The teacher explains that while Naldurg had moog, urad, and other pulses, the shift to sugarcane is due to the availability of irrigation facilities. Near Indapur, the students see the backwaters of the Ujani dam built on the river Bhima. The Ujani dam is used for supplying drinking water, power generation, fishing, and irrigation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.6",
+      "heading": "Physiography of Sinhagad Fort",
+      "keywords": [
+        "Basalt",
+        "Igneous rock",
+        "Hill fort",
+        "Western Ghats"
+      ],
+      "text": "The students reach the foothills of Sinhagad and begin to climb. Qasim observes that the undulating plains have turned into rugged topography with hills. The teacher explains that the rock found at Sinhagad is basalt, which is an igneous type of rock. Sinhagad is a hill fort built for security and to keep an eye on the surroundings. From the top of the fort, the students can see the reservoir of the Khadakwasla dam which serves water to areas in and around Pune.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.7",
+      "heading": "Vegetation and Climate in the Ghats",
+      "keywords": [
+        "Teak trees",
+        "Deciduous trees",
+        "Bhor Ghat",
+        "Humidity"
+      ],
+      "text": "On Day 2, the students travel on the Mumbai-Pune Expressway and stop at Rajmachi point near Lonavala. The teacher identifies the hilly areas as the Sahyadris or Western Ghats. As the students cross the Bhor or Khandala ghat, Shiv notices dense forests with broad leaves. The teacher identifies these as teak trees and explains that the region is a region of deciduous trees. Nazma feels the air becoming hotter and more humid as the bus approaches the sea, causing perspiration.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "1.8",
+      "heading": "Coastal Features and Occupations in Alibag",
+      "keywords": [
+        "Arabian Sea",
+        "Kolaba Fort",
+        "Sea-fort",
+        "Primary occupations"
+      ],
+      "text": "The students reach Alibag and visit the Talathi office to gather information about crops and soil types. Later, the students visit the Alibag beach and Kolaba Fort. The teacher explains that Kolaba Fort is a sea-fort built on a wave-cut platform for the security of the seas. Rahul identifies fishing and agriculture as the main occupations. Meena classifies fishing and agriculture as primary occupations. The teacher adds that horticultural farming of coconut, betelnut, and jackfruit is practiced, and tourism has become an important occupation in Alibag.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.1",
+      "heading": "Location and Extent: India and Brazil",
+      "keywords": [
+        "Republic of India",
+        "Federative Republic of Brazil",
+        "Hemispheres",
+        "Latitudinal extent"
+      ],
+      "text": "The Republic of India is located in the northern and eastern hemispheres of the Earth, in the southern part of the Asian continent. The Federative Republic of Brazil has some parts in the northern hemisphere, while most of Brazil lies in the southern hemisphere. Brazil is located in the western hemisphere in the northern part of the South American continent. India is the second largest populated country in the world and is famous for spices and cricket. Brazil is famous for the Samba dance, is known as the 'coffee pot' of the world, and football is a very popular sport in Brazil.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "2.2",
+      "heading": "Historical Background of India and Brazil",
+      "keywords": [
+        "British rule",
+        "Portuguese rule",
+        "Independence",
+        "Economic reforms"
+      ],
+      "text": "India was under British rule for almost one-and-a-half century and gained independence in 1947. Despite facing three wars and famine situations, India is a major developing country and a global market. Brazil was under Portuguese rule for more than three centuries and gained independence in 1822. From 1930 to 1985, Brazil was under a populist military government. Both India and Brazil are now considered important global markets and contributors to global economic growth.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.1",
+      "heading": "Physiographic Divisions of India",
+      "keywords": [
+        "Himalayas",
+        "North Indian Plains",
+        "Peninsula",
+        "Coastal Plains",
+        "Island groups"
+      ],
+      "text": "India is divided into five major physiographic divisions: The Himalayas, The North Indian Plains, The Peninsula, Coastal Plains, and Island groups. The Himalayas are young fold mountains extending from Pamir Knot in Tajikistan to the east. The North Indian Plains lie between the Himalayan Mountains and the Peninsula, extending from Rajasthan and Punjab to Assam. The Peninsula is the area lying to the south of North Indian Plains and tapering towards the Indian Ocean, containing many plateaus and hill ranges like the Aravalis, Vindhyas, and Satpuda.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.2",
+      "heading": "Coastal Plains and Islands of India",
+      "keywords": [
+        "Arabian Sea",
+        "Bay of Bengal",
+        "Lakshadweep",
+        "Andaman and Nicobar"
+      ],
+      "text": "India has a coastline of approximately 7500 km. The western coast borders the Arabian Sea and is generally rocky with short, swift rivers forming estuaries. The eastern coast borders the Bay of Bengal and is a result of depositional work by rivers, forming large deltas. India's island groups include Lakshadweep in the Arabian Sea, which are atoll islands, and the Andaman and Nicobar Islands in the Bay of Bengal, which are volcanic islands including Barren Island, India's only active volcano.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.3",
+      "heading": "Physiographic Divisions of Brazil",
+      "keywords": [
+        "Highlands",
+        "Great Escarpment",
+        "Coastal region",
+        "Plains",
+        "Island groups"
+      ],
+      "text": "Brazil is divided into the Highlands, the Great Escarpment, the Coastal region, the Plains, and the Island groups. The Brazilian Highlands and Guyana Highlands form the core of the South American continent. The highest peak of Brazil is Pico de Neblina at 3014 m. The Great Escarpment occupies a small area but affects the climate by acting as a barrier to Southeast Trade winds, creating a rain-shadow area known as the 'Drought Quadrilateral' in the northeast.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.4",
+      "heading": "Plains and Drainage of Brazil",
+      "keywords": [
+        "Amazon basin",
+        "Paraguay-Parana",
+        "Pantanal",
+        "River Basins"
+      ],
+      "text": "The plains in Brazil are located in the Amazon basin in the north and the Paraguay-Parana source region in the southwest. The Amazon basin is the largest plain land of Brazil, mostly covered by tropical rainforests. Pantanal is one of the largest wetlands in the world, located in the southwest. Brazil's drainage is dominated by three major river basins: the Amazon Basin, the Paraguay-Parana system, and the Sao Francisco system. The Amazon River receives huge discharge and lacks a delta at the mouth due to the high velocity of water and sediments being washed away into the Atlantic Ocean.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "3.5",
+      "heading": "Drainage System of India",
+      "keywords": [
+        "Himalayan rivers",
+        "Peninsular rivers",
+        "Ganga",
+        "Indus",
+        "Brahmaputra"
+      ],
+      "text": "Rivers in India are classified into Himalayan and Peninsular rivers. Himalayan rivers like the Indus and Ganga are perennial as they originate from glaciers. The Ganga originates from Gangotri glacier and forms a massive delta with the Brahmaputra in Bangladesh. Peninsular rivers are rain-fed and seasonal. They are divided into east-flowing rivers that meet the Bay of Bengal (Mahanadi, Godavari, Krishna, Kaveri) and west-flowing rivers that meet the Arabian Sea (Narmada, Tapi, Mahi, Sabarmati). The Godavari is the second largest river system in India in terms of catchment area.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.1",
+      "heading": "Climate of Brazil",
+      "keywords": [
+        "Tropical zone",
+        "Equator",
+        "Trade winds",
+        "Orographic rainfall"
+      ],
+      "text": "Brazil experiences a wide range of climatic variations due to Brazil's vast latitudinal extent. The northern part near the equator is hot, while the climate is cooler in the Highlands. Brazil receives rainfall from the South-East Trade winds and the North-East Trade winds. The Great Escarpment causes orographic type of rainfall in the coastal region, while the interior beyond the highlands receives minimal rainfall, creating the 'Drought Quadrilateral'. The average temperature in the Amazon valley is 25°C to 28°C.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "4.2",
+      "heading": "Climate of India",
+      "keywords": [
+        "Monsoon",
+        "Tropic of Cancer",
+        "South-West Monsoon",
+        "Retreating Monsoon"
+      ],
+      "text": "India's climate is described as 'monsoon' type. The Tropic of Cancer passes through the middle of India, making India a tropical country. The Himalayas obstruct very cold winds from the north. Rainfall is mainly caused by the South-West Monsoon winds. The Western Ghats cause more rainfall in coastal areas, while the leeward side receives less. India has four seasons: the hot weather season, the season of rainfall (Monsoon), the season of Retreating Monsoon, and the cold weather season. Mawsynram and Cherrapunji are the wettest places in the world, located in India.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.1",
+      "heading": "Natural Vegetation in Brazil",
+      "keywords": [
+        "Rainforests",
+        "Lungs of the world",
+        "Equatorial forests",
+        "Biodiversity"
+      ],
+      "text": "In Brazil, rainfall varies due to physiography. Equatorial regions receive rainfall throughout the year, supporting dense evergreen rainforests. These rainforests release a large amount of oxygen and are called the 'lungs of the world'. Brazil has the largest number of vegetation species in the world, including Pau Brasil, rubber, mahogany, rosewood, and various orchids. As one moves away from the equator, the vegetation changes to deciduous, thorny shrubs, and grasslands.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "5.2",
+      "heading": "Natural Vegetation in India",
+      "keywords": [
+        "Evergreen forests",
+        "Deciduous forests",
+        "Thorny shrubs",
+        "Himalayan forests"
+      ],
+      "text": "India's forests are classified into Evergreen, Deciduous, Thorny Shrubs, Himalayan, and Coastal forests. Evergreen forests are found in regions with more than 2000 mm rainfall. Deciduous forests, the most widespread in India, are found in regions with 1000 mm to 2000 mm rainfall; trees in deciduous forests shed leaves in dry seasons. Thorny and shrub-type vegetation is found in regions with less than 500 mm rainfall. Coastal forests are called mangroves or Sunderbans. Himalayan forests vary by altitude, ranging from mixed forests at foothills to coniferous trees like pine and deodar at medium altitudes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.1",
+      "heading": "Population Distribution and Density",
+      "keywords": [
+        "Census 2011",
+        "Population Density",
+        "Ganga Plains",
+        "Amazon Basin"
+      ],
+      "text": "India’s population is around 121 crores according to Census 2011, making India the second most populous country. India supports 17.5% of the world’s population on 2.41% of the world's land area. The average population density of India is 382 persons per sq.km. Population is concentrated in the northern plains, Delhi, Kolkata, Mumbai, and Chennai. Brazil is the 5th most populous country with around 19 crore people (Census 2010). Brazil's population density is low at 23 persons per sq.km. Most Brazilians are concentrated within 300 km of the eastern coastal plain, while the Amazon Basin is sparsely populated due to unfavorable climate and dense forests.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "6.2",
+      "heading": "Population Composition and Life Expectancy",
+      "keywords": [
+        "Sex Ratio",
+        "Age-Sex Pyramid",
+        "Literacy Rate",
+        "Life Expectancy"
+      ],
+      "text": "The sex ratio in Brazil has been more than 1000 for decades, meaning women outnumber men. In India, men outnumber women, though the sex ratio has shown a slight increase after 1991. India has a higher proportion of youth, meaning India has a higher working population. Brazil's population is getting slowly older. Life expectancy in Brazil is around 75 years, while in India life expectancy is around 68 years. Literacy rates are higher in Brazil compared to India. Both countries conduct a census every ten years; India at the start of the decade and Brazil at the end of the decade.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "7.1",
+      "heading": "Human Settlements and Urbanization",
+      "keywords": [
+        "Nucleated settlements",
+        "Dispersed settlements",
+        "Go West policy",
+        "Metropolitan areas"
+      ],
+      "text": "In India, nucleated settlements are found in the Narmada Valley and Bihar, while dispersed settlements are found in tribal parts of Rajasthan and Himalayan slopes. Urbanization in India is slow, reaching 31.16% in 2011. Goa is the most urbanized state in India. Brazil is highly urbanized with 86% of the population living in urban areas. Urbanization in Brazil happened mainly in the South and South-east, particularly in Sao Paulo. To reduce regional imbalance, the Brazilian government promotes the 'Go West' policy to encourage settlements away from the coast.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.1",
+      "heading": "Economy and Occupations",
+      "keywords": [
+        "Mixed Economy",
+        "Primary Sector",
+        "GNI",
+        "Per Capita Income"
+      ],
+      "text": "Both India and Brazil have mixed economies and are developing nations. India has a higher Gross National Income (GNI) than Brazil, but Brazil has a higher per capita income because India's population is much larger. In India, a higher percentage of the population is engaged in primary activities (agriculture), though the contribution of the tertiary sector to GDP is increasing. Brazil is a global leader in mining, agriculture, and manufacturing. Agriculture in Brazil is the main occupation in the highlands and coastal areas, with Brazil being the largest exporter of coffee and soyabean.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "8.2",
+      "heading": "Mining, Fishing, and Trade",
+      "keywords": [
+        "Chhota Nagpur Plateau",
+        "Marine Fishing",
+        "BRICS",
+        "Balance of Trade"
+      ],
+      "text": "Mining in India is concentrated in the Chhota Nagpur Plateau. Fishing is a major occupation in coastal areas; India is one of the largest producers of marine and inland fish. Brazil has excellent fishing grounds where the warm Brazil current meets the cold Falkland current. India mainly exports tea, coffee, and textiles, while importing petroleum and machinery. Brazil exports iron ore, coffee, and sugar. Both countries are members of BRICS (Brazil, Russia, India, China, South Africa), a bloc aimed at economic cooperation. India has recently implemented the Goods and Services Tax (GST) to unify the tax system.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    },
+    {
+      "chunk_id": "9.1",
+      "heading": "Tourism, Transport, and Communication",
+      "keywords": [
+        "Ecotourism",
+        "Waterways",
+        "Indian Standard Time",
+        "Time Zones"
+      ],
+      "text": "Tourism is a major economic activity; Brazil promotes ecotourism while India attracts tourists for heritage and health tourism. Roadways are the most common transport in both countries. Brazil relies heavily on waterways in the Amazon River, which is the longest navigable waterway (3700 km). India has a denser railway network, especially in the North Indian Plains. Brazil has four time zones and is behind GMT by 2 to 5 hours. India has only one standard time zone (IST) based on 82.5° E longitude, which is 5 hours 30 minutes ahead of GMT. Both countries have advanced space agencies: ISRO in India and AEB in Brazil.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
+    }
+  ],
+  "generation_status": "complete"
+}

@@ -1,0 +1,14 @@
+# GBNF grammar for tutor output (PRD §7.1).
+#
+# The model may produce prose freely, but any computation MUST appear as a
+# well-formed <calc> block — llama.cpp's grammar-constrained sampling makes
+# malformed tool calls unrepresentable, not merely discouraged.
+
+root      ::= segment+
+segment   ::= calc | prose
+prose     ::= [^<]+
+calc      ::= "<calc>" ws op ws ":" ws payload ws "</calc>"
+op        ::= "solve" | "eval"
+payload   ::= pchar+
+pchar     ::= [0-9a-zA-Z+\-*/^=(). ]
+ws        ::= [ ]*

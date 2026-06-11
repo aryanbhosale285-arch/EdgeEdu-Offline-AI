@@ -10,7 +10,7 @@ Built against **PRD v3.0** (June 2026). Current status: **Phase 1 complete**.
 | --- | --- | --- |
 | 1 — Data & content | v3.0 schema, verified `solution_steps` + `latex`, signed bundles | ✅ done |
 | 2 — Web prototype | indexing, search, retrieve → explain end-to-end | ✅ done ([web/](web/)) |
-| 3 — Android MVP | Compose UI, llama.cpp via JNI, math engine + GBNF, KaTeX | next |
+| 3 — Android MVP | Compose UI, llama.cpp via JNI, math engine + GBNF, KaTeX | ✅ done ([android/](android/)) |
 | 4 — Hardening & test | integrity, JNI crash safety, performance | planned |
 | 5 — Showcase / expand | APK packaging, more subjects/grades | planned |
 
@@ -60,6 +60,36 @@ A Next.js app in [web/](web/) proving the retrieve→explain loop end-to-end:
 cd web
 npm install
 npm run dev     # http://localhost:3000
+```
+
+## Android app (Phase 3)
+
+A native Kotlin/Compose app in [android/](android/) — fully offline, no
+network permission in the manifest at all.
+
+- **Verified maths on device** — the LLM emits structured
+  `<calc>solve: …</calc>` / `<calc>eval: …</calc>` calls instead of
+  calculating; a Kotlin interceptor routes them through mXparser and splices
+  back engine-verified results (PRD §7.1 Layer 1). Solutions are verified by
+  substitution before display; non-linear or unparseable input fails loudly
+  rather than guessing.
+- **Engine abstraction** — `MockLlmEngine` (extractive, like Phase 2) runs by
+  default so the APK builds and works without model weights. `LlamaCppEngine`
+  + JNI bridge + CMake build are in place behind the `-PenableLlama` flag:
+  clone llama.cpp into `app/src/main/cpp/llama.cpp`, install the NDK, and
+  build. Generation is constrained by `assets/grammars/calc.gbnf`, so tool
+  calls are grammar-enforced.
+- **Same retrieval as the web** — BM25 with field boosts and IDF-coverage
+  decline, ported 1:1 to Kotlin; bundled content is SHA-256-verified against
+  the signed manifest at startup.
+- **KaTeX rendering** — bundled KaTeX in a sandboxed WebView via
+  WebViewAssetLoader (no file access, no remote loads).
+
+```bash
+cd android
+# local.properties must point at your Android SDK, then:
+gradle assembleDebug          # mock engine, no NDK needed
+gradle testDebugUnitTest      # math engine / interceptor / BM25 tests
 ```
 
 ## Content pipeline
