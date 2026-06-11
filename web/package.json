@@ -1,0 +1,24 @@
+{
+  "name": "edgeedu-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EdgeEdu Phase-2 web prototype: indexing, multilingual search, retrieve->explain chat over signed v3.0 curriculum",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "katex": "^0.16.11",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.5.0"
+  }
+}
