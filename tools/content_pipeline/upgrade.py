@@ -26,6 +26,37 @@ class UpgradeError(ValueError):
     pass
 
 
+def _devanagari_ratio(text: str) -> float:
+    visible = [ch for ch in text if not ch.isspace()]
+    if not visible:
+        return 0.0
+    return sum("ऀ" <= ch <= "ॿ" for ch in visible) / len(visible)
+
+
+def _script_matches(language: str, text: str) -> bool:
+    ratio = _devanagari_ratio(text)
+    return ratio < 0.15 if language == "English" else ratio > 0.15
+
+
+def _dedupe_chunks(chunks: list[dict], language: str, name: str) -> list[dict]:
+    """Resolve duplicate chunk_ids by keeping the chunk written in the
+    document's declared language (a known extraction defect left stray
+    Marathi chunks inside an English file). Ambiguous duplicates abort."""
+    by_id: dict[str, list[dict]] = {}
+    for chunk in chunks:
+        by_id.setdefault(chunk["chunk_id"], []).append(chunk)
+    out = []
+    for cid, group in by_id.items():
+        if len(group) > 1:
+            group = [c for c in group if _script_matches(language, c["text"])]
+            if len(group) != 1:
+                raise UpgradeError(
+                    f"{name}: duplicate chunk_id {cid!r} cannot be resolved by language script"
+                )
+        out.append(group[0])
+    return out
+
+
 def _upgrade_chunk(chunk: dict) -> dict:
     out = {
         "chunk_id": chunk["chunk_id"],
@@ -63,16 +94,12 @@ def upgrade_document(doc: dict, name: str = "<doc>", today: str | None = None) -
     if stray:
         raise UpgradeError(f"{name}: unrecognised top-level keys {stray}")
 
-    seen: set[str] = set()
-    for chunk in chunks:
-        cid = chunk.get("chunk_id")
-        if cid in seen:
-            raise UpgradeError(f"{name}: duplicate chunk_id {cid!r} after merging fragments")
-        seen.add(cid)
+    chunks = _dedupe_chunks(chunks, doc["metadata"].get("language", ""), name)
 
     meta = dict(doc["metadata"])
     meta.pop("chapter_id", None)
     meta.pop("chapter_title", None)
+    meta["standard"] = int(meta["standard"])
     meta["schema_version"] = SCHEMA_VERSION
     meta["content_version"] = meta.get("content_version", 1)
     meta["last_updated"] = today

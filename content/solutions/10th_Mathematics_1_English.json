@@ -1,0 +1,169 @@
+{
+  "target_file": "data/10th/10th_Mathematics 1_English.json",
+  "solutions": [
+    {
+      "chunk_id": "1.3",
+      "problem_latex": "15x + 17y = 21, \\quad 17x + 15y = 11",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "solve_system",
+        "equations": ["15*x + 17*y - 21", "17*x + 15*y - 11"],
+        "answer": {"x": "-2", "y": "3"}
+      },
+      "steps": [
+        {"text": "Add the two equations: 32x + 32y = 32. Divide both sides by 32.", "latex": "x + y = 1"},
+        {"text": "Subtract the second equation from the first: -2x + 2y = 10. Divide both sides by 2.", "latex": "-x + y = 5"},
+        {"text": "Add the two simplified equations: 2y = 6.", "latex": "y = 3"},
+        {"text": "Substitute y = 3 into x + y = 1.", "latex": "x = -2"},
+        {"text": "Check in the original equation: 15(-2) + 17(3) = -30 + 51 = 21.", "latex": "15(-2) + 17(3) = 21"}
+      ]
+    },
+    {
+      "chunk_id": "1.10",
+      "problem_latex": "x + y = 25, \\quad x = 2y - 8",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "solve_system",
+        "equations": ["x + y - 25", "x - (2*y - 8)"],
+        "answer": {"x": "14", "y": "11"}
+      },
+      "steps": [
+        {"text": "Substitute x = 2y - 8 into the first equation.", "latex": "(2y - 8) + y = 25"},
+        {"text": "Combine like terms: 3y - 8 = 25, so 3y = 33.", "latex": "y = 11"},
+        {"text": "Substitute y = 11 back: x = 2(11) - 8.", "latex": "x = 14"},
+        {"text": "Check: Sarthak's age 14 plus Sakshi's age 11 equals 25.", "latex": "14 + 11 = 25"}
+      ]
+    },
+    {
+      "chunk_id": "2.2",
+      "problem_latex": "x^2 + 5x - 6 = 0",
+      "difficulty": 2,
+      "importance": 4,
+      "check": {
+        "type": "roots",
+        "poly": "x**2 + 5*x - 6",
+        "roots": ["-6", "1"]
+      },
+      "steps": [
+        {"text": "Substituting x = -6 gives (-6)^2 + 5(-6) - 6 = 36 - 30 - 6 = 0, so -6 is a root.", "latex": "(-6)^2 + 5(-6) - 6 = 0"},
+        {"text": "Factor the quadratic: x^2 + 5x - 6 = (x + 6)(x - 1).", "latex": "(x + 6)(x - 1) = 0"},
+        {"text": "A product is zero when either factor is zero.", "latex": "x = -6 \\;\\text{or}\\; x = 1"}
+      ]
+    },
+    {
+      "chunk_id": "2.3",
+      "problem_latex": "x^2 - 4x - 5 = 0",
+      "difficulty": 2,
+      "importance": 5,
+      "check": {
+        "type": "roots",
+        "poly": "x**2 - 4*x - 5",
+        "roots": ["5", "-1"]
+      },
+      "steps": [
+        {"text": "Find two numbers whose product is -5 and sum is -4: they are -5 and +1.", "latex": "x^2 - 5x + x - 5 = 0"},
+        {"text": "Factor by grouping.", "latex": "(x - 5)(x + 1) = 0"},
+        {"text": "Set each factor to zero.", "latex": "x = 5 \\;\\text{or}\\; x = -1"}
+      ]
+    },
+    {
+      "chunk_id": "2.4",
+      "problem_latex": "x^2 + 10x + 2 = 0",
+      "difficulty": 4,
+      "importance": 4,
+      "check": {
+        "type": "roots",
+        "poly": "x**2 + 10*x + 2",
+        "roots": ["-5 + sqrt(23)", "-5 - sqrt(23)"]
+      },
+      "steps": [
+        {"text": "Half of 10 is 5; add and subtract 5^2 = 25 to complete the square.", "latex": "x^2 + 10x + 25 - 25 + 2 = 0"},
+        {"text": "Group the perfect square.", "latex": "(x + 5)^2 - 23 = 0"},
+        {"text": "Move 23 to the right side and take square roots.", "latex": "x + 5 = \\pm\\sqrt{23}"},
+        {"text": "Solve for x.", "latex": "x = -5 + \\sqrt{23} \\;\\text{or}\\; x = -5 - \\sqrt{23}"}
+      ]
+    },
+    {
+      "chunk_id": "2.6",
+      "problem_latex": "x^2 + 10x - 7 = 0",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "value",
+        "expr": "10**2 - 4*1*(-7)",
+        "expected": "128"
+      },
+      "steps": [
+        {"text": "For ax^2 + bx + c = 0 the discriminant is b^2 - 4ac. Here a = 1, b = 10, c = -7.", "latex": "\\Delta = b^2 - 4ac"},
+        {"text": "Substitute the coefficients: 10^2 - 4(1)(-7) = 100 + 28.", "latex": "\\Delta = 128"},
+        {"text": "Since the discriminant is positive, the equation has two distinct real roots.", "latex": "\\Delta > 0"}
+      ]
+    },
+    {
+      "chunk_id": "2.7",
+      "problem_latex": "2x^2 + 6x - 5 = 0",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "roots_sum_product",
+        "poly": "2*x**2 + 6*x - 5",
+        "sum": "-3",
+        "product": "-5/2"
+      },
+      "steps": [
+        {"text": "For ax^2 + bx + c = 0, the sum of the roots is -b/a. Here a = 2, b = 6.", "latex": "\\alpha + \\beta = -\\tfrac{6}{2} = -3"},
+        {"text": "The product of the roots is c/a, with c = -5.", "latex": "\\alpha\\beta = -\\tfrac{5}{2}"}
+      ]
+    },
+    {
+      "chunk_id": "2.8",
+      "problem_latex": "\\alpha + \\beta = -10, \\quad \\alpha\\beta = 21",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "roots",
+        "poly": "x**2 + 10*x + 21",
+        "roots": ["-3", "-7"]
+      },
+      "steps": [
+        {"text": "A quadratic with given roots is x^2 - (sum of roots)x + (product of roots) = 0.", "latex": "x^2 - (-10)x + 21 = 0"},
+        {"text": "Simplify the signs.", "latex": "x^2 + 10x + 21 = 0"},
+        {"text": "Check by factoring: (x + 3)(x + 7) = 0 gives roots -3 and -7, whose sum is -10 and product is 21.", "latex": "(x + 3)(x + 7) = 0"}
+      ]
+    },
+    {
+      "chunk_id": "3.3",
+      "problem_latex": "a = 5,\\; d = 3:\\; t_{100} = ?",
+      "difficulty": 2,
+      "importance": 5,
+      "check": {
+        "type": "value",
+        "expr": "5 + (100 - 1)*3",
+        "expected": "302"
+      },
+      "steps": [
+        {"text": "Use the nth-term formula with a = 5, d = 3, n = 100.", "latex": "t_n = a + (n - 1)d"},
+        {"text": "Substitute the values.", "latex": "t_{100} = 5 + (100 - 1) \\times 3"},
+        {"text": "Evaluate: 99 times 3 is 297, plus 5.", "latex": "t_{100} = 302"}
+      ]
+    },
+    {
+      "chunk_id": "3.4",
+      "problem_latex": "a = 14,\\; d = 2:\\; S_{100} = ?",
+      "difficulty": 3,
+      "importance": 5,
+      "check": {
+        "type": "value",
+        "expr": "(100/2)*(2*14 + (100 - 1)*2)",
+        "expected": "11300"
+      },
+      "steps": [
+        {"text": "Use the sum formula with a = 14, d = 2, n = 100.", "latex": "S_n = \\tfrac{n}{2}\\left[2a + (n - 1)d\\right]"},
+        {"text": "Substitute the values.", "latex": "S_{100} = \\tfrac{100}{2}\\left[2(14) + 99 \\times 2\\right]"},
+        {"text": "Evaluate the bracket: 28 + 198 = 226, then multiply by 50.", "latex": "S_{100} = 11300"}
+      ]
+    }
+  ]
+}

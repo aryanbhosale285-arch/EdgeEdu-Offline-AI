@@ -1,12 +1,13 @@
 {
   "metadata": {
     "file_name": "9_MATHS_PART_1_ENGLISH_MASTER",
-    "standard": "9",
+    "standard": 9,
     "subject": "Mathematics Part-I",
     "language": "English",
     "board": "Maharashtra State Board",
-    "chapter_id": 1,
-    "chapter_title": "Sets"
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
   },
   "content_chunks": [
     {
@@ -17,7 +18,11 @@
         "well-defined collection",
         "elements of a set"
       ],
-      "text": "If a collection of objects is such that the objects can be definitely and clearly decided, then that collection is called a set. Generally, the name of the set is given using capital letters A, B, C, ..., Z. The members or objects of the set are called elements and are shown using small letters a, b, c, etc. If 'a' is an element of set A, it is written as 'a ∈ A'. If 'a' is not an element of set A, it is written as 'a ∉ A'. Collections based on relative terms like 'happy' or 'brilliant' are not considered sets because the criteria for these terms differ from person to person."
+      "text": "If a collection of objects is such that the objects can be definitely and clearly decided, then that collection is called a set. Generally, the name of the set is given using capital letters A, B, C, ..., Z. The members or objects of the set are called elements and are shown using small letters a, b, c, etc. If 'a' is an element of set A, it is written as 'a ∈ A'. If 'a' is not an element of set A, it is written as 'a ∉ A'. Collections based on relative terms like 'happy' or 'brilliant' are not considered sets because the criteria for these terms differ from person to person.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.2",
@@ -28,7 +33,11 @@
         "Rule method",
         "Set builder form"
       ],
-      "text": "There are two primary methods of writing sets. (1) Listing method or Roster method: In the listing method, all elements of a set are written within curly brackets, separated by commas. Each element is written only once, and the order of elements is not important. For example, the set of letters in the word 'remember' is written as A = {r, e, m, b}. (2) Rule method or Set builder form: In the rule method, the list of elements is not written; instead, a general element is represented by a variable followed by a vertical line or colon, and the property of the variable is described. For example, A = {x | x ∈ N, 1 < x < 10} is read as 'set A is the set of all x such that x is a natural number between 1 and 10'."
+      "text": "There are two primary methods of writing sets. (1) Listing method or Roster method: In the listing method, all elements of a set are written within curly brackets, separated by commas. Each element is written only once, and the order of elements is not important. For example, the set of letters in the word 'remember' is written as A = {r, e, m, b}. (2) Rule method or Set builder form: In the rule method, the list of elements is not written; instead, a general element is represented by a variable followed by a vertical line or colon, and the property of the variable is described. For example, A = {x | x ∈ N, 1 < x < 10} is read as 'set A is the set of all x such that x is a natural number between 1 and 10'.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.3",
@@ -40,7 +49,11 @@
         "Rational numbers",
         "Real numbers"
       ],
-      "text": "Mathematics defines standard sets of numbers: N = {1, 2, 3, ...} is the set of natural numbers. W = {0, 1, 2, 3, ...} is the set of whole numbers. I = {..., -3, -2, -1, 0, 1, 2, 3, ...} is the set of integers. Q is the set of rational numbers, which can be written in the form p/q where p and q are integers and q is non-zero. R is the set of real numbers."
+      "text": "Mathematics defines standard sets of numbers: N = {1, 2, 3, ...} is the set of natural numbers. W = {0, 1, 2, 3, ...} is the set of whole numbers. I = {..., -3, -2, -1, 0, 1, 2, 3, ...} is the set of integers. Q is the set of rational numbers, which can be written in the form p/q where p and q are integers and q is non-zero. R is the set of real numbers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.4",
@@ -52,7 +65,11 @@
         "Finite set",
         "Infinite set"
       ],
-      "text": "Sets are classified based on their number of elements. (1) Singleton Set: A set consisting of a single element is called a singleton set, such as A = {2}. (2) Empty Set or Null Set: If there is not a single element in the set which satisfies the given condition, it is called a null set, represented by { } or the symbol φ (phi). (3) Finite Set: If a set is a null set or the number of elements are limited and countable, it is called a finite set. (4) Infinite Set: If the number of elements in a set is unlimited and uncountable, the set is called an infinite set, such as the set of natural numbers N."
+      "text": "Sets are classified based on their number of elements. (1) Singleton Set: A set consisting of a single element is called a singleton set, such as A = {2}. (2) Empty Set or Null Set: If there is not a single element in the set which satisfies the given condition, it is called a null set, represented by { } or the symbol φ (phi). (3) Finite Set: If a set is a null set or the number of elements are limited and countable, it is called a finite set. (4) Infinite Set: If the number of elements in a set is unlimited and uncountable, the set is called an infinite set, such as the set of natural numbers N.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.5",
@@ -61,7 +78,11 @@
         "Equal sets definition",
         "Identical elements"
       ],
-      "text": "Two sets A and B are said to be equal if every element of set A is in set B and every element of set B is in set A. Symbolically, equal sets are written as A = B. The order of elements does not affect the equality of sets as long as the elements are identical."
+      "text": "Two sets A and B are said to be equal if every element of set A is in set B and every element of set B is in set A. Symbolically, equal sets are written as A = B. The order of elements does not affect the equality of sets as long as the elements are identical.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.6",
@@ -72,7 +93,11 @@
         "Subset",
         "Subset symbol"
       ],
-      "text": "British logician John Venn introduced the use of closed figures to represent sets, known as Venn diagrams. These diagrams illustrate relationships between sets. A subset is defined as follows: If A and B are two given sets and every element of set B is also an element of set A, then B is a subset of A, written as B ⊆ A. Important properties include: (i) Every set is a subset of itself (A ⊆ A). (ii) The empty set is a subset of every set (φ ⊆ A). (iii) If A = B, then A ⊆ B and B ⊆ A."
+      "text": "British logician John Venn introduced the use of closed figures to represent sets, known as Venn diagrams. These diagrams illustrate relationships between sets. A subset is defined as follows: If A and B are two given sets and every element of set B is also an element of set A, then B is a subset of A, written as B ⊆ A. Important properties include: (i) Every set is a subset of itself (A ⊆ A). (ii) The empty set is a subset of every set (φ ⊆ A). (iii) If A = B, then A ⊆ B and B ⊆ A.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.7",
@@ -82,7 +107,11 @@
         "Complement of a set",
         "A prime"
       ],
-      "text": "A Universal set is a sufficiently large set that accommodates all the sets under consideration as its subsets, generally denoted by 'U'. If U is the universal set and B ⊆ U, then the set of all elements in U which are not in set B is called the complement of B, denoted by B' or B^c. Properties of complement include: (i) No elements are common in A and A'. (ii) A ⊆ U and A' ⊆ U. (iii) The complement of the universal set is the empty set (U' = φ). (iv) The complement of an empty set is the universal set (φ' = U)."
+      "text": "A Universal set is a sufficiently large set that accommodates all the sets under consideration as its subsets, generally denoted by 'U'. If U is the universal set and B ⊆ U, then the set of all elements in U which are not in set B is called the complement of B, denoted by B' or B^c. Properties of complement include: (i) No elements are common in A and A'. (ii) A ⊆ U and A' ⊆ U. (iii) The complement of the universal set is the empty set (U' = φ). (iv) The complement of an empty set is the universal set (φ' = U).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.8",
@@ -92,7 +121,11 @@
         "Union of sets",
         "Disjoint sets"
       ],
-      "text": "Set operations include: (1) Intersection: The set of all common elements of sets A and B is called the intersection of A and B, denoted as A ∩ B. (2) Disjoint Sets: If sets A and B have no common elements, they are called disjoint sets. (3) Union: The set of all elements of set A and set B is called the union of the two sets, denoted as A ∪ B. For any sets A and B, A ∪ B = {x | x ∈ A or x ∈ B}."
+      "text": "Set operations include: (1) Intersection: The set of all common elements of sets A and B is called the intersection of A and B, denoted as A ∩ B. (2) Disjoint Sets: If sets A and B have no common elements, they are called disjoint sets. (3) Union: The set of all elements of set A and set B is called the union of the two sets, denoted as A ∪ B. For any sets A and B, A ∪ B = {x | x ∈ A or x ∈ B}.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.9",
@@ -102,7 +135,11 @@
         "Set cardinality formula",
         "Union and intersection formula"
       ],
-      "text": "The number of elements in set A is denoted as n(A). The relationship between the number of elements in the union and intersection of two sets is given by the formula: n(A ∪ B) = n(A) + n(B) - n(A ∩ B). This formula accounts for the fact that elements in the intersection are counted twice when adding n(A) and n(B) individually."
+      "text": "The number of elements in set A is denoted as n(A). The relationship between the number of elements in the union and intersection of two sets is given by the formula: n(A ∪ B) = n(A) + n(B) - n(A ∩ B). This formula accounts for the fact that elements in the intersection are counted twice when adding n(A) and n(B) individually.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.1",
@@ -113,7 +150,11 @@
         "Identity property",
         "Inverse property"
       ],
-      "text": "If a, b, and c are rational numbers, they follow specific properties for addition and multiplication. (1) Commutative: a + b = b + a and a × b = b × a. (2) Associative: (a + b) + c = a + (b + c) and a × (b × c) = (a × b) × c. (3) Identity: a + 0 = a and a × 1 = a. (4) Inverse: a + (-a) = 0 and a × (1/a) = 1 (where a ≠ 0)."
+      "text": "If a, b, and c are rational numbers, they follow specific properties for addition and multiplication. (1) Commutative: a + b = b + a and a × b = b × a. (2) Associative: (a + b) + c = a + (b + c) and a × (b × c) = (a × b) × c. (3) Identity: a + 0 = a and a × 1 = a. (4) Inverse: a + (-a) = 0 and a × (1/a) = 1 (where a ≠ 0).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.2",
@@ -123,7 +164,34 @@
         "Non-terminating recurring decimal",
         "p/q form"
       ],
-      "text": "The decimal form of any rational number is either terminating or non-terminating recurring type. A terminating decimal ends after a finite number of digits (e.g., 2/5 = 0.4). A non-terminating recurring decimal has a digit or a group of digits that repeats infinitely (e.g., 17/36 = 0.47222...). Recurring decimals can be expressed in p/q form by multiplying the decimal by powers of 10 (10, 100, 1000) based on the number of recurring digits and subtracting the original value to eliminate the recurring part."
+      "text": "The decimal form of any rational number is either terminating or non-terminating recurring type. A terminating decimal ends after a finite number of digits (e.g., 2/5 = 0.4). A non-terminating recurring decimal has a digit or a group of digits that repeats infinitely (e.g., 17/36 = 0.47222...). Recurring decimals can be expressed in p/q form by multiplying the decimal by powers of 10 (10, 100, 1000) based on the number of recurring digits and subtracting the original value to eliminate the recurring part.",
+      "difficulty": 3,
+      "importance": 4,
+      "linked_concepts": [],
+      "prerequisites": [],
+      "latex": "0.4\\overline{72} = \\tfrac{p}{q} ?",
+      "solution_steps": [
+        {
+          "text": "A terminating decimal ends after finitely many digits, for example 2/5 = 0.4.",
+          "latex": "\\tfrac{2}{5} = 0.4",
+          "verified": true
+        },
+        {
+          "text": "For the recurring decimal 0.47222..., let x = 0.47222.... Then 100x = 47.222... and 10x = 4.7222....",
+          "latex": "100x - 10x = 47.2\\overline{2} - 4.7\\overline{2}",
+          "verified": true
+        },
+        {
+          "text": "Subtracting eliminates the recurring part: 90x = 42.5.",
+          "latex": "x = \\tfrac{425}{900}",
+          "verified": true
+        },
+        {
+          "text": "Reduce the fraction to lowest terms.",
+          "latex": "x = \\tfrac{17}{36}",
+          "verified": true
+        }
+      ]
     },
     {
       "chunk_id": "2.3",
@@ -135,7 +203,11 @@
         "Radicand",
         "Order of surd"
       ],
-      "text": "A number whose decimal expansion is non-terminating and non-recurring is called an irrational number. Examples include √2, √3, and π. If 'a' is a positive rational number and the n-th root of 'a' (denoted as ⁿ√a) is an irrational number, then ⁿ√a is called a surd. In the surd ⁿ√a, the symbol √ is the radical sign, 'n' is the order of the surd, and 'a' is the radicand. A surd of order 2 is called a quadratic surd."
+      "text": "A number whose decimal expansion is non-terminating and non-recurring is called an irrational number. Examples include √2, √3, and π. If 'a' is a positive rational number and the n-th root of 'a' (denoted as ⁿ√a) is an irrational number, then ⁿ√a is called a surd. In the surd ⁿ√a, the symbol √ is the radical sign, 'n' is the order of the surd, and 'a' is the radicand. A surd of order 2 is called a quadratic surd.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.4",
@@ -146,7 +218,11 @@
         "Rationalizing factor",
         "Conjugate pair"
       ],
-      "text": "Surds are called like surds if their order and radicands are equal in their simplest form. Only like surds can be added or subtracted. To compare two surds, their radicands are compared after ensuring they have the same order. If the product of two surds is a rational number, each surd is called a rationalizing factor of the other. For binomial quadratic surds like (√a + √b), the conjugate pair is (√a - √b). The product of a binomial surd and its conjugate is always a rational number, which is used to rationalize denominators."
+      "text": "Surds are called like surds if their order and radicands are equal in their simplest form. Only like surds can be added or subtracted. To compare two surds, their radicands are compared after ensuring they have the same order. If the product of two surds is a rational number, each surd is called a rationalizing factor of the other. For binomial quadratic surds like (√a + √b), the conjugate pair is (√a - √b). The product of a binomial surd and its conjugate is always a rational number, which is used to rationalize denominators.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.5",
@@ -156,7 +232,11 @@
         "Distance from zero",
         "Absolute value properties"
       ],
-      "text": "If x is a real number, the absolute value of x is its distance from zero on the number line, written as |x|. If x > 0, |x| = x. If x = 0, |x| = 0. If x < 0, |x| = -x. The absolute value of any real number is never negative. For example, |3| = 3 and |-3| = 3."
+      "text": "If x is a real number, the absolute value of x is its distance from zero on the number line, written as |x|. If x > 0, |x| = x. If x = 0, |x| = 0. If x < 0, |x| = -x. The absolute value of any real number is never negative. For example, |3| = 3 and |-3| = 3.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.1",
@@ -166,7 +246,11 @@
         "polynomial definition",
         "constant polynomial"
       ],
-      "text": "In an algebraic expression, if the powers of the variables are whole numbers, then that algebraic expression is known as a polynomial. For example, x^2 + 2x + 3 is a polynomial. Real numbers such as 6, -7, or 1/2 are called constant polynomials. The number 0 is also a constant polynomial. Expressions where the variable has a negative power or a fractional power, such as 1/y (which is y^-1) or √y (which is y^1/2), are not polynomials because the powers are not whole numbers."
+      "text": "In an algebraic expression, if the powers of the variables are whole numbers, then that algebraic expression is known as a polynomial. For example, x^2 + 2x + 3 is a polynomial. Real numbers such as 6, -7, or 1/2 are called constant polynomials. The number 0 is also a constant polynomial. Expressions where the variable has a negative power or a fractional power, such as 1/y (which is y^-1) or √y (which is y^1/2), are not polynomials because the powers are not whole numbers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.2",
@@ -177,7 +261,11 @@
         "Trinomial",
         "Degree of polynomial"
       ],
-      "text": "Polynomials are classified based on the number of terms: (1) Monomial: A polynomial having only one term (e.g., 2x). (2) Binomial: A polynomial having two terms (e.g., x^4 + x). (3) Trinomial: A polynomial having three terms (e.g., 1/2 y^2 - 2y + 5). Polynomials are also classified by their degree. The degree of a polynomial in one variable is the highest power of the variable. For a polynomial in more than one variable, the degree is the highest sum of the powers of the variables in each term. The degree of a non-zero constant polynomial is 0, and the degree of a zero polynomial is not defined."
+      "text": "Polynomials are classified based on the number of terms: (1) Monomial: A polynomial having only one term (e.g., 2x). (2) Binomial: A polynomial having two terms (e.g., x^4 + x). (3) Trinomial: A polynomial having three terms (e.g., 1/2 y^2 - 2y + 5). Polynomials are also classified by their degree. The degree of a polynomial in one variable is the highest power of the variable. For a polynomial in more than one variable, the degree is the highest sum of the powers of the variables in each term. The degree of a non-zero constant polynomial is 0, and the degree of a zero polynomial is not defined.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.3",
@@ -187,7 +275,11 @@
         "Quadratic polynomial",
         "Cubic polynomial"
       ],
-      "text": "Polynomials in one variable are categorized by degree: (1) Linear Polynomial: A polynomial of degree 1, with the standard form ax + b (e.g., 3x - 1). (2) Quadratic Polynomial: A polynomial of degree 2, with the standard form ax^2 + bx + c (e.g., 2y^2 + y + 1). (3) Cubic Polynomial: A polynomial of degree 3, with the standard form ax^3 + bx^2 + cx + d (e.g., x^3 + x^2 + 2x + 3)."
+      "text": "Polynomials in one variable are categorized by degree: (1) Linear Polynomial: A polynomial of degree 1, with the standard form ax + b (e.g., 3x - 1). (2) Quadratic Polynomial: A polynomial of degree 2, with the standard form ax^2 + bx + c (e.g., 2y^2 + y + 1). (3) Cubic Polynomial: A polynomial of degree 3, with the standard form ax^3 + bx^2 + cx + d (e.g., x^3 + x^2 + 2x + 3).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.4",
@@ -197,7 +289,11 @@
         "Index form",
         "Coefficient form"
       ],
-      "text": "A polynomial can be written in different forms: (1) Standard Form: Writing the terms in descending powers of the variable (e.g., x^4 - 3x^2 + x + 5). (2) Index Form: Including all missing power terms with a coefficient of zero (e.g., x^4 + 0x^3 - 3x^2 + x + 5). (3) Coefficient Form: Writing only the coefficients of the index form in brackets (e.g., (1, 0, -3, 1, 5))."
+      "text": "A polynomial can be written in different forms: (1) Standard Form: Writing the terms in descending powers of the variable (e.g., x^4 - 3x^2 + x + 5). (2) Index Form: Including all missing power terms with a coefficient of zero (e.g., x^4 + 0x^3 - 3x^2 + x + 5). (3) Coefficient Form: Writing only the coefficients of the index form in brackets (e.g., (1, 0, -3, 1, 5)).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.5",
@@ -208,7 +304,11 @@
         "Multiplication",
         "Division"
       ],
-      "text": "Polynomials follow standard algebraic operations. Addition and subtraction are performed by combining like terms (terms with the same variable and power). Multiplication involves multiplying each term of the first polynomial by each term of the second polynomial. Division can be performed using the Euclidean division lemma: s(x) = p(x) × q(x) + r(x), where s(x) is the dividend, p(x) is the divisor, q(x) is the quotient, and r(x) is the remainder (where r(x) = 0 or degree of r(x) < degree of p(x))."
+      "text": "Polynomials follow standard algebraic operations. Addition and subtraction are performed by combining like terms (terms with the same variable and power). Multiplication involves multiplying each term of the first polynomial by each term of the second polynomial. Division can be performed using the Euclidean division lemma: s(x) = p(x) × q(x) + r(x), where s(x) is the dividend, p(x) is the divisor, q(x) is the quotient, and r(x) is the remainder (where r(x) = 0 or degree of r(x) < degree of p(x)).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.6",
@@ -217,7 +317,11 @@
         "Synthetic division method",
         "Linear divisor"
       ],
-      "text": "Synthetic division is an easy method for dividing a polynomial by a linear divisor of the form (x + a) or (x - a). The method uses the coefficient form of the dividend and the opposite of the constant term from the divisor. For example, to divide by (x + 2), the value -2 is used. The coefficients are processed through a series of additions and multiplications to find the quotient's coefficients and the final remainder."
+      "text": "Synthetic division is an easy method for dividing a polynomial by a linear divisor of the form (x + a) or (x - a). The method uses the coefficient form of the dividend and the opposite of the constant term from the divisor. For example, to divide by (x + 2), the value -2 is used. The coefficients are processed through a series of additions and multiplications to find the quotient's coefficients and the final remainder.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.7",
@@ -227,7 +331,11 @@
         "Factor theorem",
         "p(a)"
       ],
-      "text": "The Remainder Theorem states that if a polynomial p(x) is divided by (x + a), the remainder is p(-a). The Factor Theorem states that if p(a) = 0 for a real number 'a', then (x - a) is a factor of the polynomial p(x). Conversely, if (x - a) is a factor of p(x), then p(a) must equal 0. These theorems allow for finding remainders and factors without performing full long division."
+      "text": "The Remainder Theorem states that if a polynomial p(x) is divided by (x + a), the remainder is p(-a). The Factor Theorem states that if p(a) = 0 for a real number 'a', then (x - a) is a factor of the polynomial p(x). Conversely, if (x - a) is a factor of p(x), then p(a) must equal 0. These theorems allow for finding remainders and factors without performing full long division.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.1",
@@ -237,7 +345,11 @@
         "Predecessor",
         "Successor"
       ],
-      "text": "A ratio is a comparison of two quantities of the same unit. In the ratio a:b (or a/b), 'a' is called the predecessor (first term) and 'b' is called the successor (second term). A ratio remains unchanged if both terms are multiplied or divided by the same non-zero number. Ratios are unitless. If the second term of a ratio is 100, it is known as a percentage."
+      "text": "A ratio is a comparison of two quantities of the same unit. In the ratio a:b (or a/b), 'a' is called the predecessor (first term) and 'b' is called the successor (second term). A ratio remains unchanged if both terms are multiplied or divided by the same non-zero number. Ratios are unitless. If the second term of a ratio is 100, it is known as a percentage.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.2",
@@ -247,7 +359,11 @@
         "Inverse variation",
         "Constant of variation"
       ],
-      "text": "Direct Proportion: Two quantities are in direct proportion if their ratio (x/y) remains constant (k). For example, fuel consumption and distance covered. Inverse Proportion: Two quantities are in inverse proportion if their product (x × y) remains constant (k). For example, speed and time taken to cover a fixed distance."
+      "text": "Direct Proportion: Two quantities are in direct proportion if their ratio (x/y) remains constant (k). For example, fuel consumption and distance covered. Inverse Proportion: Two quantities are in inverse proportion if their product (x × y) remains constant (k). For example, speed and time taken to cover a fixed distance.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.3",
@@ -259,7 +375,11 @@
         "Dividendo",
         "Componendo-Dividendo"
       ],
-      "text": "If a/b = c/d, the following properties apply: (1) Invertendo: b/a = d/c. (2) Alternando: a/c = b/d. (3) Componendo: (a+b)/b = (c+d)/d. (4) Dividendo: (a-b)/b = (c-d)/d. (5) Componendo-Dividendo: (a+b)/(a-b) = (c+d)/(c-d). These operations are used to solve complex equations involving ratios."
+      "text": "If a/b = c/d, the following properties apply: (1) Invertendo: b/a = d/c. (2) Alternando: a/c = b/d. (3) Componendo: (a+b)/b = (c+d)/d. (4) Dividendo: (a-b)/b = (c-d)/d. (5) Componendo-Dividendo: (a+b)/(a-b) = (c+d)/(c-d). These operations are used to solve complex equations involving ratios.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.4",
@@ -268,7 +388,11 @@
         "Equal ratios theorem",
         "k-method"
       ],
-      "text": "The Theorem on Equal Ratios states that if a/b = c/d = e/f = ..., then each ratio is equal to (a + c + e + ...) / (b + d + f + ...). More generally, each ratio is equal to (la + mc + ne) / (lb + md + nf) for non-zero numbers l, m, n. The 'k-method' is a technique where each equal ratio is assumed to be equal to a constant 'k' (e.g., a = bk, c = dk), which is then substituted into expressions to prove identities."
+      "text": "The Theorem on Equal Ratios states that if a/b = c/d = e/f = ..., then each ratio is equal to (a + c + e + ...) / (b + d + f + ...). More generally, each ratio is equal to (la + mc + ne) / (lb + md + nf) for non-zero numbers l, m, n. The 'k-method' is a technique where each equal ratio is assumed to be equal to a constant 'k' (e.g., a = bk, c = dk), which is then substituted into expressions to prove identities.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.5",
@@ -278,7 +402,11 @@
         "Geometric mean",
         "Mean proportional"
       ],
-      "text": "Three quantities a, b, and c are said to be in continued proportion if a/b = b/c. This implies b^2 = ac. In this case, 'b' is called the geometric mean or the mean proportional of 'a' and 'c'. This concept can be extended to more terms: a, b, c, d, e, f are in continued proportion if a/b = b/c = c/d = d/e = e/f."
+      "text": "Three quantities a, b, and c are said to be in continued proportion if a/b = b/c. This implies b^2 = ac. In this case, 'b' is called the geometric mean or the mean proportional of 'a' and 'c'. This concept can be extended to more terms: a, b, c, d, e, f are in continued proportion if a/b = b/c = c/d = d/e = e/f.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.2",
@@ -288,7 +416,11 @@
         "common solution",
         "unique solution"
       ],
-      "text": "When two linear equations in two variables are considered at the same time, they are called simultaneous equations. The common solution that satisfies both equations is called the solution of the simultaneous equations. For most pairs of linear equations, there is a unique common solution represented as an ordered pair (x, y)."
+      "text": "When two linear equations in two variables are considered at the same time, they are called simultaneous equations. The common solution that satisfies both equations is called the solution of the simultaneous equations. For most pairs of linear equations, there is a unique common solution represented as an ordered pair (x, y).",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.3",
@@ -298,7 +430,11 @@
         "coefficient equalization",
         "variable removal"
       ],
-      "text": "The elimination method involves removing one variable to obtain an equation in one variable. This is done by equalizing the coefficients of one of the variables in both equations through multiplication. Once the coefficients are equal (or opposite), the equations are added or subtracted to eliminate that variable. The resulting value of the remaining variable is then substituted back into one of the original equations to find the value of the eliminated variable."
+      "text": "The elimination method involves removing one variable to obtain an equation in one variable. This is done by equalizing the coefficients of one of the variables in both equations through multiplication. Once the coefficients are equal (or opposite), the equations are added or subtracted to eliminate that variable. The resulting value of the remaining variable is then substituted back into one of the original equations to find the value of the eliminated variable.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.4",
@@ -308,7 +444,11 @@
         "variable expression",
         "algebraic substitution"
       ],
-      "text": "In the substitution method, one variable is expressed in terms of the other variable using one of the given equations. For example, if x - y = 2, then x can be expressed as x = y + 2. This expression is then substituted into the second equation, transforming it into a linear equation in one variable. After solving for that variable, the value is used to find the second variable."
+      "text": "In the substitution method, one variable is expressed in terms of the other variable using one of the given equations. For example, if x - y = 2, then x can be expressed as x = y + 2. This expression is then substituted into the second equation, transforming it into a linear equation in one variable. After solving for that variable, the value is used to find the second variable.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.1",
@@ -319,7 +459,11 @@
         "financial planning",
         "compound interest"
       ],
-      "text": "Financial planning involves making provisions for predictable expenses (like education, vehicle purchase, or retirement) and unpredictable expenses (like natural disasters or medical emergencies). Savings refers to the portion of income not spent on current necessities. Investment is the act of putting saved money into assets like fixed deposits, mutual funds, shares, or real estate to protect and grow wealth. Compound interest is a common way to calculate returns on bank investments, where interest is earned on both the principal and the accumulated interest."
+      "text": "Financial planning involves making provisions for predictable expenses (like education, vehicle purchase, or retirement) and unpredictable expenses (like natural disasters or medical emergencies). Savings refers to the portion of income not spent on current necessities. Investment is the act of putting saved money into assets like fixed deposits, mutual funds, shares, or real estate to protect and grow wealth. Compound interest is a common way to calculate returns on bank investments, where interest is earned on both the principal and the accumulated interest.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.2",
@@ -331,7 +475,11 @@
         "assessment year",
         "financial year"
       ],
-      "text": "Taxes are charged by the government to generate funds for infrastructure and welfare schemes. Direct taxes (like income tax) are paid directly by the taxpayer, while indirect taxes (like GST) are paid through goods and services. The Financial Year is the period from 1st April to 31st March during which income is earned. The Assessment Year is the year immediately following the financial year in which the income is taxed. Every taxpayer is assigned a 10-digit alphanumeric Permanent Account Number (PAN) for tax transactions."
+      "text": "Taxes are charged by the government to generate funds for infrastructure and welfare schemes. Direct taxes (like income tax) are paid directly by the taxpayer, while indirect taxes (like GST) are paid through goods and services. The Financial Year is the period from 1st April to 31st March during which income is earned. The Assessment Year is the year immediately following the financial year in which the income is taxed. Every taxpayer is assigned a 10-digit alphanumeric Permanent Account Number (PAN) for tax transactions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.3",
@@ -342,7 +490,11 @@
         "section 80C",
         "education cess"
       ],
-      "text": "Income tax is calculated on taxable income, which is the Gross Total Income minus permissible deductions. Under Section 80C of the Income Tax Act, deductions up to Rs. 1,50,000 can be claimed for investments in GPF, PPF, LIC, and NSC. Tax rates are determined by income slabs and the age of the individual (Individuals up to 60, Senior Citizens 60-80, and Super Senior Citizens above 80). Additionally, an Education Cess and Secondary and Higher Education Cess are levied on the calculated income tax."
+      "text": "Income tax is calculated on taxable income, which is the Gross Total Income minus permissible deductions. Under Section 80C of the Income Tax Act, deductions up to Rs. 1,50,000 can be claimed for investments in GPF, PPF, LIC, and NSC. Tax rates are determined by income slabs and the age of the individual (Individuals up to 60, Senior Citizens 60-80, and Super Senior Citizens above 80). Additionally, an Education Cess and Secondary and Higher Education Cess are levied on the calculated income tax.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.1",
@@ -352,7 +504,11 @@
         "percentage bar diagram",
         "data visualization"
       ],
-      "text": "Statistics involves the collection, organization, and analysis of numerical data. Data can be represented visually using various diagrams. A Sub-divided Bar Diagram shows the total value of a category as a single bar divided into parts representing different components. A Percentage Bar Diagram converts these components into percentages of the total, with every bar having a constant height of 100 units, allowing for easier comparison between different groups."
+      "text": "Statistics involves the collection, organization, and analysis of numerical data. Data can be represented visually using various diagrams. A Sub-divided Bar Diagram shows the total value of a category as a single bar divided into parts representing different components. A Percentage Bar Diagram converts these components into percentages of the total, with every bar having a constant height of 100 units, allowing for easier comparison between different groups.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.2",
@@ -362,7 +518,11 @@
         "secondary data",
         "data collection"
       ],
-      "text": "Primary Data is information collected personally by the researcher for a specific purpose through surveys, measurements, or interviews; it is up-to-date and reliable but requires more time. Secondary Data is information already collected by others and available in records, journals, or government offices; it is readily available and saves time but may be less reliable or lack specific details."
+      "text": "Primary Data is information collected personally by the researcher for a specific purpose through surveys, measurements, or interviews; it is up-to-date and reliable but requires more time. Secondary Data is information already collected by others and available in records, journals, or government offices; it is readily available and saves time but may be less reliable or lack specific details.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.3",
@@ -373,7 +533,11 @@
         "inclusive method",
         "exclusive method"
       ],
-      "text": "To condense large data, frequency distribution tables are used. The Inclusive Method (Discrete classes) includes both the lower and upper limits in the class (e.g., 6-10 includes 6 and 10). The Exclusive Method (Continuous classes) excludes the upper limit from the class and includes it in the next class (e.g., in 5-10, 10 is excluded and counted in 10-15). The Class Mark is the average of the lower and upper limits. Class Width is the difference between the upper and lower limits of a continuous class."
+      "text": "To condense large data, frequency distribution tables are used. The Inclusive Method (Discrete classes) includes both the lower and upper limits in the class (e.g., 6-10 includes 6 and 10). The Exclusive Method (Continuous classes) excludes the upper limit from the class and includes it in the next class (e.g., in 5-10, 10 is excluded and counted in 10-15). The Class Mark is the average of the lower and upper limits. Class Width is the difference between the upper and lower limits of a continuous class.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.4",
@@ -383,7 +547,11 @@
         "more than type",
         "cumulative frequency"
       ],
-      "text": "Cumulative frequency is the sum of frequencies. 'Less than type' cumulative frequency for a class is the sum of the frequency of that class and all previous classes, representing values less than the upper limit. 'More than or equal to type' cumulative frequency is calculated by subtracting frequencies from the total or summing from the bottom up, representing values greater than or equal to the lower limit."
+      "text": "Cumulative frequency is the sum of frequencies. 'Less than type' cumulative frequency for a class is the sum of the frequency of that class and all previous classes, representing values less than the upper limit. 'More than or equal to type' cumulative frequency is calculated by subtracting frequencies from the total or summing from the bottom up, representing values greater than or equal to the lower limit.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.5",
@@ -394,7 +562,12 @@
         "mode",
         "arithmetic average"
       ],
-      "text": "Central tendency represents the center of a data set. (1) Mean: The arithmetic average, calculated as the sum of all observations divided by the total number of observations (Σfi*xi / N). (2) Median: The middle value when observations are arranged in ascending or descending order. If the number of observations is even, the median is the average of the two middle terms. (3) Mode: The value that repeats the maximum number of times in the data set. A data set can have more than one mode."
+      "text": "Central tendency represents the center of a data set. (1) Mean: The arithmetic average, calculated as the sum of all observations divided by the total number of observations (Σfi*xi / N). (2) Median: The middle value when observations are arranged in ascending or descending order. If the number of observations is even, the median is the average of the two middle terms. (3) Mode: The value that repeats the maximum number of times in the data set. A data set can have more than one mode.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     }
-  ]
+  ],
+  "generation_status": "complete"
 }

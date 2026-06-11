@@ -1,0 +1,24 @@
+{
+  "target_file": "data/9th/9th_Math 1_English.json",
+  "solutions": [
+    {
+      "chunk_id": "2.2",
+      "problem_latex": "0.4\\overline{72} = \\tfrac{p}{q} ?",
+      "difficulty": 3,
+      "importance": 4,
+      "check": {
+        "type": "values",
+        "items": [
+          {"expr": "2/5", "expected": "0.4"},
+          {"expr": "425/900", "expected": "17/36"}
+        ]
+      },
+      "steps": [
+        {"text": "A terminating decimal ends after finitely many digits, for example 2/5 = 0.4.", "latex": "\\tfrac{2}{5} = 0.4"},
+        {"text": "For the recurring decimal 0.47222..., let x = 0.47222.... Then 100x = 47.222... and 10x = 4.7222....", "latex": "100x - 10x = 47.2\\overline{2} - 4.7\\overline{2}"},
+        {"text": "Subtracting eliminates the recurring part: 90x = 42.5.", "latex": "x = \\tfrac{425}{900}"},
+        {"text": "Reduce the fraction to lowest terms.", "latex": "x = \\tfrac{17}{36}"}
+      ]
+    }
+  ]
+}

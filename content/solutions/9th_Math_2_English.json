@@ -1,0 +1,51 @@
+{
+  "target_file": "data/9th/9th_Math 2_English.json",
+  "solutions": [
+    {
+      "chunk_id": "8.5",
+      "problem_latex": "\\sin 30^\\circ,\\; \\cos 30^\\circ,\\; \\tan 45^\\circ, \\ldots",
+      "difficulty": 2,
+      "importance": 5,
+      "check": {
+        "type": "values",
+        "items": [
+          {"expr": "sin(pi/6)", "expected": "1/2"},
+          {"expr": "cos(pi/6)", "expected": "sqrt(3)/2"},
+          {"expr": "tan(pi/6)", "expected": "1/sqrt(3)"},
+          {"expr": "sin(pi/3)", "expected": "sqrt(3)/2"},
+          {"expr": "cos(pi/3)", "expected": "1/2"},
+          {"expr": "tan(pi/3)", "expected": "sqrt(3)"},
+          {"expr": "sin(pi/4)", "expected": "1/sqrt(2)"},
+          {"expr": "cos(pi/4)", "expected": "1/sqrt(2)"},
+          {"expr": "tan(pi/4)", "expected": "1"},
+          {"expr": "sin(0)", "expected": "0"},
+          {"expr": "cos(0)", "expected": "1"},
+          {"expr": "sin(pi/2)", "expected": "1"},
+          {"expr": "cos(pi/2)", "expected": "0"}
+        ]
+      },
+      "steps": [
+        {"text": "For 30 degrees: sin 30 = 1/2, cos 30 = sqrt(3)/2, tan 30 = 1/sqrt(3).", "latex": "\\sin 30^\\circ = \\tfrac{1}{2},\\; \\cos 30^\\circ = \\tfrac{\\sqrt{3}}{2},\\; \\tan 30^\\circ = \\tfrac{1}{\\sqrt{3}}"},
+        {"text": "For 60 degrees: sin 60 = sqrt(3)/2, cos 60 = 1/2, tan 60 = sqrt(3).", "latex": "\\sin 60^\\circ = \\tfrac{\\sqrt{3}}{2},\\; \\cos 60^\\circ = \\tfrac{1}{2},\\; \\tan 60^\\circ = \\sqrt{3}"},
+        {"text": "For 45 degrees: sin 45 = cos 45 = 1/sqrt(2), tan 45 = 1.", "latex": "\\sin 45^\\circ = \\cos 45^\\circ = \\tfrac{1}{\\sqrt{2}},\\; \\tan 45^\\circ = 1"},
+        {"text": "For 0 degrees: sin 0 = 0, cos 0 = 1, tan 0 = 0. For 90 degrees: sin 90 = 1, cos 90 = 0, and tan 90 is undefined.", "latex": "\\sin 0^\\circ = 0,\\; \\cos 0^\\circ = 1,\\; \\sin 90^\\circ = 1,\\; \\cos 90^\\circ = 0"}
+      ]
+    },
+    {
+      "chunk_id": "8.6",
+      "problem_latex": "\\sin^2\\theta + \\cos^2\\theta = 1",
+      "difficulty": 3,
+      "importance": 5,
+      "check": {
+        "type": "identity",
+        "lhs": "sin(t)**2 + cos(t)**2",
+        "rhs": "1"
+      },
+      "steps": [
+        {"text": "In a right-angled triangle with hypotenuse h, opposite side a and adjacent side b, the Pythagoras theorem gives a^2 + b^2 = h^2.", "latex": "a^2 + b^2 = h^2"},
+        {"text": "Divide both sides by h^2.", "latex": "\\left(\\tfrac{a}{h}\\right)^2 + \\left(\\tfrac{b}{h}\\right)^2 = 1"},
+        {"text": "By definition a/h = sin(theta) and b/h = cos(theta), giving the fundamental identity.", "latex": "\\sin^2\\theta + \\cos^2\\theta = 1"}
+      ]
+    }
+  ]
+}

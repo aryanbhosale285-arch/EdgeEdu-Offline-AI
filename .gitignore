@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Signing keys — the private key must never be committed
+keys/content_signing_private.pem
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

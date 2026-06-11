@@ -1,12 +1,13 @@
 {
   "metadata": {
     "file_name": "9_GEOGRAPHY_ENGLISH_MASTER",
-    "standard": "9",
+    "standard": 9,
     "subject": "Geography",
     "language": "English",
     "board": "Maharashtra State Board",
-    "chapter_id": 1,
-    "chapter_title": "Distributional Maps"
+    "schema_version": "3.0",
+    "content_version": 1,
+    "last_updated": "2026-06-11"
   },
   "content_chunks": [
     {
@@ -17,7 +18,11 @@
         "Distribution of variables",
         "Statistical data"
       ],
-      "text": "The main aim of maps is to show the location of a place and the distribution of variables. Maps that are prepared with special themes to show the distribution of various variables in a region are called Thematic Maps. Through thematic maps, the distribution of variables such as temperature, rainfall, and population is shown according to the statistical data of those variables. These maps are useful to explain the distribution of variables in a region and easily bring out the patterns of distribution."
+      "text": "The main aim of maps is to show the location of a place and the distribution of variables. Maps that are prepared with special themes to show the distribution of various variables in a region are called Thematic Maps. Through thematic maps, the distribution of variables such as temperature, rainfall, and population is shown according to the statistical data of those variables. These maps are useful to explain the distribution of variables in a region and easily bring out the patterns of distribution.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.2",
@@ -28,7 +33,11 @@
         "Dot value",
         "Uniform size"
       ],
-      "text": "A dot map is prepared using statistical data gathered through counting. The dots are used to show how a variable is distributed throughout a region, such as the population of a region or the distribution of cattle. To show distribution through the dot method, the value of a dot has to be determined by considering the lowest and the highest values of a given variable in a region. Precautions for the dot method include ensuring the size of a dot is uniform, considering the physiography and water sources of a region, and using dots for rural population while circles represent urban population. The dot method is most suitable for variables that are freely scattered across a region."
+      "text": "A dot map is prepared using statistical data gathered through counting. The dots are used to show how a variable is distributed throughout a region, such as the population of a region or the distribution of cattle. To show distribution through the dot method, the value of a dot has to be determined by considering the lowest and the highest values of a given variable in a region. Precautions for the dot method include ensuring the size of a dot is uniform, considering the physiography and water sources of a region, and using dots for rural population while circles represent urban population. The dot method is most suitable for variables that are freely scattered across a region.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.3",
@@ -39,7 +48,11 @@
         "Shades",
         "Sub-administrative units"
       ],
-      "text": "In choropleth maps, the data regarding various geographical variables is shown by shades or tints of various colours. In the choropleth method, only one value is assigned to one sub-administrative unit in a region. The smallest and the largest values of the given data are taken into consideration to create five to seven classes. Each class is assigned a specific tint of the same colour or black-and-white patterns. These shades or patterns become darker with the increasing values of the given variable and are drawn accordingly on the map."
+      "text": "In choropleth maps, the data regarding various geographical variables is shown by shades or tints of various colours. In the choropleth method, only one value is assigned to one sub-administrative unit in a region. The smallest and the largest values of the given data are taken into consideration to create five to seven classes. Each class is assigned a specific tint of the same colour or black-and-white patterns. These shades or patterns become darker with the increasing values of the given variable and are drawn accordingly on the map.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.4",
@@ -50,7 +63,11 @@
         "Continuous variables",
         "Point-related data"
       ],
-      "text": "The isopleth method is used to show the distribution of a variable when that distribution is continuous, such as altitude, temperature, or rainfall. For isopleth maps, accurate data regarding the altitude or rainfall of specific places is obtained, which is known as point-related data. Isopleth maps are prepared by joining locations with the same value using a line called an isoline. If the isolines are closer to each other, the change in the variable is steep; if the isolines are away from each other, the change is gentle. This method provides an idea of the natural trend of the distribution of the variable."
+      "text": "The isopleth method is used to show the distribution of a variable when that distribution is continuous, such as altitude, temperature, or rainfall. For isopleth maps, accurate data regarding the altitude or rainfall of specific places is obtained, which is known as point-related data. Isopleth maps are prepared by joining locations with the same value using a line called an isoline. If the isolines are closer to each other, the change in the variable is steep; if the isolines are away from each other, the change is gentle. This method provides an idea of the natural trend of the distribution of the variable.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "1.5",
@@ -61,7 +78,11 @@
         "Questionnaire",
         "Report-writing"
       ],
-      "text": "A field visit is an important study method in geography because geographical concepts and elements can be directly experienced. Field-visits are extremely useful for understanding the correlation between humans and the environment. Preparations for field-visits include deciding the place and purpose, studying location and route maps, and preparing a questionnaire with the help of teachers. During a field visit, students must ensure safety, follow teacher instructions, and avoid harming the environment. After the visit, a field report should be written including an introduction, location map, physiography, climate, population, environmental problems, land utilization, and conclusions."
+      "text": "A field visit is an important study method in geography because geographical concepts and elements can be directly experienced. Field-visits are extremely useful for understanding the correlation between humans and the environment. Preparations for field-visits include deciding the place and purpose, studying location and route maps, and preparing a questionnaire with the help of teachers. During a field visit, students must ensure safety, follow teacher instructions, and avoid harming the environment. After the visit, a field report should be written including an introduction, location map, physiography, climate, population, environmental problems, land utilization, and conclusions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.1",
@@ -72,7 +93,11 @@
         "Instability",
         "Radioactive materials"
       ],
-      "text": "Earthquakes and volcanoes occur because of the instability in the interior of the Earth. This instability is created due to the movements occurring in the Earth’s interior, specifically in the upper layer of the mantle. Tremendous energy is released by radioactive materials in the mantle, and these energy waves travel from one place to another, causing instability. Internal movements are classified on the basis of their velocity, direction, and the landforms they produce."
+      "text": "Earthquakes and volcanoes occur because of the instability in the interior of the Earth. This instability is created due to the movements occurring in the Earth’s interior, specifically in the upper layer of the mantle. Tremendous energy is released by radioactive materials in the mantle, and these energy waves travel from one place to another, causing instability. Internal movements are classified on the basis of their velocity, direction, and the landforms they produce.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.2",
@@ -84,7 +109,11 @@
         "Orogenic",
         "Epeirogenic"
       ],
-      "text": "Internal movements are classified into three categories. Based on velocity, there are slow movements (forming mountains and continents) and sudden movements (earthquakes and volcanoes). Based on direction, there are horizontal movements and upward or downward movements. Based on landforms, there are continent-building (epeirogenic) movements and mountain-building (orogenic) movements, which include folding and faulting."
+      "text": "Internal movements are classified into three categories. Based on velocity, there are slow movements (forming mountains and continents) and sudden movements (earthquakes and volcanoes). Based on direction, there are horizontal movements and upward or downward movements. Based on landforms, there are continent-building (epeirogenic) movements and mountain-building (orogenic) movements, which include folding and faulting.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.3",
@@ -95,7 +124,11 @@
         "Soft rocks",
         "Himalayas"
       ],
-      "text": "Slow movements in the Earth's crust lead to the formation of mountains and continents. When energy waves and pressure work towards each other in a horizontal direction, the layers of soft rocks form folds. This process is called folding. If the pressure is very high, large-scale folds are formed, and the surface of the Earth gets uplifted, creating fold mountains. The Himalayas, the Aravalis, the Rockies, the Andes, and the Alps are the major fold mountains of the world."
+      "text": "Slow movements in the Earth's crust lead to the formation of mountains and continents. When energy waves and pressure work towards each other in a horizontal direction, the layers of soft rocks form folds. This process is called folding. If the pressure is very high, large-scale folds are formed, and the surface of the Earth gets uplifted, creating fold mountains. The Himalayas, the Aravalis, the Rockies, the Andes, and the Alps are the major fold mountains of the world.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.4",
@@ -106,7 +139,11 @@
         "Fractures",
         "Meghalaya Plateau"
       ],
-      "text": "When horizontal movements in the Earth's crust move away from each other, tension is created on the layers of rocks, leading to the formation of fractures known as faults. Similarly, waves coming towards each other in hard rocks also form faults due to compression. When a part of the Earth’s crust between two parallel faults is lifted, the resulting landform is known as a block mountain. Block mountains have flat hilltops and steep slopes. Examples include the Black Forest mountains in Europe and the Meghalaya Plateau of India."
+      "text": "When horizontal movements in the Earth's crust move away from each other, tension is created on the layers of rocks, leading to the formation of fractures known as faults. Similarly, waves coming towards each other in hard rocks also form faults due to compression. When a part of the Earth’s crust between two parallel faults is lifted, the resulting landform is known as a block mountain. Block mountains have flat hilltops and steep slopes. Examples include the Black Forest mountains in Europe and the Meghalaya Plateau of India.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.5",
@@ -117,7 +154,11 @@
         "Narmada",
         "Great Rift Valley"
       ],
-      "text": "When horizontal movements on the Earth’s surface act in opposite directions, tension increases and fractures develop in the rocks, leading to the formation of faults. Sometimes, two fractures develop side-by-side, and the land in between the two fractures subsides. This subsided deep part is called a rift valley. Both slopes of a rift valley are steep. Examples include the rift valley of the river Narmada in India, the Great Rift Valley of Africa, and the Rhine River rift valley of Europe."
+      "text": "When horizontal movements on the Earth’s surface act in opposite directions, tension increases and fractures develop in the rocks, leading to the formation of faults. Sometimes, two fractures develop side-by-side, and the land in between the two fractures subsides. This subsided deep part is called a rift valley. Both slopes of a rift valley are steep. Examples include the rift valley of the river Narmada in India, the Great Rift Valley of Africa, and the Rhine River rift valley of Europe.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.6",
@@ -128,7 +169,11 @@
         "Richter scale",
         "Trembling"
       ],
-      "text": "An earthquake is the movement or trembling of the Earth’s crust. Because of the movements occurring in the interior of the Earth, tremendous tension is created in the Earth’s crust. When the tension goes beyond limits, energy is released in the form of waves, resulting in the trembling of the Earth’s surface. The magnitude of an earthquake is measured by the Richter scale. Causes of earthquakes include the moving, colliding, or sliding of tectonic plates, the formation of fractures due to internal tension, and volcanic eruptions."
+      "text": "An earthquake is the movement or trembling of the Earth’s crust. Because of the movements occurring in the interior of the Earth, tremendous tension is created in the Earth’s crust. When the tension goes beyond limits, energy is released in the form of waves, resulting in the trembling of the Earth’s surface. The magnitude of an earthquake is measured by the Richter scale. Causes of earthquakes include the moving, colliding, or sliding of tectonic plates, the formation of fractures due to internal tension, and volcanic eruptions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.7",
@@ -139,7 +184,11 @@
         "Epicenter",
         "Seismic energy"
       ],
-      "text": "The place where tension mounts up and high energy is released in the Earth's interior is the centre of the earthquake, called the focus or hypocenter. Seismic energy waves scatter in all directions from the focus. The place on the Earth’s surface where these energy waves reach first is called the epicenter. The epicenter is the nearest place on the surface from the focus and experiences the first tremors. The epicenter is located perpendicular to the focus."
+      "text": "The place where tension mounts up and high energy is released in the Earth's interior is the centre of the earthquake, called the focus or hypocenter. Seismic energy waves scatter in all directions from the focus. The place on the Earth’s surface where these energy waves reach first is called the epicenter. The epicenter is the nearest place on the surface from the focus and experiences the first tremors. The epicenter is located perpendicular to the focus.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.8",
@@ -150,7 +199,11 @@
         "L-waves",
         "Destructive waves"
       ],
-      "text": "Seismic waves are divided into three types. Primary or ‘P’ waves are the first to reach the surface after energy is emitted in the interior; they travel fast in a radial direction and can pass through liquid, solid, and gaseous states. Secondary or ‘S’ waves reach the surface after primary waves, scatter in all directions from the focus, and can travel only through solid mediums as they are absorbed in liquid mediums. Surface or ‘L’ waves are generated after P and S waves reach the epicenter; they travel along the Earth's circumference and are highly destructive."
+      "text": "Seismic waves are divided into three types. Primary or ‘P’ waves are the first to reach the surface after energy is emitted in the interior; they travel fast in a radial direction and can pass through liquid, solid, and gaseous states. Secondary or ‘S’ waves reach the surface after primary waves, scatter in all directions from the focus, and can travel only through solid mediums as they are absorbed in liquid mediums. Surface or ‘L’ waves are generated after P and S waves reach the epicenter; they travel along the Earth's circumference and are highly destructive.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.9",
@@ -161,7 +214,11 @@
         "Groundwater changes",
         "Avalanches"
       ],
-      "text": "Earthquakes cause various destructive effects, including the development of cracks in the ground and landslides. Earthquakes can cause groundwater to change its course, leading to wells getting water or drying up. Some areas may get uplifted while others subside. In oceans, earthquakes generate tsunamis, which cause great loss of life and property in coastal areas. In snow-covered areas, earthquakes may trigger avalanches. Other effects include the collapse of buildings, disruption of transportation routes, and the collapse of communication systems."
+      "text": "Earthquakes cause various destructive effects, including the development of cracks in the ground and landslides. Earthquakes can cause groundwater to change its course, leading to wells getting water or drying up. Some areas may get uplifted while others subside. In oceans, earthquakes generate tsunamis, which cause great loss of life and property in coastal areas. In snow-covered areas, earthquakes may trigger avalanches. Other effects include the collapse of buildings, disruption of transportation routes, and the collapse of communication systems.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.10",
@@ -172,7 +229,11 @@
         "Lava",
         "Vents"
       ],
-      "text": "A volcano is a process where hot solid, liquid, and gaseous materials are thrown out from the mantle onto the surface of the Earth. During a volcanic eruption, ash, water vapour, poisonous gases, and hot molten magma are ejected. When molten magma comes out onto the surface, it is called lava. Volcanoes are classified into two types based on the eruption: Central-type (conical) volcanoes, where magma comes out through a pipe-like vent, and Fissure-type volcanoes, where magma comes out through many cracks or fissures."
+      "text": "A volcano is a process where hot solid, liquid, and gaseous materials are thrown out from the mantle onto the surface of the Earth. During a volcanic eruption, ash, water vapour, poisonous gases, and hot molten magma are ejected. When molten magma comes out onto the surface, it is called lava. Volcanoes are classified into two types based on the eruption: Central-type (conical) volcanoes, where magma comes out through a pipe-like vent, and Fissure-type volcanoes, where magma comes out through many cracks or fissures.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.11",
@@ -182,7 +243,11 @@
         "Dormant volcano",
         "Extinct volcano"
       ],
-      "text": "According to the periodicity of eruptions, volcanoes are identified as active, dormant, or extinct. Active volcanoes erupt regularly in the present times, such as Mt. Fujiyama in Japan and Mt. Stromboli in the Mediterranean Sea. Dormant volcanoes have not erupted for a long time but may become active suddenly, such as Mt. Vesuvius in Italy and Barren Island in India. Extinct volcanoes have not erupted in the past for a very long time and are not likely to erupt in the future, such as Mt. Kilimanjaro in Tanzania."
+      "text": "According to the periodicity of eruptions, volcanoes are identified as active, dormant, or extinct. Active volcanoes erupt regularly in the present times, such as Mt. Fujiyama in Japan and Mt. Stromboli in the Mediterranean Sea. Dormant volcanoes have not erupted for a long time but may become active suddenly, such as Mt. Vesuvius in Italy and Barren Island in India. Extinct volcanoes have not erupted in the past for a very long time and are not likely to erupt in the future, such as Mt. Kilimanjaro in Tanzania.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "2.12",
@@ -193,7 +258,11 @@
         "Plateaus",
         "New islands"
       ],
-      "text": "Volcanic eruptions result in the loss of life and property. Dust, smoke, ash, and gases can remain in the atmosphere for a long time, creating an environmental imbalance. However, volcanoes also have constructive effects: volcanic ash can make land fertile, and many minerals are found near the surface because of lava. Volcanic eruptions can form new land or cause islands to disappear. Fissure eruptions can create extensive volcanic plateaus, such as the Deccan Plateau of India. Lakes can also form at the mouth of the craters of dead volcanoes when rainwater accumulates in them."
+      "text": "Volcanic eruptions result in the loss of life and property. Dust, smoke, ash, and gases can remain in the atmosphere for a long time, creating an environmental imbalance. However, volcanoes also have constructive effects: volcanic ash can make land fertile, and many minerals are found near the surface because of lava. Volcanic eruptions can form new land or cause islands to disappear. Fissure eruptions can create extensive volcanic plateaus, such as the Deccan Plateau of India. Lakes can also form at the mouth of the craters of dead volcanoes when rainwater accumulates in them.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.1",
@@ -204,7 +273,11 @@
         "Tertiary landforms",
         "External forces"
       ],
-      "text": "Landforms formed on the Earth’s surface as a result of internal movements are called primary and secondary landforms, such as continents, mountains, plateaus, and plains. Because of external processes like weathering, erosion, transportation, and deposition, primary and secondary landforms give way to tertiary landforms. Tertiary landforms include valleys, sand dunes, deltas, and U-shaped valleys. External processes occur because of forces working on the Earth’s surface, mainly solar energy, gravitational force, and kinetic energy associated with moving objects."
+      "text": "Landforms formed on the Earth’s surface as a result of internal movements are called primary and secondary landforms, such as continents, mountains, plateaus, and plains. Because of external processes like weathering, erosion, transportation, and deposition, primary and secondary landforms give way to tertiary landforms. Tertiary landforms include valleys, sand dunes, deltas, and U-shaped valleys. External processes occur because of forces working on the Earth’s surface, mainly solar energy, gravitational force, and kinetic energy associated with moving objects.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.2",
@@ -214,7 +287,11 @@
         "Chemical weathering",
         "Biological weathering"
       ],
-      "text": "The breaking or weakening of rocks is a natural phenomenon called weathering. Weathering can be of three types: mechanical (physical), chemical, and biological. In arid climates, mechanical weathering is dominant, while in humid climates, chemical weathering is more effective. Biological weathering occurs because of the actions of living organisms."
+      "text": "The breaking or weakening of rocks is a natural phenomenon called weathering. Weathering can be of three types: mechanical (physical), chemical, and biological. In arid climates, mechanical weathering is dominant, while in humid climates, chemical weathering is more effective. Biological weathering occurs because of the actions of living organisms.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.3",
@@ -225,7 +302,11 @@
         "Frost weathering",
         "Tension"
       ],
-      "text": "Mechanical weathering occurs due to several factors. Minerals in rocks expand because of heat and contract when temperature decreases. Continuous contracting and expanding creates tension in rock particles, causing cracks to develop and rocks to break. This process is common in hot deserts with a high diurnal range of temperature. Frost weathering occurs in areas where temperatures drop below 0 degrees Celsius; water accumulated in rock crevices freezes, increases in volume, and creates tension that shatters the rocks. The process where outer layers of rock fall apart from the main rock due to heating is called exfoliation."
+      "text": "Mechanical weathering occurs due to several factors. Minerals in rocks expand because of heat and contract when temperature decreases. Continuous contracting and expanding creates tension in rock particles, causing cracks to develop and rocks to break. This process is common in hot deserts with a high diurnal range of temperature. Frost weathering occurs in areas where temperatures drop below 0 degrees Celsius; water accumulated in rock crevices freezes, increases in volume, and creates tension that shatters the rocks. The process where outer layers of rock fall apart from the main rock due to heating is called exfoliation.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.4",
@@ -236,7 +317,11 @@
         "Release of pressure",
         "Granular weathering"
       ],
-      "text": "In rocky coasts, waves hit sea cliffs with alkaline water. Soluble materials in the rock dissolve, and when the water evaporates, crystals of alkaline materials remain. These crystals occupy more space and cause tension, forming honeycomb-like holes in the rocks. Release of pressure also leads to weathering; when outer layers of rocks are removed, the inner layers are freed from pressure and expand. Granular weathering occurs in rocks like sandstone or conglomerate when water penetrates and weakens the cementing material, causing sand particles to separate from the main rock."
+      "text": "In rocky coasts, waves hit sea cliffs with alkaline water. Soluble materials in the rock dissolve, and when the water evaporates, crystals of alkaline materials remain. These crystals occupy more space and cause tension, forming honeycomb-like holes in the rocks. Release of pressure also leads to weathering; when outer layers of rocks are removed, the inner layers are freed from pressure and expand. Granular weathering occurs in rocks like sandstone or conglomerate when water penetrates and weakens the cementing material, causing sand particles to separate from the main rock.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.5",
@@ -247,7 +332,11 @@
         "Universal solvent",
         "Limestone"
       ],
-      "text": "Water plays an important role in chemical weathering as a universal solvent. Carbonation occurs when rainwater travels through the atmosphere and mixes with carbon dioxide to form dilute carbonic acid. Materials like limestone easily dissolve in carbonic acid. Solution occurs when minerals in the rock dissolve in water; for example, alkalis in rocks dissolve and make the rocks brittle. Chemical precipitation can also occur, forming landforms like stalactites in caves."
+      "text": "Water plays an important role in chemical weathering as a universal solvent. Carbonation occurs when rainwater travels through the atmosphere and mixes with carbon dioxide to form dilute carbonic acid. Materials like limestone easily dissolve in carbonic acid. Solution occurs when minerals in the rock dissolve in water; for example, alkalis in rocks dissolve and make the rocks brittle. Chemical precipitation can also occur, forming landforms like stalactites in caves.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.6",
@@ -258,7 +347,11 @@
         "Iron",
         "Reddish layer"
       ],
-      "text": "Oxidation occurs in rocks that contain iron. When the iron in the rock comes in contact with water and oxygen, a chemical reaction takes place, forming a reddish-coloured layer on the rocks called rust. This process is common in areas with high rainfall. Other daily-life examples of chemical processes include the moistening of table salt in the rainy season or apple slices turning brown."
+      "text": "Oxidation occurs in rocks that contain iron. When the iron in the rock comes in contact with water and oxygen, a chemical reaction takes place, forming a reddish-coloured layer on the rocks called rust. This process is common in areas with high rainfall. Other daily-life examples of chemical processes include the moistening of table salt in the rainy season or apple slices turning brown.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.7",
@@ -269,7 +362,11 @@
         "Lichen",
         "Moss"
       ],
-      "text": "Biological factors are responsible for the weathering of rocks. Plant roots grow into cracks in rocks, creating tension that breaks the rocks apart. Burrowing animals like rats, mice, rabbits, and insects make holes in the ground, contributing to rock disintegration. Algae, moss, and lichen growing on rock surfaces also help in the weathering process by producing chemicals or retaining moisture."
+      "text": "Biological factors are responsible for the weathering of rocks. Plant roots grow into cracks in rocks, creating tension that breaks the rocks apart. Burrowing animals like rats, mice, rabbits, and insects make holes in the ground, contributing to rock disintegration. Algae, moss, and lichen growing on rock surfaces also help in the weathering process by producing chemicals or retaining moisture.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "3.8",
@@ -280,7 +377,11 @@
         "Soil creep",
         "Solifluction"
       ],
-      "text": "Mass movements, or mass wasting, occur when weathered rock materials move down slopes due to gravity. Rapid mass movements include rockfalls, landslides, and land subsidence, which are common in humid climates with steep slopes. Slower mass movements include soil creep, common in dry climates with gentle slopes. In periglacial regions, the slow movement of soil layers along slopes is called solifluction. Erosion is a separate external process caused by agents like wind, running water, glaciers, and sea waves."
+      "text": "Mass movements, or mass wasting, occur when weathered rock materials move down slopes due to gravity. Rapid mass movements include rockfalls, landslides, and land subsidence, which are common in humid climates with steep slopes. Slower mass movements include soil creep, common in dry climates with gentle slopes. In periglacial regions, the slow movement of soil layers along slopes is called solifluction. Erosion is a separate external process caused by agents like wind, running water, glaciers, and sea waves.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.1",
@@ -291,7 +392,11 @@
         "V-shaped valleys",
         "Waterfalls"
       ],
-      "text": "Running water flows naturally according to gravity to form a river. The erosional work of a river depends on the slope of the land, the type of rock, and the volume and velocity of water. In the upper course, rivers flow at great speed and erode the riverbed and banks. This erosional work leads to the formation of gorges (canyons), V-shaped valleys, and waterfalls."
+      "text": "Running water flows naturally according to gravity to form a river. The erosional work of a river depends on the slope of the land, the type of rock, and the volume and velocity of water. In the upper course, rivers flow at great speed and erode the riverbed and banks. This erosional work leads to the formation of gorges (canyons), V-shaped valleys, and waterfalls.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.2",
@@ -302,7 +407,11 @@
         "Deltas",
         "Meanders"
       ],
-      "text": "When a river reaches the foothills, the change in slope causes the deposition of coarse sediments in a triangular shape called an alluvial fan. As the slope decreases, the river starts flowing slowly and forms bends called meanders. Depositional work by rivers forms landforms like flood levees, flood plains, and deltas. A delta is formed at the mouth of a river where the riverbed becomes very wide and the speed becomes very slow, causing sediments to deposit in a triangular shape."
+      "text": "When a river reaches the foothills, the change in slope causes the deposition of coarse sediments in a triangular shape called an alluvial fan. As the slope decreases, the river starts flowing slowly and forms bends called meanders. Depositional work by rivers forms landforms like flood levees, flood plains, and deltas. A delta is formed at the mouth of a river where the riverbed becomes very wide and the speed becomes very slow, causing sediments to deposit in a triangular shape.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.3",
@@ -313,7 +422,11 @@
         "Horns",
         "Moraines"
       ],
-      "text": "In regions below the freezing point, precipitation occurs as snowfall, forming glaciers that move slowly along slopes. The erosional work of glaciers produces landforms like cirques (armchair-shaped depressions), arêtes, horns, U-shaped valleys, and hanging valleys. Glaciers carry sediments called moraines. Based on the location of deposits, moraines are divided into ground, lateral, medial, and terminal moraines. Depositional work of glaciers produces landforms like drumlins and eskers."
+      "text": "In regions below the freezing point, precipitation occurs as snowfall, forming glaciers that move slowly along slopes. The erosional work of glaciers produces landforms like cirques (armchair-shaped depressions), arêtes, horns, U-shaped valleys, and hanging valleys. Glaciers carry sediments called moraines. Based on the location of deposits, moraines are divided into ground, lateral, medial, and terminal moraines. Depositional work of glaciers produces landforms like drumlins and eskers.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.4",
@@ -324,7 +437,11 @@
         "Barchans",
         "Seifs"
       ],
-      "text": "Wind is a gaseous agent of erosion prominent in deserts and semi-arid regions. Erosional work of wind leads to the formation of mushroom rocks, deflation hollows, and yardangs. Depositional work of wind occurs when the speed of the wind reduces, causing sand particles to settle. This forms specific landforms like sand dunes, barchans (crescent-shaped dunes), seifs (sword-shaped dunes), ripple marks, and loess plains."
+      "text": "Wind is a gaseous agent of erosion prominent in deserts and semi-arid regions. Erosional work of wind leads to the formation of mushroom rocks, deflation hollows, and yardangs. Depositional work of wind occurs when the speed of the wind reduces, causing sand particles to settle. This forms specific landforms like sand dunes, barchans (crescent-shaped dunes), seifs (sword-shaped dunes), ripple marks, and loess plains.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.5",
@@ -335,7 +452,11 @@
         "Beaches",
         "Lagoons"
       ],
-      "text": "In coastal areas, sea waves carry out erosional, depositional, and transportational work. Erosional work of sea waves forms landforms like wave-cut platforms, sea caves, sea arches, and sea cliffs. Depositional work occurs in areas where the effect of waves is less, forming landforms like beaches, sand bars, and lagoons. A lagoon is a shallow body of water separated from the main sea by sand bars or coral reefs."
+      "text": "In coastal areas, sea waves carry out erosional, depositional, and transportational work. Erosional work of sea waves forms landforms like wave-cut platforms, sea caves, sea arches, and sea cliffs. Depositional work occurs in areas where the effect of waves is less, forming landforms like beaches, sand bars, and lagoons. A lagoon is a shallow body of water separated from the main sea by sand bars or coral reefs.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "4.6",
@@ -346,7 +467,11 @@
         "Stalagmites",
         "Water table"
       ],
-      "text": "Rainwater seeps into the ground through porous rocks and accumulates as groundwater. The upper surface of this water is called the water table. Erosional work of groundwater involves dissolving soluble minerals, leading to the formation of sinkholes and limestone caves. Depositional work occurs when dissolved minerals precipitate, forming stalactites (hanging from the roof) and stalagmites (growing from the floor) in caves. These landforms are often called Karst topography."
+      "text": "Rainwater seeps into the ground through porous rocks and accumulates as groundwater. The upper surface of this water is called the water table. Erosional work of groundwater involves dissolving soluble minerals, leading to the formation of sinkholes and limestone caves. Depositional work occurs when dissolved minerals precipitate, forming stalactites (hanging from the roof) and stalagmites (growing from the floor) in caves. These landforms are often called Karst topography.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.1",
@@ -357,7 +482,11 @@
         "Snowfall",
         "Frostbite"
       ],
-      "text": "Water falls in solid or liquid states from clouds to the ground in a process called precipitation. Major forms include snow, hailstones, and rainfall. Snow forms when the temperature falls below freezing point and water vapour directly turns into snowflakes through sublimation. Snow is friable and opaque. In high-latitude regions, snowfall occurs at sea level, while in tropical areas, it occurs at high altitudes. When snow melts, the region gets water, but large-scale accumulation can collapse transport systems and cause frostbite."
+      "text": "Water falls in solid or liquid states from clouds to the ground in a process called precipitation. Major forms include snow, hailstones, and rainfall. Snow forms when the temperature falls below freezing point and water vapour directly turns into snowflakes through sublimation. Snow is friable and opaque. In high-latitude regions, snowfall occurs at sea level, while in tropical areas, it occurs at high altitudes. When snow melts, the region gets water, but large-scale accumulation can collapse transport systems and cause frostbite.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.2",
@@ -368,7 +497,11 @@
         "Convectional rainfall",
         "Orographic rainfall"
       ],
-      "text": "Hailstones form when strong upward air currents take water droplets to high altitudes where they solidify. As they move up and down, new layers of ice encapsulate the hail, forming concentric layers. Heavy hailstones fall to the ground as hail showers, which can destroy crops. Rainfall is the most common form of precipitation. Convectional rainfall occurs in equatorial areas due to intense heating and rising air. Orographic rainfall occurs when moisture-laden winds are obstructed by mountain ranges, causing heavy rain on the windward side and creating a rain-shadow area on the leeward side."
+      "text": "Hailstones form when strong upward air currents take water droplets to high altitudes where they solidify. As they move up and down, new layers of ice encapsulate the hail, forming concentric layers. Heavy hailstones fall to the ground as hail showers, which can destroy crops. Rainfall is the most common form of precipitation. Convectional rainfall occurs in equatorial areas due to intense heating and rising air. Orographic rainfall occurs when moisture-laden winds are obstructed by mountain ranges, causing heavy rain on the windward side and creating a rain-shadow area on the leeward side.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "5.3",
@@ -379,7 +512,11 @@
         "Millimeters",
         "Acid rain"
       ],
-      "text": "Cyclonic rainfall occurs when air from surrounding regions moves toward a low-pressure centre (cyclone) and rises, leading to condensation. It is common in temperate zones. Rainfall is measured using an instrument called a rain gauge, which collects rain in a bottle through a funnel of specific diameter. The collected water is measured in millimeters. Acid rain is caused by air pollution; gases like nitric and sulphuric acid mix with water vapour and fall as rain, harming living organisms and non-living objects."
+      "text": "Cyclonic rainfall occurs when air from surrounding regions moves toward a low-pressure centre (cyclone) and rises, leading to condensation. It is common in temperate zones. Rainfall is measured using an instrument called a rain gauge, which collects rain in a bottle through a funnel of specific diameter. The collected water is measured in millimeters. Acid rain is caused by air pollution; gases like nitric and sulphuric acid mix with water vapour and fall as rain, harming living organisms and non-living objects.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.1",
@@ -390,7 +527,11 @@
         "Depth variation",
         "Ocean currents"
       ],
-      "text": "Temperature is a major property of seawater. The surface temperature of seawater decreases from the equatorial areas towards the poles. The average temperature in equatorial areas is around 25°C, in mid-latitudes it is 16°C, and near the poles it is about 2°C. Factors like cyclones, rainfall, ocean currents, salinity, and seasons also affect surface temperature. In regions where cold ocean currents flow, the surface temperature is lower, while warm currents increase the temperature. Temperature decreases with increasing depth up to 2000 meters. After 2000 meters, the temperature of seawater is uniform everywhere, remaining around 4°C from the equatorial regions to the polar areas. Seawater at greater depths does not freeze because the temperature remains at 4°C."
+      "text": "Temperature is a major property of seawater. The surface temperature of seawater decreases from the equatorial areas towards the poles. The average temperature in equatorial areas is around 25°C, in mid-latitudes it is 16°C, and near the poles it is about 2°C. Factors like cyclones, rainfall, ocean currents, salinity, and seasons also affect surface temperature. In regions where cold ocean currents flow, the surface temperature is lower, while warm currents increase the temperature. Temperature decreases with increasing depth up to 2000 meters. After 2000 meters, the temperature of seawater is uniform everywhere, remaining around 4°C from the equatorial regions to the polar areas. Seawater at greater depths does not freeze because the temperature remains at 4°C.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.2",
@@ -401,7 +542,11 @@
         "Evaporation",
         "Freshwater supply"
       ],
-      "text": "The weight of all dissolved salts in water in a ratio of parts per thousand is called the salinity of seawater. For example, if the weight of dissolved salts in 1000 grams of seawater is 40 grams, the salinity is 40‰ (40 per thousand). Salinity is measured using a hydrometer, refractometer, or salinometer. High rates of evaporation increase salinity, while a high supply of freshwater from rivers or melting snow decreases salinity. In the tropical zone, salinity is higher due to high temperatures and evaporation. In the equatorial calm belt, salinity is lower because of abundant freshwater from large rivers like the Congo and Amazon and daily convectional rainfall. Landlocked seas, like the Mediterranean Sea (39‰), have higher salinity than open oceans like the Atlantic Ocean (35‰) due to higher evaporation and limited freshwater supply."
+      "text": "The weight of all dissolved salts in water in a ratio of parts per thousand is called the salinity of seawater. For example, if the weight of dissolved salts in 1000 grams of seawater is 40 grams, the salinity is 40‰ (40 per thousand). Salinity is measured using a hydrometer, refractometer, or salinometer. High rates of evaporation increase salinity, while a high supply of freshwater from rivers or melting snow decreases salinity. In the tropical zone, salinity is higher due to high temperatures and evaporation. In the equatorial calm belt, salinity is lower because of abundant freshwater from large rivers like the Congo and Amazon and daily convectional rainfall. Landlocked seas, like the Mediterranean Sea (39‰), have higher salinity than open oceans like the Atlantic Ocean (35‰) due to higher evaporation and limited freshwater supply.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.3",
@@ -412,7 +557,11 @@
         "Buoyancy",
         "Lowest elevation"
       ],
-      "text": "The Dead Sea, located on the border of Israel and Jordan, has a salinity of 332‰. This high salinity is caused by low rainfall, a low supply of freshwater from the river Jordan, and high evaporation. The density of the water in the Dead Sea is so high that a person can never drown and can easily float in the water. There is no life in the Dead Sea except for a few unicellular organisms. The land around the Dead Sea is below mean sea level, making the Dead Sea one of the places with the lowest elevations on Earth, reaching an altitude of -400 meters."
+      "text": "The Dead Sea, located on the border of Israel and Jordan, has a salinity of 332‰. This high salinity is caused by low rainfall, a low supply of freshwater from the river Jordan, and high evaporation. The density of the water in the Dead Sea is so high that a person can never drown and can easily float in the water. There is no life in the Dead Sea except for a few unicellular organisms. The land around the Dead Sea is below mean sea level, making the Dead Sea one of the places with the lowest elevations on Earth, reaching an altitude of -400 meters.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "6.4",
@@ -423,7 +572,11 @@
         "Surface water",
         "Ocean currents"
       ],
-      "text": "Temperature and salinity are the two properties that control the density of seawater. If temperature reduces, the density of water increases. Cold water is denser than warm water, and saline water is denser than freshwater. Temperature affects density more than salinity does. Seawater up to a depth of 500 meters is called surface water and is affected by ocean currents and sunrays. Below 1000 meters, there is almost no change in temperature, salinity, or density. Ocean currents are generated because of differences in these properties and act as temperature controllers at a global level, affecting the Earth's climate."
+      "text": "Temperature and salinity are the two properties that control the density of seawater. If temperature reduces, the density of water increases. Cold water is denser than warm water, and saline water is denser than freshwater. Temperature affects density more than salinity does. Seawater up to a depth of 500 meters is called surface water and is affected by ocean currents and sunrays. Below 1000 meters, there is almost no change in temperature, salinity, or density. Ocean currents are generated because of differences in these properties and act as temperature controllers at a global level, affecting the Earth's climate.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.1",
@@ -434,7 +587,11 @@
         "Time-keeping",
         "Graticule"
       ],
-      "text": "The Earth takes 24 hours to make one rotation of 360°. Because the Earth rotates from west to east, the eastern part of the Earth is ahead of the western part in terms of time. To coordinate time and dates globally, the International Date Line (IDL) was established. The IDL is an imaginary line drawn with reference to the 180° meridian, opposite to the Greenwich Prime Meridian. It was decided upon in 1884 under the leadership of American professor Davidson. The IDL is an international convention used to change the day and time when crossing the line."
+      "text": "The Earth takes 24 hours to make one rotation of 360°. Because the Earth rotates from west to east, the eastern part of the Earth is ahead of the western part in terms of time. To coordinate time and dates globally, the International Date Line (IDL) was established. The IDL is an imaginary line drawn with reference to the 180° meridian, opposite to the Greenwich Prime Meridian. It was decided upon in 1884 under the leadership of American professor Davidson. The IDL is an international convention used to change the day and time when crossing the line.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.2",
@@ -445,7 +602,11 @@
         "Eastward travel",
         "Westward travel"
       ],
-      "text": "When crossing the International Date Line, travelers must adjust the day and date based on the direction of travel. While travelling from west to east (e.g., from Japan to America), travelers cross the IDL and must consider the same day and date. While travelling from east to west (e.g., from America to Japan), travelers must add one day to the date. For example, if a person leaves America on Friday and crosses the IDL heading west, the day becomes Saturday immediately after crossing."
+      "text": "When crossing the International Date Line, travelers must adjust the day and date based on the direction of travel. While travelling from west to east (e.g., from Japan to America), travelers cross the IDL and must consider the same day and date. While travelling from east to west (e.g., from America to Japan), travelers must add one day to the date. For example, if a person leaves America on Friday and crosses the IDL heading west, the day becomes Saturday immediately after crossing.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "7.3",
@@ -456,7 +617,11 @@
         "Transportation coordination",
         "Global trade"
       ],
-      "text": "The International Date Line passes completely through the Pacific Ocean to avoid passing through land or islands. If the IDL passed through land, people in the same country or island would follow different dates and timings, causing confusion. Therefore, the IDL is not a straight line; it turns east or west at certain places to stay within the ocean. The IDL brings coordination between international airlines, transportation services, economic activities, and trade. It is essential for keeping track of global time calculations accurately."
+      "text": "The International Date Line passes completely through the Pacific Ocean to avoid passing through land or islands. If the IDL passed through land, people in the same country or island would follow different dates and timings, causing confusion. Therefore, the IDL is not a straight line; it turns east or west at certain places to stay within the ocean. The IDL brings coordination between international airlines, transportation services, economic activities, and trade. It is essential for keeping track of global time calculations accurately.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "8.1",
@@ -467,7 +632,11 @@
         "Resource satisfy needs",
         "Lionel Robbins"
       ],
-      "text": "The word 'economics' comes from the Greek word 'oikonomia', which means 'family management'. Economics is the study of how to satisfy the infinite needs of people using scarce resources. According to Lionel Robbins, economics is a science which studies human behaviour as a relationship between ends and scarce means which have alternative uses. Just as individuals manage family finances, villages, cities, states, and countries also require economic management. Geographically, an economy refers to the enterprises related to the production, distribution, and consumption of goods and services in a specific region."
+      "text": "The word 'economics' comes from the Greek word 'oikonomia', which means 'family management'. Economics is the study of how to satisfy the infinite needs of people using scarce resources. According to Lionel Robbins, economics is a science which studies human behaviour as a relationship between ends and scarce means which have alternative uses. Just as individuals manage family finances, villages, cities, states, and countries also require economic management. Geographically, an economy refers to the enterprises related to the production, distribution, and consumption of goods and services in a specific region.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "8.2",
@@ -478,7 +647,11 @@
         "Mixed Economy",
         "Adam Smith"
       ],
-      "text": "There are three types of economies. In a Capitalistic Economy, ownership and management of the means of production are in the hands of private individuals, and the main aim is to earn maximum profit (e.g., Germany, Japan, USA). In a Socialistic Economy, the means of production belong to society as a whole under government control, and the main aim is social welfare (e.g., China, Russia). In a Mixed Economy, there is a co-existence of private and public sectors, balancing profit and social welfare (e.g., India, Sweden, UK). Adam Smith, the father of economics, defined economics as 'the science of wealth' in his 1776 book 'Wealth of Nations'."
+      "text": "There are three types of economies. In a Capitalistic Economy, ownership and management of the means of production are in the hands of private individuals, and the main aim is to earn maximum profit (e.g., Germany, Japan, USA). In a Socialistic Economy, the means of production belong to society as a whole under government control, and the main aim is social welfare (e.g., China, Russia). In a Mixed Economy, there is a co-existence of private and public sectors, balancing profit and social welfare (e.g., India, Sweden, UK). Adam Smith, the father of economics, defined economics as 'the science of wealth' in his 1776 book 'Wealth of Nations'.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "8.3",
@@ -489,7 +662,11 @@
         "Borderless economy",
         "Free trade"
       ],
-      "text": "Factors that affect an economy include geographical area, natural resources, political sovereignty, population, and occupations. The functions of an economy include deciding what and how much to produce, minimizing production costs, and distributing national income according to social justice. Globalisation means building a world economy that is borderless, where natural resources, profit, services, capital, labour, and technology flow freely across borders. Globalisation involves aligning a country's economy with the world economy through free trade and removing restrictions on investments."
+      "text": "Factors that affect an economy include geographical area, natural resources, political sovereignty, population, and occupations. The functions of an economy include deciding what and how much to produce, minimizing production costs, and distributing national income according to social justice. Globalisation means building a world economy that is borderless, where natural resources, profit, services, capital, labour, and technology flow freely across borders. Globalisation involves aligning a country's economy with the world economy through free trade and removing restrictions on investments.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "9.1",
@@ -502,7 +679,11 @@
         "Visible trade",
         "Invisible trade"
       ],
-      "text": "Trade is an important economic activity where the buying and selling of goods and services are done to fulfill the needs of different people. The economic life of people is interdependent because no region or country is self-sufficient. When there is a paucity of a commodity in one region, a demand is created, and the region producing excess commodities provides the supply. Trade involves producers who supply goods, wholesale traders who buy in bulk, and retail sellers who bring goods to consumers. Buying and selling of physical goods is called visible trade, while the exchange of services, such as advice from doctors or lawyers, is called invisible trade."
+      "text": "Trade is an important economic activity where the buying and selling of goods and services are done to fulfill the needs of different people. The economic life of people is interdependent because no region or country is self-sufficient. When there is a paucity of a commodity in one region, a demand is created, and the region producing excess commodities provides the supply. Trade involves producers who supply goods, wholesale traders who buy in bulk, and retail sellers who bring goods to consumers. Buying and selling of physical goods is called visible trade, while the exchange of services, such as advice from doctors or lawyers, is called invisible trade.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "9.2",
@@ -515,7 +696,11 @@
         "Bilateral",
         "Multilateral"
       ],
-      "text": "Trade is classified based on the quantity of goods and the extent of the trade region. According to quantity, wholesale trade involves buying commodities on a large scale directly from producers for sale to retail traders. Retail trade involves buying goods from wholesale traders and selling them directly to consumers in smaller quantities. According to the extent of the region, domestic or internal trade takes place within the boundaries of a single country. International or external trade involves the exchange of goods and services between different countries. International trade between two countries is called bilateral trade, while trade involving more than two countries is called multilateral trade."
+      "text": "Trade is classified based on the quantity of goods and the extent of the trade region. According to quantity, wholesale trade involves buying commodities on a large scale directly from producers for sale to retail traders. Retail trade involves buying goods from wholesale traders and selling them directly to consumers in smaller quantities. According to the extent of the region, domestic or internal trade takes place within the boundaries of a single country. International or external trade involves the exchange of goods and services between different countries. International trade between two countries is called bilateral trade, while trade involving more than two countries is called multilateral trade.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "9.3",
@@ -527,7 +712,11 @@
         "Unfavourable balance",
         "Balanced trade"
       ],
-      "text": "The difference between the import and export values of a country in a specific period is called the balance of trade. When the value of imports is more than the value of exports, the situation is called an unfavourable balance of trade. When the value of exports is more than the value of imports, the situation is called a favourable balance of trade. When the value of exports and imports is almost the same, the situation is called balanced trade. Export involves selling excess goods to other countries, while import involves buying scarce goods from other countries."
+      "text": "The difference between the import and export values of a country in a specific period is called the balance of trade. When the value of imports is more than the value of exports, the situation is called an unfavourable balance of trade. When the value of exports is more than the value of imports, the situation is called a favourable balance of trade. When the value of exports and imports is almost the same, the situation is called balanced trade. Export involves selling excess goods to other countries, while import involves buying scarce goods from other countries.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "9.4",
@@ -541,7 +730,11 @@
         "APEC",
         "BRICS"
       ],
-      "text": "International trade is complex and influenced by government policies, laws, and currencies. To facilitate global trade, several organisations were formed. The World Trade Organisation (WTO) provides a platform for negotiations and monitors trade policies. The European Union (EU) established an integrated market and the 'Euro' currency in Europe. The Organisation of Petroleum Exporting Countries (OPEC) controls the international trade and rates of crude oil. The South Asian Association for Regional Cooperation (SAARC) works toward solving common problems in South Asia. The Association of South-East Asian Nations (ASEAN) promotes economic growth and social harmony in South-East Asia. APEC facilitates free trade in the Asia-Pacific region, and BRICS makes funds available for the growth of member economies including Brazil, Russia, India, China, and South Africa."
+      "text": "International trade is complex and influenced by government policies, laws, and currencies. To facilitate global trade, several organisations were formed. The World Trade Organisation (WTO) provides a platform for negotiations and monitors trade policies. The European Union (EU) established an integrated market and the 'Euro' currency in Europe. The Organisation of Petroleum Exporting Countries (OPEC) controls the international trade and rates of crude oil. The South Asian Association for Regional Cooperation (SAARC) works toward solving common problems in South Asia. The Association of South-East Asian Nations (ASEAN) promotes economic growth and social harmony in South-East Asia. APEC facilitates free trade in the Asia-Pacific region, and BRICS makes funds available for the growth of member economies including Brazil, Russia, India, China, and South Africa.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "9.5",
@@ -553,7 +746,11 @@
         "Price",
         "Sales promotion"
       ],
-      "text": "Marketing is the collection of commercial functions involved when a product moves from a producer to a consumer. The major components of marketing include production, classification, branding, labelling, and packaging. Proper presentation, grading, and advertising increase the value of a commodity and its demand. In the modern era of globalization, marketing is vital because it allows products to reach a large number of consumers systematically. Information technology has revolutionized marketing through 'online trading' and 'e-marketing', making the whole world a single big market."
+      "text": "Marketing is the collection of commercial functions involved when a product moves from a producer to a consumer. The major components of marketing include production, classification, branding, labelling, and packaging. Proper presentation, grading, and advertising increase the value of a commodity and its demand. In the modern era of globalization, marketing is vital because it allows products to reach a large number of consumers systematically. Information technology has revolutionized marketing through 'online trading' and 'e-marketing', making the whole world a single big market.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "10.1",
@@ -564,7 +761,11 @@
         "Non-agricultural occupations",
         "Population density"
       ],
-      "text": "Urbanisation is the process where rural areas transform into towns or cities due to changes in occupation and population growth. In 1961, the Census of India defined an 'urban' area based on three criteria: more than 75% of the male working population must be engaged in non-agricultural occupations, the population of the settlement should be more than 5000, and the population density should be more than 400 persons per square kilometer. As a village grows, the Gram Panchayat gives way to a Municipal Council or Municipal Corporation to provide basic services like water supply and waste management."
+      "text": "Urbanisation is the process where rural areas transform into towns or cities due to changes in occupation and population growth. In 1961, the Census of India defined an 'urban' area based on three criteria: more than 75% of the male working population must be engaged in non-agricultural occupations, the population of the settlement should be more than 5000, and the population density should be more than 400 persons per square kilometer. As a village grows, the Gram Panchayat gives way to a Municipal Council or Municipal Corporation to provide basic services like water supply and waste management.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "10.2",
@@ -575,7 +776,11 @@
         "Migration",
         "Transport and Communication"
       ],
-      "text": "Several factors contribute to urbanisation. Industrialisation leads to the concentration of industries, attracting people from surrounding areas for work. Trade facilitates growth in locations favourable for transport and storage, such as Nagpur. Mechanisation and technology in agriculture reduce the need for manual labour in rural areas, driving the working class to cities. Transport and communication facilities, like the Konkan Railway, lead to the rapid urbanisation of settlements along their routes. Migration is a major factor, where people move from rural to urban areas in search of a higher standard of life and better employment opportunities."
+      "text": "Several factors contribute to urbanisation. Industrialisation leads to the concentration of industries, attracting people from surrounding areas for work. Trade facilitates growth in locations favourable for transport and storage, such as Nagpur. Mechanisation and technology in agriculture reduce the need for manual labour in rural areas, driving the working class to cities. Transport and communication facilities, like the Konkan Railway, lead to the rapid urbanisation of settlements along their routes. Migration is a major factor, where people move from rural to urban areas in search of a higher standard of life and better employment opportunities.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "10.3",
@@ -587,7 +792,11 @@
         "Pollution",
         "Traffic jams"
       ],
-      "text": "Urbanisation brings advantages like social harmony, where people from different backgrounds live together and exchange cultural traditions. Modernisation allows for the easy exchange of wisdom and skills. However, urbanisation also creates serious problems. Slums emerge because housing facilities cannot keep pace with the rapidly increasing population, leading to illegal and crowded settlements lacking basic facilities. Traffic jams occur as cities grow and the number of private vehicles increases. Pollution (air, water, and noise) becomes a major issue due to the development of the city and the paucity of facilities. Increased crime rates and rising land prices also create tension in urban societies."
+      "text": "Urbanisation brings advantages like social harmony, where people from different backgrounds live together and exchange cultural traditions. Modernisation allows for the easy exchange of wisdom and skills. However, urbanisation also creates serious problems. Slums emerge because housing facilities cannot keep pace with the rapidly increasing population, leading to illegal and crowded settlements lacking basic facilities. Traffic jams occur as cities grow and the number of private vehicles increases. Pollution (air, water, and noise) becomes a major issue due to the development of the city and the paucity of facilities. Increased crime rates and rising land prices also create tension in urban societies.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "11.1",
@@ -598,7 +807,11 @@
         "RoRo transport",
         "Green Corridor"
       ],
-      "text": "Transportation is a basic infrastructure and an indicator of the development of a region. Factors to consider for transportation include distance, duration, cost, time, products, climate, market, and physiography. Selecting the right route and means of transport saves time and money while ensuring goods are delivered without damage. RoRo (Roll-on Roll-off) transport involves loading trucks onto goods trains to reduce transport costs, fuel consumption, and pollution; this was first used in India on the Konkan Railway. A Green Corridor is a route cleared of all obstacles for the urgent transport of donated organs to save lives."
+      "text": "Transportation is a basic infrastructure and an indicator of the development of a region. Factors to consider for transportation include distance, duration, cost, time, products, climate, market, and physiography. Selecting the right route and means of transport saves time and money while ensuring goods are delivered without damage. RoRo (Roll-on Roll-off) transport involves loading trucks onto goods trains to reduce transport costs, fuel consumption, and pollution; this was first used in India on the Konkan Railway. A Green Corridor is a route cleared of all obstacles for the urgent transport of donated organs to save lives.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "11.2",
@@ -609,91 +822,11 @@
         "Cyber war",
         "Digital payments"
       ],
-      "text": "Communication involves the exchange of information and is a basic infrastructure in the modern age. Man-made satellites are effective means for exchanging messages, watching TV, and getting updated climatic information. Satellite images obtained by remote sensing help in regional planning and studying Earth's resources. The internet and social media have enabled online trading and digital payments through apps like BHIM and SBI Anywhere. However, communication facilities face threats like cyber war and cyber crimes, including hacking, fraud, and terrorism. Users must take precautions and avoid revealing sensitive personal information on social networking sites."
-    },
-    {
-      "chunk_id": "7.1",
-      "heading": "आंतरराष्ट्रीय वाररेषा संकल्पना (Concept of International Date Line)",
-      "keywords": [
-        "आंतरराष्ट्रीय वाररेषा",
-        "International Date Line",
-        "१८० रेखावृत्त",
-        "परिवलन"
-      ],
-      "text": "पृथ्वीच्या परिवलनामुळे प्रत्येक ठिकाणी मध्यान्ह वेगवेगळ्या वेळी होते. पृथ्वी गोल असल्याने प्रत्येक ठिकाणच्या पूर्वेला कोणते ना कोणते ठिकाण असतेच, त्यामुळे दिवसाची सुरुवात सर्वांत अगोदर कोठे होते, हा प्रश्न सोडवण्यासाठी १८८४ मध्ये वॉशिंग्टन येथे आंतरराष्ट्रीय वाररेषा निश्चित करण्यात आली. आंतरराष्ट्रीय वाररेषा ही ग्रीनिचच्या अगदी विरुद्ध बाजूस असलेल्या १८०° रेखावृत्ताच्या अनुरोधाने काढली आहे. आंतरराष्ट्रीय वाररेषा ओलांडताना दिनांक व वारात बदल करावा लागतो, असा जागतिक संकेत आहे. आंतरराष्ट्रीय वाररेषा पूर्णपणे पॅसिफिक महासागरातून नेण्याचा प्रयत्न केला आहे, जेणेकरून जमिनीवरील लोकांच्या वार व तारखेत गोंधळ होऊ नये."
-    },
-    {
-      "chunk_id": "7.2",
-      "heading": "वाररेषा ओलांडण्याचे नियम (Rules for Crossing the IDL)",
-      "keywords": [
-        "वार बदल",
-        "तारीख बदल",
-        "पूर्व दिशा",
-        "पश्चिम दिशा"
-      ],
-      "text": "आंतरराष्ट्रीय वाररेषा ओलांडताना प्रवासाच्या दिशेनुसार वार व तारखेत बदल करावा लागतो. जेव्हा प्रवासी पश्चिमेकडून पूर्वेकडे (उदा. जपानकडून अमेरिकेकडे) आंतरराष्ट्रीय वाररेषा ओलांडून जातो, तेव्हा प्रवाशाने आहे तोच दिवस व तीच तारीख ग्राह्य धरावी लागते. याउलट, जेव्हा प्रवासी पूर्वेकडून पश्चिमेकडे (उदा. अमेरिकेकडून जपानकडे) आंतरराष्ट्रीय वाररेषा ओलांडून जातो, तेव्हा प्रवाशाने वार व तारीख एक दिवसाने पुढे न्यावी लागते. आंतरराष्ट्रीय वाररेषेमुळे जागतिक दळणवळण आणि हवाई मार्गांच्या वेळापत्रकात अचूकता राखणे शक्य होते."
-    },
-    {
-      "chunk_id": "8.1",
-      "heading": "अर्थशास्त्र आणि कौटुंबिक व्यवस्थापन (Economics and Management)",
-      "keywords": [
-        "अर्थशास्त्र",
-        "Economics",
-        "ओईकोनोमिया",
-        "Oikonomia",
-        "व्यवस्थापन"
-      ],
-      "text": "अर्थशास्त्र ही संज्ञा 'ओईकोनोमिया' (OIKONOMIA) या ग्रीक शब्दापासून बनली असून अर्थशास्त्र या शब्दाचा अर्थ 'कौटुंबिक व्यवस्थापन' असा आहे. कौटुंबिक व्यवस्थापन आणि अर्थशास्त्र यांत बरेचसे साम्य आहे. उत्पन्न व खर्च यांचा ताळमेळ बसवणे म्हणजे व्यवस्थापन होय. अमर्याद गरजा आणि मर्यादित, दुर्मीळ व पर्यायी उपयोगाची साधने यांचा मेळ घालणाऱ्या मानवी प्रयत्नांचा अभ्यास अर्थशास्त्रात केला जातो. ॲडम स्मिथ यांना अर्थशास्त्राचे जनक मानले जाते. ॲडम स्मिथ यांनी १७७६ मध्ये प्रकाशित केलेल्या 'राष्ट्रांची संपत्ती' (Wealth of Nations) या ग्रंथात अर्थशास्त्र हे संपत्तीचे शास्त्र आहे, अशी व्याख्या केली आहे."
-    },
-    {
-      "chunk_id": "8.2",
-      "heading": "अर्थव्यवस्थेचे प्रकार (Types of Economies)",
-      "keywords": [
-        "भांडवलशाही",
-        "Capitalist",
-        "समाजवादी",
-        "Socialist",
-        "मिश्र अर्थव्यवस्था",
-        "Mixed Economy"
-      ],
-      "text": "जागतिक स्तरावर अर्थव्यवस्थेचे तीन मुख्य प्रकार आहेत: १. भांडवलशाही अर्थव्यवस्था: भांडवलशाही अर्थव्यवस्थेत उत्पादनाच्या साधनांची मालकी आणि व्यवस्थापन खासगी व्यक्तींकडे असते आणि कमाल नफा मिळवणे हा भांडवलशाही अर्थव्यवस्थेचा मुख्य हेतू असतो (उदा. अमेरिका, जपान). २. समाजवादी अर्थव्यवस्था: समाजवादी अर्थव्यवस्थेत उत्पादनाचे घटक संपूर्ण समाजाच्या म्हणजेच सरकारच्या मालकीचे असतात आणि सामाजिक कल्याण साधणे हा समाजवादी अर्थव्यवस्थेचा मुख्य हेतू असतो (उदा. चीन, रशिया). ३. मिश्र अर्थव्यवस्था: मिश्र अर्थव्यवस्थेत सार्वजनिक व खासगी क्षेत्रांचे सहअस्तित्व असते आणि नफा व सामाजिक कल्याण यांचा योग्य सहसंबंध राखला जातो (उदा. भारत, स्वीडन)."
-    },
-    {
-      "chunk_id": "9.1",
-      "heading": "व्यापार संकल्पना (Concept of Trade)",
-      "keywords": [
-        "व्यापार",
-        "Trade",
-        "ग्राहक",
-        "Consumer",
-        "विक्रेता",
-        "Seller"
-      ],
-      "text": "ग्राहक व विक्रेते वस्तूंची खरेदी-विक्री किंवा देवाणघेवाण करतात, या क्रियेला व्यापार असे संबोधतात. व्यापार ही एक महत्त्वाची आर्थिक क्रिया असून समाजातील लोकांचे आर्थिक जीवन एकमेकांवर अवलंबून असते. कोणताही प्रदेश किंवा देश स्वयंपूर्ण नसतो, त्यामुळे लोकांच्या गरजा पूर्ण करण्यासाठी दोन प्रदेशांदरम्यान व्यापार होणे गरजेचे असते. ज्या ठिकाणी एखाद्या वस्तूची कमतरता असते, तेथे त्या वस्तूला मागणी असते आणि ज्या ठिकाणी वस्तूचे उत्पादन अतिरिक्त होते, तेथून त्या वस्तूचा पुरवठा होतो. व्यापाराचे दोन मुख्य प्रकार आहेत: १. दृश्य व्यापार: दृश्य व्यापारात वस्तूंची प्रत्यक्ष खरेदी-विक्री होते. २. अदृश्य व्यापार: अदृश्य व्यापारात सेवांची देवाणघेवाण होते (उदा. डॉक्टर किंवा वकिलाने दिलेला सल्ला)."
-    },
-    {
-      "chunk_id": "9.2",
-      "heading": "व्यापाराचे प्रकार (Types of Trade)",
-      "keywords": [
-        "देशांतर्गत व्यापार",
-        "Internal Trade",
-        "आंतरराष्ट्रीय व्यापार",
-        "International Trade",
-        "आयात-निर्यात"
-      ],
-      "text": "व्यापाराचे वर्गीकरण वस्तूंच्या प्रमाणानुसार आणि प्रदेश विस्तारानुसार केले जाते. १. घाऊक व्यापार: व्यापारी मोठ्या प्रमाणावर मालाची खरेदी उत्पादकाकडून करतात आणि किरकोळ व्यापाऱ्यांना विकतात. २. किरकोळ व्यापार: व्यापारी घाऊक व्यापाऱ्यांकडून माल घेऊन थेट उपभोक्त्याला विकतात. ३. देशांतर्गत किंवा अंतर्गत व्यापार: एकाच देशातील वेगवेगळ्या प्रदेशांमध्ये होणाऱ्या व्यापाराला देशांतर्गत व्यापार म्हणतात. ४. आंतरराष्ट्रीय व्यापार: एका देशाचा इतर देशांशी होणारा वस्तू व सेवांचा विनिमय म्हणजे आंतरराष्ट्रीय व्यापार होय. आंतरराष्ट्रीय व्यापारात 'आयात' (दुसऱ्या देशाकडून माल विकत घेणे) आणि 'निर्यात' (दुसऱ्या देशाला माल विकणे) या दोन मूलभूत क्रिया असतात."
-    },
-    {
-      "chunk_id": "9.3",
-      "heading": "व्यापार संतुलन (Balance of Trade)",
-      "keywords": [
-        "व्यापार संतुलन",
-        "Balance of Trade",
-        "अनुकूल",
-        "प्रतिकूल",
-        "संतुलित"
-      ],
-      "text": "एखाद्या देशाच्या विशिष्ट काळातील आयात व निर्यात मूल्यांमधील फरकाला व्यापार संतुलन म्हणतात. व्यापार संतुलनाचे तीन प्रकार आहेत: १. प्रतिकूल व्यापार संतुलन: जेव्हा आयातीचे मूल्य हे निर्यातीच्या मूल्यापेक्षा जास्त असते, तेव्हा त्याला प्रतिकूल व्यापार संतुलन म्हणतात. २. अनुकूल व्यापार संतुलन: जेव्हा निर्यातीचे मूल्य हे आयातीच्या मूल्यापेक्षा जास्त असते, तेव्हा त्याला अनुकूल व्यापार संतुलन म्हणतात. ३. संतुलित व्यापार: जेव्हा आयात व निर्यातीचे मूल्य जवळपास सारखे असते, तेव्हा त्याला संतुलित व्यापार म्हणतात."
+      "text": "Communication involves the exchange of information and is a basic infrastructure in the modern age. Man-made satellites are effective means for exchanging messages, watching TV, and getting updated climatic information. Satellite images obtained by remote sensing help in regional planning and studying Earth's resources. The internet and social media have enabled online trading and digital payments through apps like BHIM and SBI Anywhere. However, communication facilities face threats like cyber war and cyber crimes, including hacking, fraud, and terrorism. Users must take precautions and avoid revealing sensitive personal information on social networking sites.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "12.1",
@@ -704,7 +837,11 @@
         "Foreign currency",
         "Tertiary occupation"
       ],
-      "text": "Visiting various places away from home for getting joy, entertainment, trading, or staying is called tourism. Tourism is an important tertiary occupation that introduces the world to a region’s natural, social, and cultural environment. On the basis of political boundaries, tourism is divided into two types. Domestic tourism refers to tourism within the limits of a country, such as a person from Maharashtra visiting the Ellora Caves in Aurangabad. International or foreign tourism involves crossing a country’s boundaries to visit another country, such as an American coming to India. International tourism is vital for the economy because international tourism increases the flow of foreign currency into the country."
+      "text": "Visiting various places away from home for getting joy, entertainment, trading, or staying is called tourism. Tourism is an important tertiary occupation that introduces the world to a region’s natural, social, and cultural environment. On the basis of political boundaries, tourism is divided into two types. Domestic tourism refers to tourism within the limits of a country, such as a person from Maharashtra visiting the Ellora Caves in Aurangabad. International or foreign tourism involves crossing a country’s boundaries to visit another country, such as an American coming to India. International tourism is vital for the economy because international tourism increases the flow of foreign currency into the country.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "12.2",
@@ -715,7 +852,11 @@
         "Film tourism",
         "Medical tourism"
       ],
-      "text": "Several new forms of tourism have emerged recently. Ecotourism is an eco-friendly type of tourism where development is planned to ensure the environment is not degraded or damaged by tourists. Agro-tourism involves tourists visiting pollution-free locations away from the city to catch a glimpse of agricultural life and live on farms. Film tourism focuses on locations where films are shot, such as Mumbai Film City or Ramoji City, providing amenities to attract tourists to these sites. Medical tourism develops when patients from various countries visit a place like India to avail themselves of cost-effective medicinal and surgical treatments, as well as health facilities like Ayurveda and Yoga."
+      "text": "Several new forms of tourism have emerged recently. Ecotourism is an eco-friendly type of tourism where development is planned to ensure the environment is not degraded or damaged by tourists. Agro-tourism involves tourists visiting pollution-free locations away from the city to catch a glimpse of agricultural life and live on farms. Film tourism focuses on locations where films are shot, such as Mumbai Film City or Ramoji City, providing amenities to attract tourists to these sites. Medical tourism develops when patients from various countries visit a place like India to avail themselves of cost-effective medicinal and surgical treatments, as well as health facilities like Ayurveda and Yoga.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "12.3",
@@ -726,7 +867,11 @@
         "Social development",
         "Invisible trade"
       ],
-      "text": "Tourism plays a significant role in economic development by improving basic infrastructure and generating employment for local people. Because tourism provides services rather than physical goods, tourism is often called an invisible trade. For environmental development, the government invests in natural locations, sanctuaries, and national parks to promote eco-friendly tourism. Social development is achieved when tourism includes facets like rural lifestyle and tribal culture, creating social consciousness and giving a flip to the development of neglected components of society, such as the tribal life in Melghat."
+      "text": "Tourism plays a significant role in economic development by improving basic infrastructure and generating employment for local people. Because tourism provides services rather than physical goods, tourism is often called an invisible trade. For environmental development, the government invests in natural locations, sanctuaries, and national parks to promote eco-friendly tourism. Social development is achieved when tourism includes facets like rural lifestyle and tribal culture, creating social consciousness and giving a flip to the development of neglected components of society, such as the tribal life in Melghat.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "12.4",
@@ -737,7 +882,11 @@
         "MTDC",
         "Deccan Odyssey"
       ],
-      "text": "Planning a trip involves organizing routes, deciding on transport, and estimating travel costs. The Global Positioning System (GPS) in smartphones and applications like Google Map are largely used in tourism to identify exact locations, possible routes, distances, and amenities like restaurants or lodges. In Maharashtra, the Maharashtra Tourism Development Corporation (MTDC) implements programmes like guest houses and water sports. Special luxury trains like the 'Deccan Odyssey' and 'Palace on Wheels' are operated to take tourists to historical and scenic places, acting like moving palaces."
+      "text": "Planning a trip involves organizing routes, deciding on transport, and estimating travel costs. The Global Positioning System (GPS) in smartphones and applications like Google Map are largely used in tourism to identify exact locations, possible routes, distances, and amenities like restaurants or lodges. In Maharashtra, the Maharashtra Tourism Development Corporation (MTDC) implements programmes like guest houses and water sports. Special luxury trains like the 'Deccan Odyssey' and 'Palace on Wheels' are operated to take tourists to historical and scenic places, acting like moving palaces.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "13.1",
@@ -748,7 +897,11 @@
         "Solifluction",
         "Frostbite"
       ],
-      "text": "Mechanical weathering includes processes like exfoliation, where the outer layers of rock peel away due to heat. Chemical weathering involves reactions like oxidation, where oxygen reacts with iron in rocks to form rust. Mass movement refers to the movement of weathered rock materials down a slope due to gravity. Solifluction is a slow mass movement occurring in periglacial areas where soil layers move due to the freezing and melting of snow. Frostbite is the freezing of skin and upper tissues caused by very cold temperatures, often affecting tourists in snow-covered regions."
+      "text": "Mechanical weathering includes processes like exfoliation, where the outer layers of rock peel away due to heat. Chemical weathering involves reactions like oxidation, where oxygen reacts with iron in rocks to form rust. Mass movement refers to the movement of weathered rock materials down a slope due to gravity. Solifluction is a slow mass movement occurring in periglacial areas where soil layers move due to the freezing and melting of snow. Frostbite is the freezing of skin and upper tissues caused by very cold temperatures, often affecting tourists in snow-covered regions.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "13.2",
@@ -759,7 +912,11 @@
         "Roche Moutonnee",
         "Yardang"
       ],
-      "text": "Alluvial fans are triangular deposits of sediments formed when a river enters a plain from a mountainous area. A Barchan is a crescent-shaped sand dune where the convex side faces the wind. Roche Moutonnee is a landform found in glacier beds where the up-slope side is smooth and the down-slope side is rough due to erosion. A Yardang is a landform formed by the dual work of wind erosion and transportation, often resembling a toppled boat. A Gorge is a deep and narrow valley with steep, almost vertical slopes."
+      "text": "Alluvial fans are triangular deposits of sediments formed when a river enters a plain from a mountainous area. A Barchan is a crescent-shaped sand dune where the convex side faces the wind. Roche Moutonnee is a landform found in glacier beds where the up-slope side is smooth and the down-slope side is rough due to erosion. A Yardang is a landform formed by the dual work of wind erosion and transportation, often resembling a toppled boat. A Gorge is a deep and narrow valley with steep, almost vertical slopes.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "13.3",
@@ -770,7 +927,11 @@
         "Stalactite",
         "Sink hole"
       ],
-      "text": "A Lagoon is a shallow coastal lake separated from the main sea by sand bars or coral reefs. A Wave-cut platform is a flat surface formed at the base of sea cliffs due to the hitting of waves. In groundwater processes, a Sink hole is a hole produced naturally in limestone regions due to erosion. Stalactites are pillars that grow from the roof of a cave downward, while Stalagmites grow from the floor upward, both formed by alkaline deposits from flowing groundwater."
+      "text": "A Lagoon is a shallow coastal lake separated from the main sea by sand bars or coral reefs. A Wave-cut platform is a flat surface formed at the base of sea cliffs due to the hitting of waves. In groundwater processes, a Sink hole is a hole produced naturally in limestone regions due to erosion. Stalactites are pillars that grow from the roof of a cave downward, while Stalagmites grow from the floor upward, both formed by alkaline deposits from flowing groundwater.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     },
     {
       "chunk_id": "13.4",
@@ -781,7 +942,12 @@
         "Choropleth method",
         "Isopleth method"
       ],
-      "text": "Gross Domestic Product (GDP) is the sum of all productions in all sectors of an economy in one year. Per Capita Income is the ratio between the total population of a country and the total national production. In mapping, the Choropleth method uses tints or shades of various colours to show geographical variables based on sub-administrative units. The Isopleth method shows the distribution of continuous variables, like rainfall or temperature, using lines of equal value called isolines. The Dot method uses dots of uniform size to represent the distribution of variables like population or cattle."
+      "text": "Gross Domestic Product (GDP) is the sum of all productions in all sectors of an economy in one year. Per Capita Income is the ratio between the total population of a country and the total national production. In mapping, the Choropleth method uses tints or shades of various colours to show geographical variables based on sub-administrative units. The Isopleth method shows the distribution of continuous variables, like rainfall or temperature, using lines of equal value called isolines. The Dot method uses dots of uniform size to represent the distribution of variables like population or cattle.",
+      "difficulty": 3,
+      "importance": 3,
+      "linked_concepts": [],
+      "prerequisites": []
     }
-  ]
+  ],
+  "generation_status": "complete"
 }
