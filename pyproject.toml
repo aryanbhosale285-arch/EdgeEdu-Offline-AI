@@ -1,0 +1,12 @@
+[project]
+name = "edgeedu-content-pipeline"
+version = "1.0.0"
+description = "EdgeEdu Phase-1 content pipeline: v3.0 schema, SymPy-verified solutions, signed manifest"
+requires-python = ">=3.11"
+dependencies = ["sympy>=1.12", "cryptography>=42.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
