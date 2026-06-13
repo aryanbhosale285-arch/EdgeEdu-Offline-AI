@@ -6,11 +6,13 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -73,9 +75,17 @@ private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
 
         is AppState.Provisioning -> Centered {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                CircularProgressIndicator()
+                if (s.filesTotal > 0) {
+                    LinearProgressIndicator(
+                        progress = { s.filesDone.toFloat() / s.filesTotal },
+                        modifier = Modifier.fillMaxWidth(0.7f),
+                    )
+                } else {
+                    CircularProgressIndicator()
+                }
                 Text(
-                    "Downloading & verifying\n${s.scopeLabel}…",
+                    "Downloading & verifying\n${s.scopeLabel}…" +
+                        if (s.filesTotal > 0) "\n${s.filesDone} / ${s.filesTotal} files" else "",
                     textAlign = TextAlign.Center,
                     style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.padding(top = 16.dp),
@@ -90,7 +100,12 @@ private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
                     textAlign = TextAlign.Center,
                     style = MaterialTheme.typography.bodyMedium,
                 )
-                Button(onClick = { viewModel.logout() }, modifier = Modifier.padding(top = 12.dp)) {
+                if (s.retryable) {
+                    Button(onClick = { viewModel.retry() }, modifier = Modifier.padding(top = 12.dp)) {
+                        Text("Retry download")
+                    }
+                }
+                TextButton(onClick = { viewModel.logout() }, modifier = Modifier.padding(top = 4.dp)) {
                     Text("Back to login")
                 }
             }

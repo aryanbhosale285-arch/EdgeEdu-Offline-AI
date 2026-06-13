@@ -15,6 +15,13 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "0.3.0"
+
+        // The signed static host the login download fetches from (PRD §9, §12.2).
+        // Empty -> fall back to the bundled-asset origin so the app still demos
+        // fully offline. A real build/CI sets this to the deployed host, e.g.
+        //   -PcontentBaseUrl=https://edgeedu.example.com/content
+        val contentBaseUrl = (project.findProperty("contentBaseUrl") as String?).orEmpty()
+        buildConfigField("String", "CONTENT_BASE_URL", "\"$contentBaseUrl\"")
     }
 
     buildTypes {
@@ -32,6 +39,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     // On-device LLM via llama.cpp. Off by default so the app builds without

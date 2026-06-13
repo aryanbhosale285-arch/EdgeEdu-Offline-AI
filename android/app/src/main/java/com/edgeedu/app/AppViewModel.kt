@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.edgeedu.app.content.AssetContentSource
 import com.edgeedu.app.content.ContentProvisioner
 import com.edgeedu.app.content.ContentSource
+import com.edgeedu.app.content.HttpContentSource
 import com.edgeedu.app.content.Profile
 import com.edgeedu.app.content.ProfileStore
 import com.edgeedu.app.data.BookmarkEntry
@@ -48,11 +49,20 @@ sealed class AppState {
     /** No profile yet (first run or after logout): show the login screen. */
     data object NeedsLogin : AppState()
 
-    /** Downloading + verifying the profile's class+medium content (§12.2). */
-    data class Provisioning(val scopeLabel: String) : AppState()
+    /**
+     * Downloading + verifying the profile's class+medium content (§12.2).
+     * [filesTotal] == 0 means the count isn't known yet (indeterminate).
+     */
+    data class Provisioning(
+        val scopeLabel: String,
+        val filesDone: Int = 0,
+        val filesTotal: Int = 0,
+    ) : AppState()
 
     data class Ready(val info: CorpusInfo, val profile: Profile) : AppState()
-    data class Failed(val reason: String) : AppState()
+
+    /** [retryable] is true when a saved profile lets the user retry the download. */
+    data class Failed(val reason: String, val retryable: Boolean = false) : AppState()
 }
 
 class AppViewModel(application: Application) : AndroidViewModel(application) {
@@ -91,8 +101,18 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private val provisioner by lazy {
         ContentProvisioner(contentDir, File(app.filesDir, "content_version"))
     }
-    /** The download origin. Bundled assets here; an HTTP host in Phase 2. */
-    private val contentSource: ContentSource get() = AssetContentSource(app.assets)
+    /**
+     * The download origin: the configured static host when [BuildConfig.CONTENT_BASE_URL]
+     * is set, otherwise the bundled-asset origin so the app still works fully
+     * offline (the verification step is identical for both — §14.1).
+     */
+    private val contentSource: ContentSource
+        get() = BuildConfig.CONTENT_BASE_URL.takeIf { it.isNotBlank() }
+            ?.let { HttpContentSource(it) }
+            ?: AssetContentSource(app.assets)
+
+    /** Last profile we tried to load, so a failed download can be retried. */
+    private var lastProfile: Profile? = null
 
     init {
         userData = UserDataStore(app)
@@ -137,18 +157,27 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    /** Retry a failed download for the saved profile (PRD §12.2 retry path). */
+    fun retry() {
+        val profile = lastProfile ?: return
+        viewModelScope.launch { loadForProfile(profile, forceDownload = true) }
+    }
+
     private suspend fun loadForProfile(profile: Profile, forceDownload: Boolean) {
+        lastProfile = profile
         _state.value = AppState.Provisioning(profile.scope.label)
         try {
             repository = withContext(Dispatchers.IO) {
                 if (forceDownload || !provisioner.isProvisioned()) {
-                    provisioner.provision(contentSource, profile.scope)
+                    provisioner.provision(contentSource, profile.scope) { done, total ->
+                        _state.value = AppState.Provisioning(profile.scope.label, done, total)
+                    }
                 }
                 CorpusRepository.load(contentDir, profile.scope)
             }
             _state.value = AppState.Ready(corpusInfo(), profile)
         } catch (e: Exception) {
-            _state.value = AppState.Failed(e.message ?: "failed to load content")
+            _state.value = AppState.Failed(e.message ?: "failed to load content", retryable = true)
         }
     }
 

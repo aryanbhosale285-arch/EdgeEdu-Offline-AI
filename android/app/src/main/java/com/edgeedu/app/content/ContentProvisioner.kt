@@ -34,8 +34,15 @@ class ContentProvisioner(
      * Downloads and verifies the [scope] slice into [contentDir], replacing any
      * existing content atomically (staged in a sibling dir, then swapped, so a
      * failed or cancelled download never leaves a half-written corpus).
+     *
+     * [onProgress] is called with (filesDone, filesTotal) after each verified
+     * file, so the UI can show real download progress (PRD §12.2 / §16).
      */
-    fun provision(source: ContentSource, scope: ContentScope): ProvisionResult {
+    fun provision(
+        source: ContentSource,
+        scope: ContentScope,
+        onProgress: (done: Int, total: Int) -> Unit = { _, _ -> },
+    ): ProvisionResult {
         val manifestBytes = source.manifest()
         val manifest: Manifest = json.decodeFromString(manifestBytes.decodeToString())
 
@@ -54,13 +61,15 @@ class ContentProvisioner(
         val staging = File(contentDir.parentFile, "${contentDir.name}.tmp")
         staging.deleteRecursively()
         staging.mkdirs()
-        for ((rel, info) in scoped) {
+        onProgress(0, scoped.size)
+        scoped.forEachIndexed { i, (rel, info) ->
             val bytes = source.open(rel)
             if (sha256(bytes) != info.sha256) throw IntegrityException("hash mismatch for $rel")
             File(staging, rel).apply {
                 parentFile?.mkdirs()
                 writeBytes(bytes)
             }
+            onProgress(i + 1, scoped.size)
         }
         // Keep the full signed manifest (signature intact) alongside the scoped
         // files; CorpusRepository re-verifies the active scope against it.

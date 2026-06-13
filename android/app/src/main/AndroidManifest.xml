@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Offline-first: the app requests no network permission at all. -->
+    <!-- Offline-first: internet is used only for the one-time login download
+         of the profile's class+medium content (PRD §12.2). After that the app
+         makes no network calls until logout. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:label="EdgeEdu"
