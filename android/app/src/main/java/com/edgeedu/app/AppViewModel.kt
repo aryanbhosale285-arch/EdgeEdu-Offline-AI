@@ -15,14 +15,18 @@ import com.edgeedu.app.data.BookmarkEntry
 import com.edgeedu.app.data.CorpusRepository
 import com.edgeedu.app.data.IndexedChunk
 import com.edgeedu.app.data.UserDataStore
+import com.edgeedu.app.notes.CustomSubject
+import com.edgeedu.app.notes.CustomSubjectStore
 import com.edgeedu.app.notes.ImportedFile
 import com.edgeedu.app.notes.NoteChunker
 import com.edgeedu.app.notes.NoteImport
+import com.edgeedu.app.notes.NoteStructurer
 import com.edgeedu.app.notes.NotesStore
 import com.edgeedu.app.search.Bm25Index
 import com.edgeedu.app.search.SearchFilters
 import com.edgeedu.app.search.SearchHit
 import com.edgeedu.app.session.Subject
+import com.edgeedu.app.session.SubjectRef
 import com.edgeedu.app.session.SubjectSession
 import com.edgeedu.app.tutor.LlmEngine
 import com.edgeedu.app.tutor.ModelConfig
@@ -103,6 +107,10 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private val _importedFiles = MutableStateFlow<List<ImportedFile>>(emptyList())
     val importedFiles: StateFlow<List<ImportedFile>> = _importedFiles.asStateFlow()
 
+    /** User-created subjects for the logged-in class ("add your own subject"). */
+    private val _customSubjects = MutableStateFlow<List<CustomSubject>>(emptyList())
+    val customSubjects: StateFlow<List<CustomSubject>> = _customSubjects.asStateFlow()
+
     /** Transient one-line status for imports (success/error), shown then dismissed. */
     private val _notice = MutableStateFlow<String?>(null)
     val notice: StateFlow<String?> = _notice.asStateFlow()
@@ -115,6 +123,7 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private val contentDir: File get() = File(app.filesDir, "content")
     private val profileStore by lazy { ProfileStore(app) }
     private val notesStore by lazy { NotesStore(app) }
+    private val customSubjectStore by lazy { CustomSubjectStore(app) }
     /** Config-driven model (Qwen2.5-3B default), or the mock when unavailable. */
     private val llmEngine: LlmEngine by lazy { ModelConfig.createEngine(app) }
     private val provisioner by lazy {
@@ -168,6 +177,7 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     fun logout() {
         viewModelScope.launch {
             endSession()
+            _customSubjects.value = emptyList()
             withContext(Dispatchers.IO) {
                 profileStore.clear()
                 provisioner.clear()
@@ -195,6 +205,7 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
                 CorpusRepository.load(contentDir, profile.scope)
             }
             _state.value = AppState.Ready(corpusInfo(), profile)
+            refreshCustomSubjects()
         } catch (e: Exception) {
             _state.value = AppState.Failed(e.message ?: "failed to load content", retryable = true)
         }
@@ -220,52 +231,95 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
      * tutor with math tooling only for Mathematics. Replaces any previous
      * session (its index becomes garbage) and clears session-scoped state.
      */
-    fun startSession(subject: Subject) {
-        if (_sessionLoading.value || _session.value?.subject == subject) return
+    fun startSession(ref: SubjectRef) {
+        if (_sessionLoading.value || _session.value?.subject == ref) return
         _sessionLoading.value = true
         _session.value = null
         _chat.value = emptyList()
         _searchHits.value = emptyList()
         viewModelScope.launch {
             try {
-                _session.value = withContext(Dispatchers.Default) { buildSession(subject) }
-                refreshImportedFiles(subject)
+                _session.value = withContext(Dispatchers.Default) { buildSession(ref) }
+                refreshImportedFiles(ref)
             } finally {
                 _sessionLoading.value = false
             }
         }
     }
 
-    /**
-     * Builds the focused session index over BOTH the subject's textbook chunks
-     * and the student's imported notes for this class (PRD §8.1 dual corpus).
-     * Notes carry [com.edgeedu.app.data.ChunkSource.Notes] so answers can show
-     * where each source came from.
-     */
-    private fun buildSession(subject: Subject): SubjectSession {
-        val profile = lastProfile
-        val textbook = repository.chunks.filter { Subject.of(it.subject) == subject }
-        val notes = if (profile != null) {
-            notesStore.chunksFor(subject.name, profile.standard, profile.medium)
-        } else emptyList()
-        val all = textbook + notes
-        val index = Bm25Index(all)
-        return SubjectSession(
-            subject = subject,
-            chunks = all,
-            index = index,
-            tutor = Tutor(index, llmEngine, mathSession = subject.isMath),
-        )
-    }
-
-    private suspend fun refreshImportedFiles(subject: Subject) {
+    /** Creates a user-defined subject and immediately opens its (empty) session. */
+    fun createCustomSubject(name: String) {
         val profile = lastProfile ?: return
-        _importedFiles.value = withContext(Dispatchers.IO) {
-            notesStore.importedFiles(subject.name, profile.standard)
+        val clean = name.trim()
+        if (clean.isBlank()) return
+        viewModelScope.launch {
+            val id = withContext(Dispatchers.IO) { customSubjectStore.create(clean, profile.standard) }
+            refreshCustomSubjects()
+            startSession(SubjectRef.Custom(id, clean))
         }
     }
 
-    /** Imports a notes file (PRD §8): validate → extract → chunk → index now. */
+    fun deleteCustomSubject(subject: CustomSubject) {
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) {
+                customSubjectStore.delete(subject.id)
+                File(File(app.filesDir, "custom"), "${subject.id}.json").delete()
+            }
+            if ((_session.value?.subject as? SubjectRef.Custom)?.id == subject.id) endSession()
+            refreshCustomSubjects()
+        }
+    }
+
+    private suspend fun refreshCustomSubjects() {
+        val profile = lastProfile ?: return
+        _customSubjects.value = withContext(Dispatchers.IO) { customSubjectStore.subjects(profile.standard) }
+    }
+
+    /**
+     * Builds the focused session index. Built-in subjects index the textbook
+     * PLUS the student's imported notes (PRD §8.1 dual corpus); a custom subject
+     * indexes only its own structured notes. Notes carry
+     * [com.edgeedu.app.data.ChunkSource.Notes] so answers can show their source.
+     */
+    private fun buildSession(ref: SubjectRef): SubjectSession {
+        val profile = lastProfile
+        val all = when (ref) {
+            is SubjectRef.Builtin -> {
+                val textbook = repository.chunks.filter { Subject.of(it.subject) == ref.subject }
+                val notes = if (profile != null) {
+                    notesStore.chunksFor(ref.subject.name, profile.standard, profile.medium)
+                } else emptyList()
+                textbook + notes
+            }
+            is SubjectRef.Custom ->
+                if (profile != null) customSubjectStore.chunksFor(ref.id, profile.medium) else emptyList()
+        }
+        val index = Bm25Index(all)
+        return SubjectSession(
+            subject = ref,
+            chunks = all,
+            index = index,
+            tutor = Tutor(index, llmEngine, mathSession = ref.isMath),
+        )
+    }
+
+    private suspend fun refreshImportedFiles(ref: SubjectRef) {
+        val profile = lastProfile ?: return
+        _importedFiles.value = withContext(Dispatchers.IO) {
+            when (ref) {
+                is SubjectRef.Builtin -> notesStore.importedFiles(ref.subject.name, profile.standard)
+                is SubjectRef.Custom -> emptyList()
+            }
+        }
+    }
+
+    /**
+     * Imports a notes file (PRD §8): validate → extract text (OCR for photos,
+     * PdfBox for PDFs) → then for a built-in subject store as imported notes,
+     * or for a custom subject run the structuring AI (chunks + headings +
+     * keywords) and (re)write its offline JSON. The new content is retrievable
+     * immediately.
+     */
     fun importNotes(uri: Uri) {
         val session = _session.value ?: return
         val profile = lastProfile ?: return
@@ -273,41 +327,67 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         _busy.value = true
         viewModelScope.launch {
             try {
-                withContext(Dispatchers.IO) {
+                val custom = withContext(Dispatchers.IO) {
                     val name = queryName(uri)
                     NoteImport.validateType(name)
-                    val text = when {
-                        NoteImport.isImage(name) -> {
-                            querySize(uri)?.let {
-                                if (it > NoteImport.MAX_BYTES) throw com.edgeedu.app.notes.ImportException(
-                                    "File is too large (max ${NoteImport.MAX_BYTES / 1_000_000} MB)."
-                                )
-                            }
-                            com.edgeedu.app.notes.ImageTextExtractor.extract(app, uri)
+                    val text = extractImportedText(uri, name)
+                    when (val ref = session.subject) {
+                        is SubjectRef.Custom -> {
+                            val structured = NoteStructurer.structure(text)
+                            if (structured.isEmpty()) throw com.edgeedu.app.notes.ImportException(
+                                "No readable text found in the file."
+                            )
+                            customSubjectStore.appendChunks(ref.id, structured)
+                            writeCustomJson(ref, profile)
+                            structured.size
                         }
-                        NoteImport.isPdf(name) -> {
-                            val bytes = readBytes(uri)
-                            NoteImport.validate(name, bytes.size)
-                            com.edgeedu.app.notes.PdfTextExtractor.extract(app, bytes)
+                        is SubjectRef.Builtin -> {
+                            val chunks = NoteChunker.chunk(text)
+                            if (chunks.isEmpty()) throw com.edgeedu.app.notes.ImportException(
+                                "No readable text found in the file."
+                            )
+                            notesStore.addImport(name, ref.subject.name, profile.standard, chunks)
+                            null
                         }
-                        else -> NoteImport.extractText(name, readBytes(uri))
                     }
-                    val chunks = NoteChunker.chunk(text)
-                    if (chunks.isEmpty()) throw com.edgeedu.app.notes.ImportException(
-                        "No readable text found in the file."
-                    )
-                    notesStore.addImport(name, session.subject.name, profile.standard, chunks)
                 }
-                // Rebuild so the new notes are retrievable immediately.
                 _session.value = withContext(Dispatchers.Default) { buildSession(session.subject) }
                 refreshImportedFiles(session.subject)
-                _notice.value = "Notes imported ✓"
+                refreshCustomSubjects()
+                _notice.value =
+                    if (custom != null) "Structured into $custom chunks ✓" else "Notes imported ✓"
             } catch (e: Exception) {
                 _notice.value = e.message ?: "Import failed."
             } finally {
                 _busy.value = false
             }
         }
+    }
+
+    /** Extracts plain text from any supported import type (image/PDF/text/JSON). */
+    private fun extractImportedText(uri: Uri, name: String): String = when {
+        NoteImport.isImage(name) -> {
+            querySize(uri)?.let {
+                if (it > NoteImport.MAX_BYTES) throw com.edgeedu.app.notes.ImportException(
+                    "File is too large (max ${NoteImport.MAX_BYTES / 1_000_000} MB)."
+                )
+            }
+            com.edgeedu.app.notes.ImageTextExtractor.extract(app, uri)
+        }
+        NoteImport.isPdf(name) -> {
+            val bytes = readBytes(uri)
+            NoteImport.validate(name, bytes.size)
+            com.edgeedu.app.notes.PdfTextExtractor.extract(app, bytes)
+        }
+        else -> NoteImport.extractText(name, readBytes(uri))
+    }
+
+    /** (Re)writes the custom subject's structured notes as an offline JSON file. */
+    private fun writeCustomJson(ref: SubjectRef.Custom, profile: Profile) {
+        val structured = customSubjectStore.structuredChunks(ref.id)
+        val jsonText = NoteStructurer.buildJson(ref.label, profile.standard, profile.medium, structured)
+        val dir = File(app.filesDir, "custom").apply { mkdirs() }
+        File(dir, "${ref.id}.json").writeText(jsonText)
     }
 
     fun deleteImport(file: ImportedFile) {

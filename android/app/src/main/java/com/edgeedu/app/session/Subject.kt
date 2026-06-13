@@ -34,12 +34,36 @@ enum class Subject(val label: String, val isMath: Boolean = false) {
 }
 
 /**
+ * Identifies the active subject — either one of the built-in curriculum
+ * [Subject]s, or a user-created [Custom] subject (its content comes entirely
+ * from the student's imported notes, structured on-device).
+ */
+sealed interface SubjectRef {
+    val label: String
+    val isMath: Boolean
+
+    /** Stable key for storage and active-highlight comparison. */
+    val key: String
+
+    data class Builtin(val subject: Subject) : SubjectRef {
+        override val label get() = subject.label
+        override val isMath get() = subject.isMath
+        override val key get() = "builtin:${subject.name}"
+    }
+
+    data class Custom(val id: Long, override val label: String) : SubjectRef {
+        override val isMath get() = false
+        override val key get() = "custom:$id"
+    }
+}
+
+/**
  * A focused subject session: only this subject's chunks are indexed and
  * retrievable, and the tutor's math tooling is enabled only for Mathematics.
  * Switching subjects replaces the whole session, freeing the old index.
  */
 class SubjectSession(
-    val subject: Subject,
+    val subject: SubjectRef,
     val chunks: List<IndexedChunk>,
     val index: Bm25Index,
     val tutor: Tutor,
