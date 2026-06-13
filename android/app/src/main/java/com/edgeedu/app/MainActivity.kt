@@ -24,6 +24,7 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.MailOutline
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -39,11 +40,13 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.edgeedu.app.ui.BrowseScreen
 import com.edgeedu.app.ui.ChatScreen
 import com.edgeedu.app.ui.HomeScreen
+import com.edgeedu.app.ui.LoginScreen
 import com.edgeedu.app.ui.SavedScreen
 import com.edgeedu.app.ui.SearchScreen
+import com.edgeedu.app.ui.SettingsScreen
 
 private enum class Tab(val label: String) {
-    Home("Home"), Chat("Chat"), Search("Search"), Browse("Browse"), Saved("Saved")
+    Home("Home"), Chat("Chat"), Search("Search"), Browse("Browse"), Saved("Saved"), Settings("Settings")
 }
 
 class MainActivity : ComponentActivity() {
@@ -57,12 +60,52 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
     val state by viewModel.state.collectAsState()
+
+    when (val s = state) {
+        is AppState.Loading -> Centered { CircularProgressIndicator() }
+
+        is AppState.NeedsLogin -> LoginScreen(
+            onSubmit = { name, standard, medium -> viewModel.login(name, standard, medium) }
+        )
+
+        is AppState.Provisioning -> Centered {
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                CircularProgressIndicator()
+                Text(
+                    "Downloading & verifying\n${s.scopeLabel}…",
+                    textAlign = TextAlign.Center,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(top = 16.dp),
+                )
+            }
+        }
+
+        is AppState.Failed -> Centered {
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    "Couldn't load content:\n${s.reason}",
+                    textAlign = TextAlign.Center,
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Button(onClick = { viewModel.logout() }, modifier = Modifier.padding(top = 12.dp)) {
+                    Text("Back to login")
+                }
+            }
+        }
+
+        is AppState.Ready -> ReadyScaffold(viewModel, s)
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ReadyScaffold(viewModel: AppViewModel, ready: AppState.Ready) {
     val session by viewModel.session.collectAsState()
     val sessionLoading by viewModel.sessionLoading.collectAsState()
+    // Tab state lives here, so logging out (which leaves Ready) resets to Home.
     var tab by remember { mutableStateOf(Tab.Home) }
 
     Scaffold(
@@ -101,6 +144,7 @@ private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
                                 Tab.Search -> Icons.Filled.Search
                                 Tab.Browse -> Icons.AutoMirrored.Filled.List
                                 Tab.Saved -> Icons.Filled.Star
+                                Tab.Settings -> Icons.Filled.Settings
                             }
                             Icon(icon, contentDescription = entry.label)
                         },
@@ -110,29 +154,27 @@ private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
         }
     ) { padding ->
         Box(Modifier.padding(padding).fillMaxSize()) {
-            when (val s = state) {
-                is AppState.Loading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator()
+            when (tab) {
+                Tab.Home -> HomeScreen(viewModel, ready.info, onSessionStarted = { tab = Tab.Chat })
+                Tab.Chat -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
+                    ChatScreen(viewModel)
                 }
-                is AppState.Failed -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("Content integrity check failed: ${s.reason}")
+                Tab.Search -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
+                    SearchScreen(viewModel)
                 }
-                is AppState.Ready -> when (tab) {
-                    Tab.Home -> HomeScreen(viewModel, s.info, onSessionStarted = { tab = Tab.Chat })
-                    Tab.Chat -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
-                        ChatScreen(viewModel)
-                    }
-                    Tab.Search -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
-                        SearchScreen(viewModel)
-                    }
-                    Tab.Browse -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
-                        BrowseScreen(viewModel)
-                    }
-                    Tab.Saved -> SavedScreen(viewModel)
+                Tab.Browse -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
+                    BrowseScreen(viewModel)
                 }
+                Tab.Saved -> SavedScreen(viewModel)
+                Tab.Settings -> SettingsScreen(viewModel, ready.profile)
             }
         }
     }
+}
+
+@Composable
+private fun Centered(content: @Composable () -> Unit) {
+    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { content() }
 }
 
 /**
@@ -150,10 +192,8 @@ private fun RequireSession(
     val session by viewModel.session.collectAsState()
     when {
         session != null -> content()
-        sessionLoading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator()
-        }
-        else -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        sessionLoading -> Centered { CircularProgressIndicator() }
+        else -> Centered {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(
                     "No active session.\nPick a subject to get started.",

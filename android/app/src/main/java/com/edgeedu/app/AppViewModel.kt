@@ -3,6 +3,11 @@ package com.edgeedu.app
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.edgeedu.app.content.AssetContentSource
+import com.edgeedu.app.content.ContentProvisioner
+import com.edgeedu.app.content.ContentSource
+import com.edgeedu.app.content.Profile
+import com.edgeedu.app.content.ProfileStore
 import com.edgeedu.app.data.BookmarkEntry
 import com.edgeedu.app.data.CorpusRepository
 import com.edgeedu.app.data.IndexedChunk
@@ -15,6 +20,7 @@ import com.edgeedu.app.session.SubjectSession
 import com.edgeedu.app.tutor.MockLlmEngine
 import com.edgeedu.app.tutor.Tutor
 import com.edgeedu.app.tutor.TutorReply
+import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -36,8 +42,16 @@ data class CorpusInfo(
 )
 
 sealed class AppState {
+    /** Reading the saved profile on cold start. */
     data object Loading : AppState()
-    data class Ready(val info: CorpusInfo) : AppState()
+
+    /** No profile yet (first run or after logout): show the login screen. */
+    data object NeedsLogin : AppState()
+
+    /** Downloading + verifying the profile's class+medium content (§12.2). */
+    data class Provisioning(val scopeLabel: String) : AppState()
+
+    data class Ready(val info: CorpusInfo, val profile: Profile) : AppState()
     data class Failed(val reason: String) : AppState()
 }
 
@@ -71,34 +85,84 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private lateinit var repository: CorpusRepository
     private lateinit var userData: UserDataStore
 
+    private val app: Application get() = getApplication()
+    private val contentDir: File get() = File(app.filesDir, "content")
+    private val profileStore by lazy { ProfileStore(app) }
+    private val provisioner by lazy {
+        ContentProvisioner(contentDir, File(app.filesDir, "content_version"))
+    }
+    /** The download origin. Bundled assets here; an HTTP host in Phase 2. */
+    private val contentSource: ContentSource get() = AssetContentSource(app.assets)
+
     init {
+        userData = UserDataStore(app)
         viewModelScope.launch {
-            try {
-                withContext(Dispatchers.IO) {
-                    // Integrity check happens inside: hash mismatch -> Failed.
-                    repository = CorpusRepository.get(getApplication())
-                    userData = UserDataStore(getApplication())
-                    _bookmarks.value = userData.bookmarks()
-                    _notes.value = userData.notes()
-                }
-                _state.value = AppState.Ready(
-                    CorpusInfo(
-                        fileCount = repository.fileCount,
-                        chunkCount = repository.chunks.size,
-                        verifiedSolutionChunks = repository.verifiedSolutionChunks,
-                        contentVersion = repository.contentVersion,
-                        subjectChunkCounts = repository.chunks
-                            .groupingBy { Subject.of(it.subject) }
-                            .eachCount()
-                            .filterKeys { it != null }
-                            .mapKeys { it.key!! },
-                    )
-                )
-            } catch (e: Exception) {
-                _state.value = AppState.Failed(e.message ?: "failed to load content")
+            // User data (bookmarks/notes) persists across logout, so it loads
+            // regardless of login state (§12.4).
+            val profile = withContext(Dispatchers.IO) {
+                _bookmarks.value = userData.bookmarks()
+                _notes.value = userData.notes()
+                profileStore.current()
+            }
+            if (profile == null) {
+                _state.value = AppState.NeedsLogin
+            } else {
+                // Cold start with a saved profile: content is already downloaded
+                // (unless a prior crash interrupted it), so load without re-fetching.
+                loadForProfile(profile, forceDownload = false)
             }
         }
     }
+
+    /** Submits the local profile (§12.1) and triggers the one-time download. */
+    fun login(name: String, standard: Int, medium: String) {
+        val profile = Profile(name.trim(), standard, medium)
+        if (profile.name.isBlank()) return
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) { profileStore.save(profile) }
+            // Logging in always (re-)downloads this class+medium (§12.5).
+            loadForProfile(profile, forceDownload = true)
+        }
+    }
+
+    /** Logout (§12.4): wipe profile + downloaded content; keep user data. */
+    fun logout() {
+        viewModelScope.launch {
+            endSession()
+            withContext(Dispatchers.IO) {
+                profileStore.clear()
+                provisioner.clear()
+            }
+            _state.value = AppState.NeedsLogin
+        }
+    }
+
+    private suspend fun loadForProfile(profile: Profile, forceDownload: Boolean) {
+        _state.value = AppState.Provisioning(profile.scope.label)
+        try {
+            repository = withContext(Dispatchers.IO) {
+                if (forceDownload || !provisioner.isProvisioned()) {
+                    provisioner.provision(contentSource, profile.scope)
+                }
+                CorpusRepository.load(contentDir, profile.scope)
+            }
+            _state.value = AppState.Ready(corpusInfo(), profile)
+        } catch (e: Exception) {
+            _state.value = AppState.Failed(e.message ?: "failed to load content")
+        }
+    }
+
+    private fun corpusInfo() = CorpusInfo(
+        fileCount = repository.fileCount,
+        chunkCount = repository.chunks.size,
+        verifiedSolutionChunks = repository.verifiedSolutionChunks,
+        contentVersion = repository.contentVersion,
+        subjectChunkCounts = repository.chunks
+            .groupingBy { Subject.of(it.subject) }
+            .eachCount()
+            .filterKeys { it != null }
+            .mapKeys { it.key!! },
+    )
 
     fun repositoryOrNull(): CorpusRepository? =
         if (state.value is AppState.Ready) repository else null
