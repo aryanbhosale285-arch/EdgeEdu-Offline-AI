@@ -275,7 +275,11 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
             try {
                 withContext(Dispatchers.IO) {
                     val (name, bytes) = readUri(uri)
-                    val text = NoteImport.extractText(name, bytes)
+                    val text = if (NoteImport.isPdf(name)) {
+                        com.edgeedu.app.notes.PdfTextExtractor.extract(app, bytes)
+                    } else {
+                        NoteImport.extractText(name, bytes)
+                    }
                     val chunks = NoteChunker.chunk(text)
                     if (chunks.isEmpty()) throw com.edgeedu.app.notes.ImportException(
                         "No readable text found in the file."

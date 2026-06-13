@@ -140,9 +140,11 @@ fun ChatScreen(viewModel: AppViewModel) {
 private fun ImportBar(viewModel: AppViewModel) {
     val imported by viewModel.importedFiles.collectAsState()
     val notice by viewModel.notice.collectAsState()
-    val picker = rememberLauncherForActivityResult(ActivityResultContracts.GetContent()) { uri ->
+    // OpenDocument lets us offer several types (text, JSON, PDF) at once.
+    val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         if (uri != null) viewModel.importNotes(uri)
     }
+    val importTypes = arrayOf("text/*", "application/json", "application/pdf")
 
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Row(
@@ -150,7 +152,7 @@ private fun ImportBar(viewModel: AppViewModel) {
             horizontalArrangement = Arrangement.spacedBy(8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            OutlinedButton(onClick = { picker.launch("text/*") }) { Text("Import notes") }
+            OutlinedButton(onClick = { picker.launch(importTypes) }) { Text("Import notes") }
             if (imported.isNotEmpty()) {
                 Text(
                     "${imported.size} file(s) in this subject",

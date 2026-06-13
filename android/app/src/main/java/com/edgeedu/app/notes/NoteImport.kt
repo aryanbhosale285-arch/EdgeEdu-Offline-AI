@@ -1,30 +1,38 @@
 package com.edgeedu.app.notes
 
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+
 /** Raised when an imported file is the wrong type, too big, or unparseable. */
 class ImportException(message: String) : Exception(message)
 
 /**
  * Validates and extracts text from an imported file (PRD §8.2). User content is
  * untrusted input (§8.3, §15 #16/#17): the type and size are checked *before*
- * parsing, and only plain-text formats are accepted in this build — text-PDF
- * (a parser dependency) and OCR/handwriting/maths-image are deliberately out of
- * scope here (§8.2, §20).
+ * parsing. Supported here: plain text (.txt/.md), JSON, and text-based PDF.
+ * OCR/handwriting/maths-image PDFs remain out of scope (§8.2, §20).
  */
 object NoteImport {
-    /** 2 MB cap: large enough for real notes, small enough to bound parsing. */
-    const val MAX_BYTES = 2_000_000
+    /** 8 MB cap: room for a real notes PDF, still bounded for on-device parsing. */
+    const val MAX_BYTES = 8_000_000
 
-    private val TEXT_EXTENSIONS = setOf("txt", "text", "md", "markdown")
+    private val TEXT_EXTENSIONS = setOf("txt", "text", "md", "markdown", "json")
+    private val SUPPORTED = TEXT_EXTENSIONS + "pdf"
 
     fun extension(fileName: String): String =
         fileName.substringAfterLast('.', "").lowercase()
 
+    fun isPdf(fileName: String): Boolean = extension(fileName) == "pdf"
+
     /** Verifies [fileName]/[byteCount] before any bytes are read into a parser. */
     fun validate(fileName: String, byteCount: Int) {
         val ext = extension(fileName)
-        if (ext !in TEXT_EXTENSIONS) {
+        if (ext !in SUPPORTED) {
             throw ImportException(
-                "Only text files (.txt, .md) are supported in this build — got “.$ext”."
+                "Unsupported file “.$ext”. Import a .txt, .md, .json or .pdf file."
             )
         }
         if (byteCount <= 0) throw ImportException("The file is empty.")
@@ -33,14 +41,47 @@ object NoteImport {
         }
     }
 
-    /** Decodes validated text bytes; rejects binary masquerading as text. */
+    /**
+     * Extracts text from a TEXT-format file (.txt/.md/.json). PDF is handled
+     * separately by [PdfTextExtractor] because it needs Android resources.
+     */
     fun extractText(fileName: String, bytes: ByteArray): String {
         validate(fileName, bytes.size)
+        if (isPdf(fileName)) {
+            // Defensive: callers route PDFs to PdfTextExtractor.
+            throw ImportException("PDF files are extracted separately.")
+        }
+        if (extension(fileName) == "json") return jsonToText(bytes)
         // A NUL byte means this isn't really text (e.g. a renamed binary).
         if (bytes.any { it == 0.toByte() }) {
             throw ImportException("This doesn't look like a text file.")
         }
         return bytes.decodeToString()
+    }
+
+    /**
+     * Pulls the human-readable string values out of a JSON file (headings,
+     * explanations, etc.) so it indexes cleanly as notes rather than as a wall
+     * of braces. Falls back to the raw text if it isn't valid JSON.
+     */
+    fun jsonToText(bytes: ByteArray): String {
+        val raw = bytes.decodeToString()
+        return try {
+            val sb = StringBuilder()
+            fun walk(e: JsonElement) {
+                when (e) {
+                    is JsonObject -> e.values.forEach(::walk)
+                    is JsonArray -> e.forEach(::walk)
+                    is JsonPrimitive -> if (e.isString && e.content.isNotBlank()) {
+                        sb.append(e.content).append('\n')
+                    }
+                }
+            }
+            walk(Json.parseToJsonElement(raw))
+            sb.toString().ifBlank { raw }
+        } catch (_: Exception) {
+            raw
+        }
     }
 }
 

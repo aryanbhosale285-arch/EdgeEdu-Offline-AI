@@ -8,6 +8,7 @@ import com.edgeedu.app.notes.NoteChunker
 import com.edgeedu.app.notes.NoteImport
 import com.edgeedu.app.search.Bm25Index
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -15,14 +16,24 @@ class NotesImportTest {
 
     // ---- validation (untrusted input, PRD §8.3 / §15 #16-17) ----
 
-    @Test fun acceptsTextFiles() {
+    @Test fun acceptsSupportedFiles() {
         NoteImport.validate("chemistry.txt", 1000)
         NoteImport.validate("notes.md", 1000)
+        NoteImport.validate("notes.json", 1000)
+        NoteImport.validate("chapter.pdf", 1000) // PDF now allowed (extracted separately)
     }
 
     @Test(expected = ImportException::class)
-    fun rejectsNonTextExtension() {
-        NoteImport.validate("scan.pdf", 1000)
+    fun rejectsUnsupportedExtension() {
+        NoteImport.validate("photo.png", 1000)
+    }
+
+    @Test fun extractsReadableStringsFromJson() {
+        val json = """{"heading":"Cells","text":"The basic unit of life","difficulty":2}""".toByteArray()
+        val text = NoteImport.extractText("notes.json", json)
+        assertTrue(text.contains("Cells"))
+        assertTrue(text.contains("The basic unit of life"))
+        assertFalse(text.contains("difficulty")) // keys/numbers dropped, only string values
     }
 
     @Test(expected = ImportException::class)

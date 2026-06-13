@@ -74,6 +74,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     // Verified computation: the LLM explains, this engine calculates.
     implementation("org.mariuszgromada.math:MathParser.org-mXparser:5.2.1")
+    // Offline PDF text extraction for bring-your-own-notes (PRD §8.2).
+    implementation("com.tom-roush:pdfbox-android:2.0.27.0")
     // WebViewAssetLoader for the offline KaTeX renderer.
     implementation("androidx.webkit:webkit:1.12.1")
 
