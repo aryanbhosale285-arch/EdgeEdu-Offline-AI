@@ -55,6 +55,10 @@ data class Manifest(
     val signature: String,
 )
 
+/** Where a retrievable chunk came from — the curriculum, or the student's
+ * own imported notes (PRD §8.3, source labelling). */
+enum class ChunkSource { Textbook, Notes }
+
 /** A chunk flattened with its document context, as held in the search index. */
 data class IndexedChunk(
     val chunk: Chunk,
@@ -62,4 +66,5 @@ data class IndexedChunk(
     val standard: Int,
     val subject: String,
     val language: String,
+    val source: ChunkSource = ChunkSource.Textbook,
 )

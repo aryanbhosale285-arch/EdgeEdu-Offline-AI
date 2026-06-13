@@ -1,221 +1,107 @@
-:root {
-  --bg: #f6f7fb;
-  --card: #ffffff;
-  --ink: #1c2333;
-  --muted: #5b6478;
-  --accent: #2855d9;
-  --accent-soft: #e8edfb;
-  --ok: #157347;
-  --ok-soft: #e2f4ea;
-  --border: #e3e6ee;
-  --radius: 12px;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+/* EdgeEdu / VidyaPath design tokens — same palette as the Android app:
+   indigo #4A55E8 → purple #8B5CF6, teal accent #00C9A7, lavender canvas. */
+@layer base {
+  :root {
+    --font-size: 16px;
+    --background: #f4f6ff;
+    --foreground: #11142d;
+    --card: #ffffff;
+    --card-foreground: #11142d;
+    --popover: #ffffff;
+    --popover-foreground: #11142d;
+    --primary: #4a55e8;
+    --primary-foreground: #ffffff;
+    --secondary: #eef0fe;
+    --secondary-foreground: #4a55e8;
+    --muted: #e9ebf8;
+    --muted-foreground: #6b7094;
+    --accent: #00c9a7;
+    --accent-foreground: #ffffff;
+    --destructive: #e53e3e;
+    --destructive-foreground: #ffffff;
+    --border: rgba(74, 85, 232, 0.12);
+    --input: transparent;
+    --input-background: #f0f2ff;
+    --switch-background: #c8ccef;
+    --font-weight-medium: 600;
+    --font-weight-normal: 400;
+    --ring: #4a55e8;
+    --radius: 1rem;
+    --shadow-card: 0 4px 16px rgba(74, 85, 232, 0.08);
+    --shadow-btn: 0 6px 20px rgba(74, 85, 232, 0.3);
+  }
+
+  .dark {
+    --background: #0d0f1a;
+    --foreground: #e8ebf8;
+    --card: #161929;
+    --card-foreground: #e8ebf8;
+    --popover: #161929;
+    --popover-foreground: #e8ebf8;
+    --primary: #6b78f5;
+    --primary-foreground: #ffffff;
+    --secondary: #1e2240;
+    --secondary-foreground: #a5afef;
+    --muted: #1e2240;
+    --muted-foreground: #7880b0;
+    --accent: #00c9a7;
+    --accent-foreground: #ffffff;
+    --destructive: #fc8181;
+    --destructive-foreground: #ffffff;
+    --border: rgba(107, 120, 245, 0.18);
+    --input: #1e2240;
+    --input-background: #1e2240;
+    --switch-background: #2e3460;
+    --ring: #6b78f5;
+    --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
 }
 
-* {
-  box-sizing: border-box;
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: system-ui, "Segoe UI", -apple-system, "Noto Sans Devanagari", sans-serif;
-  line-height: 1.55;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Nunito Sans", system-ui, "Noto Sans Devanagari", sans-serif;
+  }
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
-
-main {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 24px 16px 80px;
-}
-
-.site-header {
-  background: var(--card);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.site-header .inner {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 12px 16px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.site-header .brand {
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--ink);
-}
-
-.site-header nav {
-  display: flex;
-  gap: 14px;
-  font-size: 0.95rem;
-}
-
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px 18px;
-  margin: 12px 0;
-}
-
-.pill {
-  display: inline-block;
-  padding: 2px 10px;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  background: var(--accent-soft);
-  color: var(--accent);
-  margin-right: 6px;
-}
-
-.pill.ok {
-  background: var(--ok-soft);
-  color: var(--ok);
-}
-
-.muted {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-h1 {
-  font-size: 1.5rem;
-  margin: 8px 0 4px;
-}
-
-h2 {
-  font-size: 1.15rem;
-  margin: 18px 0 6px;
-}
-
-.stat-row {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.stat {
-  flex: 1 1 150px;
-  text-align: center;
-}
-
-.stat .num {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--accent);
-}
-
-input[type="text"],
-select,
-textarea {
-  font: inherit;
-  padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--card);
-  color: var(--ink);
-}
-
-button {
-  font: inherit;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 8px;
-  background: var(--accent);
-  color: #fff;
-  cursor: pointer;
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-
-.controls {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin: 12px 0;
-}
-
-.controls input[type="text"] {
-  flex: 1 1 240px;
-}
-
-.chat-log {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 16px 0;
-}
-
-.bubble {
-  max-width: 85%;
-  padding: 12px 16px;
-  border-radius: var(--radius);
-  white-space: pre-wrap;
-}
-
-.bubble.user {
-  align-self: flex-end;
-  background: var(--accent);
-  color: #fff;
-}
-
-.bubble.bot {
-  align-self: flex-start;
-  background: var(--card);
-  border: 1px solid var(--border);
-}
-
-.steps {
-  margin-top: 10px;
-  border-top: 1px dashed var(--border);
-  padding-top: 10px;
-}
-
-.step {
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-  margin: 8px 0;
-}
-
-.step .badge {
-  flex: none;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--ok);
-  background: var(--ok-soft);
-  border-radius: 999px;
-  padding: 1px 8px;
-}
-
-.math-block {
-  margin: 6px 0;
-  overflow-x: auto;
-}
-
-.sources {
-  margin-top: 10px;
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-
-details summary {
-  cursor: pointer;
-  font-weight: 600;
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

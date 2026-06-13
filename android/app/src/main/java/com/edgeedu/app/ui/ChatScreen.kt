@@ -1,5 +1,7 @@
 package com.edgeedu.app.ui
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -14,9 +16,12 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -27,6 +32,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.edgeedu.app.AppViewModel
 import com.edgeedu.app.ChatItem
+import com.edgeedu.app.data.ChunkSource
+import kotlinx.coroutines.delay
 
 @Composable
 fun ChatScreen(viewModel: AppViewModel) {
@@ -35,6 +42,8 @@ fun ChatScreen(viewModel: AppViewModel) {
     var input by remember { mutableStateOf("") }
 
     Column(Modifier.fillMaxSize().padding(12.dp)) {
+        ImportBar(viewModel)
+
         LazyColumn(
             Modifier.weight(1f).fillMaxWidth(),
             verticalArrangement = Arrangement.spacedBy(8.dp),
@@ -83,8 +92,12 @@ fun ChatScreen(viewModel: AppViewModel) {
                         }
                         if (item.reply.sources.isNotEmpty()) {
                             Text(
-                                "Sources: " + item.reply.sources.joinToString(" · ") {
-                                    "[${it.chunk.chunk_id}] ${it.chunk.heading}"
+                                "Sources: " + item.reply.sources.joinToString(" · ") { s ->
+                                    when (s.source) {
+                                        ChunkSource.Notes -> "📝 your notes: ${s.chunk.heading}"
+                                        ChunkSource.Textbook ->
+                                            "📄 [${s.chunk.chunk_id}] ${s.chunk.heading}"
+                                    }
                                 },
                                 style = MaterialTheme.typography.labelSmall,
                             )
@@ -113,6 +126,56 @@ fun ChatScreen(viewModel: AppViewModel) {
                 enabled = !busy && input.isNotBlank(),
             ) {
                 Text(if (busy) "…" else "Ask")
+            }
+        }
+    }
+}
+
+/**
+ * Bring-your-own-notes (PRD §8): import a .txt/.md file into the active subject,
+ * list imported files, and surface a short status line. The picker is restricted
+ * to text MIME types — the only formats this build parses.
+ */
+@Composable
+private fun ImportBar(viewModel: AppViewModel) {
+    val imported by viewModel.importedFiles.collectAsState()
+    val notice by viewModel.notice.collectAsState()
+    val picker = rememberLauncherForActivityResult(ActivityResultContracts.GetContent()) { uri ->
+        if (uri != null) viewModel.importNotes(uri)
+    }
+
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Row(
+            Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            OutlinedButton(onClick = { picker.launch("text/*") }) { Text("Import notes") }
+            if (imported.isNotEmpty()) {
+                Text(
+                    "${imported.size} file(s) in this subject",
+                    style = MaterialTheme.typography.labelSmall,
+                )
+            }
+        }
+        imported.forEach { file ->
+            Row(
+                Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    "📝 ${file.name} · ${file.chunkCount} chunks",
+                    style = MaterialTheme.typography.labelSmall,
+                    modifier = Modifier.weight(1f),
+                )
+                TextButton(onClick = { viewModel.deleteImport(file) }) { Text("Remove") }
+            }
+        }
+        notice?.let { msg ->
+            Text(msg, style = MaterialTheme.typography.labelMedium)
+            LaunchedEffect(msg) {
+                delay(2500)
+                viewModel.clearNotice()
             }
         }
     }

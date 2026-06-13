@@ -1,31 +1,22 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import "katex/dist/katex.min.css";
 import "./globals.css";
+import { ClientLayout } from "@/components/ClientLayout";
 
 export const metadata: Metadata = {
-  title: "EdgeEdu — Offline AI Tutor (Web Prototype)",
+  title: "EdgeEdu — Offline AI Tutor",
   description:
-    "Phase-2 prototype: multilingual curriculum search and grounded retrieve→explain chat over signed Maharashtra SSC content.",
+    "Offline EdTech platform with multilingual curriculum search and grounded doubt clearing.",
+  icons: { icon: "/logo.png", apple: "/logo.png" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <header className="site-header">
-          <div className="inner">
-            <Link href="/" className="brand">
-              EdgeEdu
-            </Link>
-            <nav>
-              <Link href="/browse">Browse</Link>
-              <Link href="/search">Search</Link>
-              <Link href="/chat">Chat</Link>
-            </nav>
-          </div>
-        </header>
-        <main>{children}</main>
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );

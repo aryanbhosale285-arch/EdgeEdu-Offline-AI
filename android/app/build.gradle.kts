@@ -22,6 +22,14 @@ android {
         //   -PcontentBaseUrl=https://edgeedu.example.com/content
         val contentBaseUrl = (project.findProperty("contentBaseUrl") as String?).orEmpty()
         buildConfigField("String", "CONTENT_BASE_URL", "\"$contentBaseUrl\"")
+
+        // The on-device GGUF model is a config value, not a hardcoded dependency
+        // (PRD §13.4) — a better model can be dropped in without code changes.
+        // Default: Qwen2.5-3B-Instruct, Q4_K_M (PRD §13.2). Override with
+        //   -PmodelFile=<other>.gguf
+        val modelFile = (project.findProperty("modelFile") as String?)
+            ?: "qwen2.5-3b-instruct-q4_k_m.gguf"
+        buildConfigField("String", "MODEL_FILE", "\"$modelFile\"")
     }
 
     buildTypes {

@@ -3,24 +3,29 @@ package com.edgeedu.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Home
@@ -36,6 +41,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -46,17 +54,26 @@ import com.edgeedu.app.ui.LoginScreen
 import com.edgeedu.app.ui.SavedScreen
 import com.edgeedu.app.ui.SearchScreen
 import com.edgeedu.app.ui.SettingsScreen
+import com.edgeedu.app.ui.theme.EdgeEduGradients
+import com.edgeedu.app.ui.theme.EdgeEduTheme
 
-private enum class Tab(val label: String) {
-    Home("Home"), Chat("Chat"), Search("Search"), Browse("Browse"), Saved("Saved"), Settings("Settings")
+private enum class Tab(val label: String, val icon: ImageVector) {
+    Home("Home", Icons.Filled.Home),
+    Chat("Ask AI", Icons.Filled.MailOutline),
+    Search("Search", Icons.Filled.Search),
+    Browse("Browse", Icons.AutoMirrored.Filled.List),
+    Saved("Saved", Icons.Filled.Star),
+    Settings("Profile", Icons.Filled.Settings),
 }
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MaterialTheme(colorScheme = lightColorScheme()) {
-                EdgeEduApp()
+            EdgeEduTheme {
+                Surface(color = MaterialTheme.colorScheme.background) {
+                    EdgeEduApp()
+                }
             }
         }
     }
@@ -124,53 +141,41 @@ private fun ReadyScaffold(viewModel: AppViewModel, ready: AppState.Ready) {
     var tab by remember { mutableStateOf(Tab.Home) }
 
     Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
         topBar = {
-            TopAppBar(
-                title = {
-                    Text(
-                        when {
-                            session != null -> "${session!!.subject.label} session"
-                            sessionLoading -> "Starting session…"
-                            else -> "EdgeEdu"
+            // Home and Profile carry their own headers; only show a top bar
+            // for the session/utility screens.
+            if (tab != Tab.Home && tab != Tab.Settings) {
+                TopAppBar(
+                    colors = TopAppBarDefaults.topAppBarColors(
+                        containerColor = MaterialTheme.colorScheme.background,
+                    ),
+                    title = {
+                        Text(
+                            when {
+                                session != null -> "${session!!.subject.label} session"
+                                sessionLoading -> "Starting session…"
+                                else -> "EdgeEdu"
+                            },
+                            style = MaterialTheme.typography.titleLarge,
+                        )
+                    },
+                    actions = {
+                        if (session != null) {
+                            TextButton(onClick = {
+                                viewModel.endSession()
+                                tab = Tab.Home
+                            }) { Text("End session") }
                         }
-                    )
-                },
-                actions = {
-                    if (session != null) {
-                        TextButton(onClick = {
-                            viewModel.endSession()
-                            tab = Tab.Home
-                        }) { Text("End session") }
-                    }
-                },
-            )
-        },
-        bottomBar = {
-            NavigationBar {
-                Tab.entries.forEach { entry ->
-                    NavigationBarItem(
-                        selected = tab == entry,
-                        onClick = { tab = entry },
-                        label = { Text(entry.label) },
-                        icon = {
-                            val icon = when (entry) {
-                                Tab.Home -> Icons.Filled.Home
-                                Tab.Chat -> Icons.Filled.MailOutline
-                                Tab.Search -> Icons.Filled.Search
-                                Tab.Browse -> Icons.AutoMirrored.Filled.List
-                                Tab.Saved -> Icons.Filled.Star
-                                Tab.Settings -> Icons.Filled.Settings
-                            }
-                            Icon(icon, contentDescription = entry.label)
-                        },
-                    )
-                }
+                    },
+                )
             }
-        }
+        },
+        bottomBar = { EdgeEduBottomBar(tab) { tab = it } },
     ) { padding ->
         Box(Modifier.padding(padding).fillMaxSize()) {
             when (tab) {
-                Tab.Home -> HomeScreen(viewModel, ready.info, onSessionStarted = { tab = Tab.Chat })
+                Tab.Home -> HomeScreen(viewModel, ready.info, ready.profile, onSessionStarted = { tab = Tab.Chat })
                 Tab.Chat -> RequireSession(viewModel, sessionLoading, onGoHome = { tab = Tab.Home }) {
                     ChatScreen(viewModel)
                 }
@@ -182,6 +187,53 @@ private fun ReadyScaffold(viewModel: AppViewModel, ready: AppState.Ready) {
                 }
                 Tab.Saved -> SavedScreen(viewModel)
                 Tab.Settings -> SettingsScreen(viewModel, ready.profile)
+            }
+        }
+    }
+}
+
+/** Design-kit bottom nav: a gradient pill behind the active icon. */
+@Composable
+private fun EdgeEduBottomBar(selected: Tab, onSelect: (Tab) -> Unit) {
+    Surface(color = MaterialTheme.colorScheme.surface, tonalElevation = 3.dp) {
+        Row(
+            Modifier.fillMaxWidth().padding(vertical = 8.dp, horizontal = 4.dp),
+            horizontalArrangement = Arrangement.SpaceAround,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Tab.entries.forEach { entry ->
+                val active = entry == selected
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier
+                        .clickable(indication = null, interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }) { onSelect(entry) }
+                        .padding(horizontal = 2.dp),
+                ) {
+                    Box(
+                        Modifier
+                            .size(width = 40.dp, height = 30.dp)
+                            .background(
+                                if (active) EdgeEduGradients.Header else Brush.linearGradient(
+                                    listOf(Color.Transparent, Color.Transparent)
+                                ),
+                                RoundedCornerShape(10.dp),
+                            ),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Icon(
+                            entry.icon,
+                            contentDescription = entry.label,
+                            tint = if (active) Color.White else MaterialTheme.colorScheme.onSurfaceVariant,
+                            modifier = Modifier.size(18.dp),
+                        )
+                    }
+                    Text(
+                        entry.label,
+                        style = MaterialTheme.typography.labelSmall,
+                        color = if (active) MaterialTheme.colorScheme.primary
+                        else MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
         }
     }

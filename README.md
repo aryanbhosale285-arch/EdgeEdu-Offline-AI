@@ -1,18 +1,42 @@
 # EdgeEdu — Offline AI Tutor
 
 An offline-first, AI-powered tutor for Class 9 & 10 students (Maharashtra State
-Board) in **English, Hindi, and Marathi**. A small language model will run fully
+Board) in **English, Hindi, and Marathi**. A small language model runs fully
 on-device; a real math engine — not the LLM — guarantees arithmetic correctness.
+Content is **downloaded once at login** for the chosen class+medium, then
+everything works offline until logout.
 
-Built against **PRD v3.0** (June 2026). Current status: **Phase 1 complete**.
+Built against **PRD v3.1** (June 2026).
 
 | Phase | Scope | Status |
 | --- | --- | --- |
-| 1 — Data & content | v3.0 schema, verified `solution_steps` + `latex`, signed bundles | ✅ done |
+| 1 — Data & content | schema, verified `solution_steps` + `latex`, signed bundles | ✅ done |
 | 2 — Web prototype | indexing, search, retrieve → explain end-to-end | ✅ done ([web/](web/)) |
 | 3 — Android MVP | Compose UI, llama.cpp via JNI, math engine + GBNF, KaTeX | ✅ done ([android/](android/)) |
+| 3.1 — v3.1 lifecycle | login-gated download, content lifecycle, notes import, model config | ✅ done ([android/](android/)) |
 | 4 — Hardening & test | integrity, JNI crash safety, performance | planned |
 | 5 — Showcase / expand | APK packaging, more subjects/grades | planned |
+
+### v3.1 changes (on top of the Phase-3 MVP)
+
+- **Login-gated content lifecycle (PRD §12)** — a *local* profile (name, class,
+  medium; no account/password) is entered on first run; submitting downloads
+  only that class+medium's files. Content + search index are deleted on logout
+  to free storage; bookmarks, notes, and imported files are kept. Re-login
+  re-downloads. Each download is SHA-256-verified and version-monotonic
+  (downgrade-rejected) — at *every* login, not just first install.
+- **Real download manager** — an HTTP source fetches from a configured static
+  host (`-PcontentBaseUrl=…`); progress is shown per file and failures are
+  retryable. With no host configured it falls back to a bundled-asset origin so
+  the app still demos fully offline. The same checksum verification guards both.
+- **Bring-your-own-notes (PRD §8)** — import `.txt`/`.md` notes into the active
+  subject; they're validated (type/size, before parsing), chunked, indexed
+  alongside the textbook, and answers label each source as 📄 textbook or
+  📝 your notes. Everything stays on-device. (Text-PDF and OCR are deferred,
+  per §8.2/§20.)
+- **Model as config (PRD §13.4)** — the GGUF model is a build config value
+  (`MODEL_FILE`, default **Qwen2.5-3B-Instruct** Q4_K_M); the inference layer
+  loads it by path and falls back to the extractive mock when absent.
 
 ## Why verified solutions?
 
@@ -43,8 +67,9 @@ tests/                pytest suite, incl. integrity tests over the real shipped 
 
 ## Web prototype (Phase 2)
 
-A Next.js app in [web/](web/) proving the retrieve→explain loop end-to-end:
+A Next.js app in [web/](web/) proving the retrieve→explain loop end-to-end, featuring a new interactive **PhoneShell** mobile-first UI:
 
+- **Mobile-first PhoneShell UI** — features a sleek device mockup with interactive route transitions (Framer Motion), a persistent bottom navigation bar, and a dynamic dark/light mode powered by Tailwind CSS v4.
 - **Integrity-gated loading** — the server verifies the Ed25519 manifest
   signature and every file hash before serving any content.
 - **Multilingual BM25 search** — Devanagari-safe tokenizer, heading/keyword
@@ -64,8 +89,9 @@ npm run dev     # http://localhost:3000
 
 ## Android app (Phase 3)
 
-A native Kotlin/Compose app in [android/](android/) — fully offline, no
-network permission in the manifest at all.
+A native Kotlin/Compose app in [android/](android/) — offline-first: internet
+is used only for the one-time login download (PRD §12.2); after that the app
+makes no network calls until logout.
 
 - **Verified maths on device** — the LLM emits structured
   `<calc>solve: …</calc>` / `<calc>eval: …</calc>` calls instead of
@@ -80,8 +106,8 @@ network permission in the manifest at all.
   build. Generation is constrained by `assets/grammars/calc.gbnf`, so tool
   calls are grammar-enforced.
 - **Same retrieval as the web** — BM25 with field boosts and IDF-coverage
-  decline, ported 1:1 to Kotlin; bundled content is SHA-256-verified against
-  the signed manifest at startup.
+  decline, ported 1:1 to Kotlin; downloaded content is SHA-256-verified against
+  the signed manifest on load, and imported notes are indexed in the same pass.
 - **KaTeX rendering** — bundled KaTeX in a sandboxed WebView via
   WebViewAssetLoader (no file access, no remote loads).
 
@@ -140,7 +166,12 @@ python -m pytest
 - **Signing** — the manifest body is signed with Ed25519. The public key ships
   with the app; the private key stays on the build machine (gitignored).
 - **Downgrade protection** — `content_version` is monotonic. A device holding
-  version N refuses any manifest with a lower version.
+  version N refuses any manifest with a lower version, at *every* login download
+  (a high-water mark survives logout, so a stale re-download is still rejected).
+- **Untrusted transport & user input** — downloaded bytes are verified after the
+  network fetch (the host is untrusted transport, not a trusted source), and
+  imported notes are treated as data: type/size are checked before parsing and
+  the content is never interpreted as instructions.
 - **Build-time math verification** — see above; this is also the primary
   defence against shipping hallucinated worked solutions.
 

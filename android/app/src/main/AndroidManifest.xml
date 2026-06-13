@@ -9,7 +9,8 @@
 
     <application
         android:label="EdgeEdu"
-        android:icon="@android:drawable/ic_menu_compass"
+        android:icon="@drawable/edgeedu_logo"
+        android:roundIcon="@drawable/edgeedu_logo"
         android:allowBackup="true"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">

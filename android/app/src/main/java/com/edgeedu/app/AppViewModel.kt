@@ -1,6 +1,8 @@
 package com.edgeedu.app
 
 import android.app.Application
+import android.net.Uri
+import android.provider.OpenableColumns
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.edgeedu.app.content.AssetContentSource
@@ -13,12 +15,17 @@ import com.edgeedu.app.data.BookmarkEntry
 import com.edgeedu.app.data.CorpusRepository
 import com.edgeedu.app.data.IndexedChunk
 import com.edgeedu.app.data.UserDataStore
+import com.edgeedu.app.notes.ImportedFile
+import com.edgeedu.app.notes.NoteChunker
+import com.edgeedu.app.notes.NoteImport
+import com.edgeedu.app.notes.NotesStore
 import com.edgeedu.app.search.Bm25Index
 import com.edgeedu.app.search.SearchFilters
 import com.edgeedu.app.search.SearchHit
 import com.edgeedu.app.session.Subject
 import com.edgeedu.app.session.SubjectSession
-import com.edgeedu.app.tutor.MockLlmEngine
+import com.edgeedu.app.tutor.LlmEngine
+import com.edgeedu.app.tutor.ModelConfig
 import com.edgeedu.app.tutor.Tutor
 import com.edgeedu.app.tutor.TutorReply
 import java.io.File
@@ -92,12 +99,24 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     private val _notes = MutableStateFlow<Map<String, String>>(emptyMap())
     val notes: StateFlow<Map<String, String>> = _notes.asStateFlow()
 
+    /** Imported note files for the active subject (PRD §8). */
+    private val _importedFiles = MutableStateFlow<List<ImportedFile>>(emptyList())
+    val importedFiles: StateFlow<List<ImportedFile>> = _importedFiles.asStateFlow()
+
+    /** Transient one-line status for imports (success/error), shown then dismissed. */
+    private val _notice = MutableStateFlow<String?>(null)
+    val notice: StateFlow<String?> = _notice.asStateFlow()
+    fun clearNotice() { _notice.value = null }
+
     private lateinit var repository: CorpusRepository
     private lateinit var userData: UserDataStore
 
     private val app: Application get() = getApplication()
     private val contentDir: File get() = File(app.filesDir, "content")
     private val profileStore by lazy { ProfileStore(app) }
+    private val notesStore by lazy { NotesStore(app) }
+    /** Config-driven model (Qwen2.5-3B default), or the mock when unavailable. */
+    private val llmEngine: LlmEngine by lazy { ModelConfig.createEngine(app) }
     private val provisioner by lazy {
         ContentProvisioner(contentDir, File(app.filesDir, "content_version"))
     }
@@ -209,26 +228,97 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         _searchHits.value = emptyList()
         viewModelScope.launch {
             try {
-                _session.value = withContext(Dispatchers.Default) {
-                    val chunks = repository.chunks.filter { Subject.of(it.subject) == subject }
-                    val index = Bm25Index(chunks)
-                    SubjectSession(
-                        subject = subject,
-                        chunks = chunks,
-                        index = index,
-                        tutor = Tutor(index, MockLlmEngine(), mathSession = subject.isMath),
-                    )
-                }
+                _session.value = withContext(Dispatchers.Default) { buildSession(subject) }
+                refreshImportedFiles(subject)
             } finally {
                 _sessionLoading.value = false
             }
         }
     }
 
+    /**
+     * Builds the focused session index over BOTH the subject's textbook chunks
+     * and the student's imported notes for this class (PRD §8.1 dual corpus).
+     * Notes carry [com.edgeedu.app.data.ChunkSource.Notes] so answers can show
+     * where each source came from.
+     */
+    private fun buildSession(subject: Subject): SubjectSession {
+        val profile = lastProfile
+        val textbook = repository.chunks.filter { Subject.of(it.subject) == subject }
+        val notes = if (profile != null) {
+            notesStore.chunksFor(subject.name, profile.standard, profile.medium)
+        } else emptyList()
+        val all = textbook + notes
+        val index = Bm25Index(all)
+        return SubjectSession(
+            subject = subject,
+            chunks = all,
+            index = index,
+            tutor = Tutor(index, llmEngine, mathSession = subject.isMath),
+        )
+    }
+
+    private suspend fun refreshImportedFiles(subject: Subject) {
+        val profile = lastProfile ?: return
+        _importedFiles.value = withContext(Dispatchers.IO) {
+            notesStore.importedFiles(subject.name, profile.standard)
+        }
+    }
+
+    /** Imports a notes file (PRD §8): validate → extract → chunk → index now. */
+    fun importNotes(uri: Uri) {
+        val session = _session.value ?: return
+        val profile = lastProfile ?: return
+        if (_busy.value) return
+        _busy.value = true
+        viewModelScope.launch {
+            try {
+                withContext(Dispatchers.IO) {
+                    val (name, bytes) = readUri(uri)
+                    val text = NoteImport.extractText(name, bytes)
+                    val chunks = NoteChunker.chunk(text)
+                    if (chunks.isEmpty()) throw com.edgeedu.app.notes.ImportException(
+                        "No readable text found in the file."
+                    )
+                    notesStore.addImport(name, session.subject.name, profile.standard, chunks)
+                }
+                // Rebuild so the new notes are retrievable immediately.
+                _session.value = withContext(Dispatchers.Default) { buildSession(session.subject) }
+                refreshImportedFiles(session.subject)
+                _notice.value = "Notes imported ✓"
+            } catch (e: Exception) {
+                _notice.value = e.message ?: "Import failed."
+            } finally {
+                _busy.value = false
+            }
+        }
+    }
+
+    fun deleteImport(file: ImportedFile) {
+        val session = _session.value ?: return
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) { notesStore.deleteFile(file.id) }
+            _session.value = withContext(Dispatchers.Default) { buildSession(session.subject) }
+            refreshImportedFiles(session.subject)
+        }
+    }
+
+    private fun readUri(uri: Uri): Pair<String, ByteArray> {
+        val resolver = app.contentResolver
+        val name = resolver.query(uri, arrayOf(OpenableColumns.DISPLAY_NAME), null, null, null)
+            ?.use { c -> if (c.moveToFirst()) c.getString(0) else null }
+            ?: uri.lastPathSegment ?: "notes.txt"
+        val bytes = resolver.openInputStream(uri)?.use { it.readBytes() }
+            ?: throw com.edgeedu.app.notes.ImportException("Couldn't open the file.")
+        NoteImport.validate(name, bytes.size) // type + size; throws before parsing (§8.3)
+        return name to bytes
+    }
+
     fun endSession() {
         _session.value = null
         _chat.value = emptyList()
         _searchHits.value = emptyList()
+        _importedFiles.value = emptyList()
     }
 
     fun ask(question: String, language: String?) {
