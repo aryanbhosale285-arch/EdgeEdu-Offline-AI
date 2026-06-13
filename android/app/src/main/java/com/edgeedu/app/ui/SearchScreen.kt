@@ -1,5 +1,6 @@
 package com.edgeedu.app.ui
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -24,12 +25,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.edgeedu.app.AppViewModel
+import com.edgeedu.app.data.UserDataStore
 
 private val LANGUAGES = listOf("English", "Hindi", "Marathi")
 
 @Composable
 fun SearchScreen(viewModel: AppViewModel) {
     val hits by viewModel.searchHits.collectAsState()
+    val bookmarks by viewModel.bookmarks.collectAsState()
     var query by remember { mutableStateOf("") }
     var language by remember { mutableStateOf<String?>(null) }
 
@@ -58,9 +61,23 @@ fun SearchScreen(viewModel: AppViewModel) {
 
         LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             items(hits) { hit ->
+                val bookmarked = bookmarks.any { it.key == UserDataStore.keyOf(hit.chunk) }
                 Card(Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text(hit.chunk.chunk.heading, style = MaterialTheme.typography.titleSmall)
+                        Row(Modifier.fillMaxWidth()) {
+                            Text(
+                                hit.chunk.chunk.heading,
+                                Modifier.weight(1f),
+                                style = MaterialTheme.typography.titleSmall,
+                            )
+                            Text(
+                                if (bookmarked) "★" else "☆",
+                                Modifier.clickable { viewModel.toggleBookmark(hit.chunk) }
+                                    .padding(horizontal = 6.dp),
+                                color = MaterialTheme.colorScheme.primary,
+                                style = MaterialTheme.typography.titleMedium,
+                            )
+                        }
                         Text(
                             "Std ${hit.chunk.standard} · ${hit.chunk.subject} · ${hit.chunk.language}" +
                                 " · ${hit.chunk.chunk.chunk_id}" +

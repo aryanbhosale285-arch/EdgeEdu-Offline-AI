@@ -1,5 +1,6 @@
 package com.edgeedu.app.ui
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -8,15 +9,26 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.edgeedu.app.AppViewModel
 import com.edgeedu.app.CorpusInfo
+import com.edgeedu.app.session.Subject
 
+/**
+ * Subject picker (PRD §6.1): tapping a subject starts a focused session
+ * loading only that subject's chunks and index.
+ */
 @Composable
-fun HomeScreen(info: CorpusInfo) {
+fun HomeScreen(viewModel: AppViewModel, info: CorpusInfo, onSessionStarted: () -> Unit) {
+    val session by viewModel.session.collectAsState()
+
     Column(
         Modifier.padding(16.dp).verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -27,6 +39,34 @@ fun HomeScreen(info: CorpusInfo) {
                 "English, Hindi and Marathi. No internet needed, ever.",
             style = MaterialTheme.typography.bodyMedium,
         )
+
+        Text("Pick a subject to start a session", style = MaterialTheme.typography.titleSmall)
+        Subject.entries.forEach { subject ->
+            val active = session?.subject == subject
+            Card(
+                Modifier.fillMaxWidth().clickable {
+                    viewModel.startSession(subject)
+                    onSessionStarted()
+                },
+                colors = if (active) {
+                    CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                } else {
+                    CardDefaults.cardColors()
+                },
+            ) {
+                Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                    Text(
+                        subject.label + if (active) "  ·  active session" else "",
+                        style = MaterialTheme.typography.titleSmall,
+                    )
+                    Text(
+                        "${info.subjectChunkCounts[subject] ?: 0} chunks" +
+                            if (subject.isMath) " · verified math engine" else "",
+                        style = MaterialTheme.typography.labelSmall,
+                    )
+                }
+            }
+        }
 
         Card(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -54,10 +94,10 @@ fun HomeScreen(info: CorpusInfo) {
             Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text("Trustworthy maths", style = MaterialTheme.typography.titleSmall)
                 Text(
-                    "The language model never does arithmetic. Computations are routed " +
-                        "to a math engine through structured <calc> calls and verified " +
-                        "before you see them; textbook solutions were pre-verified with " +
-                        "a symbolic engine at build time.",
+                    "The language model never does arithmetic. In maths sessions, " +
+                        "computations are routed to a math engine through structured " +
+                        "<calc> calls and verified before you see them; textbook " +
+                        "solutions were pre-verified with a symbolic engine at build time.",
                     style = MaterialTheme.typography.bodySmall,
                 )
             }

@@ -20,8 +20,15 @@ data class TutorReply(
  * retrieval grounds the model, the model explains and emits <calc> calls,
  * the interceptor swaps in engine-verified results, and pre-verified
  * solution steps ride along from the retrieved chunk.
+ *
+ * The math engine is a maths-session tool: with [mathSession] = false the
+ * engine is told not to emit tool calls and the interceptor never runs.
  */
-class Tutor(private val index: Bm25Index, private val engine: LlmEngine) {
+class Tutor(
+    private val index: Bm25Index,
+    private val engine: LlmEngine,
+    private val mathSession: Boolean = false,
+) {
 
     companion object {
         /** Decline unless the top chunk covers this IDF share of the query. */
@@ -38,9 +45,11 @@ class Tutor(private val index: Bm25Index, private val engine: LlmEngine) {
             }
         }
 
-        // A question with inline maths is answerable by the engine even when
-        // retrieval is weak; otherwise low coverage means: decline, don't guess.
-        val hasInlineMath = question.contains('=') || Regex("""\d\s*[-+*/^]\s*\d""").containsMatchIn(question)
+        // In a maths session, a question with inline maths is answerable by
+        // the engine even when retrieval is weak; otherwise low coverage
+        // means: decline, don't guess.
+        val hasInlineMath = mathSession &&
+            (question.contains('=') || Regex("""\d\s*[-+*/^]\s*\d""").containsMatchIn(question))
         if ((hits.isEmpty() || hits.first().coverage < MIN_COVERAGE) && !hasInlineMath) {
             return TutorReply(
                 text = if (devanagari) {
@@ -55,12 +64,12 @@ class Tutor(private val index: Bm25Index, private val engine: LlmEngine) {
         }
 
         val context = hits.take(3).map { it.chunk }
-        val raw = engine.explain(question, context)
-        val intercepted = CalcInterceptor.process(raw)
+        val raw = engine.explain(question, context, mathSession)
+        val text = if (mathSession) CalcInterceptor.process(raw).text else raw
 
         val best = context.firstOrNull()
         return TutorReply(
-            text = intercepted.text,
+            text = text,
             grounded = best != null,
             latex = best?.chunk?.latex,
             steps = best?.chunk?.solution_steps.orEmpty(),
