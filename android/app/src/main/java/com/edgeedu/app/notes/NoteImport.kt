@@ -16,25 +16,32 @@ class ImportException(message: String) : Exception(message)
  * OCR/handwriting/maths-image PDFs remain out of scope (§8.2, §20).
  */
 object NoteImport {
-    /** 8 MB cap: room for a real notes PDF, still bounded for on-device parsing. */
-    const val MAX_BYTES = 8_000_000
+    /** 50 MB cap: generous for PDFs and photos, still bounded for on-device parsing. */
+    const val MAX_BYTES = 50_000_000
 
     private val TEXT_EXTENSIONS = setOf("txt", "text", "md", "markdown", "json")
-    private val SUPPORTED = TEXT_EXTENSIONS + "pdf"
+    private val IMAGE_EXTENSIONS = setOf("jpg", "jpeg", "png", "webp", "heic", "heif", "bmp")
+    private val SUPPORTED = TEXT_EXTENSIONS + "pdf" + IMAGE_EXTENSIONS
 
     fun extension(fileName: String): String =
         fileName.substringAfterLast('.', "").lowercase()
 
     fun isPdf(fileName: String): Boolean = extension(fileName) == "pdf"
+    fun isImage(fileName: String): Boolean = extension(fileName) in IMAGE_EXTENSIONS
 
-    /** Verifies [fileName]/[byteCount] before any bytes are read into a parser. */
-    fun validate(fileName: String, byteCount: Int) {
+    /** Type check only — usable before the file's size is known (e.g. images). */
+    fun validateType(fileName: String) {
         val ext = extension(fileName)
         if (ext !in SUPPORTED) {
             throw ImportException(
-                "Unsupported file “.$ext”. Import a .txt, .md, .json or .pdf file."
+                "Unsupported file “.$ext”. Import a .txt, .md, .json, .pdf or photo."
             )
         }
+    }
+
+    /** Verifies [fileName]/[byteCount] before any bytes are read into a parser. */
+    fun validate(fileName: String, byteCount: Int) {
+        validateType(fileName)
         if (byteCount <= 0) throw ImportException("The file is empty.")
         if (byteCount > MAX_BYTES) {
             throw ImportException("File is too large (max ${MAX_BYTES / 1_000_000} MB).")
@@ -42,14 +49,15 @@ object NoteImport {
     }
 
     /**
-     * Extracts text from a TEXT-format file (.txt/.md/.json). PDF is handled
-     * separately by [PdfTextExtractor] because it needs Android resources.
+     * Extracts text from a TEXT-format file (.txt/.md/.json). PDFs and images
+     * are handled separately ([PdfTextExtractor] / [ImageTextExtractor]) because
+     * they need Android resources.
      */
     fun extractText(fileName: String, bytes: ByteArray): String {
         validate(fileName, bytes.size)
-        if (isPdf(fileName)) {
-            // Defensive: callers route PDFs to PdfTextExtractor.
-            throw ImportException("PDF files are extracted separately.")
+        if (isPdf(fileName) || isImage(fileName)) {
+            // Defensive: callers route these to their own extractors.
+            throw ImportException("This file type is extracted separately.")
         }
         if (extension(fileName) == "json") return jsonToText(bytes)
         // A NUL byte means this isn't really text (e.g. a renamed binary).

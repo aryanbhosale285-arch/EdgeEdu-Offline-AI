@@ -76,6 +76,8 @@ dependencies {
     implementation("org.mariuszgromada.math:MathParser.org-mXparser:5.2.1")
     // Offline PDF text extraction for bring-your-own-notes (PRD §8.2).
     implementation("com.tom-roush:pdfbox-android:2.0.27.0")
+    // On-device OCR for photo imports (printed text) — bundled model, no network.
+    implementation("com.google.mlkit:text-recognition:16.0.1")
     // WebViewAssetLoader for the offline KaTeX renderer.
     implementation("androidx.webkit:webkit:1.12.1")
 

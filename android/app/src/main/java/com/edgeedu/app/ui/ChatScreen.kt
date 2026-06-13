@@ -144,7 +144,7 @@ private fun ImportBar(viewModel: AppViewModel) {
     val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         if (uri != null) viewModel.importNotes(uri)
     }
-    val importTypes = arrayOf("text/*", "application/json", "application/pdf")
+    val importTypes = arrayOf("text/*", "application/json", "application/pdf", "image/*")
 
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Row(

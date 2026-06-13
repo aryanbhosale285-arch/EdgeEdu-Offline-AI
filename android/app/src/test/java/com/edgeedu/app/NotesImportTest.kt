@@ -20,12 +20,18 @@ class NotesImportTest {
         NoteImport.validate("chemistry.txt", 1000)
         NoteImport.validate("notes.md", 1000)
         NoteImport.validate("notes.json", 1000)
-        NoteImport.validate("chapter.pdf", 1000) // PDF now allowed (extracted separately)
+        NoteImport.validate("chapter.pdf", 1000)  // PDF (extracted separately)
+        NoteImport.validate("scan.jpg", 1000)     // photo (OCR'd separately)
+        NoteImport.validate("board.png", 1000)
+    }
+
+    @Test fun acceptsLargeFilesUpTo50MB() {
+        NoteImport.validate("big.pdf", 50_000_000)
     }
 
     @Test(expected = ImportException::class)
     fun rejectsUnsupportedExtension() {
-        NoteImport.validate("photo.png", 1000)
+        NoteImport.validate("archive.zip", 1000)
     }
 
     @Test fun extractsReadableStringsFromJson() {

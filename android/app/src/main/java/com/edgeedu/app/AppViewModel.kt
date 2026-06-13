@@ -274,11 +274,23 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             try {
                 withContext(Dispatchers.IO) {
-                    val (name, bytes) = readUri(uri)
-                    val text = if (NoteImport.isPdf(name)) {
-                        com.edgeedu.app.notes.PdfTextExtractor.extract(app, bytes)
-                    } else {
-                        NoteImport.extractText(name, bytes)
+                    val name = queryName(uri)
+                    NoteImport.validateType(name)
+                    val text = when {
+                        NoteImport.isImage(name) -> {
+                            querySize(uri)?.let {
+                                if (it > NoteImport.MAX_BYTES) throw com.edgeedu.app.notes.ImportException(
+                                    "File is too large (max ${NoteImport.MAX_BYTES / 1_000_000} MB)."
+                                )
+                            }
+                            com.edgeedu.app.notes.ImageTextExtractor.extract(app, uri)
+                        }
+                        NoteImport.isPdf(name) -> {
+                            val bytes = readBytes(uri)
+                            NoteImport.validate(name, bytes.size)
+                            com.edgeedu.app.notes.PdfTextExtractor.extract(app, bytes)
+                        }
+                        else -> NoteImport.extractText(name, readBytes(uri))
                     }
                     val chunks = NoteChunker.chunk(text)
                     if (chunks.isEmpty()) throw com.edgeedu.app.notes.ImportException(
@@ -307,16 +319,18 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    private fun readUri(uri: Uri): Pair<String, ByteArray> {
-        val resolver = app.contentResolver
-        val name = resolver.query(uri, arrayOf(OpenableColumns.DISPLAY_NAME), null, null, null)
+    private fun queryName(uri: Uri): String =
+        app.contentResolver.query(uri, arrayOf(OpenableColumns.DISPLAY_NAME), null, null, null)
             ?.use { c -> if (c.moveToFirst()) c.getString(0) else null }
             ?: uri.lastPathSegment ?: "notes.txt"
-        val bytes = resolver.openInputStream(uri)?.use { it.readBytes() }
+
+    private fun querySize(uri: Uri): Long? =
+        app.contentResolver.query(uri, arrayOf(OpenableColumns.SIZE), null, null, null)
+            ?.use { c -> if (c.moveToFirst() && !c.isNull(0)) c.getLong(0) else null }
+
+    private fun readBytes(uri: Uri): ByteArray =
+        app.contentResolver.openInputStream(uri)?.use { it.readBytes() }
             ?: throw com.edgeedu.app.notes.ImportException("Couldn't open the file.")
-        NoteImport.validate(name, bytes.size) // type + size; throws before parsing (§8.3)
-        return name to bytes
-    }
 
     fun endSession() {
         _session.value = null
