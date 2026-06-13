@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -56,6 +57,8 @@ import com.edgeedu.app.ui.SearchScreen
 import com.edgeedu.app.ui.SettingsScreen
 import com.edgeedu.app.ui.theme.EdgeEduGradients
 import com.edgeedu.app.ui.theme.EdgeEduTheme
+import com.edgeedu.app.ui.theme.ThemeMode
+import com.edgeedu.app.ui.theme.ThemePrefs
 
 private enum class Tab(val label: String, val icon: ImageVector) {
     Home("Home", Icons.Filled.Home),
@@ -70,9 +73,22 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            EdgeEduTheme {
+            val context = this
+            var themeMode by remember { mutableStateOf(ThemePrefs.load(context)) }
+            val darkTheme = when (themeMode) {
+                ThemeMode.Dark -> true
+                ThemeMode.Light -> false
+                ThemeMode.System -> isSystemInDarkTheme()
+            }
+            EdgeEduTheme(darkTheme = darkTheme) {
                 Surface(color = MaterialTheme.colorScheme.background) {
-                    EdgeEduApp()
+                    EdgeEduApp(
+                        themeMode = themeMode,
+                        onThemeChange = {
+                            themeMode = it
+                            ThemePrefs.save(context, it)
+                        },
+                    )
                 }
             }
         }
@@ -80,7 +96,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
+private fun EdgeEduApp(
+    themeMode: ThemeMode,
+    onThemeChange: (ThemeMode) -> Unit,
+    viewModel: AppViewModel = viewModel(),
+) {
     val state by viewModel.state.collectAsState()
 
     when (val s = state) {
@@ -128,13 +148,18 @@ private fun EdgeEduApp(viewModel: AppViewModel = viewModel()) {
             }
         }
 
-        is AppState.Ready -> ReadyScaffold(viewModel, s)
+        is AppState.Ready -> ReadyScaffold(viewModel, s, themeMode, onThemeChange)
     }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun ReadyScaffold(viewModel: AppViewModel, ready: AppState.Ready) {
+private fun ReadyScaffold(
+    viewModel: AppViewModel,
+    ready: AppState.Ready,
+    themeMode: ThemeMode,
+    onThemeChange: (ThemeMode) -> Unit,
+) {
     val session by viewModel.session.collectAsState()
     val sessionLoading by viewModel.sessionLoading.collectAsState()
     // Tab state lives here, so logging out (which leaves Ready) resets to Home.
@@ -186,7 +211,7 @@ private fun ReadyScaffold(viewModel: AppViewModel, ready: AppState.Ready) {
                     BrowseScreen(viewModel)
                 }
                 Tab.Saved -> SavedScreen(viewModel)
-                Tab.Settings -> SettingsScreen(viewModel, ready.profile)
+                Tab.Settings -> SettingsScreen(viewModel, ready.profile, themeMode, onThemeChange)
             }
         }
     }

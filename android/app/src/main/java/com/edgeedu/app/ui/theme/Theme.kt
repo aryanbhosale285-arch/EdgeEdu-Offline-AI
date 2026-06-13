@@ -1,9 +1,11 @@
 package com.edgeedu.app.ui.theme
 
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Shapes
 import androidx.compose.material3.Typography
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Brush
@@ -66,6 +68,34 @@ private val EdgeEduColorScheme = lightColorScheme(
     onErrorContainer = EdgeEduColors.Destructive,
 )
 
+// Dark palette from the design kit (#0D0F1A canvas, #161929 cards, lighter
+// indigo primary). Gradients (header/accent) are reused as-is — they read well
+// on both themes.
+private val EdgeEduDarkColorScheme = darkColorScheme(
+    primary = Color(0xFF6B78F5),
+    onPrimary = Color.White,
+    primaryContainer = Color(0xFF1E2240),
+    onPrimaryContainer = Color(0xFFA5AFEF),
+    secondary = EdgeEduColors.Accent,
+    onSecondary = Color.White,
+    secondaryContainer = Color(0xFF13322B),
+    onSecondaryContainer = Color(0xFF7FE9D6),
+    tertiary = EdgeEduColors.PrimaryPurple,
+    onTertiary = Color.White,
+    background = Color(0xFF0D0F1A),
+    onBackground = Color(0xFFE8EBF8),
+    surface = Color(0xFF161929),
+    onSurface = Color(0xFFE8EBF8),
+    surfaceVariant = Color(0xFF1E2240),
+    onSurfaceVariant = Color(0xFF7880B0),
+    outline = Color(0xFF2E3460),
+    outlineVariant = Color(0xFF1E2240),
+    error = Color(0xFFFC8181),
+    onError = Color(0xFF11142D),
+    errorContainer = Color(0xFF3A1A1A),
+    onErrorContainer = Color(0xFFFC8181),
+)
+
 // Heavy, rounded display style mimicking Nunito/Nunito Sans from the design kit.
 private val EdgeEduTypography = Typography().run {
     copy(
@@ -89,9 +119,12 @@ private val EdgeEduShapes = Shapes(
 )
 
 @Composable
-fun EdgeEduTheme(content: @Composable () -> Unit) {
+fun EdgeEduTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable () -> Unit,
+) {
     MaterialTheme(
-        colorScheme = EdgeEduColorScheme,
+        colorScheme = if (darkTheme) EdgeEduDarkColorScheme else EdgeEduColorScheme,
         typography = EdgeEduTypography,
         shapes = EdgeEduShapes,
         content = content,

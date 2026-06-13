@@ -15,6 +15,8 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,13 +28,20 @@ import androidx.compose.ui.unit.dp
 import com.edgeedu.app.AppViewModel
 import com.edgeedu.app.content.Profile
 import com.edgeedu.app.ui.theme.EdgeEduGradients
+import com.edgeedu.app.ui.theme.ThemeMode
 
 /**
  * Settings (PRD §16): profile summary, offline status, and Logout — which
  * deletes downloaded content but keeps bookmarks and notes (§12.4).
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SettingsScreen(viewModel: AppViewModel, profile: Profile) {
+fun SettingsScreen(
+    viewModel: AppViewModel,
+    profile: Profile,
+    themeMode: ThemeMode,
+    onThemeChange: (ThemeMode) -> Unit,
+) {
     Column(Modifier.verticalScroll(rememberScrollState())) {
         Box(
             Modifier
@@ -92,6 +101,24 @@ fun SettingsScreen(viewModel: AppViewModel, profile: Profile) {
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
+                }
+            }
+
+            Card(
+                Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            ) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("Appearance", style = MaterialTheme.typography.titleSmall)
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        ThemeMode.entries.forEach { mode ->
+                            FilterChip(
+                                selected = themeMode == mode,
+                                onClick = { onThemeChange(mode) },
+                                label = { Text(mode.name) },
+                            )
+                        }
+                    }
                 }
             }
 
