@@ -1,0 +1,2697 @@
+{
+  "metadata": {
+    "file_name": "standard_9_geography_maharashtra_board.json",
+    "standard": 9,
+    "subject": "Geography",
+    "language": "English",
+    "board": "Maharashtra State Board",
+    "version": "1.0",
+    "authored_by": "AI Studio Extraction",
+    "last_updated": "2024-05-22"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "chapter_title": "Distributional Maps",
+      "chapter_summary": "This chapter introduces the concept of thematic maps and explains the three primary methods—Dot, Choropleth, and Isopleth—used to represent the distribution of various geographical variables. It also covers the importance and methodology of conducting a geographical field visit.",
+      "learning_objectives": [
+        "Understand the purpose and types of thematic maps.",
+        "Learn how to represent statistical data using the Dot method.",
+        "Identify the characteristics and uses of the Choropleth method using tints and patterns.",
+        "Explain the Isopleth method for representing continuous geographical variables.",
+        "Understand the steps involved in planning and executing a geographical field visit."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "1.1",
+          "topic": "Introduction to Thematic Maps",
+          "heading": "Thematic Maps",
+          "explanation": "The primary aim of maps is to show the location of a place and the distribution of variables. While standard maps show general geography, some maps are prepared with special themes to explain the distribution of specific variables like temperature, rainfall, and population in a region. These are called Thematic Maps. They are useful for bringing out patterns of distribution and require statistical data for their preparation.",
+          "key_points": [
+            "Thematic maps focus on specific variables.",
+            "They help in visualizing distribution patterns.",
+            "Statistical data is essential for creating these maps."
+          ],
+          "examples": [
+            "Population distribution maps",
+            "Average annual rainfall maps",
+            "Temperature distribution maps"
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between a general map and a thematic map?",
+              "a": "A general map shows various physical or political features, whereas a thematic map focuses on the distribution of a single specific variable like rainfall or population."
+            }
+          ],
+          "keywords": [
+            "Thematic Maps",
+            "Distribution",
+            "Variables",
+            "Statistical Data"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "1.2",
+            "1.3",
+            "1.4"
+          ]
+        },
+        {
+          "chunk_id": "1.2",
+          "topic": "Methods of Distributional Maps",
+          "heading": "Dot Method",
+          "explanation": "A dot map is prepared using statistical data gathered through counting. The way a variable is distributed throughout a region is shown using dots. To create a dot map, the value of a single dot must be determined by considering the lowest and highest values of the variable in the region. The size of the dot, the density of the variable, and the scale of the map are also considered. Precautions include ensuring uniform dot size and considering the region's physiography, water sources, and transport systems when placing dots.",
+          "key_points": [
+            "Uses data gathered through counting.",
+            "Each dot represents a specific numerical value.",
+            "Rural population is shown by dots, while urban population is shown by circles.",
+            "Most suitable for variables that are freely scattered."
+          ],
+          "examples": [
+            "Distribution of cattle in a district",
+            "Population distribution in Amravati district"
+          ],
+          "common_doubts": [
+            {
+              "q": "How is urban population represented in a dot map?",
+              "a": "While rural population is shown using uniform dots, urban population is often represented using circles of varying sizes proportional to the population size."
+            }
+          ],
+          "keywords": [
+            "Dot Method",
+            "Counting",
+            "Uniform Size",
+            "Scattered Distribution"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.3",
+            "1.4"
+          ]
+        },
+        {
+          "chunk_id": "1.3",
+          "topic": "Methods of Distributional Maps",
+          "heading": "Choropleth Method",
+          "explanation": "In Choropleth maps, data regarding geographical variables is shown using shades or tints of various colors or black-and-white patterns. Only one value is assigned to each sub-administrative unit (like a Taluka). The data is classified into 5-7 classes based on the smallest and largest values. The shades or patterns become darker as the value of the variable increases. This method is used for data that is collected as a single value per unit area.",
+          "key_points": [
+            "Uses tints, shades, or patterns.",
+            "One value per sub-administrative unit.",
+            "Darker shades indicate higher values.",
+            "Data is grouped into classes (e.g., 5-7 classes)."
+          ],
+          "examples": [
+            "Population density maps of Amravati district",
+            "Agricultural yield per hectare"
+          ],
+          "common_doubts": [
+            {
+              "q": "What determines the darkness of the shade in a Choropleth map?",
+              "a": "The darkness of the shade is directly proportional to the value of the variable; higher values are represented by darker tints or denser patterns."
+            }
+          ],
+          "keywords": [
+            "Choropleth",
+            "Tints",
+            "Shades",
+            "Sub-administrative unit",
+            "Classes"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.2",
+            "1.4"
+          ]
+        },
+        {
+          "chunk_id": "1.4",
+          "topic": "Methods of Distributional Maps",
+          "heading": "Isopleth Method",
+          "explanation": "The Isopleth method is used when the distribution of a variable is continuous, such as altitude, temperature, or rainfall. It uses lines (isolines) that join locations with the same value. This method relies on 'point-related data' where values belong to specific locations rather than administrative units. If isolines are close together, the change in the variable is steep; if they are far apart, the change is gentle.",
+          "key_points": [
+            "Used for continuous variables.",
+            "Uses isolines (lines of equal value).",
+            "Based on point-related data.",
+            "Shows the natural trend of distribution."
+          ],
+          "examples": [
+            "Contour maps (altitude)",
+            "Isobars (air pressure)",
+            "Average annual rainfall map of Amravati district"
+          ],
+          "common_doubts": [
+            {
+              "q": "What does it mean if the lines in an Isopleth map are very close to each other?",
+              "a": "It indicates a steep or rapid change in the variable (e.g., a steep slope in a contour map or a rapid change in temperature)."
+            }
+          ],
+          "keywords": [
+            "Isopleth",
+            "Isolines",
+            "Continuous Variable",
+            "Point-related data"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.2",
+            "1.3"
+          ]
+        },
+        {
+          "chunk_id": "1.5",
+          "topic": "Geographical Field-visit",
+          "heading": "Geographical Field-visit and Report Writing",
+          "explanation": "A field visit is a crucial study method in geography that allows students to directly experience geographical concepts and the correlation between humans and the environment. Preparation involves deciding the place, purpose, and elements to observe, as well as preparing a questionnaire. During the visit, students should follow teacher instructions, ensure safety, and interact with locals. After the visit, a report must be written based on the information collected, including sections like Introduction, Physiography, Climate, Population, and Conclusions.",
+          "key_points": [
+            "Direct experience of geographical elements.",
+            "Requires careful planning and a questionnaire.",
+            "Safety and environmental protection are paramount.",
+            "Report writing is the final step of the field visit."
+          ],
+          "examples": [
+            "Visit to a river bank, dam, or coastal area",
+            "Visit to a village or a museum"
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is a questionnaire important for a field visit?",
+              "a": "A questionnaire helps in systematically collecting relevant data and ensures that the purpose of the visit is fulfilled through structured interviews or observations."
+            }
+          ],
+          "keywords": [
+            "Field-visit",
+            "Questionnaire",
+            "Report-writing",
+            "Direct Experience"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "chapter_title": "Endogenetic Movements",
+      "chapter_summary": "This chapter explores the internal movements of the Earth caused by energy released from radioactive materials in the mantle. It covers slow movements resulting in mountains and continents, and sudden movements like earthquakes and volcanoes, explaining their causes, types, and effects on the Earth's crust.",
+      "learning_objectives": [
+        "Identify the causes of internal (endogenetic) movements.",
+        "Classify internal movements based on velocity, direction, and landforms.",
+        "Understand the formation of fold mountains, block mountains, and rift valleys.",
+        "Explain the mechanism of earthquakes and the types of seismic waves.",
+        "Distinguish between central-type and fissure-type volcanoes.",
+        "Analyze the distribution of earthquakes and volcanoes in relation to plate boundaries."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "2.1",
+          "topic": "Internal Movements of the Earth",
+          "heading": "Geographical Explanation of Endogenetic Movements",
+          "explanation": "Earthquakes and volcanoes occur due to instability in the Earth's interior, created by movements in the upper layer of the mantle. Tremendous energy is released by radioactive materials in the mantle, creating energy waves that cause instability. These movements are classified based on their velocity (slow or sudden), direction (horizontal or upward/downward), and the landforms they produce (continents or mountains).",
+          "key_points": [
+            "Movements occur in the upper mantle.",
+            "Energy source: Radioactive materials.",
+            "Classification criteria: Velocity, Direction, Landforms."
+          ],
+          "examples": [
+            "Slow movements: Mountain building.",
+            "Sudden movements: Earthquakes, Volcanic eruptions."
+          ],
+          "common_doubts": [
+            {
+              "q": "What triggers the energy release inside the Earth?",
+              "a": "The disintegration of radioactive materials in the mantle releases heat and energy, which creates convection currents and energy waves."
+            }
+          ],
+          "keywords": [
+            "Endogenetic",
+            "Mantle",
+            "Radioactive materials",
+            "Velocity",
+            "Instability"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "2.2",
+            "2.4"
+          ]
+        },
+        {
+          "chunk_id": "2.2",
+          "topic": "Slow Movements",
+          "heading": "Mountain-building (Orogenic) Movements",
+          "explanation": "Slow movements act continuously and result in the formation of mountains. They involve two types of forces: Compression and Tension. Compression occurs when energy waves move towards each other, causing rocks to fold (Fold Mountains). Tension occurs when energy waves move away from each other, causing fractures or 'faults' in the crust (Block Mountains and Rift Valleys).",
+          "key_points": [
+            "Compression leads to folding in soft rocks.",
+            "Tension leads to faulting in hard rocks.",
+            "Fold Mountains: Himalayas, Alps, Rockies, Andes.",
+            "Block Mountains: Black Forest (Europe), Meghalaya Plateau (India)."
+          ],
+          "examples": [
+            "Fold Mountain: The Himalayas.",
+            "Rift Valley: Narmada river valley, Great Rift Valley of Africa."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between a fault and a fold?",
+              "a": "A fold is a bend in rock layers caused by compression (pushing), while a fault is a break or fracture in the crust caused by tension (pulling) or extreme compression."
+            }
+          ],
+          "keywords": [
+            "Orogenic",
+            "Compression",
+            "Tension",
+            "Fold Mountains",
+            "Faults",
+            "Rift Valley"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": [
+            "2.3"
+          ]
+        },
+        {
+          "chunk_id": "2.3",
+          "topic": "Slow Movements",
+          "heading": "Continent-building (Epeirogenic) Movements",
+          "explanation": "These slow movements occur towards or away from the Earth's center. They cause vast parts of the Earth's crust to be uplifted or subside. Upliftment above sea level results in the formation of continents and extensive plateaus. If a portion subsides below sea level, it becomes part of the sea-bed.",
+          "key_points": [
+            "Act in a vertical direction (upward or downward).",
+            "Responsible for creating continents and plateaus.",
+            "Does not involve folding or intense faulting like orogenic movements."
+          ],
+          "examples": [
+            "Formation of the African continent.",
+            "Formation of extensive high-altitude plateaus."
+          ],
+          "common_doubts": [
+            {
+              "q": "How do epeirogenic movements differ from orogenic movements?",
+              "a": "Epeirogenic movements are vertical and form continents/plateaus, while orogenic movements are horizontal and form mountains through folding or faulting."
+            }
+          ],
+          "keywords": [
+            "Epeirogenic",
+            "Upliftment",
+            "Subsidence",
+            "Continents"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": [
+            "2.2"
+          ]
+        },
+        {
+          "chunk_id": "2.4",
+          "topic": "Sudden Movements: Earthquakes",
+          "heading": "Earthquakes: Causes and Mechanism",
+          "explanation": "An earthquake is the trembling of the Earth's crust caused by the sudden release of accumulated tension in the interior. The point where energy is released is the 'Focus' (Hypocenter). The point on the surface directly above the focus is the 'Epicenter'. Energy travels in the form of seismic waves.",
+          "key_points": [
+            "Causes: Plate movements, colliding plates, volcanic eruptions, rock fracturing.",
+            "Focus: Origin point of the earthquake inside the Earth.",
+            "Epicenter: Point on the surface where waves reach first.",
+            "Magnitude is measured on the Richter scale using a Seismograph."
+          ],
+          "examples": [
+            "Nepal Earthquake of April 2015 (7.9 magnitude).",
+            "Tremors felt when a heavy vehicle crosses a bridge."
+          ],
+          "common_doubts": [
+            {
+              "q": "Which seismic waves are the most destructive?",
+              "a": "Surface or 'L' waves are the most destructive as they travel along the Earth's crust."
+            }
+          ],
+          "keywords": [
+            "Earthquake",
+            "Focus",
+            "Epicenter",
+            "Seismic waves",
+            "Richter scale"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": [
+            "2.5"
+          ]
+        },
+        {
+          "chunk_id": "2.5",
+          "topic": "Sudden Movements: Earthquakes",
+          "heading": "Types of Seismic Waves",
+          "explanation": "Seismic waves are divided into three types: 1) Primary (P) waves: Fastest, reach surface first, travel through solid, liquid, and gas. 2) Secondary (S) waves: Slower than P-waves, travel only through solids, cause particles to move up and down. 3) Surface (L) waves: Travel along the circumference of the crust, highly destructive.",
+          "key_points": [
+            "P-waves: Longitudinal, forward-backward movement.",
+            "S-waves: Transverse, up-down movement, absorbed in liquid medium.",
+            "L-waves: Generated after P and S waves reach the epicenter."
+          ],
+          "examples": [
+            "P-waves causing buildings to move back and forth.",
+            "S-waves causing buildings to move up and down."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why can't S-waves travel through the Earth's core?",
+              "a": "Because the outer core is liquid, and S-waves can only travel through solid materials."
+            }
+          ],
+          "keywords": [
+            "Primary waves",
+            "Secondary waves",
+            "Surface waves",
+            "Seismogram"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "2.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.6",
+          "topic": "Sudden Movements: Volcanoes",
+          "heading": "Volcanoes: Types and Effects",
+          "explanation": "A volcano is a process where hot solid, liquid (magma/lava), and gaseous materials are thrown out from the mantle onto the surface. They are classified by eruption type: 1) Central-type: Magma comes out through a pipe-like vent, forming conical mountains. 2) Fissure-type: Magma comes out through cracks, forming volcanic plateaus. They are also classified by periodicity: Active, Dormant, and Extinct.",
+          "key_points": [
+            "Lava: Magma that reaches the surface.",
+            "Central-type examples: Mt. Fujiyama, Mt. Kilimanjaro.",
+            "Fissure-type example: Deccan Plateau of India.",
+            "Active: Regular eruptions; Dormant: Quiet for long but can erupt; Extinct: Unlikely to erupt again."
+          ],
+          "examples": [
+            "Active: Mt. Stromboli.",
+            "Dormant: Mt. Vesuvius, Barren Island (India).",
+            "Extinct: Mt. Kilimanjaro."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between magma and lava?",
+              "a": "Magma is the molten rock found beneath the Earth's surface; once it erupts onto the surface, it is called lava."
+            }
+          ],
+          "keywords": [
+            "Volcano",
+            "Magma",
+            "Lava",
+            "Central eruption",
+            "Fissure eruption",
+            "Active volcano"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "chapter_title": "Exogenetic Processes Part- I",
+      "chapter_summary": "This chapter focuses on external (exogenetic) processes that shape the Earth's surface, primarily through weathering, mass movements, and the introduction to erosion. It explains how solar energy, gravity, and kinetic energy drive the degradation and formation of tertiary landforms.",
+      "learning_objectives": [
+        "Distinguish between internal and external processes.",
+        "Understand the three types of weathering: mechanical, chemical, and biological.",
+        "Identify the factors causing mechanical weathering like temperature, frost, and crystal growth.",
+        "Explain chemical processes such as carbonation, solution, and oxidation.",
+        "Differentiate between rapid and slow mass movements.",
+        "Define erosion and identify its various agents."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "3.1",
+          "topic": "Introduction to Exogenetic Processes",
+          "heading": "External Processes and Landforms",
+          "explanation": "Exogenetic processes occur on the Earth's surface due to external forces, mainly solar energy, gravitational force, and kinetic energy. While internal movements create primary (continents) and secondary (mountains, plateaus) landforms, external processes like weathering, erosion, transportation, and deposition give way to tertiary landforms.",
+          "key_points": [
+            "External processes lead to the degradation or formation of landforms.",
+            "Driven by solar energy, gravity, and kinetic energy.",
+            "Results in tertiary landforms like valleys, sand dunes, and deltas."
+          ],
+          "examples": [
+            "Primary landforms: Continents.",
+            "Secondary landforms: Mountains, Plains.",
+            "Tertiary landforms: Valleys, U-shaped valleys, Deltas."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the main difference between internal and external processes?",
+              "a": "Internal processes (endogenetic) build up the Earth's relief from within, while external processes (exogenetic) wear down or modify the surface from the outside."
+            }
+          ],
+          "keywords": [
+            "Exogenetic",
+            "Degradation",
+            "Tertiary landforms",
+            "Solar energy",
+            "Gravity"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": [
+            "3.2",
+            "4.1"
+          ]
+        },
+        {
+          "chunk_id": "3.2",
+          "topic": "Weathering",
+          "heading": "Mechanical Weathering",
+          "explanation": "Mechanical (physical) weathering is the breaking or weakening of rocks without changing their chemical composition. It is dominant in arid climates. Key factors include: 1) Temperature: Expansion and contraction of minerals. 2) Frost: Water freezing in cracks and expanding. 3) Crystal growth: Salts in alkaline water forming crystals. 4) Release of pressure: Outer layers peeling off (Exfoliation). 5) Water: Leading to granular weathering or block disintegration.",
+          "key_points": [
+            "Exfoliation: Peeling of rock layers like an onion.",
+            "Frost weathering is common in areas where temperatures drop below 0°C.",
+            "Crystal growth creates honeycomb-like structures in rocky coasts.",
+            "Block disintegration occurs when water accumulates in joints, causing large blocks to separate."
+          ],
+          "examples": [
+            "Exfoliation of dome-shaped hills.",
+            "Shattering of rocks due to frost.",
+            "Granular weathering in sandstone or conglomerate."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why does exfoliation happen?",
+              "a": "The outer layer of a rock heats up more than the inner part, causing it to expand and eventually peel away from the cooler, main body of the rock."
+            }
+          ],
+          "keywords": [
+            "Mechanical weathering",
+            "Exfoliation",
+            "Frost",
+            "Crystal growth",
+            "Block disintegration",
+            "Granular weathering"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": [
+            "3.3"
+          ]
+        },
+        {
+          "chunk_id": "3.3",
+          "topic": "Weathering",
+          "heading": "Chemical Weathering",
+          "explanation": "Chemical weathering involves the decomposition of rocks through chemical reactions, primarily involving water, which is a universal solvent. It is most effective in humid climates. Processes include: 1) Carbonation: Rainwater mixing with CO2 to form dilute carbonic acid, dissolving rocks like limestone. 2) Solution: Soluble minerals dissolving in water. 3) Oxidation: Iron in rocks reacting with oxygen and water to form rust.",
+          "key_points": [
+            "Water plays an important role as a universal solvent.",
+            "Carbonation: Water + CO2 = Carbonic Acid (H2CO3).",
+            "Oxidation results in a reddish-colored layer (rust) on rocks.",
+            "Limestone areas often show stalactites and stalagmites due to chemical precipitation."
+          ],
+          "examples": [
+            "Stalactites in Wadgaon Darya, Ahmadnagar.",
+            "Rusting of iron nails in a wet cloth.",
+            "Apple slices turning brown (oxidation in daily life)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is chemical weathering more effective in humid climates?",
+              "a": "Because chemical reactions like carbonation and oxidation require the presence of water and moisture to occur."
+            }
+          ],
+          "keywords": [
+            "Chemical weathering",
+            "Carbonation",
+            "Solution",
+            "Oxidation",
+            "Universal solvent"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": [
+            "3.2",
+            "3.4"
+          ]
+        },
+        {
+          "chunk_id": "3.4",
+          "topic": "Weathering",
+          "heading": "Biological Weathering",
+          "explanation": "Biological weathering is caused by living organisms. Plant roots grow into rock crevices, creating tension and breaking the rocks. Burrowing animals like rats, mice, and ants create holes in the ground. Micro-organisms like algae, moss, and lichen also grow on rock surfaces and contribute to their breakdown.",
+          "key_points": [
+            "Roots of trees can break apart heavy rocks or fort walls.",
+            "Burrowing animals are called 'burrowers'.",
+            "Lichen and moss help in the slow disintegration of rock surfaces."
+          ],
+          "examples": [
+            "Trees growing on the minarets of old forts.",
+            "Anthills and burrows in the soil.",
+            "Lichen growing on rocks."
+          ],
+          "common_doubts": [
+            {
+              "q": "Can small plants like lichen really weather a rock?",
+              "a": "Yes, they produce organic acids and hold moisture against the rock surface, which slowly weakens and breaks down the minerals."
+            }
+          ],
+          "keywords": [
+            "Biological weathering",
+            "Burrowing animals",
+            "Lichen",
+            "Moss",
+            "Roots"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": [
+            "3.2",
+            "3.3"
+          ]
+        },
+        {
+          "chunk_id": "3.5",
+          "topic": "Mass Movements",
+          "heading": "Mass Movements (Mass Wasting)",
+          "explanation": "Mass movement is the down-slope movement of weathered rock materials due to gravity alone. It occurs in two ways: 1) Rapid: Includes rockfalls, landslides, and slumping, common in humid climates with steep slopes. 2) Slower: Includes soil creep and solifluction, common in dry climates or periglacial regions with gentler slopes.",
+          "key_points": [
+            "Gravity is the primary driving force.",
+            "Weathered material forms a conical heap at the foothills.",
+            "Slumping: Weathered materials sink 'in situ' rather than moving down.",
+            "Solifluction: Movement of soil layers in periglacial regions."
+          ],
+          "examples": [
+            "Mudslide at Malin Village, Pune district (Rapid).",
+            "Soil creep on gentle slopes (Slow).",
+            "Rockfalls in mountainous areas."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between weathering and mass movement?",
+              "a": "Weathering is the breaking down of rocks in place, while mass movement is the actual transport of that broken material down a slope due to gravity."
+            }
+          ],
+          "keywords": [
+            "Mass movements",
+            "Landslides",
+            "Slumping",
+            "Soil creep",
+            "Solifluction",
+            "Gravity"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.2",
+            "3.3"
+          ],
+          "linked_concepts": [
+            "3.6"
+          ]
+        },
+        {
+          "chunk_id": "3.6",
+          "topic": "Erosion",
+          "heading": "Introduction to Erosion",
+          "explanation": "Erosion is an external process where the Earth's surface is worn away by various agents. Unlike weathering, erosion involves the active transportation of materials. The main agents of erosion are wind, running water (rivers), glaciers, sea water, and groundwater.",
+          "key_points": [
+            "Erosion involves wearing away and transportation.",
+            "Agents: Wind, Water, Glaciers, Sea waves, Groundwater.",
+            "Erosion leads to the formation of distinct landforms (covered in Part II)."
+          ],
+          "examples": [
+            "River carving a valley.",
+            "Wind shaping a mushroom rock."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is erosion the same as weathering?",
+              "a": "No. Weathering breaks the rock, while erosion carries the broken pieces away."
+            }
+          ],
+          "keywords": [
+            "Erosion",
+            "Agents of erosion",
+            "Transportation"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.5"
+          ],
+          "linked_concepts": [
+            "4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "chapter_title": "Exogenetic Processes Part –II",
+      "chapter_summary": "This chapter details the erosional, transportational, and depositional work performed by various agents of erosion, including running water (rivers), glaciers, wind, sea waves, and groundwater, and the resulting landforms they create.",
+      "learning_objectives": [
+        "Understand the three-fold work (erosion, transportation, deposition) of natural agents.",
+        "Identify landforms created by the erosional and depositional work of rivers.",
+        "Explain how glaciers move and the types of moraines they deposit.",
+        "Describe the unique landforms produced by wind in arid regions.",
+        "Analyze the impact of sea waves on coastal morphology.",
+        "Learn about the chemical work of groundwater and the formation of Karst topography."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "4.1",
+          "topic": "Work of Rivers",
+          "heading": "Erosional, Transportational and Depositional Work of Rivers",
+          "explanation": "Rivers originate at high altitudes and flow rapidly, possessing great erosive power. They erode the riverbed and banks, creating deep landforms. As the slope decreases, the river's velocity drops, leading to the deposition of sediments. The work of a river depends on the slope of the land, type of rock, volume of water, and sediment load.",
+          "key_points": [
+            "Erosional landforms: Gorges (canyons), V-shaped valleys, and waterfalls.",
+            "Depositional landforms: Alluvial fans (at foothills), meanders, flood levees, flood plains, and deltas (at the mouth).",
+            "Transportation involves carrying sand, pebbles, and silt downstream."
+          ],
+          "examples": [
+            "Grand Canyon (Gorge).",
+            "Sunderbans (Delta).",
+            "Meandering of the river in flat plains."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why do deltas form only at the mouth of a river?",
+              "a": "At the mouth, the river's speed becomes very slow as it meets the sea, causing it to deposit all the fine sediments it was carrying."
+            }
+          ],
+          "keywords": [
+            "V-shaped valley",
+            "Alluvial fan",
+            "Meander",
+            "Delta",
+            "Flood levee"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.6"
+          ],
+          "linked_concepts": [
+            "4.2",
+            "4.4"
+          ]
+        },
+        {
+          "chunk_id": "4.2",
+          "topic": "Work of Glaciers",
+          "heading": "Erosional and Depositional Work of Glaciers",
+          "explanation": "In high-altitude or high-latitude regions, snow accumulates and moves slowly downslope due to gravity, forming a glacier. Despite slow movement, the massive weight of ice causes significant erosion of the bed and banks. Glaciers also transport and deposit sediments known as moraines.",
+          "key_points": [
+            "Erosional landforms: Cirques (armchair-like), arêtes, horns, U-shaped valleys, hanging valleys, and rôche moutonnées.",
+            "Depositional landforms: Moraines (ground, lateral, medial, and terminal), drumlins (egg-shaped hills), and eskers (winding ridges).",
+            "Moraines are classified based on their location relative to the glacier."
+          ],
+          "examples": [
+            "Matterhorn in the Alps (Horn).",
+            "Jacobshavn Glacier in Greenland (Fast-moving glacier).",
+            "U-shaped valleys in the Himalayas."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is a hanging valley?",
+              "a": "It is a tributary valley that enters a main glacial valley at a much higher level, often resulting in a waterfall when the ice melts."
+            }
+          ],
+          "keywords": [
+            "Glacier",
+            "Cirque",
+            "Moraine",
+            "U-shaped valley",
+            "Drumlin"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "3.6"
+          ],
+          "linked_concepts": [
+            "4.1"
+          ]
+        },
+        {
+          "chunk_id": "4.3",
+          "topic": "Work of Wind",
+          "heading": "Erosional and Depositional Work of Wind",
+          "explanation": "Wind is a powerful agent in deserts and semi-arid regions where vegetation is sparse. It carries sand and pebbles that abrade rock surfaces. When wind speed decreases or meets an obstacle, it deposits the sand, creating various desert landforms.",
+          "key_points": [
+            "Erosional landforms: Mushroom rocks (narrow base due to low-level abrasion), deflation hollows, and yardangs.",
+            "Depositional landforms: Sand dunes, barchans (crescent-shaped), seifs (sword-like), ripple marks, and loess plains.",
+            "Mechanical weathering provides the loose material for wind to transport."
+          ],
+          "examples": [
+            "Mushroom rocks in the Sahara Desert.",
+            "Barchans in the Thar Desert.",
+            "Loess plains in China."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why are mushroom rocks narrow at the bottom?",
+              "a": "Wind carries more and heavier sand particles closer to the ground, leading to more intense erosion at the base of the rock compared to the top."
+            }
+          ],
+          "keywords": [
+            "Mushroom rock",
+            "Yardang",
+            "Barchan",
+            "Seif",
+            "Loess"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "3.2",
+            "3.6"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.4",
+          "topic": "Work of Sea Waves",
+          "heading": "Erosional and Depositional Work of Sea Waves",
+          "explanation": "Sea waves constantly hit the coast, performing erosional, transportational, and depositional work. The hydraulic action and the impact of stones/sand carried by waves wear down the cliffs. In areas where wave energy is low, deposition occurs.",
+          "key_points": [
+            "Erosional landforms: Sea cliffs, sea caves, sea arches, sea stacks, and wave-cut platforms.",
+            "Depositional landforms: Beaches, sand bars, and lagoons.",
+            "Coastal morphology is highly dynamic due to tides and storms."
+          ],
+          "examples": [
+            "Sea arches along the Konkan coast.",
+            "Marina Beach (Depositional).",
+            "Lagoons in Kerala (Backwaters)."
+          ],
+          "common_doubts": [
+            {
+              "q": "How is a sea stack formed?",
+              "a": "It is the final stage of erosion where a sea arch collapses, leaving a pillar of rock standing isolated in the sea."
+            }
+          ],
+          "keywords": [
+            "Sea cliff",
+            "Sea arch",
+            "Wave-cut platform",
+            "Beach",
+            "Lagoon"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "3.6"
+          ],
+          "linked_concepts": [
+            "4.1"
+          ]
+        },
+        {
+          "chunk_id": "4.5",
+          "topic": "Work of Groundwater",
+          "heading": "Work of Groundwater and Landforms",
+          "explanation": "Rainwater seeps into the ground through porous rocks and accumulates above non-porous layers. This groundwater dissolves soluble minerals like limestone. When this water evaporates or the mineral concentration increases, deposition occurs, creating unique underground features.",
+          "key_points": [
+            "Erosional landforms: Sinkholes and limestone caves.",
+            "Depositional landforms: Stalactites (hanging from the ceiling) and stalagmites (growing from the floor).",
+            "The level of the water table changes with seasons and rainfall.",
+            "Landforms in limestone regions are collectively called 'Karst' topography."
+          ],
+          "examples": [
+            "Limestone caves at Mahabaleshwar.",
+            "Bora caves in Andhra Pradesh (Stalactites and Stalagmites).",
+            "Sinkholes in Karst regions."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between a stalactite and a stalagmite?",
+              "a": "Stalactites hang down from the cave ceiling (C for Ceiling), while stalagmites grow up from the cave floor (G for Ground)."
+            }
+          ],
+          "keywords": [
+            "Groundwater",
+            "Water table",
+            "Sinkhole",
+            "Stalactite",
+            "Stalagmite"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.3",
+            "3.6"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "chapter_title": "Precipitation",
+      "chapter_summary": "This chapter explains the various forms of condensation and precipitation, including dew, frost, fog, snow, hail, and rainfall. It provides a detailed look at the three types of rainfall—convectional, orographic, and cyclonic—and discusses the measurement of rainfall and the effects of precipitation, such as acid rain.",
+      "learning_objectives": [
+        "Distinguish between condensation and precipitation.",
+        "Understand the formation and characteristics of snow and hail.",
+        "Explain the mechanisms of convectional, orographic, and cyclonic rainfall.",
+        "Identify the factors affecting the distribution of rainfall.",
+        "Learn how to use a rain gauge to measure precipitation.",
+        "Analyze the positive and negative effects of precipitation on the environment and economy."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "5.1",
+          "topic": "Forms of Condensation",
+          "heading": "Condensation near the Earth's Surface: Dew, Frost, and Fog",
+          "explanation": "Condensation occurs when water vapour in the atmosphere turns into liquid or solid form. When this happens near the Earth's surface, it results in dew, frost, or fog. Dew forms when moisture-laden air contacts cold objects, turning into small water droplets. If the temperature drops below 0°C, these droplets freeze, forming frost. Fog occurs when the density of microscopic water particles floating in the air increases near the surface, reducing visibility.",
+          "key_points": [
+            "Dew: Water droplets on cold surfaces.",
+            "Frost: Frozen dew, occurs below 0°C.",
+            "Fog: Dense microscopic water droplets floating near the ground.",
+            "These forms are common on winter mornings."
+          ],
+          "examples": [
+            "Water droplets on blades of grass in the morning (Dew).",
+            "White layer on car windshields in very cold climates (Frost).",
+            "Reduced visibility in London during winter (Fog)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is fog the same as a cloud?",
+              "a": "Yes, fog is essentially a cloud that forms at or very near the Earth's surface."
+            }
+          ],
+          "keywords": [
+            "Condensation",
+            "Dew",
+            "Frost",
+            "Fog",
+            "Humidity"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "5.2",
+            "5.7"
+          ]
+        },
+        {
+          "chunk_id": "5.2",
+          "topic": "Forms of Precipitation",
+          "heading": "Snow and Ice",
+          "explanation": "When the atmospheric temperature falls below freezing point, water vapour directly turns into snowflakes through a process called sublimation. This solid precipitation is known as snowfall. Snow is friable and opaque. When layers of snow accumulate and compress under their own weight, the lower layers become transparent and homogeneous, forming ice. Snowfall is common in high-latitude and high-altitude regions.",
+          "key_points": [
+            "Sublimation: Vapour turning directly into solid snow.",
+            "Snow is opaque and friable; ice is transparent and massive.",
+            "Snowfall provides a water source when it melts.",
+            "Can cause 'frostbite' and collapse of transport systems."
+          ],
+          "examples": [
+            "Snowfall in Kashmir during winter.",
+            "Snow-capped mountains in the Himalayas.",
+            "Frozen lakes forming a layer of ice on the surface."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between snow and ice?",
+              "a": "Snow is composed of loose, opaque flakes formed by sublimation. Ice is a solid, transparent mass formed either by the freezing of liquid water or the compression of snow layers."
+            }
+          ],
+          "keywords": [
+            "Snow",
+            "Sublimation",
+            "Ice",
+            "Snowfall",
+            "Frostbite"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": [
+            "5.3"
+          ]
+        },
+        {
+          "chunk_id": "5.3",
+          "topic": "Forms of Precipitation",
+          "heading": "Hail and Hailstones",
+          "explanation": "Hail forms when strong upward air currents carry water droplets to very high, cold altitudes. The droplets solidify into ice. As they are tossed up and down by air currents, new layers of ice wrap around them, creating concentric layers. When they become too heavy for the air to support, they fall as hailstones. Hail occurs in summers in places like India but not in equatorial or extremely cold zones.",
+          "key_points": [
+            "Formed by rapid upward air flow.",
+            "Characterized by concentric layers of ice.",
+            "Heavy hailstones fall due to gravity.",
+            "Highly destructive to crops and property."
+          ],
+          "examples": [
+            "Sudden hail showers destroying standing crops in Maharashtra.",
+            "Concentric rings visible when a hailstone is cut in half."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why don't hailstones occur in cold zones?",
+              "a": "Cold zones lack the strong upward heat-driven air currents (convection) necessary to carry droplets high enough to form hailstones."
+            }
+          ],
+          "keywords": [
+            "Hail",
+            "Hailstones",
+            "Concentric layers",
+            "Upward air flow"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "5.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.4",
+          "topic": "Types of Rainfall",
+          "heading": "Convectional Rainfall",
+          "explanation": "In equatorial regions, the sun's heat causes the surface to warm up, heating the air above it. This hot air expands, becomes lighter, and rises. As it reaches higher altitudes, it cools, condensation occurs, and clouds form, leading to rainfall. This typically happens daily in the afternoons and is often accompanied by lightning and thunder.",
+          "key_points": [
+            "Common in equatorial areas (Congo basin, Amazon basin).",
+            "Occurs daily in the afternoon.",
+            "Limited in spatial extent.",
+            "Driven by vertical air movement."
+          ],
+          "examples": [
+            "Daily afternoon showers in Singapore.",
+            "Rainfall in the Amazon rainforest."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why does convectional rain happen mostly in the afternoon?",
+              "a": "It takes several hours of morning sun to heat the Earth's surface sufficiently to start the convection process."
+            }
+          ],
+          "keywords": [
+            "Convectional rainfall",
+            "Equatorial region",
+            "Vertical movement",
+            "Thunder"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "5.5",
+            "5.6"
+          ]
+        },
+        {
+          "chunk_id": "5.5",
+          "topic": "Types of Rainfall",
+          "heading": "Orographic Rainfall",
+          "explanation": "Orographic rainfall occurs when moisture-laden winds are obstructed by high mountain ranges. The winds are forced to rise along the mountain slopes. As they rise, the temperature drops, moisture condenses, and rain falls on the 'windward' side. After crossing the summit, the air descends on the 'leeward' side; it becomes warmer and its moisture-holding capacity increases, resulting in very little rain. This dry area is called the 'rain-shadow' area.",
+          "key_points": [
+            "Most common type of rainfall globally.",
+            "Windward side: High rainfall.",
+            "Leeward side: Rain-shadow area (low rainfall).",
+            "The height and direction of mountains are crucial factors."
+          ],
+          "examples": [
+            "High rainfall in Konkan (windward) vs. low rainfall in Western Maharashtra (rain-shadow) due to the Sahyadri mountains.",
+            "Monsoon rainfall in India is primarily orographic."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is a rain-shadow area?",
+              "a": "It is the side of a mountain range that faces away from the prevailing winds and receives significantly less rainfall."
+            }
+          ],
+          "keywords": [
+            "Orographic rainfall",
+            "Windward",
+            "Leeward",
+            "Rain-shadow area",
+            "Obstruction"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "5.4",
+            "5.6"
+          ]
+        },
+        {
+          "chunk_id": "5.6",
+          "topic": "Types of Rainfall",
+          "heading": "Cyclonic Rainfall",
+          "explanation": "A cyclone forms when air pressure in a specific area is lower than the surrounding regions. Air from the surroundings rushes toward the center and is forced upward. As the air rises, it cools and causes rainfall. Cyclonic rainfall is more common and extensive in temperate zones, while in tropical regions, it is limited in area but very stormy in nature.",
+          "key_points": [
+            "Caused by low-pressure centers.",
+            "Air moves in a circular/upward motion.",
+            "Temperate cyclones are extensive; tropical cyclones are intense and stormy."
+          ],
+          "examples": [
+            "Rainfall associated with cyclones in the Bay of Bengal.",
+            "Stormy weather in temperate coastal regions."
+          ],
+          "common_doubts": [
+            {
+              "q": "How is cyclonic rain different from convectional rain?",
+              "a": "Convectional rain is caused by local heating, while cyclonic rain is caused by large-scale pressure differences and air mass movements."
+            }
+          ],
+          "keywords": [
+            "Cyclonic rainfall",
+            "Low pressure",
+            "Cyclone",
+            "Temperate zone"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "5.4",
+            "5.5"
+          ]
+        },
+        {
+          "chunk_id": "5.7",
+          "topic": "Measurement and Effects",
+          "heading": "Rain Gauge and Acid Rain",
+          "explanation": "Rainfall is measured using a rain gauge, which consists of a funnel and a measuring jar. 1 mm of rain over 1 sq. km equals 10 lakh litres of water. Precipitation is essential for agriculture and potable water but can be destructive. Acid rain occurs when air pollutants (like sulfur and nitrogen oxides) react with water vapour to form acids, which then fall with the rain, harming living organisms and buildings.",
+          "key_points": [
+            "Rain gauge: Measures rain in millimeters (mm).",
+            "Potable water: Main source is precipitation.",
+            "Acid rain: Caused by industrial pollution.",
+            "Erratic rainfall affects the economy of agrarian countries like India."
+          ],
+          "examples": [
+            "Using a rain gauge to record daily rainfall in school.",
+            "Damage to marble statues due to acid rain.",
+            "Drought conditions due to lack of rain."
+          ],
+          "common_doubts": [
+            {
+              "q": "How is snowfall measured?",
+              "a": "Snow is collected in a container, melted carefully, and the resulting water is measured. 120 mm of ice is roughly equivalent to 10 mm of rainfall."
+            }
+          ],
+          "keywords": [
+            "Rain gauge",
+            "Acid rain",
+            "Potable water",
+            "Pollution"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "chapter_title": "The Properties of Sea Water",
+      "chapter_summary": "This chapter explores the three major properties of seawater: temperature, salinity, and density. It explains how these properties vary across different latitudes and depths and how they interact to influence ocean currents and global climate.",
+      "learning_objectives": [
+        "Identify the factors affecting the surface temperature of seawater.",
+        "Understand the variation of seawater temperature with depth.",
+        "Define salinity and explain the factors that cause its distribution to vary.",
+        "Analyze the relationship between temperature, salinity, and density.",
+        "Explain the role of ocean currents as temperature controllers at a global level."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "6.1",
+          "topic": "Temperature of Sea Water",
+          "heading": "Surface and Depth-wise Temperature Variation",
+          "explanation": "Temperature is a major property of seawater. Surface temperature is not uniform; it decreases from the equatorial areas (avg. 25°C) towards the poles (avg. 2°C). Factors like cyclones, rainfall, ocean currents, salinity, and seasons also affect surface temperature. Depth-wise, temperature decreases as depth increases because sunrays only penetrate to certain depths. However, after 2000m, the temperature becomes uniform at approximately 4°C everywhere from the equator to the poles. Seawater at great depths does not freeze because the temperature does not drop below 4°C.",
+          "key_points": [
+            "Surface temperature is highest at the equator and lowest at the poles.",
+            "Warm currents increase surface temperature; cold currents decrease it.",
+            "Temperature decreases rapidly with depth in equatorial regions.",
+            "Below 2000m, seawater temperature is a constant 4°C."
+          ],
+          "examples": [
+            "Average surface temp at mid-latitudes is 16°C.",
+            "Landlocked seas have higher temperatures than open seas in low latitudes."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why doesn't the water at the bottom of the ocean freeze?",
+              "a": "Seawater temperature only reduces to about 4°C at great depths (below 2000m) and remains stable there, which is above the freezing point."
+            }
+          ],
+          "keywords": [
+            "Surface temperature",
+            "Ocean currents",
+            "Latitudinal variation",
+            "Depth"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "6.5"
+          ]
+        },
+        {
+          "chunk_id": "6.2",
+          "topic": "Salinity of Sea Water",
+          "heading": "Definition and Measurement of Salinity",
+          "explanation": "Salinity is the weight of all dissolved salts in water, expressed in ratio of parts per thousand (‰). For example, if 1000g of seawater contains 40g of salt, the salinity is 40‰. It is measured using instruments like a hydrometer, refractometer, or salinometer. Salinity increases the buoyancy of seawater, which is helpful for water transport. However, if salinity exceeds bearable limits, it can destroy aquatic life.",
+          "key_points": [
+            "Salinity is measured in parts per thousand (‰).",
+            "Average ocean salinity is approximately 35‰.",
+            "Salinity increases water density and buoyancy."
+          ],
+          "examples": [
+            "Salt is used in food, chemicals, medicines, and ice factories.",
+            "The Atlantic Ocean has a salinity of 35‰."
+          ],
+          "common_doubts": [
+            {
+              "q": "How much salt is in the entire ocean?",
+              "a": "If all the salt in the ocean were spread over the Earth, it would form a layer 150m thick (about the height of a 40-storey building)."
+            }
+          ],
+          "keywords": [
+            "Salinity",
+            "Parts per thousand",
+            "Buoyancy",
+            "Hydrometer"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "6.3",
+            "6.4"
+          ]
+        },
+        {
+          "chunk_id": "6.3",
+          "topic": "Salinity of Sea Water",
+          "heading": "Factors Affecting Salinity Distribution",
+          "explanation": "Salinity is influenced by the balance between evaporation and freshwater supply. High evaporation in tropical zones increases salinity. Conversely, heavy rainfall (like in the equatorial calm belt) or large river inflows (like the Congo and Amazon) decrease salinity. In mid-latitudinal zones (25° to 35°), low rainfall and high evaporation lead to higher salinity. Polar areas have low salinity due to low evaporation and melting snow. Landlocked seas generally have higher salinity than open seas because of higher evaporation rates and limited freshwater supply.",
+          "key_points": [
+            "High evaporation = High salinity.",
+            "High freshwater supply (rain/rivers) = Low salinity.",
+            "Landlocked seas (e.g., Mediterranean) are more saline than open oceans."
+          ],
+          "examples": [
+            "Mediterranean Sea salinity: 39‰.",
+            "Bay of Bengal (34‰) is less saline than the Arabian Sea (35‰) due to more river inflows."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is the Arabian Sea more saline than the Bay of Bengal?",
+              "a": "The Bay of Bengal receives a much larger supply of freshwater from major rivers like the Ganges and Brahmaputra, which dilutes the salt concentration."
+            }
+          ],
+          "keywords": [
+            "Evaporation",
+            "Freshwater supply",
+            "Landlocked seas",
+            "Tropical zone"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "6.2"
+          ],
+          "linked_concepts": [
+            "6.4"
+          ]
+        },
+        {
+          "chunk_id": "6.4",
+          "topic": "Salinity of Sea Water",
+          "heading": "The Dead Sea",
+          "explanation": "The Dead Sea, located on the border of Israel and Jordan, is one of the most saline bodies of water in the world, with a salinity of 332‰. This extreme salinity is caused by low rainfall, a limited supply of freshwater (only the Jordan river), and very high evaporation. The high salt content makes the water so dense that humans cannot drown and can easily float. No life exists in the Dead Sea except for a few unicellular organisms.",
+          "key_points": [
+            "Salinity: 332‰.",
+            "Highest density of water among seas.",
+            "Located at the lowest elevation on Earth (-400m)."
+          ],
+          "examples": [
+            "Saline pillars developing in the Dead Sea.",
+            "Fish from the Jordan river die immediately upon entering the Dead Sea."
+          ],
+          "common_doubts": [
+            {
+              "q": "Can you sink in the Dead Sea?",
+              "a": "No, the density of the water is so high due to the salt concentration that the human body becomes highly buoyant and floats on the surface."
+            }
+          ],
+          "keywords": [
+            "Dead Sea",
+            "Extreme salinity",
+            "Buoyancy",
+            "Jordan River"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "6.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.5",
+          "topic": "Density of Sea Water",
+          "heading": "Correlation between Temperature, Salinity, and Density",
+          "explanation": "Density is controlled by temperature and salinity. As temperature reduces, density increases (cold water is denser). As salinity increases, density increases. However, temperature has a more significant impact on density than salinity. Sometimes, water with higher temperature and low salinity can have lower density. Like temperature and salinity, density changes are most visible up to a depth of 500m (surface water). Below 1000m, there is almost no change in temperature, salinity, or density.",
+          "key_points": [
+            "Cold water = Higher density.",
+            "Saline water = Higher density.",
+            "Temperature affects density more than salinity does.",
+            "Properties become stable below 1000m depth."
+          ],
+          "examples": [
+            "Ocean currents are generated due to differences in these properties."
+          ],
+          "common_doubts": [
+            {
+              "q": "What happens to density at great depths?",
+              "a": "After about 1000m, the density of seawater remains stable because the temperature and salinity also remain constant."
+            }
+          ],
+          "keywords": [
+            "Density",
+            "Correlation",
+            "Surface water",
+            "Stability"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "6.1",
+            "6.2"
+          ],
+          "linked_concepts": [
+            "6.6"
+          ]
+        },
+        {
+          "chunk_id": "6.6",
+          "topic": "Ocean Currents",
+          "heading": "Ocean Currents and Global Climate",
+          "explanation": "Ocean currents are generated by differences in the properties of seawater (temperature, salinity, and density). These currents act as temperature controllers at a global level. They redistribute heat by moving warm water to colder regions and cold water to warmer regions, thereby significantly affecting the Earth's climate.",
+          "key_points": [
+            "Currents are driven by property differences.",
+            "They regulate global temperature distribution.",
+            "Climate is directly affected by the movement of ocean currents."
+          ],
+          "examples": [
+            "Warm currents increasing the temperature of coastal areas in higher latitudes."
+          ],
+          "common_doubts": [
+            {
+              "q": "Do winds affect ocean currents?",
+              "a": "Yes, while property differences generate currents, surface winds also play a major role in directing the flow of surface ocean currents."
+            }
+          ],
+          "keywords": [
+            "Ocean currents",
+            "Temperature controller",
+            "Global climate",
+            "Redistribution"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "6.5"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 7,
+      "chapter_title": "International Date Line",
+      "chapter_summary": "This chapter explains the necessity and functioning of the International Date Line (IDL). it explores how Earth's rotation affects time across different meridians and provides the rules for adjusting dates when traveling across the globe to maintain international coordination.",
+      "learning_objectives": [
+        "Understand the relationship between Earth's rotation and the calculation of time.",
+        "Explain why a 'confusion of days' occurs during global travel.",
+        "Identify the historical background and the location of the International Date Line.",
+        "Learn the specific rules for changing the date when crossing the IDL from different directions.",
+        "Recognize the importance of the IDL in modern transportation and communication."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "7.1",
+          "topic": "Earth's Rotation and Time",
+          "heading": "The Relationship Between Rotation and Meridians",
+          "explanation": "Earth's rotation, revolution, sunrise, and sunset are natural phenomena. The Earth takes 24 hours to complete one rotation of 360 degrees. Because the Earth rotates from West to East, the eastern part of the world is ahead in time compared to the western part. Man has coordinated the time of rotation with the meridians of the graticule to create a systematic time-keeping system. Different meridians have different timings at the same moment; for example, when it is 12 noon at the Prime Meridian (0°), it is 8 AM at 60°W and 4 PM (16:00 hrs) at 60°E.",
+          "key_points": [
+            "Earth rotates from West to East.",
+            "360 degrees rotation = 24 hours.",
+            "15 degrees = 1 hour time difference.",
+            "Eastern meridians are ahead in time; Western meridians are behind."
+          ],
+          "examples": [
+            "If it is 12 noon at Greenwich, it is 6 PM at 90°E.",
+            "Sunil traveling Eastward finds time moving ahead."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is the East ahead of the West in time?",
+              "a": "Because the Earth rotates from West to East, eastern locations see the sun first, making their 'day' start earlier."
+            }
+          ],
+          "keywords": [
+            "Rotation",
+            "Meridians",
+            "Prime Meridian",
+            "Graticule",
+            "Time-keeping"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "7.2"
+          ]
+        },
+        {
+          "chunk_id": "7.2",
+          "topic": "The Confusion of Days",
+          "heading": "Sunil and Meenal's Journey Experiment",
+          "explanation": "To understand the need for an IDL, consider two travelers, Sunil and Meenal, starting from the 0° meridian at 12 noon on Thursday. Sunil travels Eastward, gaining time at every meridian. By the time he reaches 180°, it is Thursday midnight for him, and upon returning to 0°, he believes it is Friday afternoon. Meenal travels Westward, losing time. When she reaches 180°, it is 12 midnight between Wednesday and Thursday for her, and upon returning to 0°, she believes it is Wednesday afternoon. This discrepancy creates a 'confusion of days' where two people at the same spot calculate different days.",
+          "key_points": [
+            "Eastward travel leads to time gain.",
+            "Westward travel leads to time loss.",
+            "Without a standard line, a full circle around the Earth results in a 24-hour discrepancy.",
+            "The 180° meridian is the point where the adjustment must be made."
+          ],
+          "examples": [
+            "Sunil (Eastward) returns thinking it is Friday.",
+            "Meenal (Westward) returns thinking it is Wednesday."
+          ],
+          "common_doubts": [
+            {
+              "q": "Where does the 'missing' day go in this experiment?",
+              "a": "The day isn't missing; it's a result of the cumulative time differences across meridians that haven't been adjusted by an international standard like the IDL."
+            }
+          ],
+          "keywords": [
+            "Eastward",
+            "Westward",
+            "Time Gain",
+            "Time Loss",
+            "180 degree meridian"
+          ],
+          "difficulty": 4,
+          "importance": 4,
+          "prerequisites": [
+            "7.1"
+          ],
+          "linked_concepts": [
+            "7.3"
+          ]
+        },
+        {
+          "chunk_id": "7.3",
+          "topic": "International Date Line (IDL)",
+          "heading": "Origin and Definition of the IDL",
+          "explanation": "The International Date Line was established in 1884 under the leadership of American Professor Davidson. It was drawn opposite to the Greenwich Prime Meridian, primarily following the 180° meridian. It is an international convention used to change the day and time while crossing this line. With reference to the IDL, the day on Earth starts in the West (of the line) and ends in the East (of the line).",
+          "key_points": [
+            "Established in 1884.",
+            "Located primarily along the 180° meridian.",
+            "It is the start of a new day for countries to its West (like Japan, Australia).",
+            "It is the end of the day for countries to its East (like USA, Chile)."
+          ],
+          "examples": [
+            "A flight from Shanghai (China) on 1st Jan 2017 reaching San Francisco (USA) on 31st Dec 2016."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is the IDL exactly on the 180° meridian?",
+              "a": "Mostly, but it deviates (zig-zags) in several places to avoid cutting through land or island groups."
+            }
+          ],
+          "keywords": [
+            "IDL",
+            "1884",
+            "Professor Davidson",
+            "Convention",
+            "Date Change"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "7.2"
+          ],
+          "linked_concepts": [
+            "7.4",
+            "7.5"
+          ]
+        },
+        {
+          "chunk_id": "7.4",
+          "topic": "Path of the IDL",
+          "heading": "Why the IDL is Not a Straight Line",
+          "explanation": "The IDL is not a straight line like other meridians. If it passed through land or inhabited islands, people in the same country or island group would follow different dates and times, leading to massive confusion. To prevent this, the line turns East or West at specific points to stay entirely within the Pacific Ocean. The path has been changed as required, with the last major change occurring in 2011.",
+          "key_points": [
+            "The IDL zig-zags to avoid landmasses.",
+            "It passes entirely through the Pacific Ocean.",
+            "Ensures a single date is maintained within a political territory or island group."
+          ],
+          "examples": [
+            "The line turns to keep island groups like Kiribati on one side of the date."
+          ],
+          "common_doubts": [
+            {
+              "q": "What would happen if the IDL went through a city?",
+              "a": "One side of the street would be one day (e.g., Monday) and the other side would be another (e.g., Tuesday), making daily life and administration impossible."
+            }
+          ],
+          "keywords": [
+            "Zig-zag",
+            "Pacific Ocean",
+            "Territory",
+            "2011 Change"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "7.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.5",
+          "topic": "Rules for Crossing the IDL",
+          "heading": "Adjusting the Day and Date",
+          "explanation": "When crossing the IDL, travelers must adjust their calendars based on their direction: 1) Traveling from West to East (e.g., Japan to USA): You cross the IDL and keep the same day and date. 2) Traveling from East to West (e.g., USA to Japan): You cross the IDL and add one day to the date.",
+          "key_points": [
+            "West to East (crossing IDL): Subtract a day / stay on the same date despite travel time.",
+            "East to West (crossing IDL): Add a day.",
+            "Shyamrao's example: Leaving Japan on Monday 1st, flying 24 hours to USA, arriving on Monday 1st."
+          ],
+          "examples": [
+            "Leaving USA on Friday 5th at 12 noon, arriving in Japan after 24 hours on Saturday 6th at 12 noon."
+          ],
+          "common_doubts": [
+            {
+              "q": "If I travel from East to West, do I 'lose' a day?",
+              "a": "In terms of the calendar, yes, you skip a day. If you cross on Sunday, it immediately becomes Monday."
+            }
+          ],
+          "keywords": [
+            "West to East",
+            "East to West",
+            "Date Adjustment",
+            "Calendar"
+          ],
+          "difficulty": 5,
+          "importance": 5,
+          "prerequisites": [
+            "7.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.6",
+          "topic": "Importance of IDL",
+          "heading": "Practical Applications of the IDL",
+          "explanation": "The IDL is essential for global coordination. It brings order to international airline schedules, transportation services, economic activities, and trade. In the modern era of rapid global development and digital communication, the IDL allows for accurate tracking of time and date across the world, ensuring that global systems function without errors in scheduling.",
+          "key_points": [
+            "Coordinates international airlines and shipping.",
+            "Essential for global trade and economic activities.",
+            "Prevents scheduling errors in communication and transportation.",
+            "Vital for the modern, interconnected world."
+          ],
+          "examples": [
+            "Flight UA 876 from Tokyo to San Francisco involves a date change note on the ticket."
+          ],
+          "common_doubts": [
+            {
+              "q": "Does the IDL affect GPS?",
+              "a": "Yes, global positioning and timing systems rely on the IDL convention to provide accurate date and time data to users."
+            }
+          ],
+          "keywords": [
+            "Coordination",
+            "Airlines",
+            "Trade",
+            "Global Transportation",
+            "Schedules"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "7.5"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 8,
+      "chapter_title": "Introduction to Economics",
+      "chapter_summary": "This chapter introduces the fundamental concepts of economics, beginning with family management and scaling up to global systems. It defines different types of economies—Capitalistic, Socialistic, and Mixed—and explores the impact of globalisation and the core functions of any economy.",
+      "learning_objectives": [
+        "Understand the origin and etymological meaning of the term 'Economics'.",
+        "Identify the relationship between family management and economic management.",
+        "Distinguish between Capitalistic, Socialistic, and Mixed economies.",
+        "Recognize the factors that affect an economy.",
+        "Explain the concept and features of globalisation.",
+        "List the basic functions of an economy."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "8.1",
+          "topic": "The Concept of Economics",
+          "heading": "Origin and Meaning of Economics",
+          "explanation": "The word ‘economics’ is derived from the Greek word ‘oikonomia’, which translates to ‘family management’. There is a significant similarity between how a family manages its income and expenditure and how an economy functions. Economics involves understanding how to use time, money, labour, and land effectively to satisfy the infinite needs of people using limited resources. Geographically, an economy refers to the enterprises related to the production, distribution, and consumption of goods and services within a specific region, whether it be a village, city, state, country, or the world.",
+          "key_points": [
+            "Economics originates from the Greek 'oikonomia'.",
+            "It is fundamentally about managing scarce resources to meet infinite needs.",
+            "Economic management applies to all levels, from households to the entire world."
+          ],
+          "examples": [
+            "Managing a monthly family budget of ₹20,000 against various expenses like food, education, and bills."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is economics only about money?",
+              "a": "No, it also involves the effective management of time, labour, land, and other natural resources."
+            }
+          ],
+          "keywords": [
+            "Oikonomia",
+            "Family management",
+            "Resources",
+            "Production",
+            "Consumption"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "8.2"
+          ]
+        },
+        {
+          "chunk_id": "8.2",
+          "topic": "Definitions of Economics",
+          "heading": "Key Economic Thinkers and Definitions",
+          "explanation": "Two major definitions are highlighted: 1) Adam Smith, known as the 'Father of Economics', defined it in his 1776 book 'Wealth of Nations' as 'the science of wealth'. 2) Lionel Robbins defined economics as 'a science which studies human behaviour as a relationship between ends and scarce means which have alternative uses.' These definitions emphasize that economics is a social science that holds paramount importance in human social development and is used in fields like agriculture, trade, finance, and law.",
+          "key_points": [
+            "Adam Smith: Father of Economics, focused on wealth.",
+            "Lionel Robbins: Focused on human behavior and scarcity.",
+            "Economics is an important social subject used in daily life."
+          ],
+          "examples": [
+            "Choosing between buying a new uniform or spending on recreation when funds are limited (Alternative uses of scarce means)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Who is the Father of Economics?",
+              "a": "Adam Smith is recognized as the Father of Economics."
+            }
+          ],
+          "keywords": [
+            "Adam Smith",
+            "Lionel Robbins",
+            "Wealth of Nations",
+            "Scarcity",
+            "Social Science"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "8.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.3",
+          "topic": "Types of Economies",
+          "heading": "Capitalistic, Socialistic, and Mixed Economies",
+          "explanation": "Economies are classified into three types based on ownership and objectives: 1) Capitalistic Economy: Ownership and management of means of production are in private hands. The main aim is maximum profit. 2) Socialistic Economy: Means of production belong to society as a whole (government control). The main aim is social welfare. 3) Mixed Economy: Co-existence of private and public sectors. It strives for a balance between profit and social welfare.",
+          "key_points": [
+            "Capitalistic: Private ownership, Profit-oriented.",
+            "Socialistic: Government ownership, Welfare-oriented.",
+            "Mixed: Public + Private, Balance of Profit and Welfare."
+          ],
+          "examples": [
+            "Capitalistic: USA, Japan, Germany.",
+            "Socialistic: China, Russia.",
+            "Mixed: India, Sweden, UK."
+          ],
+          "common_doubts": [
+            {
+              "q": "What type of economy does India have?",
+              "a": "India has a Mixed Economy, where both the government and private individuals own and manage businesses."
+            }
+          ],
+          "keywords": [
+            "Capitalistic",
+            "Socialistic",
+            "Mixed Economy",
+            "Private Sector",
+            "Public Sector",
+            "Social Welfare"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "8.1"
+          ],
+          "linked_concepts": [
+            "8.6"
+          ]
+        },
+        {
+          "chunk_id": "8.4",
+          "topic": "Factors Affecting an Economy",
+          "heading": "Determinants of Economic Systems",
+          "explanation": "An economy is not an isolated system; it is influenced by several geographical and political factors. These include: 1) Geographical Area and natural resources available. 2) Population size and quality. 3) Political sovereignty (the power of the government to make decisions). 4) Occupations (the types of work people are engaged in).",
+          "key_points": [
+            "Natural resources dictate production potential.",
+            "Population acts as both labour and consumers.",
+            "Political stability is essential for economic growth."
+          ],
+          "examples": [
+            "A country with vast oil reserves (natural resource) will have an economy centered around energy exports."
+          ],
+          "common_doubts": [
+            {
+              "q": "How does population affect an economy?",
+              "a": "A large, skilled population can increase production, while a very large, unskilled population might strain resources."
+            }
+          ],
+          "keywords": [
+            "Natural resources",
+            "Political sovereignty",
+            "Population",
+            "Occupations"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.5",
+          "topic": "Globalisation",
+          "heading": "Globalisation of the Economy",
+          "explanation": "Globalisation means building a 'world economy' which is borderless. In this system, natural resources, profit, services, capital, labour, and technology flow freely across international borders. It involves aligning a country's economy with the world economy, promoting free trade, and removing restrictions on foreign investments.",
+          "key_points": [
+            "Borderless economy.",
+            "Free flow of capital, labour, and technology.",
+            "Alignment of national and world economies.",
+            "Removal of investment restrictions."
+          ],
+          "examples": [
+            "An Indian IT professional working for a US-based company via the internet (Free flow of services/labour)."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is a borderless economy?",
+              "a": "It refers to an economic environment where trade and movement of resources between countries happen with minimal government interference or barriers."
+            }
+          ],
+          "keywords": [
+            "Globalisation",
+            "World economy",
+            "Free trade",
+            "Capital flow",
+            "Borderless"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "8.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.6",
+          "topic": "Functions of an Economy",
+          "heading": "Core Economic Functions",
+          "explanation": "Regardless of the type, every economy must perform certain basic functions to survive and grow. These include: 1) Deciding which products to produce and in what quantity. 2) Minimising production costs as much as possible. 3) Distributing national income according to social and economic justice. 4) Making appropriate provisions for the economic needs of the future. 5) Deciding for whom the goods will be produced. An economy essentially strives to create a balance between limited resources and unlimited needs.",
+          "key_points": [
+            "Production decisions (What and How much).",
+            "Cost efficiency.",
+            "Just distribution of income.",
+            "Future planning.",
+            "Targeting consumers (For whom)."
+          ],
+          "examples": [
+            "A government deciding to invest in renewable energy today to meet the needs of the next generation (Future provisions)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is distribution of income important?",
+              "a": "It ensures social and economic justice, preventing extreme poverty and maintaining social stability."
+            }
+          ],
+          "keywords": [
+            "Production costs",
+            "National income",
+            "Economic justice",
+            "Future needs",
+            "Distribution"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "8.1",
+            "8.3"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 9,
+      "chapter_title": "Trade",
+      "chapter_summary": "This chapter explains the concept of trade as an essential economic activity driven by the interdependence of regions. It covers the types of trade, the difference between visible and invisible trade, the balance of trade, the role of international trade organizations, and the growing importance of marketing in the modern world.",
+      "learning_objectives": [
+        "Define trade and understand the roles of buyers and sellers.",
+        "Distinguish between visible and invisible trade.",
+        "Classify trade based on quantity (wholesale/retail) and region (domestic/international).",
+        "Explain the concepts of export, import, and the three types of balance of trade.",
+        "Identify major international trade organizations and their functions.",
+        "Understand the importance and components of marketing and consumer protection."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "9.1",
+          "topic": "The Concept of Trade",
+          "heading": "Interdependence and the Act of Trading",
+          "explanation": "Trade is an important economic activity arising from the fact that no region or country is self-sufficient. Different geographical conditions lead to the production of specific commodities in different regions. When there is a paucity (deficit) of a commodity in one place and a surplus in another, trade occurs to fulfill the demand. The process involves a 'producer' who supplies goods, 'sellers' who sell them, and 'buyers' or 'consumers' who purchase them. Trade is essentially the act of buying and selling to fulfill mutual needs.",
+          "key_points": [
+            "Interdependence: No region is self-sufficient.",
+            "Demand and Supply: Surplus regions supply to deficit regions.",
+            "Participants: Producers, Sellers, and Buyers."
+          ],
+          "examples": [
+            "Apples produced in Jammu and Kashmir are sent to other Indian states where there is a demand."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is trade necessary?",
+              "a": "Because resources and production capabilities are unevenly distributed across the globe, making regions dependent on each other for goods they cannot produce themselves."
+            }
+          ],
+          "keywords": [
+            "Trade",
+            "Demand",
+            "Supply",
+            "Interdependence",
+            "Deficit",
+            "Surplus"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "8.1"
+          ],
+          "linked_concepts": [
+            "9.3"
+          ]
+        },
+        {
+          "chunk_id": "9.2",
+          "topic": "Types of Trade",
+          "heading": "Visible and Invisible Trade",
+          "explanation": "Trade is classified into two categories based on what is being exchanged: 1) Visible Trade: Involves the buying and selling of physical goods or commodities. 2) Invisible Trade: Involves the exchange of services rather than physical goods. Historically, trade began with the 'Barter System' (exchanging goods for goods), but modern trade relies on currency.",
+          "key_points": [
+            "Visible trade = Physical goods.",
+            "Invisible trade = Services.",
+            "Barter system was the ancient form of trade without currency."
+          ],
+          "examples": [
+            "Visible: Buying vegetables or books.",
+            "Invisible: Paying a doctor for advice, paying a bus fare, or buying a movie ticket."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is tourism a type of trade?",
+              "a": "Yes, tourism is considered a type of 'invisible trade' because it involves the exchange of services (hospitality, transport, etc.) for money."
+            }
+          ],
+          "keywords": [
+            "Visible trade",
+            "Invisible trade",
+            "Services",
+            "Barter system",
+            "Currency"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "9.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.3",
+          "topic": "Classification of Trade",
+          "heading": "Trade by Quantity and Region",
+          "explanation": "Trade is classified in two ways: (A) By Quantity of Goods: 1) Wholesale Trade: Buying in large quantities directly from producers to sell to retailers. 2) Retail Trade: Buying from wholesalers and selling directly to consumers in smaller quantities. (B) By Extent of Region: 1) Domestic (Internal) Trade: Within the borders of a single country. 2) International (External) Trade: Exchange of goods/services between different countries. International trade can be bilateral (between two nations) or multilateral (between more than two nations).",
+          "key_points": [
+            "Wholesale involves large-scale industrialists and farmers.",
+            "Retail involves shopkeepers and market vendors.",
+            "Domestic trade is influenced by a country's size and diversity.",
+            "International trade involves the processes of Export and Import."
+          ],
+          "examples": [
+            "Wholesale: Orchard owners selling entire mango crops to a trader.",
+            "Retail: A local grocer selling a kilo of sugar to a customer.",
+            "International: India buying crude oil from Saudi Arabia."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between bilateral and multilateral trade?",
+              "a": "Bilateral trade involves only two countries, while multilateral trade involves a group of three or more countries."
+            }
+          ],
+          "keywords": [
+            "Wholesale",
+            "Retail",
+            "Domestic trade",
+            "International trade",
+            "Bilateral",
+            "Multilateral"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "9.1"
+          ],
+          "linked_concepts": [
+            "9.4"
+          ]
+        },
+        {
+          "chunk_id": "9.4",
+          "topic": "Balance of Trade",
+          "heading": "Export, Import, and Trade Balances",
+          "explanation": "Export is selling surplus goods to other countries, while Import is buying scarce goods from other countries. The difference between the value of a country's imports and exports is the 'Balance of Trade'. There are three types: 1) Unfavourable: Value of imports > value of exports. 2) Favourable: Value of exports > value of imports. 3) Balanced: Value of exports and imports is almost equal.",
+          "key_points": [
+            "Export = Selling; Import = Buying.",
+            "Favourable balance is generally better for a country's economy.",
+            "Trade balance is calculated for a specific period."
+          ],
+          "examples": [
+            "If India exports goods worth $100 and imports $120, it has an unfavourable balance of trade."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is an unfavourable balance of trade considered bad?",
+              "a": "It means the country is spending more foreign currency on imports than it is earning through exports, which can lead to economic debt."
+            }
+          ],
+          "keywords": [
+            "Export",
+            "Import",
+            "Balance of trade",
+            "Favourable",
+            "Unfavourable"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "9.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.5",
+          "topic": "International Trade Organisations",
+          "heading": "Global and Regional Trade Bodies",
+          "explanation": "International trade is complex due to different laws, currencies, and political relations. Trade organizations were formed to smoothen this process. Key organizations include: 1) WTO (World Trade Organisation): Global platform for negotiations and monitoring trade policies. 2) EU (European Union): Integrated market in Europe with a common 'Euro' currency. 3) OPEC: Controls crude oil trade and production. 4) SAARC: Focuses on South Asian regional cooperation. 5) ASEAN: Promotes economic growth and peace in SE Asia. 6) APEC: Free trade in the Asia-Pacific. 7) BRICS: Enhances economic security among Brazil, Russia, India, China, and South Africa.",
+          "key_points": [
+            "WTO is headquartered in Geneva.",
+            "EU has cancelled custom duties between members.",
+            "SAARC is headquartered in Kathmandu.",
+            "Organizations help resolve trade disputes and promote regional growth."
+          ],
+          "examples": [
+            "OPEC maintaining consensus on oil export prices."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the main function of the WTO?",
+              "a": "To provide a platform for international trade negotiations and to handle differences/disputes related to trade between member nations."
+            }
+          ],
+          "keywords": [
+            "WTO",
+            "EU",
+            "OPEC",
+            "SAARC",
+            "ASEAN",
+            "BRICS",
+            "APEC"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "9.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.6",
+          "topic": "Marketing",
+          "heading": "The Importance and Components of Marketing",
+          "explanation": "Marketing is the collective term for commercial functions involved in the flow of a product from producer to consumer. It includes production, classification, branding, labelling, and packaging. Good marketing increases a product's value and demand. In the modern era, information technology and media have revolutionized marketing through 'online trading' and 'e-marketing'. To protect consumers from fraudulent advertisements, the Consumer Protection Act has been enacted.",
+          "key_points": [
+            "Components: Price, Promotions, Distribution.",
+            "Marketing makes customers aware of quality and options.",
+            "Packaging and presentation are vital for agricultural and industrial products.",
+            "Consumer Protection Act ensures fair trade practices."
+          ],
+          "examples": [
+            "Dhondiba's son increasing the price of farm products by cleaning, packing, and advertising them in a mall.",
+            "Branding rice as 'Basmati' and using attractive packaging."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is packaging important in marketing?",
+              "a": "It protects the product, provides information through labels, and attracts customers through visual appeal."
+            }
+          ],
+          "keywords": [
+            "Marketing",
+            "Branding",
+            "Packaging",
+            "E-marketing",
+            "Consumer Protection Act"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "9.1"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 10,
+      "chapter_title": "Urbanisation",
+      "chapter_summary": "This chapter explains the process of urbanisation, where rural areas transform into towns and cities due to changes in occupation and population growth. It details the criteria for urban areas in India, the drivers of urbanisation, and the resulting socio-economic advantages and challenges.",
+      "learning_objectives": [
+        "Define urbanisation and understand the transition from rural to urban life.",
+        "Identify the 1961 Census of India criteria for defining an 'urban' area.",
+        "Analyze the factors driving urbanisation, such as industrialisation, trade, and mechanisation.",
+        "Discuss the advantages of urbanisation, including social harmony and modernisation.",
+        "Evaluate the problems arising from rapid urbanisation, such as slums, pollution, and crime.",
+        "Understand the concept of 'Smart Cities' and planned urban development."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "10.1",
+          "topic": "The Process of Urbanisation",
+          "heading": "Defining Urban Areas in India",
+          "explanation": "Urbanisation is the process where a village transforms into a town or city. This happens when industries, factories, and services like transport, hotels, and medical facilities develop, leading to a change in the primary occupation of the people from agriculture to non-agricultural sectors. In 1961, the Census of India defined 'urban' based on three criteria: 1) More than 75% of the male working population must be engaged in non-agricultural occupations. 2) The population of the settlement should be more than 5000. 3) The population density should be more than 400 persons per sq. km.",
+          "key_points": [
+            "Urbanisation involves a shift from agriculture to industry and services.",
+            "The Gram Panchayat gives way to Municipal Councils or Corporations.",
+            "Specific population and density thresholds define urban status in India."
+          ],
+          "examples": [
+            "A village developing a factory nearby, leading to new roads, hospitals, and schools."
+          ],
+          "common_doubts": [
+            {
+              "q": "Does a large population alone make an area urban?",
+              "a": "No, according to the Indian Census, it must also meet the criteria for population density and the percentage of the male workforce in non-agricultural jobs."
+            }
+          ],
+          "keywords": [
+            "Urbanisation",
+            "Census of India",
+            "Non-agricultural",
+            "Population density",
+            "Municipal Corporation"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "10.2"
+          ]
+        },
+        {
+          "chunk_id": "10.2",
+          "topic": "Factors Driving Urbanisation",
+          "heading": "Reasons for Urbanisation",
+          "explanation": "Several factors contribute to the growth of cities: 1) Industrialisation: Concentration of industries attracts people from surrounding areas (e.g., Mumbai's textile mills). 2) Trade: Locations favorable for transport and storage develop into trade hubs (e.g., Nagpur's central location). 3) Mechanisation and Technology: Use of machines in agriculture reduces the need for manual labor, pushing the working class toward cities. 4) Transport and Communication: Development of rail and road networks facilitates rapid growth (e.g., Bhusawal as a rail convergence point). 5) Migration: People move to cities for a higher standard of life, better jobs, and education.",
+          "key_points": [
+            "Industrial growth increases the speed of urbanisation.",
+            "Technology in agriculture creates a labor surplus for urban areas.",
+            "Convergence of transport routes leads to rapid settlement growth."
+          ],
+          "examples": [
+            "Mumbai growing from fishing villages (koliwadas) into a metropolis due to textile mills.",
+            "Savarde village urbanising due to its proximity to the Konkan railway."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is migration always permanent?",
+              "a": "No, migration can be short-term, long-term, or permanent, depending on the purpose and circumstances of the individual."
+            }
+          ],
+          "keywords": [
+            "Industrialisation",
+            "Mechanisation",
+            "Migration",
+            "Trade",
+            "Infrastructure"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "10.1"
+          ],
+          "linked_concepts": [
+            "10.3",
+            "10.4"
+          ]
+        },
+        {
+          "chunk_id": "10.3",
+          "topic": "Impact of Urbanisation",
+          "heading": "Advantages of Urbanisation",
+          "explanation": "Urbanisation brings several positive changes: 1) Social Harmony: People from different backgrounds live together, leading to an exchange of cultural and social customs. 2) Modernisation: Cities are hubs for new ideas, updated technology, and literature, allowing for the easy exchange of wisdom and skills. 3) Amenities and Facilities: Urban areas offer superior transportation, communication, educational, and medical facilities. High-quality higher education and specialized medical treatments are more accessible in cities.",
+          "key_points": [
+            "Increase in secondary, tertiary, and quaternary occupations.",
+            "Cities act as centers for innovation and cultural exchange.",
+            "Improved standard of living through better infrastructure."
+          ],
+          "examples": [
+            "Students moving to Pune city for higher education.",
+            "Exchange of traditions during festivals in multicultural urban neighborhoods."
+          ],
+          "common_doubts": [
+            {
+              "q": "What are quaternary occupations?",
+              "a": "These are knowledge-based occupations involving information technology, research, and high-level decision-making, which are prevalent in urban centers."
+            }
+          ],
+          "keywords": [
+            "Social harmony",
+            "Modernisation",
+            "Amenities",
+            "Tertiary occupations",
+            "Quaternary occupations"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "10.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "10.4",
+          "topic": "Challenges of Urbanisation",
+          "heading": "Problems of Urbanisation",
+          "explanation": "Rapid, unplanned urbanisation leads to significant issues: 1) Slums: Housing cannot keep pace with population growth. Economically weak migrants build illegal, temporary houses in open spaces, lacking basic facilities. 2) Traffic Jams: As cities sprawl, commuting from suburbs to the center increases. Insufficient public transport leads to a rise in private vehicles. 3) Pollution: Air, noise, and water pollution become major health hazards. 4) Crime: Unemployment among migrants can lead to illegal activities, thefts, and murders, creating law and order issues.",
+          "key_points": [
+            "Slums lead to social and health-related issues.",
+            "Traffic jams significantly increase traveling time.",
+            "Paucity of facilities and breaking of laws exacerbate pollution.",
+            "High land prices create tension between social groups."
+          ],
+          "examples": [
+            "The emergence of large slum areas in major metros.",
+            "Water pollution from industrial waste and sewage in city rivers."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why do slums form?",
+              "a": "Slums form because the supply of affordable housing is much lower than the demand created by the rapid influx of low-income migrants."
+            }
+          ],
+          "keywords": [
+            "Slums",
+            "Traffic jams",
+            "Pollution",
+            "Crime rate",
+            "Unplanned growth"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "10.2"
+          ],
+          "linked_concepts": [
+            "10.5"
+          ]
+        },
+        {
+          "chunk_id": "10.5",
+          "topic": "Urban Planning",
+          "heading": "Smart Cities and Sustainable Development",
+          "explanation": "To address urban challenges, the 'Smart City' scheme was introduced. Its main aim is to use Information and Communication Technology (ICT) to collect data and carry out planned development. This strengthens transportation, communication, and emergency response systems. Additionally, initiatives like 'Swachchh Bharat Abhiyan' focus on cleanliness and waste management to improve the quality of urban life.",
+          "key_points": [
+            "Smart Cities use ICT for efficient asset management.",
+            "Planned development helps mitigate the negative effects of urbanisation.",
+            "Cleanliness drives are essential for public health in dense cities."
+          ],
+          "examples": [
+            "Using mobile apps for real-time traffic updates or paying utility bills.",
+            "Implementation of the Smart City mission in various Indian cities."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the role of ICT in a Smart City?",
+              "a": "ICT is used to monitor infrastructure, manage traffic, improve communication between citizens and the government, and respond quickly to crises."
+            }
+          ],
+          "keywords": [
+            "Smart City",
+            "ICT",
+            "Planned development",
+            "Swachchh Bharat Abhiyan"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "10.4"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 11,
+      "chapter_title": "Transport and Communication",
+      "chapter_summary": "This chapter explores the various modes of transport and communication, the factors influencing their selection, and their critical role in regional and national economic development. It also highlights modern advancements like RoRo transport, satellite communication, and the risks associated with cyber security.",
+      "learning_objectives": [
+        "Identify different transport routes and means of transport.",
+        "Understand the factors to be considered when selecting a mode of transport.",
+        "Analyze the relationship between physiography and the density of transport networks.",
+        "Explain the importance of transportation as a basic infrastructure for economic growth.",
+        "Explore modern communication technologies, including satellites and remote sensing.",
+        "Recognize the threats in the digital communication landscape, such as cyber crimes."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "11.1",
+          "topic": "Modes of Transport",
+          "heading": "Transport Routes and Means",
+          "explanation": "Transportation is a basic infrastructure essential for the development of a region. There are five primary transport routes: 1) Roadways (e.g., Rickshaws, Trucks, Buses), 2) Railways (e.g., Metro, Passenger trains, Goods trains), 3) Waterways (e.g., Ships, Submarines), 4) Airways (e.g., Helicopters, Aeroplanes), and 5) Pipelines (used for liquids and gases). Additionally, animals like mules are used in specific terrains. The choice of transport depends on whether the purpose is for passengers or freight (goods).",
+          "key_points": [
+            "Transport is an indicator of a region's development.",
+            "Routes include land, water, air, and underground (pipelines).",
+            "Means of transport vary based on speed, capacity, and cost."
+          ],
+          "examples": [
+            "Using a truck for freight on roadways.",
+            "Using a helicopter for rapid air transport in emergencies.",
+            "Pipelines for transporting oil or natural gas."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the difference between a transport route and a means of transport?",
+              "a": "A route is the path taken (e.g., Roadway), while the means is the vehicle used on that path (e.g., Truck)."
+            }
+          ],
+          "keywords": [
+            "Roadways",
+            "Railways",
+            "Waterways",
+            "Airways",
+            "Pipelines",
+            "Freight"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "11.2"
+          ]
+        },
+        {
+          "chunk_id": "11.2",
+          "topic": "Selection of Transport",
+          "heading": "Factors Influencing Transport Choice",
+          "explanation": "Selecting the right mode of transport is crucial for saving time and money. Eight key factors must be considered: 1) Distance, 2) Duration, 3) Cost, 4) Time, 5) Products (nature of goods), 6) Climate, 7) Market, and 8) Physiography (terrain). Proper selection ensures that goods are transported safely and rapidly. The final selling price of a product is often determined by the combined cost of production and transport.",
+          "key_points": [
+            "Transport cost directly affects the market price of goods.",
+            "Perishable products require faster transport (Airways).",
+            "Physiography can limit the availability of certain routes."
+          ],
+          "examples": [
+            "Sending Alphonso mangoes from Konkan to Arab countries via Airways to maintain freshness.",
+            "Exporting rice at low cost via Waterways."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is cost a major factor in transport?",
+              "a": "If transport costs are high, the final price for the consumer increases, which can make the product less competitive in the market."
+            }
+          ],
+          "keywords": [
+            "Physiography",
+            "Transport cost",
+            "Perishable goods",
+            "Market accessibility"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "11.1"
+          ],
+          "linked_concepts": [
+            "11.3"
+          ]
+        },
+        {
+          "chunk_id": "11.3",
+          "topic": "Economic Impact of Transport",
+          "heading": "Transportation and Economic Growth",
+          "explanation": "Transportation reforms enhance the dynamicity of freight and passengers, leading to the development of industries and markets. Efficient transport systems boost economic growth, which is reflected in an increase in Per Capita Income (PCI) and Gross Domestic Product (GDP). It facilitates trade expansion, rapid industrialisation, and creates employment opportunities.",
+          "key_points": [
+            "Transport extends trade networks.",
+            "It helps in overcoming regional scarcity (deficit).",
+            "It promotes tourism development and regional connectivity."
+          ],
+          "examples": [
+            "The development of the Konkan Railway boosting the economy of coastal Maharashtra."
+          ],
+          "common_doubts": [
+            {
+              "q": "How does transport affect GDP?",
+              "a": "By enabling faster trade and industrial growth, transport increases the total value of goods and services produced in a country (GDP)."
+            }
+          ],
+          "keywords": [
+            "GDP",
+            "PCI",
+            "Industrialisation",
+            "Regional imbalance",
+            "Connectivity"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "11.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "11.4",
+          "topic": "Physiography and Transport",
+          "heading": "Case Study: Satara District",
+          "explanation": "The transport network of a region is heavily influenced by its physical structure. In Satara district: 1) The Western part is occupied by the Sahyadri mountains and the Shivsagar reservoir, leading to a sparse transport network. 2) The Central and Eastern parts have lower elevations and flatter terrain, resulting in a dense network of roads and railways, including a National Highway. This demonstrates that plains facilitate transport development, while high relief (mountains/valleys) acts as an obstruction.",
+          "key_points": [
+            "Mountains and reservoirs limit accessibility.",
+            "Plains allow for dense road and rail networks.",
+            "Physiography determines the remoteness of a region."
+          ],
+          "examples": [
+            "Dense transport network in central Satara due to favorable terrain.",
+            "Sparse network in the Sahyadri region of western Satara."
+          ],
+          "common_doubts": [
+            {
+              "q": "Can transport routes be built in mountainous areas?",
+              "a": "Yes, but it is much more difficult, expensive, and the resulting network is usually sparse compared to plains."
+            }
+          ],
+          "keywords": [
+            "Satara district",
+            "Sahyadris",
+            "Relief",
+            "Network density",
+            "Accessibility"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "11.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "11.5",
+          "topic": "Modern Transport Systems",
+          "heading": "Green Corridor and RoRo Transport",
+          "explanation": "Modern needs have led to innovative transport solutions: 1) Green Corridor: A specialized route where all obstacles are cleared to transport donated organs from a donor to a receiver urgently, saving lives. 2) RoRo (Roll-on Roll-off) Transport: A system where loaded trucks are carried on goods trains to a destination station and then driven off to their final location. This reduces transport costs, fuel consumption, and pollution. RoRo was first introduced in India by the Konkan Railway.",
+          "key_points": [
+            "Green Corridor is for emergency medical organ transfer.",
+            "RoRo combines the benefits of railways (low cost) and roadways (door-to-door delivery).",
+            "RoRo reduces highway traffic and environmental impact."
+          ],
+          "examples": [
+            "RoRo services on the Konkan Railway.",
+            "Clearing traffic for an ambulance carrying a heart for transplant (Green Corridor)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is RoRo cheaper than driving a truck on the highway?",
+              "a": "Rail transport is more fuel-efficient for long distances, and RoRo saves on truck wear-and-tear and driver fatigue."
+            }
+          ],
+          "keywords": [
+            "Green Corridor",
+            "RoRo",
+            "Roll-on Roll-off",
+            "Konkan Railway",
+            "Organ donation"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "11.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "11.6",
+          "topic": "Communication",
+          "heading": "Satellite Communication and Remote Sensing",
+          "explanation": "Communication is the exchange of information. In the modern age, man-made satellites are the most effective means. They enable mobile messaging, TV broadcasting, and real-time weather updates. 'Remote Sensing' involves obtaining images of the Earth's surface from satellites to study natural resources and assist in regional planning. The government also promotes digital communication for online trading, payments, and money transfers.",
+          "key_points": [
+            "Satellites provide global, instantaneous communication.",
+            "Remote sensing is vital for resource management.",
+            "Digital platforms (e.g., BHIM app) facilitate financial transactions."
+          ],
+          "examples": [
+            "Watching a live cricket match on TV via satellite.",
+            "Using Google Maps (GPS) for navigation.",
+            "Using the BHIM app for UPI payments."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is remote sensing used for?",
+              "a": "It is used to map forests, monitor crops, find mineral deposits, and plan urban infrastructure from space."
+            }
+          ],
+          "keywords": [
+            "Communication",
+            "Satellites",
+            "Remote sensing",
+            "ICT",
+            "Online trading"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "11.7"
+          ]
+        },
+        {
+          "chunk_id": "11.7",
+          "topic": "Cyber Security",
+          "heading": "Threats in Communication: Cyber Crimes",
+          "explanation": "While communication technology offers many benefits, it also brings threats. Cyber crimes include email hacking, fraud, theft of information, and attacks on important websites. 'Cyber War' refers to digital attacks between countries. To ensure safety, users should not reveal sensitive personal information on social networking sites or blogs. Ransomware (like 'Wanna Decryptor') is a type of crime where files are encrypted and money is demanded for their release.",
+          "key_points": [
+            "Cyber crimes can lead to economic and personal loss.",
+            "Information security is paramount in the age of social media.",
+            "Cyber attacks can target national infrastructure."
+          ],
+          "examples": [
+            "Phishing emails used to steal bank passwords.",
+            "The 'Wanna Decryptor' ransomware attack demanding Bitcoin."
+          ],
+          "common_doubts": [
+            {
+              "q": "How can I protect myself from cyber crime?",
+              "a": "By using strong passwords, not clicking on suspicious links, and avoiding sharing private data on public platforms."
+            }
+          ],
+          "keywords": [
+            "Cyber crime",
+            "Hacking",
+            "Ransomware",
+            "Cyber war",
+            "Information safety"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "11.6"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 12,
+      "chapter_title": "Tourism",
+      "chapter_summary": "This chapter defines tourism and its various types, including domestic and international. It explores the economic, environmental, and social impacts of tourism, and highlights modern trends such as ecotourism, agro-tourism, and medical tourism, emphasizing India's vast potential in this sector.",
+      "learning_objectives": [
+        "Define tourism and understand its basic requirements.",
+        "Distinguish between domestic and international tourism.",
+        "Identify and explain new forms of tourism like ecotourism and agro-tourism.",
+        "Analyze the importance of tourism for economic and social development.",
+        "Understand the role of technology, specifically GPS, in modern tourism.",
+        "Recognize the need for environmental conservation in tourist areas."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "12.1",
+          "topic": "Introduction to Tourism",
+          "heading": "Definition and Purpose of Tourism",
+          "explanation": "Tourism is defined as visiting various places away from one's home for purposes such as joy, entertainment, trading, or staying. It involves short or long journeys for festivals, family functions, sports, or recreation. Planning a trip requires selecting a route, choosing means of transport, packing essentials, and estimating travel costs. Tourism is considered an important tertiary occupation that introduces the world to a region's natural, social, and cultural environment.",
+          "key_points": [
+            "Tourism is a tertiary occupation.",
+            "It involves visiting places for pleasure or business.",
+            "Requires systematic planning of routes and costs."
+          ],
+          "examples": [
+            "Visiting hill stations for a vacation.",
+            "Traveling to religious sites or historical monuments."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is traveling for business considered tourism?",
+              "a": "Yes, visiting places away from home for trading or professional purposes is included in the broader definition of tourism."
+            }
+          ],
+          "keywords": [
+            "Tourism",
+            "Tertiary occupation",
+            "Recreation",
+            "Planning"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "12.2"
+          ]
+        },
+        {
+          "chunk_id": "12.2",
+          "topic": "Classification of Tourism",
+          "heading": "Domestic and International Tourism",
+          "explanation": "Tourism is classified into two types based on political boundaries: 1) Domestic Tourism: Traveling within the limits of one's own country. It is easier as it doesn't require special documents or currency exchange. 2) International/Foreign Tourism: Crossing a country's boundaries to visit another nation. This requires a passport, visa, travel insurance, and the exchange of local currency for the destination's currency.",
+          "key_points": [
+            "Domestic tourism stays within national borders.",
+            "International tourism requires legal documentation (Passport/Visa).",
+            "Currency exchange is a key requirement for foreign travel."
+          ],
+          "examples": [
+            "Domestic: A person from Maharashtra visiting the Ellora Caves in Aurangabad.",
+            "International: An Indian citizen traveling to Switzerland for a holiday."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is a visa?",
+              "a": "A visa is an official document or endorsement on a passport that allows the holder to enter, leave, or stay for a specified period of time in a country."
+            }
+          ],
+          "keywords": [
+            "Domestic tourism",
+            "International tourism",
+            "Passport",
+            "Visa",
+            "Currency exchange"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "12.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "12.3",
+          "topic": "Modern Forms of Tourism",
+          "heading": "Ecotourism and Agro-tourism",
+          "explanation": "New forms of tourism have emerged to address environmental and social needs: 1) Ecotourism: An eco-friendly approach where tourism is developed without degrading the environment. It emphasizes not throwing litter, avoiding noise pollution, and not harming flora and fauna. 2) Agro-tourism: Involves visiting pollution-free rural locations to experience agricultural life. Tourists stay on farms and experience rural hospitality. This is growing in districts like Pune and Kolhapur.",
+          "key_points": [
+            "Ecotourism focuses on environmental conservation.",
+            "Agro-tourism provides a glimpse of rural and agricultural life.",
+            "Both forms promote sustainable and responsible travel."
+          ],
+          "examples": [
+            "Staying on a farm in Kolhapur to learn about crop cultivation (Agro-tourism).",
+            "Visiting a wildlife sanctuary while following strict 'no-litter' rules (Ecotourism)."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is agro-tourism becoming popular?",
+              "a": "It offers city dwellers a chance to escape urban pollution and reconnect with nature and traditional lifestyles."
+            }
+          ],
+          "keywords": [
+            "Ecotourism",
+            "Agro-tourism",
+            "Sustainability",
+            "Rural life"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "12.1"
+          ],
+          "linked_concepts": [
+            "12.6"
+          ]
+        },
+        {
+          "chunk_id": "12.4",
+          "topic": "Specialized Tourism",
+          "heading": "Film, Medical, and Adventure Tourism",
+          "explanation": "Tourism can be specialized based on the destination's unique features: 1) Film Tourism: Visiting locations where famous films were shot (e.g., Mumbai Film City). 2) Medical Tourism: Traveling to avail of cost-effective and high-quality medical treatments, including Indian Ayurveda, Yoga, and surgery. 3) Adventure Tourism: Engaging in activities like trekking, skiing, or scuba diving. Tarkarli in Konkan is famous for seabed biodiversity and scuba diving.",
+          "key_points": [
+            "Medical tourism attracts patients from developing countries to India.",
+            "Film tourism creates demand for amenities at shooting locations.",
+            "Adventure tourism relies on specific geographical features like coasts or mountains."
+          ],
+          "examples": [
+            "Scuba diving at Tarkarli, Sindhudurg.",
+            "Foreigners visiting India for Ayurvedic treatments.",
+            "Visiting Ramoji City for film-related tourism."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is medical tourism?",
+              "a": "It is the practice of traveling to another country to receive medical, dental, or surgical care, often because it is more affordable or specialized."
+            }
+          ],
+          "keywords": [
+            "Film tourism",
+            "Medical tourism",
+            "Ayurveda",
+            "Scuba diving",
+            "Adventure sports"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "12.1"
+          ],
+          "linked_concepts": [
+            "12.5"
+          ]
+        },
+        {
+          "chunk_id": "12.5",
+          "topic": "Impact of Tourism",
+          "heading": "Economic and Social Development",
+          "explanation": "Tourism is often called an 'invisible trade' because it generates significant revenue without the physical export of goods. It contributes to the economy through foreign currency exchange and the development of local infrastructure like restaurants, shops, and transport. Socially, it promotes harmony by including neglected components of society. Projects like 'Anandwan' by Baba Amte or tribal life tours in Melghat create social consciousness and provide employment to local people.",
+          "key_points": [
+            "Tourism is a major source of foreign exchange.",
+            "It creates direct and indirect employment.",
+            "Promotes the preservation of cultural heritage.",
+            "Social tourism helps in the development of model villages."
+          ],
+          "examples": [
+            "The 'Deccan Odyssey' and 'Palace on Wheels' luxury trains boosting tourism revenue.",
+            "Local artisans selling handicrafts to tourists."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is tourism called 'invisible trade'?",
+              "a": "Because it involves selling services (hospitality, experiences) rather than physical products, yet it brings in money just like traditional trade."
+            }
+          ],
+          "keywords": [
+            "Invisible trade",
+            "Foreign exchange",
+            "Employment",
+            "Social consciousness",
+            "Infrastructure"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "9.2",
+            "12.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "12.6",
+          "topic": "Technology in Tourism",
+          "heading": "GPS and Modern Navigation",
+          "explanation": "The Global Positioning System (GPS) has revolutionized tourism. Using smartphones and applications like Google Maps, tourists can determine their exact location, find routes, calculate distances, and estimate travel time. It also provides information on nearby amenities such as petrol pumps, restaurants, lodges, and hotels, making travel more convenient and safe.",
+          "key_points": [
+            "GPS is essential for modern navigation.",
+            "Google Maps provides real-time information on routes and amenities.",
+            "Technology increases the accessibility of remote tourist sites."
+          ],
+          "examples": [
+            "Using a smartphone to find the nearest hotel in an unfamiliar city."
+          ],
+          "common_doubts": [
+            {
+              "q": "How does GPS help in tourism?",
+              "a": "It helps tourists plan their travel precisely by providing the best routes, distances, and locations of essential services along the way."
+            }
+          ],
+          "keywords": [
+            "GPS",
+            "Google Maps",
+            "Navigation",
+            "Smartphones"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "11.6"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    }
+  ]
+}

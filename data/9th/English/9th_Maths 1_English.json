@@ -1,0 +1,1784 @@
+{
+  "metadata": {
+    "file_name": "mathematics_part_1_std_9_maharashtra_board.json",
+    "standard": 9,
+    "subject": "Mathematics",
+    "branch": "Algebra",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research, Pune",
+    "version": "1.0",
+    "authored_by": "AI Studio Extraction",
+    "last_updated": "2024-05-22"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "chapter_title": "Sets",
+      "chapter_summary": "This chapter introduces the fundamental concept of sets, methods of representing them, various types of sets, and operations such as union and intersection, including their application in word problems.",
+      "learning_objectives": [
+        "Know the different sets of numbers in the number system.",
+        "Determine the subset relation between pairs of sets.",
+        "Identify finite and infinite sets.",
+        "Use Venn diagrams to show relation between different sets.",
+        "Construct examples on sets.",
+        "Understand operations on sets like intersection and union."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "1.1",
+          "topic": "Sets - Introduction",
+          "heading": "Definition of a Set",
+          "explanation": "A set is a collection of objects where we can definitely and clearly decide the objects belonging to it. If the objects of a collection are not clearly defined or are relative (like 'happy' or 'brilliant'), the collection is not considered a set. Sets are generally named using capital letters (A, B, C, ..., Z), and their members or elements are shown using small letters (a, b, c, ...).",
+          "key_points": [
+            "A set must have well-defined objects.",
+            "Relative terms like 'brave', 'happy', 'rich' do not form sets.",
+            "Notation: If 'a' is an element of set A, we write $a \\in A$. If not, $a \\notin A$."
+          ],
+          "examples": [
+            "Days of a week",
+            "Months in a year",
+            "First 10 counting numbers"
+          ],
+          "common_doubts": [
+            {
+              "q": "Is 'Brilliant students of the class' a set?",
+              "a": "No, because 'brilliant' is a relative term and its meaning differs from person to person."
+            }
+          ],
+          "keywords": [
+            "Set",
+            "Collection",
+            "Element",
+            "Well-defined"
+          ],
+          "difficulty": 1,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.2",
+          "topic": "Sets - Introduction",
+          "heading": "Standard Sets of Numbers",
+          "explanation": "In mathematics, certain collections of numbers are frequently used and have standard notations.",
+          "key_points": [
+            "N = {1, 2, 3, ...} is the set of Natural numbers.",
+            "W = {0, 1, 2, 3, ...} is the set of Whole numbers.",
+            "I = {..., -3, -2, -1, 0, 1, 2, ...} is the set of Integers.",
+            "Q is the set of Rational numbers.",
+            "R is the set of Real numbers."
+          ],
+          "keywords": [
+            "Natural numbers",
+            "Whole numbers",
+            "Integers",
+            "Rational numbers",
+            "Real numbers"
+          ],
+          "difficulty": 1,
+          "importance": 4
+        },
+        {
+          "chunk_id": "1.3",
+          "topic": "Methods of writing sets",
+          "heading": "Listing Method or Roster Method",
+          "explanation": "In this method, all elements of a set are written inside curly brackets, separated by commas. Each element is written only once, and the order of elements is not important.",
+          "key_points": [
+            "Elements are enclosed in { }.",
+            "Order does not matter.",
+            "Repeated elements are written only once."
+          ],
+          "worked_example": {
+            "problem": "Write the set of letters in the word 'remember' in listing form.",
+            "solution_steps": [
+              {
+                "step": "Identify the distinct letters in the word 'remember'.",
+                "latex": "\\text{Letters are r, e, m, b}",
+                "verified": true
+              },
+              {
+                "step": "Write them in curly brackets separated by commas.",
+                "latex": "A = \\{r, e, m, b\\}",
+                "verified": true
+              }
+            ],
+            "answer": "A = {r, e, m, b}"
+          },
+          "keywords": [
+            "Listing method",
+            "Roster method",
+            "Curly brackets"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.4",
+          "topic": "Methods of writing sets",
+          "heading": "Rule Method or Set Builder Form",
+          "explanation": "In this method, we do not list elements but describe the general element using a variable followed by a vertical line or colon, and then state the property of that variable.",
+          "key_points": [
+            "Notation: $A = \\{x \\mid x \\text{ has property } P\\}$.",
+            "Read as 'set A is the set of all x such that x has property P'."
+          ],
+          "worked_example": {
+            "problem": "Write the set $A = \\{2, 4, 6, 8, 10, 12, 14\\}$ in set builder form.",
+            "solution_steps": [
+              {
+                "step": "Identify the common property: these are even natural numbers less than 15.",
+                "latex": "x \\in \\mathbb{N}, x \\text{ is even}, x < 15",
+                "verified": true
+              },
+              {
+                "step": "Write in set builder notation.",
+                "latex": "A = \\{x \\mid x \\text{ is an even natural number less than 15}\\}",
+                "verified": true
+              }
+            ],
+            "answer": "A = {x | x is an even natural number less than 15}"
+          },
+          "keywords": [
+            "Rule method",
+            "Set builder form",
+            "Variable"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "1.3"
+          ]
+        },
+        {
+          "chunk_id": "1.5",
+          "topic": "Types of sets",
+          "heading": "Classification of Sets",
+          "explanation": "Sets are classified based on the number of elements they contain.",
+          "key_points": [
+            "Singleton Set: Contains exactly one element. Example: $A = \\{2\\}$ (set of even prime numbers).",
+            "Empty Set or Null Set: Contains no elements. Represented by $\\{ \\}$ or $\\phi$. Example: $B = \\{x \\mid x \\text{ is a natural number between 2 and 3}\\}$.",
+            "Finite Set: A set that is empty or where the number of elements is limited and countable. Example: $C = \\{4, 8, 12, 16, 20\\}$.",
+            "Infinite Set: A set where the number of elements is unlimited and uncountable. Example: $N = \\{1, 2, 3, ...\\}$."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is the set of people in a village finite or infinite?",
+              "a": "It is a finite set because the number of people, though large, is countable."
+            }
+          ],
+          "keywords": [
+            "Singleton set",
+            "Empty set",
+            "Null set",
+            "Finite set",
+            "Infinite set"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.6",
+          "topic": "Equal sets",
+          "heading": "Definition of Equal Sets",
+          "explanation": "Two sets A and B are said to be equal if every element of set A is in set B and every element of set B is in set A. Symbolically, $A = B$.",
+          "worked_example": {
+            "problem": "Are $A = \\{x \\mid x \\text{ is a letter of the word 'listen'}\\}$ and $B = \\{y \\mid y \\text{ is a letter of the word 'silent'}\\}$ equal?",
+            "solution_steps": [
+              {
+                "step": "Write set A in listing form.",
+                "latex": "A = \\{l, i, s, t, e, n\\}",
+                "verified": true
+              },
+              {
+                "step": "Write set B in listing form.",
+                "latex": "B = \\{s, i, l, e, n, t\\}",
+                "verified": true
+              },
+              {
+                "step": "Compare elements. Since all elements are identical, the sets are equal.",
+                "latex": "A = B",
+                "verified": true
+              }
+            ],
+            "answer": "Yes, A = B"
+          },
+          "keywords": [
+            "Equal sets",
+            "Identical elements"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "1.7",
+          "topic": "Venn diagrams",
+          "heading": "Visual Representation of Sets",
+          "explanation": "British logician John Venn introduced the use of closed figures (like circles or rectangles) to represent sets. These are called Venn diagrams and are useful for illustrating relationships between sets.",
+          "keywords": [
+            "Venn diagrams",
+            "John Venn",
+            "Closed figures"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "1.8",
+          "topic": "Subset",
+          "heading": "Concept of Subset",
+          "explanation": "If A and B are two given sets and every element of set B is also an element of set A, then B is a subset of A, written as $B \\subseteq A$.",
+          "key_points": [
+            "Every set is a subset of itself ($A \\subseteq A$).",
+            "Empty set is a subset of every set ($\\phi \\subseteq A$).",
+            "If $A = B$, then $A \\subseteq B$ and $B \\subseteq A$."
+          ],
+          "worked_example": {
+            "problem": "If $A = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$ and $B = \\{2, 4, 6, 8\\}$, show the relation.",
+            "solution_steps": [
+              {
+                "step": "Check if every element of B is in A.",
+                "latex": "2, 4, 6, 8 \\in A",
+                "verified": true
+              },
+              {
+                "step": "Conclude the subset relation.",
+                "latex": "B \\subseteq A",
+                "verified": true
+              }
+            ],
+            "answer": "B is a subset of A."
+          },
+          "keywords": [
+            "Subset",
+            "Inclusion"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.9",
+          "topic": "Universal set",
+          "heading": "Definition of Universal Set",
+          "explanation": "A Universal set (usually denoted by 'U') is a large set that accommodates all the given sets under consideration as its subsets. In a Venn diagram, it is typically represented by a rectangle.",
+          "examples": [
+            "If we study students of class 9 who are absent, the set of all students in the school is the Universal set."
+          ],
+          "keywords": [
+            "Universal set",
+            "U"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "1.10",
+          "topic": "Complement of a set",
+          "heading": "Definition and Properties",
+          "explanation": "If U is the universal set and $A \\subseteq U$, then the set of all elements in U which are not in set A is called the complement of A, denoted by $A'$ or $A^C$.",
+          "key_points": [
+            "$A' = \\{x \\mid x \\in U \\text{ and } x \\notin A\\}$.",
+            "No elements are common in A and A'.",
+            "$(A')' = A$ (Complement of a complement is the set itself).",
+            "$U' = \\phi$ and $\\phi' = U$."
+          ],
+          "worked_example": {
+            "problem": "If $U = \\{1, 2, ..., 10\\}$ and $A = \\{2, 4, 6, 8, 10\\}$, find $A'$.",
+            "solution_steps": [
+              {
+                "step": "List elements of U not in A.",
+                "latex": "A' = \\{1, 3, 5, 7, 9\\}",
+                "verified": true
+              }
+            ],
+            "answer": "A' = {1, 3, 5, 7, 9}"
+          },
+          "keywords": [
+            "Complement",
+            "A prime"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "1.9"
+          ]
+        },
+        {
+          "chunk_id": "1.11",
+          "topic": "Operations on sets",
+          "heading": "Intersection of Two Sets",
+          "explanation": "The set of all common elements of two sets A and B is called the intersection of A and B, denoted by $A \\cap B$.",
+          "formulas": [
+            {
+              "name": "Intersection Definition",
+              "latex": "A \\cap B = \\{x \\mid x \\in A \\text{ and } x \\in B\\}",
+              "description": "Elements belonging to both sets."
+            }
+          ],
+          "key_points": [
+            "$A \\cap B = B \\cap A$.",
+            "If $A \\subseteq B$, then $A \\cap B = A$.",
+            "$A \\cap A' = \\phi$."
+          ],
+          "worked_example": {
+            "problem": "If $A = \\{1, 3, 5, 7\\}$ and $B = \\{2, 3, 6, 8\\}$, find $A \\cap B$.",
+            "solution_steps": [
+              {
+                "step": "Identify common elements.",
+                "latex": "\\text{Common element is 3}",
+                "verified": true
+              }
+            ],
+            "answer": "A ∩ B = {3}"
+          },
+          "keywords": [
+            "Intersection",
+            "Common elements"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.12",
+          "topic": "Operations on sets",
+          "heading": "Disjoint Sets",
+          "explanation": "If two sets A and B have no common elements, they are called disjoint sets. Their intersection is an empty set ($A \\cap B = \\phi$).",
+          "keywords": [
+            "Disjoint sets"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "1.13",
+          "topic": "Operations on sets",
+          "heading": "Union of Two Sets",
+          "explanation": "The set of all elements of set A and set B is called the union of the two sets, denoted by $A \\cup B$.",
+          "formulas": [
+            {
+              "name": "Union Definition",
+              "latex": "A \\cup B = \\{x \\mid x \\in A \\text{ or } x \\in B\\}",
+              "description": "Elements belonging to either set A or set B or both."
+            }
+          ],
+          "key_points": [
+            "$A \\cup B = B \\cup A$.",
+            "If $A \\subseteq B$, then $A \\cup B = B$.",
+            "$A \\subseteq (A \\cup B)$ and $B \\subseteq (A \\cup B)$."
+          ],
+          "worked_example": {
+            "problem": "If $A = \\{-1, -3, -5, 0\\}$ and $B = \\{0, 3, 5\\}$, find $A \\cup B$.",
+            "solution_steps": [
+              {
+                "step": "Combine all elements from both sets, writing common ones once.",
+                "latex": "A \\cup B = \\{-1, -3, -5, 0, 3, 5\\}",
+                "verified": true
+              }
+            ],
+            "answer": "A ∪ B = {-1, -3, -5, 0, 3, 5}"
+          },
+          "keywords": [
+            "Union",
+            "Combination"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "1.14",
+          "topic": "Number of elements in a set",
+          "heading": "Relation between Union and Intersection",
+          "explanation": "The number of elements in set A is denoted by $n(A)$. There is a specific relationship between the number of elements in the union and intersection of two sets.",
+          "formulas": [
+            {
+              "name": "Cardinality Rule",
+              "latex": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)",
+              "description": "Relates the number of elements in union, intersection, and individual sets."
+            }
+          ],
+          "worked_example": {
+            "problem": "In a class of 70 students, 45 play Cricket and 52 play Kho-kho. All play at least one game. How many play both?",
+            "solution_steps": [
+              {
+                "step": "Identify given values.",
+                "latex": "n(A \\cup B) = 70, n(A) = 45, n(B) = 52",
+                "verified": true
+              },
+              {
+                "step": "Use the formula to find $n(A \\cap B)$.",
+                "latex": "n(A \\cap B) = n(A) + n(B) - n(A \\cup B)",
+                "verified": true
+              },
+              {
+                "step": "Calculate.",
+                "latex": "45 + 52 - 70 = 27",
+                "verified": true
+              }
+            ],
+            "answer": "27 students play both games."
+          },
+          "keywords": [
+            "Cardinality",
+            "n(A)",
+            "Word problems"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "chapter_title": "Real Numbers",
+      "chapter_summary": "This chapter explores the properties of rational and irrational numbers, the concept of surds, operations on quadratic surds, and the definition of absolute value.",
+      "learning_objectives": [
+        "Understand properties of rational and irrational numbers.",
+        "Learn to represent irrational numbers on a number line.",
+        "Identify and classify surds.",
+        "Perform operations like addition, subtraction, multiplication, and division on surds.",
+        "Rationalize the denominator of expressions involving surds.",
+        "Understand and calculate the absolute value of real numbers."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "2.1",
+          "topic": "Rational Numbers",
+          "heading": "Properties of Rational Numbers",
+          "explanation": "Rational numbers ($/mathbb{Q}$) follow specific properties for addition and multiplication. If $a, b, c$ are rational numbers, they satisfy Commutative, Associative, Identity, and Inverse properties. Additionally, there is an order relation: for $\\frac{p}{q}$ and $\\frac{r}{s}$ (where $q, s > 0$), if $p \\times s > q \\times r$, then $\\frac{p}{q} > \\frac{r}{s}$.",
+          "key_points": [
+            "Commutative: $a + b = b + a$ and $a \\times b = b \\times a$.",
+            "Associative: $(a + b) + c = a + (b + c)$ and $a \\times (b \\times c) = (a \\times b) \\times c$.",
+            "Identity: $a + 0 = a$ and $a \\times 1 = a$.",
+            "Inverse: $a + (-a) = 0$ and $a \\times \\frac{1}{a} = 1$ (for $a \\neq 0$)."
+          ],
+          "keywords": [
+            "Commutative",
+            "Associative",
+            "Identity",
+            "Inverse",
+            "Order relation"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "2.2",
+          "topic": "Rational Numbers",
+          "heading": "Decimal Form of Rational Numbers",
+          "explanation": "The decimal form of any rational number is either terminating or non-terminating recurring. If the prime factors of the denominator are only 2 or 5, the decimal expansion terminates. Otherwise, it is non-terminating and recurring.",
+          "worked_example": {
+            "problem": "Express the recurring decimal $0.777...$ (or $0.\\dot{7}$) in $\\frac{p}{q}$ form.",
+            "solution_steps": [
+              {
+                "step": "Let $x$ be the recurring decimal.",
+                "latex": "x = 0.777...",
+                "verified": true
+              },
+              {
+                "step": "Multiply by 10 since one digit is recurring.",
+                "latex": "10x = 7.777...",
+                "verified": true
+              },
+              {
+                "step": "Subtract the original equation from the new one.",
+                "latex": "10x - x = 7.777... - 0.777...",
+                "verified": true
+              },
+              {
+                "step": "Solve for $x$.",
+                "latex": "9x = 7 \\implies x = \\frac{7}{9}",
+                "verified": true
+              }
+            ],
+            "answer": "7/9"
+          },
+          "keywords": [
+            "Terminating",
+            "Recurring",
+            "Decimal expansion"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "2.3",
+          "topic": "Irrational Numbers",
+          "heading": "Concept and Proof of Irrationality",
+          "explanation": "Numbers that cannot be expressed as a simple fraction $\\frac{p}{q}$ are irrational. Their decimal form is non-terminating and non-recurring. $\\sqrt{2}, \\sqrt{3}, \\sqrt{5}$ and $\\pi$ are examples. The irrationality of $\\sqrt{2}$ can be proved using an indirect proof by assuming it is rational and reaching a contradiction regarding common factors.",
+          "key_points": [
+            "Irrational numbers have non-terminating, non-recurring decimals.",
+            "Every point on a number line is associated with a unique real number.",
+            "The set of Real numbers ($\\mathbb{R}$) consists of both rational and irrational numbers."
+          ],
+          "keywords": [
+            "Irrational",
+            "Real numbers",
+            "Contradiction proof"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        },
+        {
+          "chunk_id": "2.4",
+          "topic": "Irrational Numbers",
+          "heading": "The Number $\\pi$",
+          "explanation": "The ratio of the circumference ($c$) of a circle to its diameter ($d$) is a constant denoted by $\\pi$. It is an irrational number. Its approximate value is $\\frac{22}{7}$ or $3.14$. The great Indian mathematician Aryabhat calculated its value as $3.1416$.",
+          "formulas": [
+            {
+              "name": "Ratio of Pi",
+              "latex": "\\pi = \\frac{c}{d}",
+              "description": "Circumference divided by diameter."
+            }
+          ],
+          "keywords": [
+            "Pi",
+            "Circumference",
+            "Diameter",
+            "Aryabhat"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "2.5",
+          "topic": "Surds",
+          "heading": "Definition and Simplest Form",
+          "explanation": "If $a$ is a positive rational number and the $n^{th}$ root of $a$ (i.e., $\\sqrt[n]{a}$) is an irrational number, then $\\sqrt[n]{a}$ is called a surd. In $\\sqrt[n]{a}$, the symbol $\\sqrt{}$ is the radical sign, $n$ is the order of the surd, and $a$ is the radicand. A surd of order 2 is called a quadratic surd.",
+          "key_points": [
+            "A surd must be an irrational root of a rational number.",
+            "Simplest form: $\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$.",
+            "Similar (Like) surds: Surds with the same order and same radicand in their simplest form. Example: $2\\sqrt{3}$ and $-5\\sqrt{3}$."
+          ],
+          "keywords": [
+            "Surd",
+            "Radical sign",
+            "Radicand",
+            "Order",
+            "Quadratic surd"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "2.6",
+          "topic": "Operations on Surds",
+          "heading": "Comparison and Arithmetic Operations",
+          "explanation": "Surds can be compared by squaring them or bringing them to the same radicand. Operations like addition and subtraction can only be performed on 'like' surds. Multiplication and division can be performed on surds of the same order.",
+          "worked_example": {
+            "problem": "Simplify: $8\\sqrt{5} + \\sqrt{20} - \\sqrt{125}$",
+            "solution_steps": [
+              {
+                "step": "Convert all surds to their simplest form.",
+                "latex": "8\\sqrt{5} + \\sqrt{4 \\times 5} - \\sqrt{25 \\times 5}",
+                "verified": true
+              },
+              {
+                "step": "Simplify the radicals.",
+                "latex": "8\\sqrt{5} + 2\\sqrt{5} - 5\\sqrt{5}",
+                "verified": true
+              },
+              {
+                "step": "Combine like surds.",
+                "latex": "(8 + 2 - 5)\\sqrt{5} = 5\\sqrt{5}",
+                "verified": true
+              }
+            ],
+            "answer": "5√5"
+          },
+          "keywords": [
+            "Comparison",
+            "Addition of surds",
+            "Like surds"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "2.7",
+          "topic": "Rationalization",
+          "heading": "Rationalizing the Denominator",
+          "explanation": "Rationalization is the process of converting an irrational denominator into a rational one by multiplying the numerator and denominator by a suitable rationalizing factor. For a binomial quadratic surd like $(\\sqrt{a} + \\sqrt{b})$, its conjugate pair $(\\sqrt{a} - \\sqrt{b})$ is its rationalizing factor.",
+          "worked_example": {
+            "problem": "Rationalize the denominator: $\\frac{1}{\\sqrt{5} - \\sqrt{3}}$",
+            "solution_steps": [
+              {
+                "step": "Identify the conjugate of the denominator.",
+                "latex": "\\text{Conjugate is } \\sqrt{5} + \\sqrt{3}",
+                "verified": true
+              },
+              {
+                "step": "Multiply numerator and denominator by the conjugate.",
+                "latex": "\\frac{1(\\sqrt{5} + \\sqrt{3})}{(\\sqrt{5} - \\sqrt{3})(\\sqrt{5} + \\sqrt{3})}",
+                "verified": true
+              },
+              {
+                "step": "Apply the identity $(a-b)(a+b) = a^2 - b^2$.",
+                "latex": "\\frac{\\sqrt{5} + \\sqrt{3}}{(\\sqrt{5})^2 - (\\sqrt{3})^2} = \\frac{\\sqrt{5} + \\sqrt{3}}{5 - 3}",
+                "verified": true
+              }
+            ],
+            "answer": "(√5 + √3) / 2"
+          },
+          "keywords": [
+            "Rationalization",
+            "Conjugate pair",
+            "Binomial surd"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        },
+        {
+          "chunk_id": "2.8",
+          "topic": "Absolute Value",
+          "heading": "Definition and Properties",
+          "explanation": "The absolute value of a real number $x$ is its distance from zero on the number line, written as $|x|$. It is never negative.",
+          "key_points": [
+            "If $x > 0$, then $|x| = x$.",
+            "If $x = 0$, then $|x| = 0$.",
+            "If $x < 0$, then $|x| = -x$."
+          ],
+          "worked_example": {
+            "problem": "Solve: $|x - 5| = 2$",
+            "solution_steps": [
+              {
+                "step": "Remove absolute value signs by considering both positive and negative cases.",
+                "latex": "x - 5 = 2 \\text{ or } x - 5 = -2",
+                "verified": true
+              },
+              {
+                "step": "Solve for $x$ in both cases.",
+                "latex": "x = 7 \\text{ or } x = 3",
+                "verified": true
+              }
+            ],
+            "answer": "x = 7 or x = 3"
+          },
+          "keywords": [
+            "Absolute value",
+            "Modulus",
+            "Distance"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "chapter_title": "Polynomials",
+      "chapter_summary": "This chapter covers the definition and types of polynomials, their degrees, various forms of representation, operations on polynomials, synthetic division, and key theorems like the Remainder and Factor theorems.",
+      "learning_objectives": [
+        "Identify algebraic expressions that are polynomials.",
+        "Classify polynomials based on the number of terms and degree.",
+        "Find the degree of polynomials in one or more variables.",
+        "Write polynomials in standard, index, and coefficient forms.",
+        "Perform addition, subtraction, multiplication, and division on polynomials.",
+        "Use synthetic division and the linear method for dividing polynomials.",
+        "Calculate the value of a polynomial for a given variable value.",
+        "Apply the Remainder Theorem and Factor Theorem.",
+        "Factorize quadratic polynomials."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "3.1",
+          "topic": "Introduction to Polynomials",
+          "heading": "Definition of a Polynomial",
+          "explanation": "An algebraic expression is called a polynomial if the powers of the variables in all its terms are whole numbers (positive integers or zero). Numbers like $6, -7, \\frac{1}{2}, 0, \\sqrt{3}$ are called constant polynomials. The number $0$ is specifically called the zero polynomial.",
+          "key_points": [
+            "Powers of variables must be whole numbers.",
+            "Expressions with negative or fractional powers (like $\\frac{1}{y}$ or $\\sqrt{y}$) are not polynomials.",
+            "Constant polynomials have a degree of 0."
+          ],
+          "examples": [
+            "$p^3 - \\frac{1}{2}p^2 + p$ is a polynomial.",
+            "$\\sqrt{y} + 5$ is not a polynomial because the power is $\\frac{1}{2}$."
+          ],
+          "keywords": [
+            "Polynomial",
+            "Whole numbers",
+            "Constant polynomial",
+            "Zero polynomial"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.2",
+          "topic": "Types of Polynomials",
+          "heading": "Classification by Number of Terms",
+          "explanation": "Polynomials are named based on the number of terms they contain.",
+          "key_points": [
+            "Monomial: A polynomial with only one term (e.g., $2x, 5$).",
+            "Binomial: A polynomial with two terms (e.g., $x^4 + x, m^2 - 3m$).",
+            "Trinomial: A polynomial with three terms (e.g., $\\frac{1}{2}y^2 - 2y + 5$)."
+          ],
+          "keywords": [
+            "Monomial",
+            "Binomial",
+            "Trinomial"
+          ],
+          "difficulty": 1,
+          "importance": 4
+        },
+        {
+          "chunk_id": "3.3",
+          "topic": "Degree of a Polynomial",
+          "heading": "Degree in One and More Variables",
+          "explanation": "In a polynomial with one variable, the highest power of the variable is called the degree. In a polynomial with more than one variable, the degree is the highest sum of the powers of the variables in any single term.",
+          "key_points": [
+            "Degree of a non-zero constant polynomial is 0.",
+            "Degree of the zero polynomial is not defined.",
+            "For multiple variables, add powers within each term to find the highest sum."
+          ],
+          "worked_example": {
+            "problem": "Find the degree of $3m^3n^6 + 7m^2n^3 - mn$.",
+            "solution_steps": [
+              {
+                "step": "Calculate the sum of powers for each term.",
+                "latex": "\\text{Term 1: } 3+6=9; \\text{ Term 2: } 2+3=5; \\text{ Term 3: } 1+1=2",
+                "verified": true
+              },
+              {
+                "step": "Identify the highest sum.",
+                "latex": "\\text{Highest sum is 9}",
+                "verified": true
+              }
+            ],
+            "answer": "9"
+          },
+          "keywords": [
+            "Degree",
+            "Highest power"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.4",
+          "topic": "Types of Polynomials",
+          "heading": "Classification by Degree",
+          "explanation": "Polynomials in one variable are classified by their degree.",
+          "key_points": [
+            "Linear Polynomial: Degree 1. Standard form: $ax + b$.",
+            "Quadratic Polynomial: Degree 2. Standard form: $ax^2 + bx + c$.",
+            "Cubic Polynomial: Degree 3. Standard form: $ax^3 + bx^2 + cx + d$."
+          ],
+          "keywords": [
+            "Linear",
+            "Quadratic",
+            "Cubic"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.5",
+          "topic": "Forms of Polynomials",
+          "heading": "Standard, Index, and Coefficient Forms",
+          "explanation": "Polynomials can be written in different ways to facilitate operations.",
+          "key_points": [
+            "Standard Form: Terms written in descending order of powers.",
+            "Index Form: Includes missing terms with zero coefficients (e.g., $x^3 + 2$ becomes $x^3 + 0x^2 + 0x + 2$).",
+            "Coefficient Form: Only the coefficients of the index form are written in brackets (e.g., $(1, 0, 0, 2)$)."
+          ],
+          "worked_example": {
+            "problem": "Write $p(m) = 3m^5 - 7m + 5m^3 + 2$ in coefficient form.",
+            "solution_steps": [
+              {
+                "step": "Write in standard form.",
+                "latex": "3m^5 + 5m^3 - 7m + 2",
+                "verified": true
+              },
+              {
+                "step": "Write in index form by adding zero coefficients for $m^4$ and $m^2$.",
+                "latex": "3m^5 + 0m^4 + 5m^3 + 0m^2 - 7m + 2",
+                "verified": true
+              },
+              {
+                "step": "Extract the coefficients.",
+                "latex": "(3, 0, 5, 0, -7, 2)",
+                "verified": true
+              }
+            ],
+            "answer": "(3, 0, 5, 0, -7, 2)"
+          },
+          "keywords": [
+            "Standard form",
+            "Index form",
+            "Coefficient form"
+          ],
+          "difficulty": 3,
+          "importance": 4
+        },
+        {
+          "chunk_id": "3.6",
+          "topic": "Operations on Polynomials",
+          "heading": "Addition, Subtraction, and Multiplication",
+          "explanation": "Operations on polynomials follow the same rules as algebraic expressions. Addition and subtraction are done by combining like terms. Multiplication involves multiplying each term of the first polynomial by every term of the second.",
+          "key_points": [
+            "Only like terms can be added or subtracted.",
+            "Degree of product = Degree of multiplicand + Degree of multiplier."
+          ],
+          "worked_example": {
+            "problem": "Multiply $(m^2 - 5)$ by $(m^3 + 2m - 2)$.",
+            "solution_steps": [
+              {
+                "step": "Distribute the first polynomial over the second.",
+                "latex": "m^2(m^3 + 2m - 2) - 5(m^3 + 2m - 2)",
+                "verified": true
+              },
+              {
+                "step": "Expand the terms.",
+                "latex": "m^5 + 2m^3 - 2m^2 - 5m^3 - 10m + 10",
+                "verified": true
+              },
+              {
+                "step": "Combine like terms.",
+                "latex": "m^5 - 3m^3 - 2m^2 - 10m + 10",
+                "verified": true
+              }
+            ],
+            "answer": "m^5 - 3m^3 - 2m^2 - 10m + 10"
+          },
+          "keywords": [
+            "Like terms",
+            "Expansion"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.7",
+          "topic": "Division of Polynomials",
+          "heading": "Synthetic Division",
+          "explanation": "Synthetic division is a simplified method for dividing a polynomial by a linear divisor of the form $(x + a)$ or $(x - a)$. It uses only the coefficients of the dividend.",
+          "worked_example": {
+            "problem": "Divide $(3x^3 + 2x^2 - 1)$ by $(x + 2)$ using synthetic division.",
+            "solution_steps": [
+              {
+                "step": "Write dividend in index form: $3x^3 + 2x^2 + 0x - 1$. Coefficient form: $(3, 2, 0, -1)$.",
+                "latex": "\\text{Divisor is } x+2, \\text{ use } -2",
+                "verified": true
+              },
+              {
+                "step": "Perform synthetic division steps.",
+                "latex": "\\begin{array}{r|rrrr} -2 & 3 & 2 & 0 & -1 \\\\ & & -6 & 8 & -16 \\\\ \\hline & 3 & -4 & 8 & -17 \\end{array}",
+                "verified": true
+              },
+              {
+                "step": "Identify quotient and remainder.",
+                "latex": "\\text{Quotient coefficients: } (3, -4, 8) \\implies 3x^2 - 4x + 8; \\text{ Remainder: } -17",
+                "verified": true
+              }
+            ],
+            "answer": "Quotient: 3x^2 - 4x + 8, Remainder: -17"
+          },
+          "keywords": [
+            "Synthetic division",
+            "Linear divisor",
+            "Remainder"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.8",
+          "topic": "Theorems on Polynomials",
+          "heading": "Remainder Theorem",
+          "explanation": "The Remainder Theorem states that if a polynomial $p(x)$ is divided by $(x + a)$, then the remainder is $p(-a)$. This allows finding the remainder without performing actual division.",
+          "formulas": [
+            {
+              "name": "Remainder Theorem",
+              "latex": "\\text{Remainder} = p(-a) \\text{ when } p(x) \\text{ is divided by } (x+a)",
+              "description": "Directly calculates the remainder of a division."
+            }
+          ],
+          "worked_example": {
+            "problem": "Find the remainder when $x^4 - 5x^2 - 4x$ is divided by $x + 3$.",
+            "solution_steps": [
+              {
+                "step": "Substitute $x = -3$ into the polynomial.",
+                "latex": "p(-3) = (-3)^4 - 5(-3)^2 - 4(-3)",
+                "verified": true
+              },
+              {
+                "step": "Calculate the value.",
+                "latex": "81 - 5(9) + 12 = 81 - 45 + 12 = 48",
+                "verified": true
+              }
+            ],
+            "answer": "48"
+          },
+          "keywords": [
+            "Remainder Theorem",
+            "Substitution"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "3.9",
+          "topic": "Theorems on Polynomials",
+          "heading": "Factor Theorem",
+          "explanation": "The Factor Theorem states that if $p(a) = 0$, then $(x - a)$ is a factor of the polynomial $p(x)$. Conversely, if $(x - a)$ is a factor of $p(x)$, then $p(a) = 0$.",
+          "worked_example": {
+            "problem": "Check if $(x - 2)$ is a factor of $x^3 - x^2 - 4$.",
+            "solution_steps": [
+              {
+                "step": "Find $p(2)$ by substituting $x = 2$.",
+                "latex": "p(2) = 2^3 - 2^2 - 4 = 8 - 4 - 4 = 0",
+                "verified": true
+              },
+              {
+                "step": "Since $p(2) = 0$, conclude using the Factor Theorem.",
+                "latex": "\\text{Remainder is 0, so } (x-2) \\text{ is a factor.}",
+                "verified": true
+              }
+            ],
+            "answer": "Yes, (x - 2) is a factor."
+          },
+          "keywords": [
+            "Factor Theorem",
+            "Divisibility"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "3.8"
+          ]
+        },
+        {
+          "chunk_id": "3.10",
+          "topic": "Factorization of Polynomials",
+          "heading": "Factorizing Quadratic Trinomials",
+          "explanation": "Quadratic trinomials of the form $ax^2 + bx + c$ can be factorized by splitting the middle term $b$ into two parts whose sum is $b$ and whose product is $a \\times c$.",
+          "worked_example": {
+            "problem": "Factorize $3x^2 + 7x + 2$.",
+            "solution_steps": [
+              {
+                "step": "Find two numbers that add to 7 and multiply to $3 \\times 2 = 6$.",
+                "latex": "\\text{Numbers are 6 and 1}",
+                "verified": true
+              },
+              {
+                "step": "Split the middle term.",
+                "latex": "3x^2 + 6x + x + 2",
+                "verified": true
+              },
+              {
+                "step": "Group and factor out common terms.",
+                "latex": "3x(x + 2) + 1(x + 2)",
+                "verified": true
+              },
+              {
+                "step": "Write the final factors.",
+                "latex": "(x + 2)(3x + 1)",
+                "verified": true
+              }
+            ],
+            "answer": "(x + 2)(3x + 1)"
+          },
+          "keywords": [
+            "Factorization",
+            "Splitting the middle term",
+            "Quadratic trinomial"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "chapter_title": "Ratio and Proportion",
+      "chapter_summary": "This chapter explains the concepts of ratio and proportion, including direct and inverse proportions, properties of ratios, various operations on equal ratios, and the application of the k-method.",
+      "learning_objectives": [
+        "Understand and use the theorem on equal ratios.",
+        "Solve word problems based on direct and inverse variation.",
+        "Apply operations like Componendo and Dividendo to solve equations.",
+        "Understand continued proportion and geometric mean.",
+        "Use the k-method to solve examples based on equal proportions."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "4.1",
+          "topic": "Ratio and Proportion",
+          "heading": "Direct and Inverse Proportion",
+          "explanation": "Ratio is a comparison of two or more quantities. In direct proportion, as one quantity increases, the other increases at a constant ratio ($x/y = k$). In inverse proportion, as one quantity increases, the other decreases such that their product remains constant ($x \\times y = k$).",
+          "key_points": [
+            "Direct Proportion: The ratio of two quantities is constant.",
+            "Inverse Proportion: The product of two quantities is constant."
+          ],
+          "formulas": [
+            {
+              "name": "Direct Proportion",
+              "latex": "\\frac{x}{y} = k",
+              "description": "Ratio of x to y is constant."
+            },
+            {
+              "name": "Inverse Proportion",
+              "latex": "x \\times y = k",
+              "description": "Product of x and y is constant."
+            }
+          ],
+          "keywords": [
+            "Direct proportion",
+            "Inverse proportion",
+            "Constant"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "4.2",
+          "topic": "Properties of Ratio",
+          "heading": "Fundamental Properties",
+          "explanation": "A ratio $a:b$ is written as $\\frac{a}{b}$. $a$ is the predecessor (first term) and $b$ is the successor (second term). Ratios are unitless and remain unchanged if both terms are multiplied or divided by the same non-zero number.",
+          "key_points": [
+            "Quantities in a ratio must be in the same unit.",
+            "A ratio where the second term is 100 is a percentage.",
+            "Order of terms is important."
+          ],
+          "worked_example": {
+            "problem": "The ratio of ages of Seema and Rajashree is 3:1. The ratio of Rajashree and Atul is 2:3. Find the ratio of ages of Seema, Rajashree, and Atul.",
+            "solution_steps": [
+              {
+                "step": "Write the given ratios.",
+                "latex": "S:R = 3:1, R:A = 2:3",
+                "verified": true
+              },
+              {
+                "step": "Make the common term (Rajashree) equal in both ratios by multiplying the first ratio by 2.",
+                "latex": "S:R = 6:2, R:A = 2:3",
+                "verified": true
+              },
+              {
+                "step": "Combine the ratios.",
+                "latex": "S:R:A = 6:2:3",
+                "verified": true
+              }
+            ],
+            "answer": "6 : 2 : 3"
+          },
+          "keywords": [
+            "Predecessor",
+            "Successor",
+            "Unitless"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "4.3",
+          "topic": "Operations on Equal Ratios",
+          "heading": "Invertendo, Alternando, Componendo, Dividendo",
+          "explanation": "If $\\frac{a}{b} = \\frac{c}{d}$, several operations can be performed to create new equal ratios.",
+          "formulas": [
+            {
+              "name": "Invertendo",
+              "latex": "\\frac{b}{a} = \\frac{d}{c}",
+              "description": "Inverting both ratios."
+            },
+            {
+              "name": "Alternando",
+              "latex": "\\frac{a}{c} = \\frac{b}{d}",
+              "description": "Interchanging the means."
+            },
+            {
+              "name": "Componendo",
+              "latex": "\\frac{a+b}{b} = \\frac{c+d}{d}",
+              "description": "Adding the denominator to the numerator."
+            },
+            {
+              "name": "Dividendo",
+              "latex": "\\frac{a-b}{b} = \\frac{c-d}{d}",
+              "description": "Subtracting the denominator from the numerator."
+            },
+            {
+              "name": "Componendo-Dividendo",
+              "latex": "\\frac{a+b}{a-b} = \\frac{c+d}{c-d}",
+              "description": "Combining both operations."
+            }
+          ],
+          "keywords": [
+            "Invertendo",
+            "Alternando",
+            "Componendo",
+            "Dividendo"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "4.4",
+          "topic": "Theorem on Equal Ratios",
+          "heading": "Definition and Application",
+          "explanation": "The theorem states that if several ratios are equal, then the ratio of the sum of their numerators to the sum of their denominators is equal to each of the original ratios.",
+          "formulas": [
+            {
+              "name": "Theorem on Equal Ratios",
+              "latex": "\\text{If } \\frac{a}{b} = \\frac{c}{d} = k, \\text{ then } \\frac{a+c}{b+d} = k",
+              "description": "Sum of antecedents divided by sum of consequents equals the constant k."
+            }
+          ],
+          "worked_example": {
+            "problem": "Fill in the blanks: $\\frac{a}{3} = \\frac{b}{7} = \\frac{4a+9b}{?}$",
+            "solution_steps": [
+              {
+                "step": "Apply the theorem by multiplying the first ratio by 4 and the second by 9.",
+                "latex": "\\frac{4a}{4 \\times 3} = \\frac{9b}{9 \\times 7}",
+                "verified": true
+              },
+              {
+                "step": "Sum the numerators and denominators.",
+                "latex": "\\frac{4a+9b}{12+63} = \\frac{4a+9b}{75}",
+                "verified": true
+              }
+            ],
+            "answer": "75"
+          },
+          "keywords": [
+            "Equal ratios",
+            "Antecedents",
+            "Consequents"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        },
+        {
+          "chunk_id": "4.5",
+          "topic": "Continued Proportion",
+          "heading": "Geometric Mean",
+          "explanation": "Three numbers $a, b, c$ are in continued proportion if $\\frac{a}{b} = \\frac{b}{c}$. In this case, $b^2 = ac$, and $b$ is called the geometric mean or mean proportional of $a$ and $c$.",
+          "formulas": [
+            {
+              "name": "Geometric Mean",
+              "latex": "b^2 = ac \\text{ or } b = \\sqrt{ac}",
+              "description": "Middle term in continued proportion."
+            }
+          ],
+          "worked_example": {
+            "problem": "If x is the geometric mean of 25 and 4, find x.",
+            "solution_steps": [
+              {
+                "step": "Use the geometric mean formula.",
+                "latex": "x^2 = 25 \\times 4",
+                "verified": true
+              },
+              {
+                "step": "Calculate the product and take the square root.",
+                "latex": "x^2 = 100 \\implies x = 10",
+                "verified": true
+              }
+            ],
+            "answer": "10"
+          },
+          "keywords": [
+            "Continued proportion",
+            "Geometric mean",
+            "Mean proportional"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "4.6",
+          "topic": "k-method",
+          "heading": "Solving Proportions using k",
+          "explanation": "The k-method is a technique where equal ratios are assumed to be equal to a constant $k$. This allows expressing variables in terms of $k$ and the denominators to simplify proofs.",
+          "worked_example": {
+            "problem": "If $a, b, c$ are in continued proportion, show that $\\frac{(a+b)^2}{ab} = \\frac{(b+c)^2}{bc}$.",
+            "solution_steps": [
+              {
+                "step": "Assume the ratios equal to k.",
+                "latex": "\\frac{a}{b} = \\frac{b}{c} = k \\implies b = ck, a = bk = ck^2",
+                "verified": true
+              },
+              {
+                "step": "Substitute values into LHS.",
+                "latex": "\\text{LHS} = \\frac{(ck^2+ck)^2}{(ck^2)(ck)} = \\frac{c^2k^2(k+1)^2}{c^2k^3} = \\frac{(k+1)^2}{k}",
+                "verified": true
+              },
+              {
+                "step": "Substitute values into RHS.",
+                "latex": "\\text{RHS} = \\frac{(ck+c)^2}{(ck)(c)} = \\frac{c^2(k+1)^2}{c^2k} = \\frac{(k+1)^2}{k}",
+                "verified": true
+              },
+              {
+                "step": "Compare LHS and RHS.",
+                "latex": "\\text{LHS} = \\text{RHS}",
+                "verified": true
+              }
+            ],
+            "answer": "LHS = RHS"
+          },
+          "keywords": [
+            "k-method",
+            "Substitution",
+            "Algebraic proof"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "chapter_title": "Linear Equations in Two Variables",
+      "chapter_summary": "This chapter introduces linear equations involving two variables, the concept of simultaneous equations, and various algebraic methods to solve them, along with their application in real-world word problems.",
+      "learning_objectives": [
+        "Understand the general form of a linear equation in two variables.",
+        "Solve simultaneous linear equations using the elimination method.",
+        "Solve simultaneous linear equations using the substitution method.",
+        "Convert word problems into mathematical equations and solve them."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "5.1",
+          "topic": "Linear Equations in Two Variables",
+          "heading": "Introduction and General Form",
+          "explanation": "An equation which contains two variables and the degree of each term containing a variable is one, is called a linear equation in two variables. A single linear equation in two variables has infinitely many solutions, which are represented as ordered pairs $(x, y)$. The general form of such an equation is $ax + by + c = 0$, where $a, b, c$ are real numbers and $a$ and $b$ are non-zero at the same time.",
+          "key_points": [
+            "Degree of the variable is 1.",
+            "General form: $ax + by + c = 0$.",
+            "A single equation has many solutions."
+          ],
+          "formulas": [
+            {
+              "name": "General Form of Linear Equation",
+              "latex": "ax + by + c = 0",
+              "description": "Standard representation where a, b, c are real numbers."
+            }
+          ],
+          "examples": [
+            "$x + y = 14$ (Solutions include (9,5), (7,7), (8,6), etc.)",
+            "$3x - 4y - 15 = 0$"
+          ],
+          "keywords": [
+            "Linear equation",
+            "Variables",
+            "Degree",
+            "General form"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "5.2",
+          "topic": "Simultaneous Equations",
+          "heading": "Concept of Simultaneous Equations",
+          "explanation": "When we consider two linear equations in two variables at the same time, they are called simultaneous equations. The unique ordered pair $(x, y)$ that satisfies both equations simultaneously is called the solution of the system.",
+          "key_points": [
+            "Two equations considered together.",
+            "The solution is the common point that satisfies both."
+          ],
+          "worked_example": {
+            "problem": "Find the common solution for $x + y = 14$ and $x - y = 2$.",
+            "solution_steps": [
+              {
+                "step": "List solutions for $x + y = 14$.",
+                "latex": "(9, 5), (7, 7), (8, 6), ...",
+                "verified": true
+              },
+              {
+                "step": "List solutions for $x - y = 2$.",
+                "latex": "(7, 5), (-2, -4), (8, 6), ...",
+                "verified": true
+              },
+              {
+                "step": "Identify the common pair.",
+                "latex": "(8, 6) \\text{ is common.}",
+                "verified": true
+              }
+            ],
+            "answer": "(8, 6)"
+          },
+          "keywords": [
+            "Simultaneous equations",
+            "Common solution",
+            "Ordered pair"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "5.3",
+          "topic": "Methods of Solving",
+          "heading": "Elimination Method",
+          "explanation": "In the elimination method, we eliminate one of the variables to obtain an equation in one variable. This is done by making the coefficients of one variable equal (or opposite) in both equations and then adding or subtracting the equations.",
+          "worked_example": {
+            "problem": "Solve: $3x + y = 5$ and $2x + 3y = 1$.",
+            "solution_steps": [
+              {
+                "step": "Multiply the first equation by 3 to make the coefficients of y equal.",
+                "latex": "3(3x + y) = 3(5) \\implies 9x + 3y = 15",
+                "verified": true
+              },
+              {
+                "step": "Subtract the second equation from the new equation.",
+                "latex": "(9x + 3y) - (2x + 3y) = 15 - 1 \\implies 7x = 14",
+                "verified": true
+              },
+              {
+                "step": "Solve for x.",
+                "latex": "x = 2",
+                "verified": true
+              },
+              {
+                "step": "Substitute x = 2 in the first equation to find y.",
+                "latex": "3(2) + y = 5 \\implies 6 + y = 5 \\implies y = -1",
+                "verified": true
+              }
+            ],
+            "answer": "x = 2, y = -1"
+          },
+          "keywords": [
+            "Elimination",
+            "Coefficients",
+            "Addition",
+            "Subtraction"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "5.4",
+          "topic": "Methods of Solving",
+          "heading": "Substitution Method",
+          "explanation": "In the substitution method, we express one variable in terms of the other from one of the equations and then substitute this expression into the other equation.",
+          "worked_example": {
+            "problem": "Solve: $8x + 3y = 11$ and $3x - y = 2$.",
+            "solution_steps": [
+              {
+                "step": "Express y in terms of x from the second equation.",
+                "latex": "y = 3x - 2",
+                "verified": true
+              },
+              {
+                "step": "Substitute this value of y into the first equation.",
+                "latex": "8x + 3(3x - 2) = 11",
+                "verified": true
+              },
+              {
+                "step": "Solve for x.",
+                "latex": "8x + 9x - 6 = 11 \\implies 17x = 17 \\implies x = 1",
+                "verified": true
+              },
+              {
+                "step": "Substitute x = 1 into the expression for y.",
+                "latex": "y = 3(1) - 2 = 1",
+                "verified": true
+              }
+            ],
+            "answer": "x = 1, y = 1"
+          },
+          "keywords": [
+            "Substitution",
+            "Expression",
+            "Variable"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "5.5",
+          "topic": "Word Problems",
+          "heading": "Application of Simultaneous Equations",
+          "explanation": "Word problems involve translating real-life situations into mathematical equations. Common types include problems related to age, numbers, fractions, money transactions, geometry (rectangles), and speed-distance-time.",
+          "key_points": [
+            "Identify unknown quantities and assign variables (x, y).",
+            "Form two equations based on given conditions.",
+            "Solve using elimination or substitution.",
+            "Verify the result with the original problem statement."
+          ],
+          "worked_example": {
+            "problem": "The sum of two numbers is 103. If the greater number is divided by the smaller, the quotient is 2 and the remainder is 19. Find the numbers.",
+            "solution_steps": [
+              {
+                "step": "Let the greater number be x and the smaller be y.",
+                "latex": "x + y = 103 \\quad (I)",
+                "verified": true
+              },
+              {
+                "step": "Use the rule: Dividend = Divisor × Quotient + Remainder.",
+                "latex": "x = 2y + 19 \\implies x - 2y = 19 \\quad (II)",
+                "verified": true
+              },
+              {
+                "step": "Subtract equation (II) from (I).",
+                "latex": "(x + y) - (x - 2y) = 103 - 19 \\implies 3y = 84",
+                "verified": true
+              },
+              {
+                "step": "Solve for y and then x.",
+                "latex": "y = 28, \\quad x = 103 - 28 = 75",
+                "verified": true
+              }
+            ],
+            "answer": "75 and 28"
+          },
+          "keywords": [
+            "Mathematical modeling",
+            "Age problems",
+            "Fraction problems",
+            "Geometry problems"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "chapter_title": "Financial Planning",
+      "chapter_summary": "This chapter introduces the basics of financial planning, focusing on the importance of savings and investments, the tax structure in India, and the detailed computation of income tax for individuals.",
+      "learning_objectives": [
+        "Understand the concept and necessity of financial planning.",
+        "Distinguish between predictable and unpredictable expenses.",
+        "Learn about various modes of savings and investments.",
+        "Understand the tax structure, including direct and indirect taxes.",
+        "Learn to compute income tax based on current slabs and deductions."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "6.1",
+          "topic": "Introduction to Financial Planning",
+          "heading": "Predictable and Unpredictable Expenses",
+          "explanation": "Financial planning involves making provisions for future needs by saving and investing money earned in the present. It helps manage both predictable expenses (planned) and unpredictable expenses (emergencies).",
+          "key_points": [
+            "Predictable expenses: Education of children, starting a business, buying a vehicle or house, old age requirements.",
+            "Unpredictable expenses: Natural disasters, medical emergencies, loss due to accidents, sudden death."
+          ],
+          "keywords": [
+            "Financial planning",
+            "Predictable expenses",
+            "Unpredictable expenses"
+          ],
+          "difficulty": 1,
+          "importance": 4
+        },
+        {
+          "chunk_id": "6.2",
+          "topic": "Savings and Investments",
+          "heading": "Concepts of Saving and Investing",
+          "explanation": "Savings are kept in safe institutions like banks or post offices to ensure they grow and remain available for transactions. Investment is the use of savings in assets like property, shares, or mutual funds to generate higher returns, though it involves varying levels of risk.",
+          "key_points": [
+            "Money kept as cash diminishes in value over time due to inflation.",
+            "Investments contribute to national production and business expansion.",
+            "Risk and Gain: Higher risk can lead to higher gains but also greater losses.",
+            "Modes of investment: Fixed deposits, Mutual funds, Shares, Bonds, Insurance (PLI, LIC), PPF, NSC, Sukanya Samruddhi Scheme."
+          ],
+          "worked_example": {
+            "problem": "Mr. Shah invested Rs. 3,20,000 in a bank at 10% compound interest for 2 years. He also invested Rs. 2,40,000 in mutual funds and got Rs. 3,05,000 after 2 years. Which investment was more profitable?",
+            "solution_steps": [
+              {
+                "step": "Calculate bank interest using compound interest formula.",
+                "latex": "I = P \\left[ \\left( 1 + \\frac{r}{100} \\right)^n - 1 \\right] = 3,20,000 \\left[ (1.1)^2 - 1 \\right] = 3,20,000 \\times 0.21 = 67,200",
+                "verified": true
+              },
+              {
+                "step": "Calculate percentage profit for the bank.",
+                "latex": "\\frac{67200}{3,20,000} \\times 100 = 21\\%",
+                "verified": true
+              },
+              {
+                "step": "Calculate gain from mutual funds.",
+                "latex": "3,05,000 - 2,40,000 = 65,000",
+                "verified": true
+              },
+              {
+                "step": "Calculate percentage gain for mutual funds.",
+                "latex": "\\frac{65000}{2,40,000} \\times 100 \\approx 27.08\\%",
+                "verified": true
+              }
+            ],
+            "answer": "The investment in mutual funds (27.08%) was more profitable than the bank (21%)."
+          },
+          "keywords": [
+            "Savings",
+            "Investment",
+            "Compound Interest",
+            "Mutual Funds",
+            "Risk"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "6.3",
+          "topic": "Taxation",
+          "heading": "Levying of Taxes",
+          "explanation": "Taxes are charged by the government to generate funds for infrastructure, welfare schemes, development, and defense. Taxes are broadly classified into two types.",
+          "key_points": [
+            "Direct Taxes: Paid directly by the taxpayer to the government. Examples: Income tax, wealth tax, professional tax.",
+            "Indirect Taxes: Not paid directly by the taxpayer. Examples: GST (Value Added Tax), Central sales tax, service tax, customs duty."
+          ],
+          "keywords": [
+            "Taxation",
+            "Direct tax",
+            "Indirect tax",
+            "Income tax"
+          ],
+          "difficulty": 2,
+          "importance": 5
+        },
+        {
+          "chunk_id": "6.4",
+          "topic": "Income Tax Basics",
+          "heading": "Important Terms and PAN",
+          "explanation": "Income tax is levied on income earned by individuals, institutes, or industries above a certain limit.",
+          "key_points": [
+            "Assessee: A person liable to pay income tax.",
+            "Financial Year (FY): The period from 1st April to 31st March in which income is earned.",
+            "Assessment Year (AY): The year following the financial year in which the tax is calculated and paid.",
+            "PAN (Permanent Account Number): A unique 10-digit alphanumeric number issued by the Income Tax Department, essential for financial transactions and tax returns."
+          ],
+          "keywords": [
+            "Assessee",
+            "Financial Year",
+            "Assessment Year",
+            "PAN"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "6.5",
+          "topic": "Computation of Income Tax",
+          "heading": "Heads of Income and Deductions",
+          "explanation": "Income is categorized under five heads: Salary, House/Property, Business/Profession, Capital Gains, and Other Sources. Tax is calculated on 'Taxable Income', which is Gross Total Income minus permissible deductions.",
+          "key_points": [
+            "Deductions under Section 80C: Investments in GPF, PPF, LIC, NSC, Tuition fees (for 2 children), Housing loan principal, etc. Maximum limit is Rs. 1,50,000.",
+            "Section 80D: Health insurance premiums.",
+            "Section 80G: Donations to specific relief funds (e.g., PM's Relief Fund).",
+            "Agricultural income is exempt from taxation in India."
+          ],
+          "keywords": [
+            "Taxable Income",
+            "Deductions",
+            "Section 80C",
+            "Exemption"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "6.6",
+          "topic": "Income Tax Slabs",
+          "heading": "Tax Rates and Cess",
+          "explanation": "Tax rates are determined by the age of the taxpayer and the income slab they fall into. Additionally, an Education Cess and Secondary/Higher Education Cess are levied on the calculated income tax.",
+          "key_points": [
+            "Individuals (up to 60 years): Basic exemption up to Rs. 2,50,000.",
+            "Senior Citizens (60 to 80 years): Basic exemption up to Rs. 3,00,000.",
+            "Super Senior Citizens (above 80 years): Basic exemption up to Rs. 5,00,000.",
+            "Education Cess: 2% of income tax.",
+            "Secondary and Higher Education Cess: 1% of income tax."
+          ],
+          "worked_example": {
+            "problem": "Mr. Mhatre (50 years old) has a gross annual income of Rs. 12,00,000. He saved Rs. 1,50,000 under section 80C. Calculate his total income tax.",
+            "solution_steps": [
+              {
+                "step": "Calculate Taxable Income.",
+                "latex": "12,00,000 - 1,50,000 = 10,50,000",
+                "verified": true
+              },
+              {
+                "step": "Calculate base tax for income > 10 lakh (using Table I).",
+                "latex": "\\text{Tax} = 1,12,500 + 30\\% \\text{ of } (10,50,000 - 10,00,000)",
+                "verified": true
+              },
+              {
+                "step": "Compute the 30% component.",
+                "latex": "30\\% \\text{ of } 50,000 = 15,000",
+                "verified": true
+              },
+              {
+                "step": "Total Income Tax.",
+                "latex": "1,12,500 + 15,000 = 1,27,500",
+                "verified": true
+              },
+              {
+                "step": "Add Education Cess (2%) and Secondary Cess (1%).",
+                "latex": "\\text{Cess} = 1,27,500 \\times 3\\% = 3,825",
+                "verified": true
+              },
+              {
+                "step": "Final Tax Payable.",
+                "latex": "1,27,500 + 3,825 = 1,31,325",
+                "verified": true
+              }
+            ],
+            "answer": "Rs. 1,31,325"
+          },
+          "keywords": [
+            "Tax slabs",
+            "Education Cess",
+            "Senior Citizen",
+            "Surcharge"
+          ],
+          "difficulty": 4,
+          "importance": 5
+        }
+      ]
+    },
+    {
+      "chapter_id": 7,
+      "chapter_title": "Statistics",
+      "chapter_summary": "This chapter covers advanced data representation through subdivided and percentage bar diagrams, methods of data collection, organization of data into frequency distribution tables, and the calculation of measures of central tendency.",
+      "learning_objectives": [
+        "Draw and interpret sub-divided and percentage bar diagrams.",
+        "Distinguish between primary and secondary data.",
+        "Organize data into grouped and ungrouped frequency distribution tables.",
+        "Understand and calculate cumulative frequencies (less than and more than types).",
+        "Calculate and interpret Mean, Median, and Mode for ungrouped data."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "7.1",
+          "topic": "Data Representation",
+          "heading": "Sub-divided and Percentage Bar Diagrams",
+          "explanation": "To compare multiple entities within a single category, sub-divided bar diagrams are used where the total value is represented by a bar divided into parts proportional to the components. Percentage bar diagrams convert these components into percentages of the total, making the total height of every bar 100 units, which is more informative for comparing ratios across different totals.",
+          "key_points": [
+            "Sub-divided bar: Shows the total and its constituent parts.",
+            "Percentage bar: All bars have a height of 100; useful for comparing proportions.",
+            "Conversion to percentage: $\\text{Percentage} = \\frac{\\text{Component Value}}{\\text{Total Value}} \\times 100$."
+          ],
+          "worked_example": {
+            "problem": "A farmer produced 30 quintals of Wheat and 10 quintals of Jowar in 2010. Represent this in a percentage bar diagram.",
+            "solution_steps": [
+              {
+                "step": "Calculate total production.",
+                "latex": "30 + 10 = 40 \\text{ quintals}",
+                "verified": true
+              },
+              {
+                "step": "Calculate percentage of Wheat.",
+                "latex": "\\frac{30}{40} \\times 100 = 75\\%",
+                "verified": true
+              },
+              {
+                "step": "Calculate percentage of Jowar.",
+                "latex": "100\\% - 75\\% = 25\\%",
+                "verified": true
+              }
+            ],
+            "answer": "Wheat: 75%, Jowar: 25%"
+          },
+          "keywords": [
+            "Sub-divided bar diagram",
+            "Percentage bar diagram",
+            "Data comparison"
+          ],
+          "difficulty": 2,
+          "importance": 4
+        },
+        {
+          "chunk_id": "7.2",
+          "topic": "Data Collection",
+          "heading": "Primary and Secondary Data",
+          "explanation": "Data is the numerical information gathered for a specific purpose. Primary data is collected personally by the researcher through direct methods like interviews or measurements. Secondary data is obtained from existing sources like government records, journals, or newspapers.",
+          "key_points": [
+            "Primary Data: Up-to-date, reliable, but requires more time and resources.",
+            "Secondary Data: Readily available, saves time, but may lack specific details or reliability."
+          ],
+          "examples": [
+            "Primary: Feedback from customers in a restaurant.",
+            "Secondary: Weather data taken from a newspaper chart."
+          ],
+          "keywords": [
+            "Primary data",
+            "Secondary data",
+            "Data collection"
+          ],
+          "difficulty": 1,
+          "importance": 3
+        },
+        {
+          "chunk_id": "7.3",
+          "topic": "Frequency Distribution",
+          "heading": "Grouped Frequency Distribution",
+          "explanation": "When data is large, it is condensed into groups called 'Classes'. There are two methods: (1) Inclusive Method (Discrete): e.g., 6-10, 11-15, where both limits are included in the class. (2) Exclusive Method (Continuous): e.g., 5-10, 10-15, where the upper limit is excluded from the class and included in the next.",
+          "key_points": [
+            "Class Limit: The end values of a class (Lower and Upper).",
+            "Class Width: Difference between the upper and lower limits of a continuous class.",
+            "Class Mark: The average of the lower and upper limits.",
+            "Frequency: The number of observations falling within a class."
+          ],
+          "formulas": [
+            {
+              "name": "Class Mark",
+              "latex": "x_i = \\frac{\\text{Lower Limit} + \\text{Upper Limit}}{2}",
+              "description": "Midpoint of a class."
+            }
+          ],
+          "keywords": [
+            "Class",
+            "Class limit",
+            "Class mark",
+            "Frequency",
+            "Inclusive method",
+            "Exclusive method"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "7.4",
+          "topic": "Cumulative Frequency",
+          "heading": "Less than and More than Types",
+          "explanation": "Cumulative frequency is the running total of frequencies. 'Less than type' cumulative frequency for a class is the sum of its frequency and all previous frequencies. 'More than or equal to type' is the sum of its frequency and all succeeding frequencies.",
+          "key_points": [
+            "Less than type: Associated with the upper class limit.",
+            "More than type: Associated with the lower class limit."
+          ],
+          "keywords": [
+            "Cumulative frequency",
+            "Less than type",
+            "More than type"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        },
+        {
+          "chunk_id": "7.5",
+          "topic": "Measures of Central Tendency",
+          "heading": "Mean, Median, and Mode",
+          "explanation": "These measures represent the central point around which data clusters. (1) Mean: The arithmetic average. (2) Median: The middle value when data is arranged in order. (3) Mode: The value that appears most frequently.",
+          "formulas": [
+            {
+              "name": "Arithmetic Mean",
+              "latex": "\\bar{x} = \\frac{\\sum f_i x_i}{N}",
+              "description": "Sum of (frequency * score) divided by total observations."
+            }
+          ],
+          "worked_example": {
+            "problem": "Find the median of: 54, 63, 66, 72, 98, 87, 92.",
+            "solution_steps": [
+              {
+                "step": "Arrange data in ascending order.",
+                "latex": "54, 63, 66, 72, 78, 87, 92",
+                "verified": true
+              },
+              {
+                "step": "Identify the middle term (n=7, so the 4th term).",
+                "latex": "\\text{Median} = 72",
+                "verified": true
+              }
+            ],
+            "answer": "72"
+          },
+          "common_doubts": [
+            {
+              "q": "What if there are two middle numbers for the median?",
+              "a": "If the number of observations is even, the median is the average of the two middle numbers."
+            }
+          ],
+          "keywords": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Central tendency"
+          ],
+          "difficulty": 3,
+          "importance": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3874 @@
+{
+  "metadata": {
+    "file_name": "History_and_Political_Science_Std_9.json",
+    "standard": 9,
+    "subject": "History and Political Science",
+    "language": "English",
+    "board": "Maharashtra State Bureau of Textbook Production and Curriculum Research",
+    "version": "1.0",
+    "authored_by": "AI Studio Extraction",
+    "last_updated": "2023-10-27"
+  },
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "chapter_title": "Sources of History",
+      "chapter_summary": "This chapter discusses the various written, material, oral, and audio-visual sources used to reconstruct the history of post-independence India, emphasizing the importance of archives, newspapers, and modern technology.",
+      "learning_objectives": [
+        "To be able to classify the sources of history.",
+        "To be able to imagine and speculate about contemporary events while studying the sources of history.",
+        "To be able to read and interpret references related to history.",
+        "To be able to make a collection of historical objects, documents, books, coins and electronic information.",
+        "To interpret historical events objectively."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "1.1",
+          "topic": "Sources of History",
+          "heading": "Introduction to Modern Sources",
+          "explanation": "While the history of ancient, medieval, and modern India has been previously studied, the focus now shifts to the post-independence era. Sources for modern history differ significantly from those of earlier periods. They are categorized into written sources, material sources, oral sources, and audio-visual media. These sources exist at regional, state, national, and international levels, providing a comprehensive framework for writing contemporary history.",
+          "key_points": [
+            "Modern history sources are distinct from ancient and medieval ones.",
+            "Categories include written, material, oral, and audio-visual sources.",
+            "Sources are available at multiple administrative and geographic levels."
+          ],
+          "examples": [
+            "Written sources like newspapers.",
+            "Audio-visual sources like television."
+          ],
+          "common_doubts": [
+            {
+              "q": "How are modern sources different from ancient ones?",
+              "a": "Modern sources include mass media and digital information, which were not available in ancient times, and they are often more abundant and easier to access."
+            }
+          ],
+          "keywords": [
+            "post-independence",
+            "written sources",
+            "material sources",
+            "oral sources",
+            "audio-visual"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": [
+            "1.2",
+            "1.9",
+            "1.12",
+            "1.13"
+          ]
+        },
+        {
+          "chunk_id": "1.2",
+          "topic": "Written Sources",
+          "heading": "Overview of Written Sources",
+          "explanation": "Written sources form a significant part of historical documentation for the modern period. These include newspapers, periodicals, encyclopedias, diaries, reference books, correspondence, documents in archives, government gazettes, and postage stamps.",
+          "key_points": [
+            "Written sources provide a textual record of events.",
+            "They range from daily news to official government records."
+          ],
+          "keywords": [
+            "periodicals",
+            "encyclopedias",
+            "gazettes",
+            "correspondence"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.3",
+            "1.4",
+            "1.7"
+          ]
+        },
+        {
+          "chunk_id": "1.3",
+          "topic": "Written Sources",
+          "heading": "Archives",
+          "explanation": "Archives are specialized facilities where historical documents are preserved. The National Archives of India, located in New Delhi, is the primary office for such preservation and is recognized as the largest archive in Asia.",
+          "key_points": [
+            "Archives preserve historical documents.",
+            "The National Archives of India is the largest in Asia."
+          ],
+          "examples": [
+            "National Archives of India, New Delhi."
+          ],
+          "keywords": [
+            "Archives",
+            "preservation",
+            "historical documents"
+          ],
+          "difficulty": 1,
+          "importance": 5,
+          "prerequisites": [
+            "1.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.4",
+          "topic": "Written Sources",
+          "heading": "Newspapers",
+          "explanation": "Newspapers are considered the fourth pillar of democracy and serve as a major medium of information. They cover national and international affairs, politics, art, sports, literature, and social/cultural issues. Between 1961 and 2000, print media, especially newspapers, had no real alternative. Even with the rise of the internet and liberalisation, they remain powerful. Newspapers often publish regional editions, supplements on various topics, and special year-end supplements that provide an overview of the year's major events.",
+          "key_points": [
+            "Newspapers are the fourth pillar of democracy.",
+            "They provide a wide range of information from politics to culture.",
+            "Year-end supplements help in understanding the year's history."
+          ],
+          "keywords": [
+            "fourth pillar of democracy",
+            "print media",
+            "supplements",
+            "regional editions"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.2"
+          ],
+          "linked_concepts": [
+            "1.5"
+          ]
+        },
+        {
+          "chunk_id": "1.5",
+          "topic": "Written Sources",
+          "heading": "Press Trust of India (PTI)",
+          "explanation": "Since 1953, the Press Trust of India (PTI) has been a vital source of primary details for all important events and articles. It provides reports, photographs, and articles on financial and scientific issues to newspapers. In the 1990s, PTI began using satellite broadcast technology instead of tele-printers to transmit news across the country. It also operates an online service, making its material essential for writing modern Indian history.",
+          "key_points": [
+            "PTI is a primary source of news and articles for other media.",
+            "It covers diverse subjects including finance and science.",
+            "Technological evolution from tele-printers to satellite broadcast."
+          ],
+          "keywords": [
+            "PTI",
+            "primary details",
+            "satellite broadcast",
+            "tele-printers"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.6",
+          "topic": "Written Sources",
+          "heading": "Annual Reference Books",
+          "explanation": "Annual reference books published by the Publications Division of the Government of India are considered authentic and trustworthy. An example is 'INDIA 2000', created under the 'Research, Reference and Training Department'. These books contain comprehensive data on the land, people, national emblems, political system, defense, education, culture, science, technology, environment, health, welfare, media, economics, finance, planning, agriculture, and various government departments.",
+          "key_points": [
+            "Government publications are authentic sources of data.",
+            "Reference books like 'INDIA 2000' provide a snapshot of the nation's status."
+          ],
+          "examples": [
+            "INDIA 2000 annual reference book."
+          ],
+          "keywords": [
+            "Publications Division",
+            "authentic",
+            "reference book",
+            "INDIA 2000"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "1.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.7",
+          "topic": "Written Sources",
+          "heading": "Postage Stamps",
+          "explanation": "Postage stamps do not speak on their own, but historians use them to understand changing times. Since independence, stamps have varied in size, subject matter, and color schemes. The Postal Department issues stamps on diverse themes such as political leaders, flora, fauna, and significant events. They also commemorate jubilees (silver, golden, diamond) and centenaries.",
+          "key_points": [
+            "Stamps reflect historical changes through their themes and designs.",
+            "They commemorate important people and events."
+          ],
+          "keywords": [
+            "philately",
+            "commemorative stamps",
+            "jubilees"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [
+            "1.2"
+          ],
+          "linked_concepts": [
+            "1.8"
+          ]
+        },
+        {
+          "chunk_id": "1.8",
+          "topic": "Written Sources",
+          "heading": "Jal Cooper",
+          "explanation": "Jal Cooper was an internationally acclaimed philatelist who played a pivotal role in elevating the study of Indian postage stamps to a global level. Born in Mumbai, he edited 'India’s Stamp Journal' and founded the first Philatelic Bureau in India as well as the 'Empire of India Philatelic Society'. He authored many books on the subject, applying a scientific approach to his hobby. The Indian government issued a postage stamp in his honor in 1977.",
+          "key_points": [
+            "Jal Cooper was a world-renowned expert on postage stamps.",
+            "He institutionalized philately in India.",
+            "His work is essential for understanding the history of Indian stamps."
+          ],
+          "keywords": [
+            "philatelist",
+            "Jal Cooper",
+            "India’s Stamp Journal",
+            "Philatelic Bureau"
+          ],
+          "difficulty": 2,
+          "importance": 3,
+          "prerequisites": [
+            "1.7"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.9",
+          "topic": "Material Sources",
+          "heading": "Overview of Material Sources",
+          "explanation": "Material sources are physical objects that provide evidence of the past. These include coins, places of worship, things in daily use, royal seals, ornaments, museums, clothing, and modern architecture.",
+          "key_points": [
+            "Physical artifacts serve as tangible historical evidence.",
+            "They reflect the lifestyle and technology of a period."
+          ],
+          "keywords": [
+            "physical sources",
+            "artifacts",
+            "architecture"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.10",
+            "1.11"
+          ]
+        },
+        {
+          "chunk_id": "1.10",
+          "topic": "Material Sources",
+          "heading": "Coins",
+          "explanation": "Coins and changes in currency note printing are vital for understanding history. The Reserve Bank of India (RBI), headquartered in Mumbai, prints these notes. Coins from 1950 to the present vary in metal, shape, and subject matter. These variations help identify contemporary issues, such as population control or the importance of agriculture and farmers.",
+          "key_points": [
+            "Coins reflect contemporary social and economic issues.",
+            "The RBI is the central authority for currency in India.",
+            "Metals and designs of coins have evolved over time."
+          ],
+          "examples": [
+            "Coins with messages about population control.",
+            "Coins highlighting the importance of farmers."
+          ],
+          "keywords": [
+            "currency",
+            "RBI",
+            "numismatics",
+            "population control"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "1.9"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.11",
+          "topic": "Material Sources",
+          "heading": "Museums",
+          "explanation": "Museums across Indian states display the cultural and social heritage of the region. Examples include the Chhatrapati Shivaji Maharaj Museum in Mumbai. In addition to government-run museums, private collectors also establish museums based on unique subjects like coins, notes, lamps, nutcrackers, and cricket equipment.",
+          "key_points": [
+            "Museums preserve cultural and social heritage.",
+            "Private collections can also serve as important historical sources."
+          ],
+          "examples": [
+            "Chhatrapati Shivaji Maharaj Museum, Mumbai."
+          ],
+          "keywords": [
+            "heritage",
+            "private collectors",
+            "cultural display"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [
+            "1.9"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.12",
+          "topic": "Oral Sources",
+          "heading": "Oral Sources",
+          "explanation": "Oral sources consist of traditions passed down through speech. These include folktales, folksongs, proverbs, ballads, and 'owis' (Marathi verses). During the Sanyukta Maharashtra Movement, activists were inspired by the 'powadas' (ballads) of Lokshahir Anna Bhau Sathe and Shahir Amar Sheikh.",
+          "key_points": [
+            "Oral traditions preserve history through songs and stories.",
+            "They are often used to inspire social and political movements."
+          ],
+          "examples": [
+            "Powadas of Anna Bhau Sathe.",
+            "Marathi owis."
+          ],
+          "keywords": [
+            "folksongs",
+            "ballads",
+            "powadas",
+            "Sanyukta Maharashtra Movement"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.13",
+          "topic": "Audio-visual Sources",
+          "heading": "Audio-visual Media",
+          "explanation": "Television, films, and the internet are categorized as audio-visual media. This includes domestic and foreign television channels such as the History Channel and Discovery Channel. These media provide a dynamic record of contemporary history.",
+          "key_points": [
+            "Audio-visual media combine sound and sight for documentation.",
+            "The internet has become a massive repository of historical information."
+          ],
+          "keywords": [
+            "television",
+            "films",
+            "internet",
+            "Discovery channel"
+          ],
+          "difficulty": 1,
+          "importance": 5,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": [
+            "1.14"
+          ]
+        },
+        {
+          "chunk_id": "1.14",
+          "topic": "Audio-visual Sources",
+          "heading": "Film and Television Institute of India (FTII)",
+          "explanation": "The Government of India established the FTII in Pune in 1960 to provide public education. An associated entity, the 'Indian News Review', has produced newsreels on significant events in politics, social issues, art, sports, and culture. The institute also produces documentaries on prominent social leaders and people who have made major contributions to the country. These news releases and documentaries are essential for studying modern Indian history.",
+          "key_points": [
+            "FTII was established for public education through media.",
+            "Indian News Review newsreels document key historical moments.",
+            "Documentaries preserve the contributions of national leaders."
+          ],
+          "examples": [
+            "Indian News Review newsreels.",
+            "Documentaries on social leaders."
+          ],
+          "keywords": [
+            "FTII",
+            "Pune",
+            "Indian News Review",
+            "newsreels",
+            "documentaries"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.13"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.15",
+          "topic": "Sources of History",
+          "heading": "Verification and Preservation",
+          "explanation": "In the 21st century, sources are changing rapidly. For instance, the 'pager' was a brief technological phase that has already died out. While the internet provides a vast amount of information, its truth and authenticity must be verified. Modern sources are easily available, but because history touches all aspects of life, there is a constant need for preservation efforts at all levels.",
+          "key_points": [
+            "Technological changes create new types of sources while making others obsolete.",
+            "Internet information requires rigorous verification.",
+            "Preservation of contemporary sources is a collective responsibility."
+          ],
+          "keywords": [
+            "verification",
+            "authenticity",
+            "preservation",
+            "pager"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "1.1"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "chapter_title": "India : Events after 1960",
+      "chapter_summary": "This chapter provides a chronological overview of the major political, economic, and social events in India from the 1960s to the end of the 20th century, covering leadership changes, wars, scientific progress, and economic reforms.",
+      "learning_objectives": [
+        "To be able to tell the historical events related to India’s progress in the post-independence period chronologically.",
+        "To be able to critically analyse India’s internal challenges.",
+        "To be able to explain how India’s economic policies changed with changing times.",
+        "To be able to summarise the impact of the economic reforms that came in the wake of globalisation.",
+        "To be able to explain the reasons for changes brought about in the Indian economy due to privatisation, liberalisation and globalisation."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "2.1",
+          "topic": "Post-Independence Overview",
+          "heading": "Foundations of the Nation",
+          "explanation": "India became independent in 1947 and adopted its constitutional framework in 1950, becoming a sovereign democratic nation. The society is multicultural, consisting of various languages, religions, ethnicities, and castes. Early challenges included solving issues of economic, political, and social development. The Planning Commission was established to achieve economic development and eliminate poverty through industrialisation. Faith in democratic traditions ensured political stability, while social reforms targeted the weaker sections of society.",
+          "key_points": [
+            "Independence: 1947; Constitution: 1950.",
+            "India is a multicultural, sovereign democratic nation.",
+            "Planning Commission focused on industrialisation and poverty elimination."
+          ],
+          "keywords": [
+            "sovereign",
+            "democratic",
+            "multicultural",
+            "Planning Commission"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": [
+            "2.9"
+          ]
+        },
+        {
+          "chunk_id": "2.2",
+          "topic": "The 1960s",
+          "heading": "The Decade of Challenges and Transitions",
+          "explanation": "The 1960s saw significant political shifts. Prime Minister Pandit Jawaharlal Nehru, the architect of India's foreign policy and a key figure in social/economic development, passed away in 1964. He was succeeded by Lal Bahadur Shastri. During Shastri's tenure, India fought a war with Pakistan over the Kashmir issue in 1965, mediated by Soviet Russia. Shastri gave the famous slogan 'Jai Jawan Jai Kisan' to highlight the role of soldiers and farmers. He died in Tashkent in 1966. Earlier in 1962, India fought a border war with China in the MacMahon line region. Also, Goa, Diu, and Daman were liberated from Portuguese rule.",
+          "key_points": [
+            "1962: Sino-Indian War (MacMahon line).",
+            "1964: Death of Nehru; 1965: Indo-Pak War.",
+            "Slogan: 'Jai Jawan Jai Kisan' by Lal Bahadur Shastri.",
+            "Liberation of Goa, Diu, and Daman."
+          ],
+          "examples": [
+            "Indo-Pak War of 1965.",
+            "Sino-Indian War of 1962."
+          ],
+          "keywords": [
+            "Jawaharlal Nehru",
+            "Lal Bahadur Shastri",
+            "MacMahon line",
+            "Jai Jawan Jai Kisan",
+            "Tashkent"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.3",
+          "topic": "Indira Gandhi's Leadership",
+          "heading": "The 1970s: War and Internal Turmoil",
+          "explanation": "Indira Gandhi became Prime Minister in 1966. Her tenure was marked by bold decisions like the nationalisation of banks and cancelling the pensions (Privy Purses) of Princes. In 1971, another war with Pakistan occurred, leading to the creation of independent Bangladesh. India also conducted its first underground nuclear test at Pokharan, Rajasthan, in 1974. In 1975, Sikkim joined the Indian federation. However, political instability arose when the government declared a state of National Emergency (1975–1977) based on constitutional provisions, during which fundamental rights were suspended and the administration became highly disciplined but restrictive.",
+          "key_points": [
+            "1971: Indo-Pak War and creation of Bangladesh.",
+            "1974: First nuclear test at Pokharan.",
+            "1975: Sikkim joins India.",
+            "1975-1977: National Emergency."
+          ],
+          "examples": [
+            "Nationalisation of 14 banks in 1969.",
+            "Creation of Bangladesh."
+          ],
+          "keywords": [
+            "Indira Gandhi",
+            "Nationalisation",
+            "Bangladesh",
+            "Pokharan",
+            "Emergency"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.2"
+          ],
+          "linked_concepts": [
+            "2.4"
+          ]
+        },
+        {
+          "chunk_id": "2.4",
+          "topic": "Political Shifts (Late 70s)",
+          "heading": "The Rise and Fall of the Janata Party",
+          "explanation": "Following the Emergency, the Congress party was defeated in the 1977 elections by the newly formed Janata Party. Morarji Desai became Prime Minister, but his government collapsed due to internal differences. He was followed by Charan Singh, whose government was also short-lived. In 1980, Indira Gandhi returned to power.",
+          "key_points": [
+            "1977: First non-Congress government at the center.",
+            "Morarji Desai and Charan Singh served as PMs.",
+            "1980: Return of Indira Gandhi."
+          ],
+          "keywords": [
+            "Janata Party",
+            "Morarji Desai",
+            "Charan Singh"
+          ],
+          "difficulty": 2,
+          "importance": 3,
+          "prerequisites": [
+            "2.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.5",
+          "topic": "The 1980s",
+          "heading": "Internal Challenges and Rajiv Gandhi's Era",
+          "explanation": "The 1980s were marked by the Sikh separatist movement for 'Khalistan'. In 1984, the Indian army conducted 'Operation Blue Star' to evict terrorists from the Golden Temple. Indira Gandhi was assassinated by her bodyguards in 1984. Her son, Rajiv Gandhi, succeeded her and initiated reforms in the economy and science/technology. He attempted to solve the Tamil minority issue in Sri Lanka but was unsuccessful. He was assassinated in 1991 by the LTTE during an election campaign.",
+          "key_points": [
+            "1984: Operation Blue Star and assassination of Indira Gandhi.",
+            "Rajiv Gandhi's reforms in science and technology.",
+            "Tamil issue in Sri Lanka.",
+            "1991: Assassination of Rajiv Gandhi."
+          ],
+          "examples": [
+            "Operation Blue Star.",
+            "Assassination of Rajiv Gandhi by LTTE."
+          ],
+          "keywords": [
+            "Khalistan",
+            "Operation Blue Star",
+            "Rajiv Gandhi",
+            "LTTE"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.6",
+          "topic": "Political Instability (Late 80s)",
+          "heading": "Coalition Governments and Social Policy",
+          "explanation": "After the 1989 elections, the Congress was defeated, and a coalition called the Janata Dal took power. Vishwanath Pratap Singh became PM and implemented the policy of reservations for Other Backward Classes (OBC). Internal party differences led to his exit, followed by Chandra Shekhar's brief tenure in 1990. During this time, unrest in Jammu and Kashmir began, leading to terrorism and the exodus of Kashmiri Pandits.",
+          "key_points": [
+            "V.P. Singh implemented OBC reservations (Mandal Commission).",
+            "Rise of terrorism in Jammu and Kashmir.",
+            "Exodus of Kashmiri Pandits."
+          ],
+          "keywords": [
+            "Janata Dal",
+            "V.P. Singh",
+            "OBC reservations",
+            "Chandra Shekhar",
+            "Kashmiri Pandits"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.5"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.7",
+          "topic": "The Changes after 1991",
+          "heading": "Economic Liberalisation and Globalisation",
+          "explanation": "1991 was a watershed year. The Soviet Russia disintegrated, ending the Cold War. In India, P.V. Narasimha Rao's government initiated major economic reforms known as economic liberalisation. These reforms, including privatisation and opening to foreign investment, helped flourish the Indian economy and created jobs in Information Technology. This period is also known as the era of 'globalisation'.",
+          "key_points": [
+            "1991: End of Cold War and disintegration of USSR.",
+            "Economic liberalisation under P.V. Narasimha Rao.",
+            "Growth of the IT sector and foreign investment."
+          ],
+          "keywords": [
+            "P.V. Narasimha Rao",
+            "Economic liberalisation",
+            "Globalisation",
+            "Information Technology"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.6"
+          ],
+          "linked_concepts": [
+            "2.9"
+          ]
+        },
+        {
+          "chunk_id": "2.8",
+          "topic": "The Late 1990s",
+          "heading": "The Vajpayee Era and Nuclear Status",
+          "explanation": "Between 1996 and 1999, India saw several PMs including Atal Bihari Vajpayee, H.D. Devegowda, and Inder Kumar Gujral. In 1999, the National Democratic Alliance (NDA) under the BJP came to power with Vajpayee as PM. He attempted dialogue with Pakistan but also conducted nuclear tests in 1998, declaring India an atomic power. In 1999, India defeated Pakistan in the Kargil War.",
+          "key_points": [
+            "1998: India becomes an atomic power (Nuclear tests).",
+            "1999: Kargil War victory.",
+            "NDA government under Atal Bihari Vajpayee."
+          ],
+          "examples": [
+            "Kargil War 1999.",
+            "Nuclear tests at Pokharan 1998."
+          ],
+          "keywords": [
+            "Atal Bihari Vajpayee",
+            "NDA",
+            "Kargil War",
+            "Atomic power"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.7"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.9",
+          "topic": "Indian Economy",
+          "heading": "Modernisation and Self-Reliance",
+          "explanation": "Since independence, the Indian economy has aimed for modernisation, economic self-sufficiency, and social justice. The National Planning Commission was established to coordinate development through Five Year Plans. The 1991 reforms under Narasimha Rao and Finance Minister Dr. Manmohan Singh shifted the focus toward a free market policy, increasing India's share in world trade.",
+          "key_points": [
+            "Goals: Modernisation, self-sufficiency, social justice.",
+            "Mechanism: Five Year Plans.",
+            "1991: Shift to free market policy."
+          ],
+          "keywords": [
+            "self-sufficiency",
+            "social justice",
+            "Five Year Plans",
+            "Manmohan Singh"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.1",
+            "2.7"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.10",
+          "topic": "Science and Technology",
+          "heading": "Green and White Revolutions",
+          "explanation": "India made great strides in self-reliance through science. Dr. M. S. Swaminathan is the father of the Green Revolution (1965), which increased foodgrain production through scientific techniques. Dr. Verghese Kurien led the 'White Revolution' through the co-operative dairy movement, increasing milk production. In atomic energy, Dr. Homi Bhabha laid the foundation for power generation and defense. In space research, the first satellite 'Aryabhatta' was launched in 1975.",
+          "key_points": [
+            "Green Revolution: Dr. M.S. Swaminathan (Foodgrains).",
+            "White Revolution: Dr. Verghese Kurien (Milk).",
+            "Atomic Energy: Dr. Homi Bhabha.",
+            "1975: Launch of 'Aryabhatta' satellite."
+          ],
+          "examples": [
+            "Green Revolution.",
+            "White Revolution."
+          ],
+          "keywords": [
+            "M.S. Swaminathan",
+            "Verghese Kurien",
+            "Homi Bhabha",
+            "Aryabhatta",
+            "ISRO"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.11",
+          "topic": "Social Changes",
+          "heading": "Empowerment and Social Justice",
+          "explanation": "Major changes occurred in the social field, particularly regarding women and deprived sections. In 1985, the 'Department of Women and Child Development' was created. Laws like the Prohibition of Dowry Act and Equal Remuneration Act were enacted. The 73rd and 74th Amendments reserved seats for women in local bodies. For Scheduled Castes and Tribes, the Kalelkar Commission (1953) and Mandal Commission (1978) were set up to improve conditions and provide reservations. The Prevention of Atrocities Act was passed in 1989.",
+          "key_points": [
+            "1985: Dept of Women and Child Development.",
+            "73rd/74th Amendments: Reservations for women in local government.",
+            "Mandal Commission: Reservations for OBCs.",
+            "1989: Prevention of Atrocities Act."
+          ],
+          "keywords": [
+            "Women's empowerment",
+            "Mandal Commission",
+            "Scheduled Castes",
+            "Scheduled Tribes",
+            "Social Justice"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.12",
+          "topic": "Globalisation",
+          "heading": "India on the Global Stage",
+          "explanation": "Globalisation transformed India's economy, politics, and culture. India became a member of international groups like G-20 and BRICS. The telecommunication revolution, including mobile phones and the internet, spread across the country. These changes have significantly altered the lifestyle of Indians, especially the youth, affecting their dietary habits, clothing, and beliefs.",
+          "key_points": [
+            "Membership in G-20 and BRICS.",
+            "Revolution in telecommunication technology.",
+            "Transformation in lifestyle and dietary habits."
+          ],
+          "keywords": [
+            "Globalisation",
+            "G-20",
+            "BRICS",
+            "Telecommunication"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [
+            "2.7"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "chapter_title": "India’s Internal Challenges",
+      "chapter_summary": "This chapter examines the various internal threats to India's unity and democracy, including separatist movements in Punjab and the North-east, Naxalism, communalism, and regionalism.",
+      "learning_objectives": [
+        "To be able to critically analyse India’s internal challenges.",
+        "To understand the nature of separatist movements and their impact.",
+        "To identify the causes and consequences of communalism and regionalism.",
+        "To learn about the government's efforts to maintain internal security and peace."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "3.1",
+          "topic": "Unrest in Punjab",
+          "heading": "The Akali Dal and Aanandpur Sahib Resolution",
+          "explanation": "The Akali Dal was the major political party in Punjab. In 1973, they passed the 'Aanandpur Sahib Resolution', demanding that Chandigarh be made part of Punjab, Punjabi-speaking parts of other states be included in Punjab, recruitment of Sikhs in the Indian army be increased, and more autonomy be given to the state. When they came to power in 1977, they added demands for a larger share of river waters and 'holy city' status for Amritsar.",
+          "key_points": [
+            "Akali Dal was the dominant political force in Punjab.",
+            "1973 Aanandpur Sahib Resolution demanded territorial and political concessions.",
+            "Demands included Chandigarh, army recruitment quotas, and state autonomy."
+          ],
+          "keywords": [
+            "Akali Dal",
+            "Aanandpur Sahib Resolution",
+            "Chandigarh",
+            "autonomy"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "3.2"
+          ]
+        },
+        {
+          "chunk_id": "3.2",
+          "topic": "Unrest in Punjab",
+          "heading": "The Khalistan Movement and Bhindranwale",
+          "explanation": "In 1980, the movement for an independent 'Khalistan' gained momentum. While Sant Harcharan Singh Longowal led the Akali Dal's protests from the Golden Temple, a more radical group formed around Sant Jarnailsingh Bhindranwale. Terrorist activities began, and Bhindranwale was arrested in 1981 for the murder of editor Lala Jagatnarayan. The situation worsened, leading to President's rule in 1983. Bhindranwale's followers eventually occupied the Golden Temple, turning it into a fortified base.",
+          "key_points": [
+            "Khalistan movement sought a separate Sikh state.",
+            "Bhindranwale emerged as a radical leader associated with terrorism.",
+            "The Golden Temple was occupied and fortified by militants."
+          ],
+          "keywords": [
+            "Khalistan",
+            "Bhindranwale",
+            "Golden Temple",
+            "President's rule"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": [
+            "3.3"
+          ]
+        },
+        {
+          "chunk_id": "3.3",
+          "topic": "Unrest in Punjab",
+          "heading": "Operation Blue Star and Operation Black Thunder",
+          "explanation": "To evict terrorists from the Golden Temple, the government launched 'Operation Blue Star' on June 3, 1984, led by Major General Kuldeep Singh Brar. The operation ended on June 6 with the death of Bhindranwale. In 1986, another operation, 'Operation Black Thunder', was conducted against remaining terrorists in the temple. These actions were crucial for restoring peace in Punjab, though they were major challenges to Indian democracy.",
+          "key_points": [
+            "Operation Blue Star (1984) was a military action to clear the Golden Temple.",
+            "Major General Kuldeep Singh Brar led the mission.",
+            "Operation Black Thunder (1986) followed to ensure complete peace."
+          ],
+          "keywords": [
+            "Operation Blue Star",
+            "Operation Black Thunder",
+            "Kuldeep Singh Brar",
+            "internal security"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "3.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.4",
+          "topic": "Issues in North-east India",
+          "heading": "Overview of the Region",
+          "explanation": "North-east India comprises eight states: Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura. The region is characterized by high ethnic, linguistic, and cultural diversity. International borders touch these states extensively. Early post-independence efforts by PM Nehru focused on bringing these tribes into the national mainstream while preserving their unique cultures, as reflected in the VI Schedule of the Constitution.",
+          "key_points": [
+            "The region consists of eight diverse states.",
+            "High ethnic and cultural diversity is a hallmark of the North-east.",
+            "Constitutional provisions (VI Schedule) protect tribal cultures."
+          ],
+          "keywords": [
+            "North-east India",
+            "ethnicity",
+            "VI Schedule",
+            "mainstream"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "3.5",
+            "3.6",
+            "3.7",
+            "3.8"
+          ]
+        },
+        {
+          "chunk_id": "3.5",
+          "topic": "Issues in North-east India",
+          "heading": "Mizoram",
+          "explanation": "Mizo tribes demanded an autonomous province after the 1954 States Reorganisation Commission. In 1959, a severe drought led to the rise of Laldenga, who formed the Mizo National Front (MNF) in 1961. He demanded 'Greater Mizoram' as an independent nation. PM Indira Gandhi suppressed the 1966 rebellion. Mizoram became a Union Territory in 1972. In 1985, PM Rajiv Gandhi signed an agreement with the MNF, and Mizoram became a full-fledged state with Laldenga as Chief Minister.",
+          "key_points": [
+            "MNF led by Laldenga initially sought independence.",
+            "1985 agreement with Rajiv Gandhi ended the conflict.",
+            "Mizoram transitioned from UT to State."
+          ],
+          "keywords": [
+            "Mizoram",
+            "Laldenga",
+            "MNF",
+            "Rajiv Gandhi"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.6",
+          "topic": "Issues in North-east India",
+          "heading": "Nagaland",
+          "explanation": "The Naga tribe, known as a martial tribe, settled in the Eastern Himalayas and border areas. In 1946, the Naga National Council (NNC) was formed under Angami Zapu Fizo, demanding an independent state. Skirmishes with the Assam Rifles occurred in 1955. After discussions, the central government granted Nagaland the status of a full-fledged state on December 1, 1963, incorporating Naga majority territories and part of Tuensang.",
+          "key_points": [
+            "NNC under Angami Zapu Fizo led the separatist movement.",
+            "Nagaland became a state in 1963.",
+            "The movement involved significant military conflict."
+          ],
+          "keywords": [
+            "Nagaland",
+            "NNC",
+            "Angami Zapu Fizo",
+            "statehood"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.7",
+          "topic": "Issues in North-east India",
+          "heading": "Assam",
+          "explanation": "In 1983, the All Assam Students Union and Assam Ganasangram Parishad agitated against the dominance of Bengali migrants. In 1985, PM Rajiv Gandhi signed the Assam Accord with leader Prafullakumar Mohanto. It was agreed to deport illegal Bangladeshi infiltrators. In 1986, Mohanto's Asom Ganaparishad won elections, and he became Chief Minister, restoring peace through democratic processes.",
+          "key_points": [
+            "Agitation was directed against illegal migration from Bangladesh.",
+            "1985 Assam Accord was a key peace agreement.",
+            "Prafullakumar Mohanto led the movement and later the state government."
+          ],
+          "keywords": [
+            "Assam",
+            "Assam Accord",
+            "Prafullakumar Mohanto",
+            "migration"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.8",
+          "topic": "Issues in North-east India",
+          "heading": "Arunachal Pradesh",
+          "explanation": "Formerly known as the North-East Frontier Agency (NEFA), the region was created in 1954. It was renamed Arunachal Pradesh in 1972 and attained the status of a constituent state on February 20, 1987.",
+          "key_points": [
+            "Transition from NEFA to Arunachal Pradesh.",
+            "Statehood achieved in 1987."
+          ],
+          "keywords": [
+            "Arunachal Pradesh",
+            "NEFA",
+            "statehood"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [
+            "3.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.9",
+          "topic": "Naxalism",
+          "heading": "The Naxalite Movement",
+          "explanation": "Starting in 1967 at Naxalbari, West Bengal, the movement was initially an uprising of small farmers and laborers against landlord exploitation. It aimed to confiscate land and distribute it to tenants. However, it later strayed into terrorism, rejecting the democratic system and establishing a parallel administration. It spread to Andhra Pradesh, Telangana, Chhattisgarh, Maharashtra, and Odisha. The People’s Liberation Guerilla Army (PLGA) was established to maintain their influence.",
+          "key_points": [
+            "Origin: Naxalbari, West Bengal (1967).",
+            "Initial goal: Land redistribution and anti-exploitation.",
+            "Evolution: Shifted to terrorism and parallel governance.",
+            "PLGA is the armed wing of the movement."
+          ],
+          "keywords": [
+            "Naxalism",
+            "Naxalbari",
+            "PLGA",
+            "land redistribution",
+            "internal security"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.10",
+          "topic": "Communalism",
+          "heading": "Threat to National Unity",
+          "explanation": "Communalism emerges from narrow religious pride, which turns into bigotry and fanaticism. It makes people suspicious of other religions and oblivious to national interest. Economic and social issues are often viewed through a religious lens, leading to a sense of injustice and eventually riots. To counter this, social unity and rational understanding of economic/social problems are necessary. Coexistence and mutual trust are the basis of national unity.",
+          "key_points": [
+            "Communalism is rooted in excessive religious pride and bigotry.",
+            "It leads to social fragmentation and violence.",
+            "Remedy: Rational thinking, social mixing, and addressing historical causes of disharmony."
+          ],
+          "keywords": [
+            "Communalism",
+            "bigotry",
+            "fanaticism",
+            "national unity",
+            "coexistence"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "3.11"
+          ]
+        },
+        {
+          "chunk_id": "3.11",
+          "topic": "Regionalism",
+          "heading": "Regional Imbalance and Identity",
+          "explanation": "Regionalism is excessive pride in one's own region, often leading to a sense of superiority over others. It thrives on regional imbalances in development. States like Maharashtra and Gujarat progressed industrially, while others like Odisha and Bihar remained backward. This imbalance leads to a sense of being cheated in underdeveloped regions, while developed regions may look down upon others. Reducing developmental imbalances is the key to tackling regionalism.",
+          "key_points": [
+            "Regionalism stems from uneven economic development.",
+            "It creates friction between developed and underdeveloped states.",
+            "Solution: Balanced regional development to strengthen national unity."
+          ],
+          "keywords": [
+            "Regionalism",
+            "regional imbalance",
+            "development",
+            "national unity"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "3.10"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "chapter_title": "Economic Development",
+      "chapter_summary": "This chapter details India's economic journey from adopting a mixed economy model to the implementation of Five-Year Plans, the nationalisation of banks, and the landmark economic reforms of 1991.",
+      "learning_objectives": [
+        "To understand the concept and components of a mixed economy.",
+        "To learn about the goals and outcomes of India's Five-Year Plans.",
+        "To understand the reasons and impact of bank nationalisation.",
+        "To analyse the 20-point programme and the textile mill workers' strike.",
+        "To explain the New Economic Policy of 1991 and the role of the WTO."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "4.1",
+          "topic": "Mixed Economy",
+          "heading": "The Indian Economic Model",
+          "explanation": "Post-independence, India chose a 'mixed economy' model, avoiding the extremes of capitalism (private ownership) and socialism (state ownership). This model operates in three sectors: (1) Public Sector: Industries completely under government control (e.g., defense equipment). (2) Private Sector: Industries owned by private individuals but supervised by the government (e.g., consumer goods). (3) Joint Sector: Industries owned by private individuals but run under government management. The goal is to maximize production and encourage popular participation while balancing profit motives with social discipline and national interest.",
+          "key_points": [
+            "India rejected pure capitalism and pure socialism for a middle path.",
+            "Mixed economy involves coordination between private and public sectors.",
+            "Priority is given to long-term development in areas like defense, research, and infrastructure."
+          ],
+          "keywords": [
+            "Mixed Economy",
+            "Public Sector",
+            "Private Sector",
+            "Joint Sector",
+            "National Interest"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "4.2",
+            "4.9"
+          ]
+        },
+        {
+          "chunk_id": "4.2",
+          "topic": "Five Year Plans",
+          "heading": "Planning for Development",
+          "explanation": "To solve problems like poverty, unemployment, and low productivity, India established the Planning Commission in 1950 with PM Jawaharlal Nehru as Chairman. The fundamental principle of planning is the proportionate distribution of resources and their appropriate use to fulfill people's needs. General goals include increasing national income, rapid industrialisation, agricultural self-sufficiency, optimal human resource use, and reducing wealth inequality.",
+          "key_points": [
+            "Planning Commission established in 1950.",
+            "Focus on rural development, industrialisation, and social justice.",
+            "Aims to make the economy self-sufficient."
+          ],
+          "keywords": [
+            "Planning Commission",
+            "Five Year Plans",
+            "Self-sufficiency",
+            "National Income"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": [
+            "4.3",
+            "4.4",
+            "4.5"
+          ]
+        },
+        {
+          "chunk_id": "4.3",
+          "topic": "Five Year Plans",
+          "heading": "First, Second, and Third Plans (1951-1966)",
+          "explanation": "The First Plan (1951-1956) focused on agriculture, social development, irrigation, and health. The Second Plan (1956-1961) aimed at rapid industrialisation, setting up iron and steel plants (Bhilai, Durgapur, Rourkela), chemical fertilizer plants (Sindri), and major dams (Bhakra-Nangal). The Third Plan (1961-1966) sought a balance between industry and agriculture, aiming for increased national income and poverty alleviation. This was followed by a 'Plan Holiday' (1966-1969) due to famine and wars with China and Pakistan.",
+          "key_points": [
+            "1st Plan: Agriculture and social development.",
+            "2nd Plan: Heavy industries and infrastructure.",
+            "3rd Plan: Balance between sectors; followed by a period of economic stress."
+          ],
+          "examples": [
+            "Bhilai Steel Plant.",
+            "Bhakra-Nangal Dam."
+          ],
+          "keywords": [
+            "Industrialisation",
+            "Agriculture",
+            "Plan Holiday",
+            "Bhilai"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.4",
+          "topic": "Five Year Plans",
+          "heading": "Fourth, Fifth, and Sixth Plans (1969-1985)",
+          "explanation": "The Fourth Plan (1969-1974) aimed for self-reliance and nationalised 14 major banks, but was hampered by the Bangladesh War and rising oil prices. The Fifth Plan (1974-1979) targeted poverty alleviation (Garibi Hatao) and making India self-sufficient. It was terminated early by the Janata Party government, which introduced a 'Rolling Plan'. The Sixth Plan (1980-1985) focused on employment generation and population control, implementing schemes like IRDP and NREP.",
+          "key_points": [
+            "4th Plan: Bank nationalisation; impacted by war.",
+            "5th Plan: Poverty alleviation focus.",
+            "6th Plan: Employment and population policy."
+          ],
+          "keywords": [
+            "Self-reliance",
+            "Garibi Hatao",
+            "Rolling Plan",
+            "IRDP"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": [
+            "4.6"
+          ]
+        },
+        {
+          "chunk_id": "4.5",
+          "topic": "Five Year Plans",
+          "heading": "Seventh, Eighth, and Ninth Plans (1985-2002)",
+          "explanation": "The Seventh Plan (1985-1990) emphasized food, employment, and productivity, achieving a 5% growth rate. The Eighth Plan (1992-1997) gave scope to the private sector and reflected the 1991 liberalisation policy. The Ninth Plan (1997-2002) focused on agriculture, rural development, and creating healthy competition in the infrastructure sector to ensure foreign investment.",
+          "key_points": [
+            "7th Plan: Modernisation and social justice.",
+            "8th Plan: Shift towards liberalisation and private sector.",
+            "9th Plan: Focus on rural development and foreign investment."
+          ],
+          "examples": [
+            "Jawahar Rojgar Yojana (7th Plan).",
+            "Pradhanmantri Gram Sadak Yojana (9th Plan)."
+          ],
+          "keywords": [
+            "Productivity",
+            "Liberalisation",
+            "Rural Development",
+            "Foreign Investment"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.4"
+          ],
+          "linked_concepts": [
+            "4.9"
+          ]
+        },
+        {
+          "chunk_id": "4.6",
+          "topic": "Banking",
+          "heading": "Nationalisation of Banks",
+          "explanation": "To stop private monopolies and ensure bank profits reached the government treasury for development, the government nationalised the 'Imperial Bank' in 1955, turning it into the State Bank of India (SBI). On 19th July 1969, PM Indira Gandhi nationalised 14 major banks (e.g., Allahabad Bank, Bank of Baroda). In 1980, six more banks were nationalised. This was essential to cover deficits and implement social welfare schemes.",
+          "key_points": [
+            "1955: SBI created.",
+            "1969: 14 major banks nationalised.",
+            "1980: 6 more banks nationalised.",
+            "Goal: Use bank profits for national development."
+          ],
+          "keywords": [
+            "Nationalisation",
+            "SBI",
+            "Indira Gandhi",
+            "Treasury"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.7",
+          "topic": "Social Policy",
+          "heading": "20-Point Programme",
+          "explanation": "Announced by PM Indira Gandhi on 1st July 1975, this programme aimed to transform India into a developed nation. Key provisions included: (1) Land ceiling for cities and farms, minimum wages, and water conservation. (2) Workers' participation in industry. (3) Prevention of tax evasion and smuggling. (4) Regulation of prices for basic necessities. (5) Improvement in the textile industry and housing for weaker sections.",
+          "key_points": [
+            "Launched in 1975 during the Emergency.",
+            "Focused on land reform, labor rights, and economic discipline.",
+            "Aimed at rapid national development."
+          ],
+          "keywords": [
+            "20-Point Programme",
+            "Land ceiling",
+            "Tax evasion",
+            "Minimum wages"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.8",
+          "topic": "Labor Movements",
+          "heading": "The Mumbai Textile Mill Strike",
+          "explanation": "The textile industry in Mumbai, centered in 'Girangaon', faced unrest in the 1980s. Workers were dissatisfied with low wages and bonuses compared to other sectors. In 1981, after a disputed bonus agreement, workers turned to Dr. Datta Samant for leadership. On 18th January 1982, 2.5 lakh workers went on strike, paralyzing Mumbai. The strike lasted over a year but failed as the government ignored it and the industry shifted to polyester and other regions like Surat.",
+          "key_points": [
+            "Girangaon was the heart of Mumbai's textile industry.",
+            "Dr. Datta Samant led the 1982 strike.",
+            "The strike led to massive unemployment and the decline of Mumbai's mills."
+          ],
+          "keywords": [
+            "Girangaon",
+            "Dr. Datta Samant",
+            "Strike",
+            "Textile Mill"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.9",
+          "topic": "New Economic Policy",
+          "heading": "The 1991 Reforms",
+          "explanation": "In 1991, India faced a severe economic crisis with high inflation (17%), low foreign exchange reserves, and high debt. PM P.V. Narasimha Rao and Finance Minister Dr. Manmohan Singh initiated the New Economic Policy. It focused on: (1) Liberalisation: Removing the license system for most industries. (2) Privatisation: Opening public sector industries to private investment. (3) Globalisation: Linking India's economy with the global market. These reforms attracted foreign investment and revolutionized the telecom and IT sectors.",
+          "key_points": [
+            "1991: Watershed year for the Indian economy.",
+            "LPG Model: Liberalisation, Privatisation, Globalisation.",
+            "Dr. Manmohan Singh played a crucial role as Finance Minister."
+          ],
+          "keywords": [
+            "New Economic Policy",
+            "Liberalisation",
+            "Privatisation",
+            "Globalisation",
+            "Manmohan Singh"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": [
+            "4.10"
+          ]
+        },
+        {
+          "chunk_id": "4.10",
+          "topic": "International Trade",
+          "heading": "World Trade Organisation (WTO)",
+          "explanation": "India joined the WTO in 1995. The WTO aims to free international trade by removing discriminatory laws and barriers. It covers grants, import-export, foreign investment, agriculture, and technology. Membership led to improvements in India's poverty levels, infant mortality, and infrastructure. India also signed the SAPTA to reduce trade restrictions within SAARC countries.",
+          "key_points": [
+            "India joined WTO in 1995.",
+            "WTO promotes free and fair global trade.",
+            "Membership impacted India's social and economic indicators positively."
+          ],
+          "keywords": [
+            "WTO",
+            "GATT",
+            "Free Trade",
+            "SAPTA"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.9"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "chapter_title": "Economic Development",
+      "chapter_summary": "This chapter details India's economic journey from adopting a mixed economy model to the implementation of Five-Year Plans, the nationalisation of banks, and the landmark economic reforms of 1991.",
+      "learning_objectives": [
+        "To understand the concept and components of a mixed economy.",
+        "To learn about the goals and outcomes of India's Five-Year Plans.",
+        "To understand the reasons and impact of bank nationalisation.",
+        "To analyse the 20-point programme and the textile mill workers' strike.",
+        "To explain the New Economic Policy of 1991 and the role of the WTO."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "4.1",
+          "topic": "Mixed Economy",
+          "heading": "The Indian Economic Model",
+          "explanation": "Post-independence, India chose a 'mixed economy' model, avoiding the extremes of capitalism (private ownership) and socialism (state ownership). This model operates in three sectors: (1) Public Sector: Industries completely under government control (e.g., defense equipment). (2) Private Sector: Industries owned by private individuals but supervised by the government (e.g., consumer goods). (3) Joint Sector: Industries owned by private individuals but run under government management. The goal is to maximize production and encourage popular participation while balancing profit motives with social discipline and national interest.",
+          "key_points": [
+            "India rejected pure capitalism and pure socialism for a middle path.",
+            "Mixed economy involves coordination between private and public sectors.",
+            "Priority is given to long-term development in areas like defense, research, and infrastructure."
+          ],
+          "keywords": [
+            "Mixed Economy",
+            "Public Sector",
+            "Private Sector",
+            "Joint Sector",
+            "National Interest"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "4.2",
+            "4.9"
+          ]
+        },
+        {
+          "chunk_id": "4.2",
+          "topic": "Five Year Plans",
+          "heading": "Planning for Development",
+          "explanation": "To solve problems like poverty, unemployment, and low productivity, India established the Planning Commission in 1950 with PM Jawaharlal Nehru as Chairman. The fundamental principle of planning is the proportionate distribution of resources and their appropriate use to fulfill people's needs. General goals include increasing national income, rapid industrialisation, agricultural self-sufficiency, optimal human resource use, and reducing wealth inequality.",
+          "key_points": [
+            "Planning Commission established in 1950.",
+            "Focus on rural development, industrialisation, and social justice.",
+            "Aims to make the economy self-sufficient."
+          ],
+          "keywords": [
+            "Planning Commission",
+            "Five Year Plans",
+            "Self-sufficiency",
+            "National Income"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": [
+            "4.3",
+            "4.4",
+            "4.5"
+          ]
+        },
+        {
+          "chunk_id": "4.3",
+          "topic": "Five Year Plans",
+          "heading": "First, Second, and Third Plans (1951-1966)",
+          "explanation": "The First Plan (1951-1956) focused on agriculture, social development, irrigation, and health. The Second Plan (1956-1961) aimed at rapid industrialisation, setting up iron and steel plants (Bhilai, Durgapur, Rourkela), chemical fertilizer plants (Sindri), and major dams (Bhakra-Nangal). The Third Plan (1961-1966) sought a balance between industry and agriculture, aiming for increased national income and poverty alleviation. This was followed by a 'Plan Holiday' (1966-1969) due to famine and wars with China and Pakistan.",
+          "key_points": [
+            "1st Plan: Agriculture and social development.",
+            "2nd Plan: Heavy industries and infrastructure.",
+            "3rd Plan: Balance between sectors; followed by a period of economic stress."
+          ],
+          "examples": [
+            "Bhilai Steel Plant.",
+            "Bhakra-Nangal Dam."
+          ],
+          "keywords": [
+            "Industrialisation",
+            "Agriculture",
+            "Plan Holiday",
+            "Bhilai"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.4",
+          "topic": "Five Year Plans",
+          "heading": "Fourth, Fifth, and Sixth Plans (1969-1985)",
+          "explanation": "The Fourth Plan (1969-1974) aimed for self-reliance and nationalised 14 major banks, but was hampered by the Bangladesh War and rising oil prices. The Fifth Plan (1974-1979) targeted poverty alleviation (Garibi Hatao) and making India self-sufficient. It was terminated early by the Janata Party government, which introduced a 'Rolling Plan'. The Sixth Plan (1980-1985) focused on employment generation and population control, implementing schemes like IRDP and NREP.",
+          "key_points": [
+            "4th Plan: Bank nationalisation; impacted by war.",
+            "5th Plan: Poverty alleviation focus.",
+            "6th Plan: Employment and population policy."
+          ],
+          "keywords": [
+            "Self-reliance",
+            "Garibi Hatao",
+            "Rolling Plan",
+            "IRDP"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": [
+            "4.6"
+          ]
+        },
+        {
+          "chunk_id": "4.5",
+          "topic": "Five Year Plans",
+          "heading": "Seventh, Eighth, and Ninth Plans (1985-2002)",
+          "explanation": "The Seventh Plan (1985-1990) emphasized food, employment, and productivity, achieving a 5% growth rate. The Eighth Plan (1992-1997) gave scope to the private sector and reflected the 1991 liberalisation policy. The Ninth Plan (1997-2002) focused on agriculture, rural development, and creating healthy competition in the infrastructure sector to ensure foreign investment.",
+          "key_points": [
+            "7th Plan: Modernisation and social justice.",
+            "8th Plan: Shift towards liberalisation and private sector.",
+            "9th Plan: Focus on rural development and foreign investment."
+          ],
+          "examples": [
+            "Jawahar Rojgar Yojana (7th Plan).",
+            "Pradhanmantri Gram Sadak Yojana (9th Plan)."
+          ],
+          "keywords": [
+            "Productivity",
+            "Liberalisation",
+            "Rural Development",
+            "Foreign Investment"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "4.4"
+          ],
+          "linked_concepts": [
+            "4.9"
+          ]
+        },
+        {
+          "chunk_id": "4.6",
+          "topic": "Banking",
+          "heading": "Nationalisation of Banks",
+          "explanation": "To stop private monopolies and ensure bank profits reached the government treasury for development, the government nationalised the 'Imperial Bank' in 1955, turning it into the State Bank of India (SBI). On 19th July 1969, PM Indira Gandhi nationalised 14 major banks (e.g., Allahabad Bank, Bank of Baroda). In 1980, six more banks were nationalised. This was essential to cover deficits and implement social welfare schemes.",
+          "key_points": [
+            "1955: SBI created.",
+            "1969: 14 major banks nationalised.",
+            "1980: 6 more banks nationalised.",
+            "Goal: Use bank profits for national development."
+          ],
+          "keywords": [
+            "Nationalisation",
+            "SBI",
+            "Indira Gandhi",
+            "Treasury"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.7",
+          "topic": "Social Policy",
+          "heading": "20-Point Programme",
+          "explanation": "Announced by PM Indira Gandhi on 1st July 1975, this programme aimed to transform India into a developed nation. Key provisions included: (1) Land ceiling for cities and farms, minimum wages, and water conservation. (2) Workers' participation in industry. (3) Prevention of tax evasion and smuggling. (4) Regulation of prices for basic necessities. (5) Improvement in the textile industry and housing for weaker sections.",
+          "key_points": [
+            "Launched in 1975 during the Emergency.",
+            "Focused on land reform, labor rights, and economic discipline.",
+            "Aimed at rapid national development."
+          ],
+          "keywords": [
+            "20-Point Programme",
+            "Land ceiling",
+            "Tax evasion",
+            "Minimum wages"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.8",
+          "topic": "Labor Movements",
+          "heading": "The Mumbai Textile Mill Strike",
+          "explanation": "The textile industry in Mumbai, centered in 'Girangaon', faced unrest in the 1980s. Workers were dissatisfied with low wages and bonuses compared to other sectors. In 1981, after a disputed bonus agreement, workers turned to Dr. Datta Samant for leadership. On 18th January 1982, 2.5 lakh workers went on strike, paralyzing Mumbai. The strike lasted over a year but failed as the government ignored it and the industry shifted to polyester and other regions like Surat.",
+          "key_points": [
+            "Girangaon was the heart of Mumbai's textile industry.",
+            "Dr. Datta Samant led the 1982 strike.",
+            "The strike led to massive unemployment and the decline of Mumbai's mills."
+          ],
+          "keywords": [
+            "Girangaon",
+            "Dr. Datta Samant",
+            "Strike",
+            "Textile Mill"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.9",
+          "topic": "New Economic Policy",
+          "heading": "The 1991 Reforms",
+          "explanation": "In 1991, India faced a severe economic crisis with high inflation (17%), low foreign exchange reserves, and high debt. PM P.V. Narasimha Rao and Finance Minister Dr. Manmohan Singh initiated the New Economic Policy. It focused on: (1) Liberalisation: Removing the license system for most industries. (2) Privatisation: Opening public sector industries to private investment. (3) Globalisation: Linking India's economy with the global market. These reforms attracted foreign investment and revolutionized the telecom and IT sectors.",
+          "key_points": [
+            "1991: Watershed year for the Indian economy.",
+            "LPG Model: Liberalisation, Privatisation, Globalisation.",
+            "Dr. Manmohan Singh played a crucial role as Finance Minister."
+          ],
+          "keywords": [
+            "New Economic Policy",
+            "Liberalisation",
+            "Privatisation",
+            "Globalisation",
+            "Manmohan Singh"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": [
+            "4.10"
+          ]
+        },
+        {
+          "chunk_id": "4.10",
+          "topic": "International Trade",
+          "heading": "World Trade Organisation (WTO)",
+          "explanation": "India joined the WTO in 1995. The WTO aims to free international trade by removing discriminatory laws and barriers. It covers grants, import-export, foreign investment, agriculture, and technology. Membership led to improvements in India's poverty levels, infant mortality, and infrastructure. India also signed the SAPTA to reduce trade restrictions within SAARC countries.",
+          "key_points": [
+            "India joined WTO in 1995.",
+            "WTO promotes free and fair global trade.",
+            "Membership impacted India's social and economic indicators positively."
+          ],
+          "keywords": [
+            "WTO",
+            "GATT",
+            "Free Trade",
+            "SAPTA"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.9"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "chapter_title": "Education",
+      "chapter_summary": "This chapter reviews the development of the educational system in India, covering primary, secondary, and higher education, as well as the establishment of various research institutes in science, medicine, and technology.",
+      "learning_objectives": [
+        "To be able to narrate the stages of development of the Indian education system.",
+        "To be able to tell how education is an important means for resolving several social problems.",
+        "To understand the efforts made for the development of the weaker sections of the population and their importance."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "5.1",
+          "topic": "Literacy in India",
+          "heading": "Census and Literacy Trends",
+          "explanation": "The first Census of independent India in 1951 revealed a literacy level of only 17%. This presented a massive challenge for the government. Over the decades, literacy rates improved significantly: 34% in 1971, 43% in 1981, 52% in 1991, and 64% in 2001. Various remedial schemes were implemented to address the complexity of educational issues and drive these increases.",
+          "key_points": [
+            "1951 literacy rate was 17%.",
+            "By 2001, literacy reached 64%.",
+            "Kerala became a fully literate state in 1991."
+          ],
+          "keywords": [
+            "Census",
+            "Literacy level",
+            "Kerala"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.2",
+          "topic": "Primary Education",
+          "heading": "Schemes for Universalisation",
+          "explanation": "Primary education covers children aged 6 to 14. In 1988, the 'Operation Blackboard' scheme was launched to improve school standards, providing funds for classrooms, toilets, female teachers, blackboards, and libraries. In 1994, the District Primary Education Programme (DPEP) was started in seven states, including Maharashtra, to achieve 100% attendance and reduce drop-outs. The 'Mid-day Meal' scheme was introduced in 1995 to provide proper nourishment and encourage school attendance.",
+          "key_points": [
+            "Operation Blackboard (1988) focused on basic school infrastructure.",
+            "DPEP (1994) aimed at universalisation of primary education.",
+            "Mid-day Meal (1995) provided nutritional support to students."
+          ],
+          "keywords": [
+            "Primary education",
+            "Operation Blackboard",
+            "DPEP",
+            "Mid-day meal"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.3",
+          "topic": "Secondary Education",
+          "heading": "Commissions and the 10+2+3 Pattern",
+          "explanation": "Post-independence, the Mudaliar Commission (1952-53) was appointed to reform secondary education. Later, the Kothari Commission (1964), under Dr. D. S. Kothari and with contributions from Dr. J. P. Naik, recommended the 10+2+3 pattern (10 years of schooling, 2 years of higher secondary, and 3 years for a degree). This system was implemented starting in 1972. The commission also advocated for a uniform national system, adult education, and education by correspondence.",
+          "key_points": [
+            "Mudaliar Commission (1952-53) initiated secondary reforms.",
+            "Kothari Commission (1964) introduced the 10+2+3 pattern.",
+            "Maharashtra adopted the 10+2+3 pattern in 1972."
+          ],
+          "keywords": [
+            "Secondary education",
+            "Mudaliar Commission",
+            "Kothari Commission",
+            "10+2+3 pattern"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "5.2"
+          ],
+          "linked_concepts": [
+            "5.4"
+          ]
+        },
+        {
+          "chunk_id": "5.4",
+          "topic": "Higher Education",
+          "heading": "UGC and NCERT",
+          "explanation": "In 1948, the University Education Commission was formed under Dr. Sarvapalli Radhakrishnan to coordinate university standards and grants. The National Council of Educational Research and Training (NCERT) was established in 1961 to assist the Central Government in school education policy, curriculum design, and teacher training. State-level counterparts (SCERTs) were also established. The National Policy on Education (1986) aimed for a common core curriculum across all states to ensure equal educational opportunity.",
+          "key_points": [
+            "UGC coordinates university education and grants.",
+            "NCERT (1961) designs school curricula and textbooks.",
+            "National Policy on Education (1986) introduced a common core curriculum."
+          ],
+          "keywords": [
+            "Higher education",
+            "UGC",
+            "NCERT",
+            "National Policy on Education"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "5.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.5",
+          "topic": "Distance Education",
+          "heading": "IGNOU and Open Universities",
+          "explanation": "The Indira Gandhi National Open University (IGNOU) was established in 1985 to make higher education accessible to every household. It offers concessions in eligibility and uses audio-visual distance education via Akashvani and Doordarshan. In Maharashtra, the Yashwantrao Chavan Maharashtra Mukta Vidyapeeth was established in Nashik in 1989 for similar purposes.",
+          "key_points": [
+            "IGNOU (1985) pioneered distance learning in India.",
+            "Open universities provide flexible criteria for admission.",
+            "Technology is used to bridge the gap for those unable to attend formal college."
+          ],
+          "keywords": [
+            "IGNOU",
+            "Open University",
+            "Distance education"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [
+            "5.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.6",
+          "topic": "Research Institutes - Science",
+          "heading": "CSIR and Scientific Advancement",
+          "explanation": "The Council of Scientific and Industrial Research (CSIR) was established in 1950 to promote scientific research for the benefit of all people. It has 26 centers across India. Achievements include developing ink for marking voters, medicines for malaria and TB, water purification technology, and DNA fingerprinting. It also conducted a genetic study of the Andamans Adivasis and developed an earthquake early warning system.",
+          "key_points": [
+            "CSIR (1950) promotes industrial and scientific research.",
+            "Key role in developing indigenous medicines and technologies.",
+            "Digital encyclopaedia of Indian traditional knowledge was prepared by CSIR."
+          ],
+          "keywords": [
+            "CSIR",
+            "Scientific research",
+            "DNA fingerprinting",
+            "Traditional knowledge"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.7",
+          "topic": "Research Institutes - Technology",
+          "heading": "Computers and Atomic Energy",
+          "explanation": "India developed its first indigenous computer, ISIJU, in 1969. In 1988, the Centre for Development for Advanced Computing (C-DAC) was established in Pune, leading to the creation of the Param-8000 supercomputer under Dr. Vijay Bhatkar in 1991. The Bhabha Atomic Research Centre (BARC) conducts nuclear research and trains scientists for nuclear reactors. In engineering, the first IIT was set up at Kharagpur in 1951.",
+          "key_points": [
+            "Param-8000 supercomputer developed by C-DAC in 1991.",
+            "BARC is the hub for nuclear science research.",
+            "IITs provide high-quality engineering education."
+          ],
+          "keywords": [
+            "C-DAC",
+            "Supercomputer",
+            "BARC",
+            "IIT"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.8",
+          "topic": "Research Institutes - Specialized Fields",
+          "heading": "Management, Medicine, and Agriculture",
+          "explanation": "The Indian Institute of Management (IIM) was established to train skilled managers, with IIM Ahmedabad being a key center. In medicine, the Indian Council for Medical Research (ICMR) was formed in 1949, and the All India Institute of Medical Sciences (AIIMS) was set up for advanced medical education and research. In agriculture, the Indian Agricultural Research Institute (IARI) was given university status in 1958, conducting fundamental research on multiple cropping and soil science.",
+          "key_points": [
+            "IIMs focus on management excellence.",
+            "AIIMS provides advanced medical treatment and education.",
+            "IARI research led to significant benefits for Indian farmers."
+          ],
+          "keywords": [
+            "IIM",
+            "AIIMS",
+            "ICMR",
+            "IARI"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "chapter_title": "Empowerment of Women and other Weaker Sections",
+      "chapter_summary": "This chapter explores the history of women's movements in India, the legal framework established for their protection and empowerment, and the constitutional provisions for Scheduled Castes, Scheduled Tribes, and other minorities.",
+      "learning_objectives": [
+        "To understand the role of women in social movements like Chipko and the anti-liquor movement.",
+        "To learn about the legal reforms enacted for women's rights and social justice.",
+        "To identify the challenges faced by weaker sections and the government's efforts to address them.",
+        "To recognize the importance of human rights and minority protections in a democracy."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "6.1",
+          "topic": "Women's Movements",
+          "heading": "Manifestation of Woman Power",
+          "explanation": "Women in India have shown collective strength during times of crisis. In 1972, under the leadership of socialist leader Mrinal Gore, women in Mumbai organized the 'laatne morcha' (rolling pin demonstration) to protest against the scarcity of essential commodities like oil, ghee, and rava, and the rise in prices. This demonstration gave the public a glimpse of the united power of women.",
+          "key_points": [
+            "1972 Mumbai protest led by Mrinal Gore.",
+            "Known as 'laatne morcha' (rolling pin demonstration).",
+            "Protested against price hikes and scarcity of essential goods."
+          ],
+          "keywords": [
+            "Mrinal Gore",
+            "laatne morcha",
+            "woman power"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.2",
+          "topic": "Women's Movements",
+          "heading": "The Chipko Movement (1973)",
+          "explanation": "The Chipko movement was a non-violent environmental conservation effort in the foothills of the Himalayas. When trees were to be cut for commercial purposes, women followed the strategy of holding hands and encircling each tree to prevent felling. Led by Chandiprasad Bhat and Sunderlal Bahuguna, the movement saw significant participation from women like Gaura Devi, Sudesha Devi, and Bachani Devi.",
+          "key_points": [
+            "1973 environmental movement in the Himalayas.",
+            "Women protected trees by encircling them ('Chipko' means to embrace).",
+            "Key activists: Gaura Devi, Sudesha Devi, Bachani Devi."
+          ],
+          "keywords": [
+            "Chipko movement",
+            "Gaura Devi",
+            "Sunderlal Bahuguna",
+            "environmental conservation"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.3",
+          "topic": "Women's Movements",
+          "heading": "Anti-liquor Movement",
+          "explanation": "In 1992, women in Andhra Pradesh launched a movement against the drinking of alcohol (arrack). Alcoholism caused untimely deaths of male heads of households, leading to extreme poverty for families. Inspired by the 'Sitama Katha' (a story about Sita creating awareness), women in the Nellore district forced the closure of arrack shops. The movement eventually spread across the entire state, forcing the government to adopt strict policies against alcohol sale.",
+          "key_points": [
+            "1992 movement in Andhra Pradesh against arrack (local alcohol).",
+            "Triggered by the social and economic distress caused by alcoholism.",
+            "Nellore district was the starting point of the protest."
+          ],
+          "keywords": [
+            "Anti-liquor movement",
+            "Andhra Pradesh",
+            "arrack",
+            "Sitama Katha"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.4",
+          "topic": "Legal Reforms for Women",
+          "heading": "International Women’s Year and Committees",
+          "explanation": "The United Nations declared 1975 as International Women’s Year, focusing on peace, development, and equality. In response, the Government of India constituted the Committee on the Status of Women under Dr. Phulrenu Guha. The committee conducted a comprehensive survey on women's social position, education, wages, and mortality rates. This led to a State-wide conference in 1975 and the publication of a manifesto in 1978 against gender and caste discrimination.",
+          "key_points": [
+            "1975: UN International Women’s Year.",
+            "Dr. Phulrenu Guha chaired the Committee on the Status of Women.",
+            "Focus on gender equality and social status."
+          ],
+          "keywords": [
+            "International Women’s Year",
+            "Dr. Phulrenu Guha",
+            "gender equality"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.5",
+          "topic": "Legal Reforms for Women",
+          "heading": "Major Laws for Women's Rights",
+          "explanation": "Several laws were enacted to ensure justice for women: (1) 1952: Recognition of women's right to alimony and share in father's property. (2) Dowry Prohibition Act of 1961: Made giving or taking dowry a cognizable criminal offense. (3) Maternity Benefit Act of 1961: Gave women the right to leave from work during childbirth. (4) Family Courts (1984): Established to resolve domestic and marriage-related conflicts justly. (5) Sati (Prevention) Act (1988): Enacted with stringent provisions following the Roop Kanwar case in 1987.",
+          "key_points": [
+            "Dowry Prohibition Act (1961) aimed to dismantle the dowry tradition.",
+            "Maternity Benefit Act (1961) protected working mothers.",
+            "Sati (Prevention) Act (1988) followed the 1987 Roop Kanwar incident."
+          ],
+          "examples": [
+            "Establishment of Family Courts in 1984.",
+            "Muslim Women’s Act (1985) following the Shah Bano case."
+          ],
+          "keywords": [
+            "Dowry Prohibition Act",
+            "Maternity Benefit Act",
+            "Family Courts",
+            "Sati Prevention Act",
+            "alimony"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.6",
+          "topic": "Legal Reforms for Women",
+          "heading": "Reservation and Political Power",
+          "explanation": "The 73rd and 74th Constitution Amendments provided for the reservation of one-third (33%) of seats for women in local self-government bodies like Gram Panchayats and Municipalities. Maharashtra and 15 other states have since increased this reservation to 50%. These provisions have enabled women to participate actively in the business of the community and administration.",
+          "key_points": [
+            "73rd and 74th Amendments reserved 33% seats for women.",
+            "Maharashtra provides 50% reservation for women in local bodies.",
+            "Political participation is a key step toward empowerment."
+          ],
+          "keywords": [
+            "73rd Amendment",
+            "74th Amendment",
+            "Reservation",
+            "local self-government"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.7",
+          "topic": "Scheduled Castes and Tribes",
+          "heading": "Constitutional Protections",
+          "explanation": "The Indian Constitution adopted values of equality and social justice. Article 17 abolished the practice of untouchability, and this class was included in the Scheduled Castes. Scheduled Tribes (Adivasis) living in remote areas face economic and social backwardness. The Constitution provides them with reservations in education and government service. The Prevention of Atrocities Act (1989) was passed to enable these groups to live with dignity, free from fear and violence.",
+          "key_points": [
+            "Article 17 abolished untouchability.",
+            "Prevention of Atrocities Act (1989) protects SC/ST communities.",
+            "Reservations facilitate development for socially backward classes."
+          ],
+          "keywords": [
+            "Scheduled Castes",
+            "Scheduled Tribes",
+            "Article 17",
+            "Prevention of Atrocities Act"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.8",
+          "topic": "Other Weaker Sections",
+          "heading": "Nomadic Tribes and Minorities",
+          "explanation": "Nomadic and De-notified tribes, who move for livelihood, were often labeled as 'criminal tribes' under British law (1871). This law was repealed post-independence, and they are now provided representation in educational and government sectors. Minorities are groups defined by religion, language, or race. The Constitution gives them the right to protect their cultural traditions and establish separate educational institutions.",
+          "key_points": [
+            "British Law of 1871 against nomadic tribes was repealed.",
+            "Minorities have constitutional rights to preserve their language and culture.",
+            "Government implements various schemes for minority progress."
+          ],
+          "keywords": [
+            "Nomadic Tribes",
+            "De-notified Tribes",
+            "Minorities",
+            "Cultural rights"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 7,
+      "chapter_title": "Science and Technology",
+      "chapter_summary": "This chapter chronicles India's significant achievements in nuclear energy, missile technology, space research, and telecommunications, highlighting the institutions and individuals who drove these advancements.",
+      "learning_objectives": [
+        "To be able to cite examples of the progress made by post-Independence India in the fields of science and technology.",
+        "To feel proud about the progress in science and technology.",
+        "To find out about new inventions with the help of internet."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "7.1",
+          "topic": "Nuclear Energy",
+          "heading": "Indian Atomic Energy Commission",
+          "explanation": "India’s first Prime Minister, Pandit Jawaharlal Nehru, established the Indian Atomic Energy Commission on 10th August 1948 to nurture a scientific temper and drive national progress. Dr. Homi Bhabha was appointed as the first Chairman. The commission's objectives included producing electricity from atomic energy, increasing food grain yields, developing nanotechnology, and achieving self-sufficiency in nuclear power. In 1956, the Department of Atomic Energy set up 'Apsara', India's first nuclear reactor. Later, power stations were established at Tarapur and Kalpakkam (using Thorium). The Dhruva nuclear reactor was started at Trombay in 1985, using uranium as fuel to produce radioactive substances for industry, agriculture, and medicine. In 1987, the Nuclear Power Corporation of India Ltd. (NPCIL) was set up to master power generation technology.",
+          "key_points": [
+            "Commission established in 1948 under Dr. Homi Bhabha.",
+            "Apsara (1956) was the first nuclear reactor.",
+            "Dhruva reactor (1985) produces isotopes for medicine and industry.",
+            "NPCIL (1987) focuses on safe and environmentally profitable nuclear power."
+          ],
+          "keywords": [
+            "Atomic Energy Commission",
+            "Homi Bhabha",
+            "Apsara",
+            "Dhruva reactor",
+            "NPCIL"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "7.2"
+          ]
+        },
+        {
+          "chunk_id": "7.2",
+          "topic": "Nuclear Energy",
+          "heading": "Nuclear Tests at Pokharan",
+          "explanation": "India conducted its first nuclear test at Pokharan, Rajasthan, on 18th May 1974. This test was performed for peaceful purposes, such as using nuclear energy for power and self-sufficiency, especially in response to China's nuclear capability and Pakistan's efforts. Dr. Homi Sethna and Dr. Raja Ramanna played major roles. Pokharan was chosen for its distance from human settlements and lack of groundwater. In 1998, under PM Atal Bihari Vajpayee, India conducted a second series of tests, including a Hydrogen Bomb, to prove nuclear preparedness. Despite economic sanctions from the USA, India declared itself a responsible nuclear power with a 'no first use' policy.",
+          "key_points": [
+            "First test: 18th May 1974 (Peaceful purposes).",
+            "Second test: 11th May 1998 (Nuclear preparedness).",
+            "India refused to sign NNPT and CTBT due to unfair restrictions on developing nations."
+          ],
+          "examples": [
+            "Pokharan nuclear tests."
+          ],
+          "keywords": [
+            "Pokharan",
+            "Raja Ramanna",
+            "Atal Bihari Vajpayee",
+            "Hydrogen Bomb",
+            "Sanctions"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "7.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.3",
+          "topic": "Missile Technology",
+          "heading": "Missile Development and DRDO",
+          "explanation": "The Integrated Guided Missile Development Programme (IGMDP) was launched under the leadership of Dr. A.P.J. Abdul Kalam. The Defence Research and Development Organisation (DRDO), established in 1958, undertook the task of building missiles to make India self-sufficient in defense. Key missiles developed include: (1) Prithvi (1988): A surface-to-surface ballistic missile. (2) Agni (1989): To ensure secure borders against China and Pakistan. (3) Akash and Nag (1990): Akash is surface-to-air, while Nag is an anti-tank 'fire and forget' missile. Dr. Kalam is known as the 'Missile Man of India' for his contributions.",
+          "key_points": [
+            "DRDO established in 1958 for defense self-sufficiency.",
+            "IGMDP led by Dr. A.P.J. Abdul Kalam.",
+            "Missiles like Prithvi, Agni, Akash, and Nag strengthened India's military security."
+          ],
+          "keywords": [
+            "DRDO",
+            "APJ Abdul Kalam",
+            "Missile Man",
+            "Prithvi",
+            "Agni",
+            "Nag"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.4",
+          "topic": "Space Research",
+          "heading": "ISRO and Satellite Launches",
+          "explanation": "India's space journey began in 1961 with the launch of a research rocket from Thumba. The Indian Space Research Organisation (ISRO) was established on 15th August 1969, with headquarters in Bengaluru and a launch station at Sriharikota. Major milestones include: (1) Aryabhatta (1975): India's first satellite, launched with Soviet help. (2) Bhaskar-1 (1979): Remote sensing satellite for earth observation. (3) APPLE (1981): First indigenous communication satellite. (4) INSAT (1983): Revolutionized telecommunications, TV, radio, and weather forecasting. INSAT also aids in search and rescue and telemedicine for remote areas.",
+          "key_points": [
+            "ISRO established in 1969.",
+            "Aryabhatta (1975) proved India could build and launch satellites.",
+            "INSAT series brought a revolution in daily communication and weather alerts."
+          ],
+          "examples": [
+            "Launch of Aryabhatta.",
+            "INSAT-1B revolution."
+          ],
+          "keywords": [
+            "ISRO",
+            "Aryabhatta",
+            "APPLE satellite",
+            "INSAT",
+            "Remote sensing"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.5",
+          "topic": "Telecommunications",
+          "heading": "Evolution of Communication Services",
+          "explanation": "India made rapid progress in telecom: (1) Telex service (1963): Transmitted typed messages rapidly. (2) Pincode (1972): A six-digit system to bring efficiency to mail distribution. (3) ISD (1972): International Subscriber Dialling started between Mumbai and London. (4) VSNL (1986): Took a big leap in international telecom and became the main internet provider. (5) Mobile phones (1994): Service started in India, initially very expensive but became cheaper by 1990. (6) BSNL (2000): Restructured to provide telephone, cellular, and broadband services.",
+          "key_points": [
+            "Pincode system (1972) divided India into nine regions.",
+            "Sam Pitroda contributed significantly to the telecom revolution.",
+            "Mobile phone services began on 22nd August 1994."
+          ],
+          "keywords": [
+            "Pincode",
+            "ISD",
+            "VSNL",
+            "BSNL",
+            "Sam Pitroda"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "7.6",
+          "topic": "Technological Progress",
+          "heading": "Railways and Natural Resources",
+          "explanation": "Technological advancements were seen in other sectors too: (1) Railways: Chittaranjan Locomotive Works manufactured steam, electric, and diesel engines. Computerised reservations started in Delhi in 1984. The Konkan Railway (1998) is a marvel of engineering, stretching 760 km with 12 tunnels (including the 6.5 km Karbude tunnel) and 179 big bridges. (2) ONGC (1956): Established to search for mineral oil and gas. In 1974, 'Sagar Samrat', a drillship, started extracting oil from 'Bombay High', which now meets a significant portion of India's crude oil demand.",
+          "key_points": [
+            "Konkan Railway (1998) features the tallest bridge in India at Panval.",
+            "Computerised rail reservations began in 1984.",
+            "ONGC's Bombay High discovery (1974) was a major boost for energy needs."
+          ],
+          "examples": [
+            "Konkan Railway engineering.",
+            "Sagar Samrat drillship."
+          ],
+          "keywords": [
+            "Konkan Railway",
+            "ONGC",
+            "Bombay High",
+            "Sagar Samrat",
+            "Metroman"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 8,
+      "chapter_title": "Industry and Trade",
+      "chapter_summary": "This chapter explores the development of various industries in India post-independence, the role of agriculture, government industrial policies, and the dynamics of internal and foreign trade.",
+      "learning_objectives": [
+        "To be able to find out information about the organisations in the fields of industry and commerce and to be able to narrate their impact on the economy."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "8.1",
+          "topic": "Industrial Infrastructure",
+          "heading": "Financial Support for Industries",
+          "explanation": "After independence, India established key institutions to provide financial support for industrial growth. The Industrial Finance Corporation of India was set up in 1948 to provide long-term loans to industrial projects. In 1954, the Industrial Development Corporation was established to further develop the industrial sector.",
+          "key_points": [
+            "Industrial Finance Corporation of India (1948): Long-term loans.",
+            "Industrial Development Corporation (1954): Sector-wide development."
+          ],
+          "keywords": [
+            "Industrial Finance Corporation",
+            "Industrial Development Corporation",
+            "long term loans"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.2",
+          "topic": "Major Industries in India",
+          "heading": "Textile, Silk, and Jute Industries",
+          "explanation": "The textile industry is a major contributor, forming 14% of India's total industrial production. It includes labour-intensive handloom and powerloom sectors. The Textile Committee Act of 1963 ensures quality standards for internal and export markets. The silk industry, functioning under the Ministry of Textiles, conducts research at the Seribiotic Research Laboratory in Bengaluru. The jute industry is another stronghold, with India being a top-ranking producer and major exporter of jute products like cloth and ropes.",
+          "key_points": [
+            "Textile industry: 14% of total industrial production.",
+            "Silk research: Seribiotic Research Laboratory, Bengaluru.",
+            "Jute: India is a top producer and major exporter."
+          ],
+          "keywords": [
+            "Textile industry",
+            "Silk industry",
+            "Jute industry",
+            "Seribiotic Research Laboratory"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.3",
+          "topic": "Major Industries in India",
+          "heading": "Automobile and Cement Industries",
+          "explanation": "India is a major global producer of vehicles, exporting to 40 countries. The automobile industry is known as the 'sunrise sector'. Notably, India's tractor industry is the largest in the world, producing one-third of global tractors and exporting to regions like Turkey, Malaysia, and Africa. The cement industry is vital for infrastructure and housing, and India is currently one of the world's most technologically advanced and significant producers.",
+          "key_points": [
+            "Automobile: 'Sunrise sector', major global vehicle producer.",
+            "Tractors: India produces 1/3rd of the world's tractors.",
+            "Cement: Crucial for infrastructure; India is a leading producer."
+          ],
+          "keywords": [
+            "Automobile industry",
+            "Sunrise sector",
+            "Tractor industry",
+            "Cement industry"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.4",
+          "topic": "Major Industries in India",
+          "heading": "Leather, Salt, and Bicycle Industries",
+          "explanation": "The leather industry is a large, export-oriented sector in India. In salt production, India is a top global producer with an annual output of 200 lakh tons, including 60 lakh tons of iodised salt. The bicycle industry is also prominent, with Ludhiana in Punjab being the main manufacturing hub. India exports bicycles to countries including Nigeria, Mexico, and Brazil.",
+          "key_points": [
+            "Leather: Primarily export-oriented.",
+            "Salt: 200 lakh tons annual production.",
+            "Bicycles: Ludhiana is the main center; major exports to Africa and South America."
+          ],
+          "keywords": [
+            "Leather industry",
+            "Salt industry",
+            "Bicycle industry",
+            "Ludhiana"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.5",
+          "topic": "Rural and Small Scale Industries",
+          "heading": "Khadi, Village Industries, and Hand Sculpting",
+          "explanation": "The Khadi and Village Industries Commission was established to promote industrialisation in rural areas and foster self-reliance through employment. Hand sculpting is another labour-intensive craft that provides employment with small investment and high profit potential through exports. Market mechanisms like 'Dilli Haat' help rural craftsmen reach urban markets.",
+          "key_points": [
+            "Khadi Commission: Rural industrialisation and self-reliance.",
+            "Hand sculpting: High profit, export potential, labour intensive.",
+            "Dilli Haat: Platform for rural wares."
+          ],
+          "keywords": [
+            "Khadi",
+            "Village industry",
+            "Hand sculpting",
+            "Dilli Haat"
+          ],
+          "difficulty": 2,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.6",
+          "topic": "Agriculture",
+          "heading": "The Backbone of Indian Economy",
+          "explanation": "Agriculture is the primary occupation in India, with 70% of the population depending on jobs related to it. It is practiced using both traditional (bullocks) and modern (machines) methods. Major crops include jowar, wheat, rice, pulses, oilseeds, cotton, and sugarcane. The government supports farmers through rural banks, cooperative institutions, and training via Panchayat Samitis. Modern techniques like drip irrigation and organic farming are increasingly adopted.",
+          "key_points": [
+            "70% of Indians depend on agriculture.",
+            "Equal participation of women in the agricultural workforce.",
+            "Government support: Loans, soil testing, and training institutes."
+          ],
+          "keywords": [
+            "Agriculture",
+            "Drip irrigation",
+            "Organic farming",
+            "Panchayat Samitis"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.7",
+          "topic": "Government Policy",
+          "heading": "Industrial Licensing and Central Policy",
+          "explanation": "The Industrial Licensing Policy of 1970 brought factories with investments over 5 crore rupees under the category of 'heavy industries'. The fourth five-year plan focused on sectors like paper, pharmaceuticals, motor-tractors, and food processing. By the end of 1972, 3 lakh 18 thousand small industries were registered.",
+          "key_points": [
+            "1970 Policy: Heavy industries defined by >5 crore investment.",
+            "Focus on removing regional imbalances in development.",
+            "Encouragement of the cooperative sector."
+          ],
+          "keywords": [
+            "Industrial Licensing Policy",
+            "Heavy industries",
+            "Small scale industries"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.8",
+          "topic": "Natural Resources",
+          "heading": "Minerals, Forests, and Fisheries",
+          "explanation": "India's industrial growth is supported by its mineral wealth (iron, coal, manganese). Forest resources provide raw materials for construction, paper, and medicinal herbs. The fisheries industry includes both sea and fresh water fish, supported by the redevelopment of harbours and fish seed incubation centres.",
+          "key_points": [
+            "Mineral wealth: Adequate stores of iron, coal, and mineral oil.",
+            "Forests: Essential for paper, newsprint, and lacquer industries.",
+            "Fisheries: Growth supported by harbour development and training."
+          ],
+          "keywords": [
+            "Mineral wealth",
+            "Forest resources",
+            "Fisheries"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.9",
+          "topic": "Tourism",
+          "heading": "Cultural Heritage and Economic Impact",
+          "explanation": "India's rich cultural heritage, including places of worship, forts, and caves, attracts domestic and foreign tourists. The Tourism Development Corporation provides facilities for travelers. Tourism generates employment for guides and local people, especially in remote areas where they assist travelers for a fee.",
+          "key_points": [
+            "Rich cultural heritage drives tourism.",
+            "Tourism Development Corporation: Provides travel facilities.",
+            "Economic benefit: Employment for locals and guides."
+          ],
+          "keywords": [
+            "Tourism",
+            "Cultural heritage",
+            "Tourism Development Corporation"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "8.10",
+          "topic": "Trade",
+          "heading": "Internal and Foreign Trade",
+          "explanation": "Internal trade occurs via railways, roads, and airways, involving commodities like coal, cotton, and foodgrains. Foreign trade (import-export) has evolved since 1951. India imports machines, mineral oil, and medicines, while exporting tea, coffee, spices, leather, and precious stones. Industrial development has improved the standard of life and created numerous employment opportunities.",
+          "key_points": [
+            "Internal trade: Connects ports like Mumbai, Kolkata, and Chennai.",
+            "Imports: Machines, iron, mineral oil, fertilisers.",
+            "Exports: Tea, coffee, spices, textiles, leather.",
+            "Trade strengthens the national economy and improves living standards."
+          ],
+          "keywords": [
+            "Internal trade",
+            "Foreign trade",
+            "Import",
+            "Export"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 9,
+      "chapter_title": "Changing Life : 1",
+      "chapter_summary": "This chapter explores the significant social transformations in India from 1961 to 2000, focusing on constitutional equality, the shift in family structures, social welfare initiatives, medical advancements, and the processes of urbanisation and rural development.",
+      "learning_objectives": [
+        "To understand the role and responsibilities of the media in mobilising public opinion and making the civil society active.",
+        "To be able to compare urbanisation with rural life.",
+        "To develop an understanding about advocating social equality.",
+        "To adopt scientific temper."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "9.1",
+          "topic": "Social Transformation",
+          "heading": "Constitutional Equality and Mindset Change",
+          "explanation": "The Indian Constitution, influenced heavily by Dr. Babasaheb Ambedkar, brought a fundamental shift in the traditional Indian mindset. It established that all Indians are equal before the law, prohibiting discrimination based on religion, race, caste, gender, or place of birth. It granted citizens essential rights such as freedom of speech, assembly, association, movement, and the right to practice any occupation. These provisions effectively shook the foundations of the ancient caste system and helped make hereditary family vocations obsolete. Modernisation has since posed challenges to traditional religious identities, but the trend toward equality continues.",
+          "key_points": [
+            "Dr. Babasaheb Ambedkar used the Constitution to drive social change.",
+            "Equality before the law is a core constitutional principle.",
+            "Fundamental rights include freedom of speech, assembly, and occupation.",
+            "The caste system's influence on vocations has significantly declined."
+          ],
+          "keywords": [
+            "Dr. Babasaheb Ambedkar",
+            "Constitution",
+            "Equality",
+            "Caste system",
+            "Fundamental rights"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.2",
+          "topic": "Social Transformation",
+          "heading": "The Institution of the Family",
+          "explanation": "In the pre-independence period, the joint family was a hallmark of Indian society, gaining global recognition. However, the wave of globalisation has shifted this dynamic, giving significant impetus to the system of nuclear families. This change reflects broader trends in modernisation and individual mobility.",
+          "key_points": [
+            "India was traditionally known for its joint family system.",
+            "Globalisation has led to the rise of nuclear families."
+          ],
+          "keywords": [
+            "Joint family",
+            "Nuclear family",
+            "Globalisation"
+          ],
+          "difficulty": 1,
+          "importance": 3,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.3",
+          "topic": "Social Welfare",
+          "heading": "Welfare State and Social Security",
+          "explanation": "The objective of establishing a welfare state is enshrined in the Indian Constitution. To address large-scale economic, social, and educational inequalities, the government constituted the Ministry of Social Welfare on 14th June 1964. This ministry implements various programs for nutrition, child development, social security, and the protection of women. Similar arrangements exist at the state level to ensure opportunities reach women, children, the differently abled, and minorities.",
+          "key_points": [
+            "The Constitution aims for a 'Welfare State'.",
+            "Ministry of Social Welfare established in 1964.",
+            "Focus on nutrition, child development, and social protection."
+          ],
+          "keywords": [
+            "Welfare state",
+            "Ministry of Social Welfare",
+            "Social security",
+            "Inequality"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.4",
+          "topic": "Social Justice",
+          "heading": "Scheduled Castes and Tribes",
+          "explanation": "According to the 1971 Census, 22% of the Indian population belonged to Scheduled Castes and Tribes. To facilitate their development, laws were enacted providing educational scholarships and representation in Parliament and State Assemblies. A landmark piece of legislation is the Prevention of Atrocities Act of 1989, which enables these communities to live with dignity and respect, free from fear, violence, and oppression from upper classes.",
+          "key_points": [
+            "22% of the population belonged to SC/ST categories in 1971.",
+            "Constitutional provisions ensure political representation and educational support.",
+            "Prevention of Atrocities Act (1989) is a key legal protection."
+          ],
+          "keywords": [
+            "Scheduled Castes",
+            "Scheduled Tribes",
+            "Prevention of Atrocities Act",
+            "Reservation"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.5",
+          "topic": "Public Health",
+          "heading": "Medical Advancements and Milestones",
+          "explanation": "The Constitution identifies raising the standard of living and improving public health as primary duties of the government. Significant progress has been made in the medical field: (1) In 1962, the first successful open heart surgery was performed under Dr. N. Gopinath at CMC Vellore. (2) The 'Jaipur Foot', invented in 1968 by Dr. Pramod Sethi and Ramchandra Sharma, revolutionized life for the disabled by providing durable, low-cost artificial limbs. (3) The first successful kidney transplant in India was performed in 1971. (4) Test-tube baby technology has been available since 1978, with the first successful attempt resulting in the birth of a girl named Durga under Dr. Subhash Mukhopadhyaya.",
+          "key_points": [
+            "1962: First open heart surgery (Dr. N. Gopinath).",
+            "1968: Invention of the Jaipur Foot.",
+            "1971: First kidney transplant in India.",
+            "1978: First test-tube baby (Durga)."
+          ],
+          "examples": [
+            "Jaipur Foot technology allowing the disabled to walk on rough surfaces.",
+            "Pulse polio immunisation programme started in 1995."
+          ],
+          "keywords": [
+            "Public health",
+            "Open heart surgery",
+            "Jaipur Foot",
+            "Kidney transplant",
+            "Test-tube baby"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "9.6",
+          "topic": "Urbanisation",
+          "heading": "Growth of Cities",
+          "explanation": "Urbanisation is the concentration of population in cities or urban areas. In post-independence India, this has been driven by a reduction in mortality rates, industrialisation, and the lack of livelihood means in rural areas. Migration to cities for jobs is a major factor. To manage this, it is essential to achieve a balance in economic development and provide necessary services in both urban and rural areas to reduce the strain on metros.",
+          "key_points": [
+            "Urbanisation is driven by industrialisation and migration.",
+            "Metros are expanding rapidly, requiring better control and planning.",
+            "Economic balance between villages and cities is necessary."
+          ],
+          "keywords": [
+            "Urbanisation",
+            "Migration",
+            "Industrialisation",
+            "Metros"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "9.7"
+          ]
+        },
+        {
+          "chunk_id": "9.7",
+          "topic": "Rural Development",
+          "heading": "Village Life and Collective Development",
+          "explanation": "A village is defined as a permanent settlement of farmers near their tilled land. Indian villages are typically thinly populated with houses surrounded by farmland. Post-independence, the 'collective development scheme' was introduced to improve farming technology, increase irrigated land, and extend educational facilities. The government empowered Gram Panchayats, Panchayat Samitis, and Zilla Parishads to lead these efforts, giving priority to economic development in villages.",
+          "key_points": [
+            "Villages are the primary agricultural settlements of India.",
+            "Collective development schemes focus on land reform and irrigation.",
+            "Local self-government bodies (Gram Panchayats) are central to rural progress."
+          ],
+          "keywords": [
+            "Rural area",
+            "Gram Panchayat",
+            "Collective development",
+            "Land reform"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "9.8"
+          ]
+        },
+        {
+          "chunk_id": "9.8",
+          "topic": "Rural Development",
+          "heading": "Electrification and Industrialisation",
+          "explanation": "Rural electrification is essential for development, powering automatic pumps for irrigation and preserving perishable food items. The Rural Electrification Corporation was established in 1969. Additionally, the 'Village Industries Planning Committee' was formed to help develop industries in rural areas, providing employment to over 1 lakh people by 1972. Maharashtra also established residential high schools called 'Vidya Niketan' to provide quality education to meritorious village students.",
+          "key_points": [
+            "Rural Electrification Corporation established in 1969.",
+            "Electricity is crucial for modern farming and food preservation.",
+            "Vidya Niketan schools target meritorious rural students."
+          ],
+          "examples": [
+            "Vidya Niketan schools in Satara, Aurangabad, and Nasik."
+          ],
+          "keywords": [
+            "Rural electrification",
+            "Village industries",
+            "Vidya Niketan",
+            "Kothari Commission"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "9.7"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 1,
+      "chapter_title": "Post World War Political Developments",
+      "chapter_summary": "This chapter provides an overview of the international system, the concept of interdependence, the impact of the two World Wars, the rise and effects of the Cold War, and the transition into the era of globalisation.",
+      "learning_objectives": [
+        "To realise that an arms race endangers international peace.",
+        "To be able to analyse the global developments in the post-Cold War era.",
+        "To become familiar with the response given to globalisation by India.",
+        "To discuss the interdependence of different countries in the context of globalisation."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "1.1",
+          "topic": "International System",
+          "heading": "Interdependence and International Relations",
+          "explanation": "The world is composed of many independent, sovereign states that constantly interact and enter into treaties. This collective of states forms the 'international system'. A key feature of this system is 'interdependence'. No nation, regardless of its size or wealth, can be completely self-sufficient. Even powerful nations depend on others for various needs. Consequently, interdependence is a fundamental characteristic of the modern global system. International relations are further shaped by 'Foreign Policy', which is the set of policies a nation adopts regarding its internal dealings and its relations with other nations.",
+          "key_points": [
+            "The international system consists of sovereign states.",
+            "Interdependence is an essential feature; no nation is self-sufficient.",
+            "Foreign Policy governs a nation's interactions with the world."
+          ],
+          "keywords": [
+            "International system",
+            "Sovereign states",
+            "Interdependence",
+            "Foreign Policy"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.2",
+          "topic": "World Wars",
+          "heading": "The First World War (1914-1918)",
+          "explanation": "The First World War was a major global event fought primarily in Europe. It caused immense loss of life and property, and the economies of both victorious and defeated nations collapsed. Following the war, the 'League of Nations' was established to solve international disputes through negotiations and prevent future wars. However, the war also led to the collapse of old empires, the emergence of new nations, and the start of independence movements in European colonies in Africa and Asia.",
+          "key_points": [
+            "Fought between 1914 and 1918.",
+            "Allied Powers: Britain, France, Russia, Italy, America.",
+            "Central Powers: Germany, Austria-Hungary, Turkey, Bulgaria.",
+            "League of Nations was formed to maintain peace."
+          ],
+          "keywords": [
+            "First World War",
+            "League of Nations",
+            "Allied Powers",
+            "Central Powers"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "1.3"
+          ]
+        },
+        {
+          "chunk_id": "1.3",
+          "topic": "World Wars",
+          "heading": "The Second World War (1939-1945)",
+          "explanation": "The Second World War was even more destructive and widespread than the first. It employed advanced technology and culminated in the use of nuclear weapons by the USA on the Japanese cities of Hiroshima and Nagasaki in August 1945. The war ended with the defeat of Germany and Japan. In its aftermath, the United Nations was established to ensure collective responsibility for world peace.",
+          "key_points": [
+            "Fought between 1939 and 1945.",
+            "Allied Powers: Britain, France, Australia, Canada, New Zealand, India, Soviet Russia, China, America.",
+            "Axis Powers: Germany, Japan, Italy.",
+            "Marked by the first use of nuclear weapons."
+          ],
+          "keywords": [
+            "Second World War",
+            "United Nations",
+            "Nuclear weapons",
+            "Axis Powers"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.2"
+          ],
+          "linked_concepts": [
+            "1.4"
+          ]
+        },
+        {
+          "chunk_id": "1.4",
+          "topic": "The Cold War",
+          "heading": "Rise of the Cold War (1945-1991)",
+          "explanation": "The Cold War refers to a period of extreme tension between the USA and the Soviet Russia from 1945 to 1991. While there was no open war, the rivalry was characterized by an arms race, ideological differences (Capitalism vs. Socialism), and counter-strategies. Both superpowers sought to expand their dominance by pulling smaller countries into their respective blocs, leading to the 'bipolarisation' of the world. Military organizations like NATO (led by USA) and the Warsaw Pact (led by Soviet Russia) were created during this time.",
+          "key_points": [
+            "Cold War: A state of tension without actual war.",
+            "Bipolarisation: Division of the world into two superpower blocs.",
+            "NATO and Warsaw Pact were the primary military alliances."
+          ],
+          "examples": [
+            "The Cuban Missile Crisis (1962) was a critical event during this period."
+          ],
+          "keywords": [
+            "Cold War",
+            "Bipolarisation",
+            "NATO",
+            "Warsaw Pact",
+            "Superpowers"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.3"
+          ],
+          "linked_concepts": [
+            "1.5",
+            "1.6"
+          ]
+        },
+        {
+          "chunk_id": "1.5",
+          "topic": "Non-alignment",
+          "heading": "The Non-aligned Movement (NAM)",
+          "explanation": "During the Cold War, many newly independent Asian and African nations chose not to join either superpower bloc. This policy is known as 'Non-alignment'. The movement started in 1961 under the leadership of India (Pandit Nehru), Yugoslavia (Marshall Tito), Egypt (Nasser), Indonesia (Sukarno), and Ghana (Nkrumah). NAM opposed colonialism and imperialism and encouraged the peaceful resolution of international disputes based on humanism and global equality.",
+          "key_points": [
+            "NAM provided an alternative to bipolarisation.",
+            "Led by leaders of newly independent nations.",
+            "Focused on self-respect and independent foreign policy for developing nations."
+          ],
+          "keywords": [
+            "Non-alignment",
+            "NAM",
+            "Pandit Nehru",
+            "Colonialism"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "1.6",
+          "topic": "End of the Cold War",
+          "heading": "Factors and Consequences",
+          "explanation": "The Cold War ended in 1991 due to several factors: (1) Soviet Russia's policy of economic opening and political restructuring (Perestroika and Glasnost) under Mikhail Gorbachev. (2) The media gaining more freedom. (3) East European countries moving toward democracy. (4) The eventual disintegration of the Soviet Russia into several new nations. This led to a 'Post-Cold War World' where the USA remained the only superpower and the world moved toward a unipolar system.",
+          "key_points": [
+            "Mikhail Gorbachev's reforms were central to the Cold War's end.",
+            "Disintegration of the USSR in 1991.",
+            "Transition from a bipolar to a unipolar international system."
+          ],
+          "keywords": [
+            "Perestroika",
+            "Glasnost",
+            "Mikhail Gorbachev",
+            "Unipolar system"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.4"
+          ],
+          "linked_concepts": [
+            "1.7"
+          ]
+        },
+        {
+          "chunk_id": "1.7",
+          "topic": "Globalisation",
+          "heading": "The Era of Globalisation",
+          "explanation": "Globalisation is the process where trade and economic relations between countries become more open, and capital, labour, markets, and information circulate globally. It has been driven by the revolution in information technology, making boundaries between nations less sacrosanct. While it has brought benefits like economic unification and product availability, it has also increased the gap between rich and poor nations. Post-Cold War, global issues like environmental protection, human rights, and terrorism have acquired a global dimension.",
+          "key_points": [
+            "Globalisation involves the free flow of ideas, capital, and people.",
+            "Information technology is a major driver of globalisation.",
+            "It creates both opportunities and challenges (like economic inequality)."
+          ],
+          "keywords": [
+            "Globalisation",
+            "Information technology",
+            "Economic unification",
+            "Human rights"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "1.6"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "chapter_title": "India’s Foreign Policy",
+      "chapter_summary": "This chapter explains the concept of foreign policy, the role of national interest, the factors that influence a nation's global stance, and the specific evolution of India's foreign policy through different historical stages.",
+      "learning_objectives": [
+        "To be able to explain the meaning of foreign policy.",
+        "To respect the objectives of foreign policy.",
+        "To be able to explain India’s foreign policy with the help of different events.",
+        "To develop an understanding of the fact that India has always given priority to international peace and security."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "2.1",
+          "topic": "Foreign Policy",
+          "heading": "Meaning and Importance",
+          "explanation": "Foreign policy is the theoretical framework within which a sovereign and independent country decides its positions and relations with other nations in the international system. Since no nation is completely self-reliant, mutual interdependence is a reality. Foreign policy ensures that this interdependence benefits the nation. It involves deciding which nations to be friendly with, which blocs to participate in, and what positions to take on international issues.",
+          "key_points": [
+            "Foreign policy is a tool for managing international relations.",
+            "It is based on the principle of mutual interdependence.",
+            "Every sovereign country decides its own unique foreign policy."
+          ],
+          "keywords": [
+            "Foreign policy",
+            "Sovereign",
+            "Interdependence",
+            "International relations"
+          ],
+          "difficulty": 1,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "2.2"
+          ]
+        },
+        {
+          "chunk_id": "2.2",
+          "topic": "National Interest",
+          "heading": "The Core of Foreign Policy",
+          "explanation": "National interest refers to the means through which a country's independence and sovereignty are safeguarded. It includes achieving economic development and increasing national power. Defence (protection of independence and integrity) is considered the highest national interest, followed closely by economic development, as a weak nation cannot maintain its independence. Foreign policy is the means to achieve the goal of national interest.",
+          "key_points": [
+            "National interest is the goal; foreign policy is the means.",
+            "Defence is the highest priority of national interest.",
+            "Economic development is essential for maintaining independence."
+          ],
+          "keywords": [
+            "National interest",
+            "Defence",
+            "Economic development",
+            "Sovereignty"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": [
+            "2.3"
+          ]
+        },
+        {
+          "chunk_id": "2.3",
+          "topic": "Foreign Policy",
+          "heading": "Factors Influencing Foreign Policy",
+          "explanation": "Several factors impact the decision-making process of a nation's foreign policy: (1) Geographical Location: Size, population, topography, and natural resources. (2) Political System: In a democracy, the Parliament and opposition parties play a major role in regulating policy. (3) Economy: The need for economic relations, trade, and economic security. (4) National Leadership: The vision of leaders like the President, PM, and Foreign Minister. (5) Administrative Factors: Input from the Ministry of External Affairs, Foreign Secretary, and National Security Advisor.",
+          "key_points": [
+            "Geography determines a nation's neighbors and resource access.",
+            "Economic security is now as vital as national security.",
+            "Leadership vision (e.g., Nehru's non-alignment) shapes long-term policy."
+          ],
+          "keywords": [
+            "Geographical location",
+            "Political system",
+            "Economic security",
+            "National leadership",
+            "Administrative factors"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.4",
+          "topic": "India's Foreign Policy",
+          "heading": "Constitutional Framework (Article 51)",
+          "explanation": "India's foreign policy is guided by the Directive Principles of State Policy, specifically Article 51 of the Constitution. It mandates that India should: (1) Promote international peace and security. (2) Maintain just and honorable relations between nations. (3) Foster respect for international law and treaty obligations. (4) Encourage settlement of international disputes by arbitration.",
+          "key_points": [
+            "Article 51 provides the broad framework for India's global stance.",
+            "Peace and international law are central pillars.",
+            "India favors peaceful dispute resolution."
+          ],
+          "keywords": [
+            "Article 51",
+            "Constitution",
+            "International peace",
+            "International law"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "2.5"
+          ]
+        },
+        {
+          "chunk_id": "2.5",
+          "topic": "India's Foreign Policy",
+          "heading": "Objectives and Early Phase",
+          "explanation": "India's foreign policy objectives include maintaining friendly relations with neighbors, ensuring national security, protecting the interests of Indian citizens abroad, and achieving economic development. In the early phase, Prime Minister Pandit Nehru shaped the policy by opposing colonialism and championing Non-alignment. He insisted on understanding global affairs independently and prioritized global peace.",
+          "key_points": [
+            "Early phase was marked by anti-colonialism.",
+            "Non-alignment allowed India to remain independent of superpower blocs.",
+            "Self-reliance was a key feature of this period."
+          ],
+          "keywords": [
+            "Pandit Nehru",
+            "Non-alignment",
+            "Anti-colonialism",
+            "Self-reliance"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.4"
+          ],
+          "linked_concepts": [
+            "2.6"
+          ]
+        },
+        {
+          "chunk_id": "2.6",
+          "topic": "India's Foreign Policy",
+          "heading": "First Stage (1947-1990)",
+          "explanation": "During this stage, India practiced non-alignment within the Cold War context. This allowed India to receive aid from both superpowers. The period saw a focus on strengthening national defense, often using imported technology from the Soviet Russia, France, and Germany. India faced major conflicts with Pakistan (1947-48, 1965, 1971) and China (1962). The 1971 war led to the creation of Bangladesh. By the 1970s, India emerged as a powerful regional power in South Asia.",
+          "key_points": [
+            "Non-alignment was the dominant strategy.",
+            "Focus on defense modernization.",
+            "Regional dominance established through wars and the 1974 nuclear test."
+          ],
+          "examples": [
+            "Creation of Bangladesh in 1971.",
+            "1974 nuclear test."
+          ],
+          "keywords": [
+            "Cold War",
+            "Bangladesh",
+            "Regional power",
+            "Defense"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "2.5"
+          ],
+          "linked_concepts": [
+            "2.7"
+          ]
+        },
+        {
+          "chunk_id": "2.7",
+          "topic": "India's Foreign Policy",
+          "heading": "Second Stage (1991-Present)",
+          "explanation": "Post-1991, India's foreign policy became more comprehensive and dynamic. The end of the Cold War shifted priority from military relations to economy, trade, and technology. India adopted a free market policy, leading to increased trade with neighbors and a higher share in world trade. Relations with South Asian nations (Singapore, Thailand, Vietnam) and global powers (Israel, Japan, China, EU) strengthened. India also increased its participation in global forums like G-20 and BRICS.",
+          "key_points": [
+            "Shift from political-military focus to economic-technological focus.",
+            "Adoption of free market policy in 1991.",
+            "Active participation in international organizations."
+          ],
+          "keywords": [
+            "Free market",
+            "G-20",
+            "BRICS",
+            "Economic growth"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "2.6"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "2.8",
+          "topic": "India's Nuclear Policy",
+          "heading": "Nuclear Status and Responsibility",
+          "explanation": "India initiated its nuclear energy programme immediately after independence under Dr. Homi Bhabha. While the primary purpose was electricity generation, it also aimed at military capability. India conducted its first nuclear tests in 1974 and further tests in 1998. India is now a country with nuclear weapons but has accepted the role of a 'responsible nuclear power,' supporting global disarmament while refusing to sign treaties like NNPT and CTBT that it deems discriminatory.",
+          "key_points": [
+            "Nuclear programme started under Dr. Homi Bhabha.",
+            "Tests conducted in 1974 and 1998.",
+            "India maintains a 'responsible nuclear power' status."
+          ],
+          "keywords": [
+            "Nuclear policy",
+            "Homi Bhabha",
+            "Disarmament",
+            "NNPT",
+            "CTBT"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "chapter_title": "India’s Defence System",
+      "chapter_summary": "This chapter outlines the structure of India's security forces, including the Army, Navy, Air Force, and Paramilitary forces. It also discusses the challenges to national security and the evolving concept of human security.",
+      "learning_objectives": [
+        "To understand the nature of India’s defence systems.",
+        "To be able to classify the functions and military of paramilitary forces.",
+        "To be able to explain the concept of human security.",
+        "To have an understanding of the challenges to internal security."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "3.1",
+          "topic": "National Security",
+          "heading": "Concept and Safeguards",
+          "explanation": "National Security involves protecting a country's primary national interests, which include defence from foreign aggression and internal unrest, and keeping borders safe. In the international system, conflicts arise over boundaries, water sharing, or refugee influx. When negotiations fail, nations may resort to war. Safeguarding security is closely linked to geography, as closer nations pose higher risks. Strategies include increasing military might, using modern technology to build weapon systems, and seeking international support to manage threats.",
+          "key_points": [
+            "National security is the first duty and responsibility of a nation.",
+            "Geography plays a crucial role in assessing security threats.",
+            "Modernization of weapon systems is essential for deterrence."
+          ],
+          "keywords": [
+            "National Security",
+            "Foreign aggression",
+            "Internal unrest",
+            "Weapon systems"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "3.2"
+          ]
+        },
+        {
+          "chunk_id": "3.2",
+          "topic": "India's Security System",
+          "heading": "The Three Defence Forces",
+          "explanation": "India's security system consists of the Army, the Navy, and the Air Force. The Army protects geographical boundaries, the Navy protects the coastline, and the Air Force is in charge of air space. All three are controlled by the Ministry of Defence. The Indian Army is the world's seventh largest. The President of India is the Supreme Commander of the defence forces, representing civil power, which is superior to military leadership in a democracy. In 2019, the post of 'Chief of Defence Staff' was created to maintain coordination between the three wings.",
+          "key_points": [
+            "Army Chief: General; Navy Chief: Admiral; Air Force Chief: Air Chief Marshall.",
+            "The President's consent is mandatory for decisions on war or peace.",
+            "Civilian control over the military is a hallmark of Indian democracy."
+          ],
+          "keywords": [
+            "Army",
+            "Navy",
+            "Air Force",
+            "Supreme Commander",
+            "Chief of Defence Staff"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": [
+            "3.3"
+          ]
+        },
+        {
+          "chunk_id": "3.3",
+          "topic": "Paramilitary Forces",
+          "heading": "Support and Internal Security",
+          "explanation": "Paramilitary forces help the main defence forces and are responsible for the security of important locations like railway stations and oil depots. They also manage natural or man-made disasters. Key forces include: (1) Border Security Force (BSF): Patrolling borders and preventing smuggling. (2) Coast Guard: Protecting oceanic borders and fishing occupations. (3) Central Reserve Police Force (CRPF): Maintaining law and order in various states. (4) Rapid Action Force (RAF): Moving quickly during bomb blasts or riots. (5) National Cadet Corps (NCC): Instilling discipline and military training in students. (6) Home Guards: A pre-independence era organization of citizens assisting in defence and public security.",
+          "key_points": [
+            "Paramilitary forces are neither completely military nor completely civil.",
+            "They play a vital role in disaster management.",
+            "The BSF protects international borders during peace time."
+          ],
+          "keywords": [
+            "Paramilitary",
+            "BSF",
+            "Coast Guard",
+            "CRPF",
+            "RAF",
+            "NCC",
+            "Home Guards"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "3.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.4",
+          "topic": "Challenges to Security",
+          "heading": "External and Internal Threats",
+          "explanation": "India faces external threats primarily from Pakistan and China. Disputes with Pakistan involve Kashmir, river water sharing, and infiltrations. Relations with China are strained due to border disputes (Aksai Chin and Macmahon line) and China's attempts to establish hegemony over India's neighbors. Internal security is threatened by rebellious movements based on religion, regionalism, and ideology, such as the Naxalite movement. Terrorism remains the biggest challenge to internal security and is a global problem.",
+          "key_points": [
+            "External threats: Border disputes with Pakistan and China.",
+            "Internal threats: Naxalism and regionalism.",
+            "Terrorism aims to create fear and challenge the existence of the State."
+          ],
+          "keywords": [
+            "Kashmir issue",
+            "Macmahon line",
+            "Naxalite movement",
+            "Terrorism"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "3.5",
+          "topic": "Human Security",
+          "heading": "A Broader Perspective",
+          "explanation": "In the post-Cold War period, the concept of security shifted from 'National Security' to 'Human Security'. Human security is human-centric and aims to protect people from all sorts of dangers, providing opportunities for education, health, and development. It includes creating a conducive environment for a respectable life by overcoming poverty, illiteracy, and superstition. Modern challenges to human security include terrorism, environmental pollution, and global diseases like AIDS, swine flu, and corona.",
+          "key_points": [
+            "Human security prioritizes the well-being of individuals over just borders.",
+            "It necessitates the protection of minority and weaker section rights.",
+            "Environmental degradation and pandemics are major threats to human security."
+          ],
+          "keywords": [
+            "Human Security",
+            "Human-centric",
+            "Pollution",
+            "Pandemics"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "3.1"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "chapter_title": "The United Nations (UN)",
+      "chapter_summary": "This chapter explores the background, objectives, principles, and structure of the United Nations, an international organization established after World War II to ensure global peace and security.",
+      "learning_objectives": [
+        "To understand the background and chronology of the establishment of the United Nations.",
+        "To identify the objectives and principles of the United Nations.",
+        "To learn about the six main organs and various specialized agencies of the UN.",
+        "To understand the UN's role in peacekeeping and India's contribution to it.",
+        "To identify the Millennium Development Goals."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "4.1",
+          "topic": "Background and Establishment",
+          "heading": "The United Nations: A Background",
+          "explanation": "The start of the twentieth century saw two world wars that caused large-scale destruction of life and property. The League of Nations was established after World War I to establish world peace but failed. After the use of nuclear weapons in World War II, the idea that destructive wars must be stopped through collective responsibility took root. This led to the establishment of the United Nations to instill this understanding among all nations.",
+          "key_points": [
+            "League of Nations was the predecessor to the UN.",
+            "The UN was born out of the necessity to prevent nuclear destruction and ensure collective security.",
+            "It is an international organization of sovereign nations."
+          ],
+          "examples": [
+            "The failure of the League of Nations to prevent World War II.",
+            "The use of nuclear weapons in World War II as a catalyst for the UN's creation."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why did the League of Nations fail?",
+              "a": "It lacked the power to enforce its decisions and could not prevent the rise of autocratic regimes and the subsequent Second World War."
+            }
+          ],
+          "keywords": [
+            "League of Nations",
+            "World War II",
+            "Nuclear weapons",
+            "Collective responsibility"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "4.2"
+          ]
+        },
+        {
+          "chunk_id": "4.2",
+          "topic": "Chronology of Establishment",
+          "heading": "Chronology of the establishment of the United Nations",
+          "explanation": "The process began with the Atlantic Treaty signed on 14th August 1941 between Winston Churchill (UK) and Franklin D. Roosevelt (USA). Discussions continued in conferences among allied powers in 1944 and 1945. Representatives of fifty countries drafted the UN Charter at San Francisco. The Charter was signed on 24th October 1945, officially establishing the United Nations.",
+          "key_points": [
+            "Atlantic Treaty (14th August 1941) was the first major step.",
+            "The UN Charter was drafted in San Francisco by 50 countries.",
+            "Official establishment date: 24th October 1945."
+          ],
+          "examples": [
+            "Winston Churchill and Franklin D. Roosevelt signing the Atlantic Treaty."
+          ],
+          "common_doubts": [
+            {
+              "q": "When is United Nations Day celebrated?",
+              "a": "24th October."
+            }
+          ],
+          "keywords": [
+            "Atlantic Treaty",
+            "UN Charter",
+            "San Francisco",
+            "24th October 1945"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.3",
+          "topic": "UN Objectives and Principles",
+          "heading": "The Objectives and Principles of the United Nations",
+          "explanation": "The UN is the world's largest international organization with 193 members today. Its objectives include establishing friendly relations among nations, enhancing international security by solving disputes, safeguarding human rights, and enhancing economic cooperation. Its principles are based on the equality of all member nations, respect for the freedom and geographical unity of others, and the peaceful resolution of international disputes.",
+          "key_points": [
+            "Current membership: 193 countries.",
+            "Objective: To safeguard and foster human rights and freedom.",
+            "Principle: No discrimination based on geographical size, economic, or military power.",
+            "Principle: All disputes should be solved by peaceful means."
+          ],
+          "examples": [
+            "Equality of status between a small nation like Palau and a large nation like Russia within the UN framework."
+          ],
+          "common_doubts": [
+            {
+              "q": "Can the UN intervene militarily?",
+              "a": "Yes, the Security Council can take a decision of military action against an aggressor nation to maintain peace."
+            }
+          ],
+          "keywords": [
+            "International security",
+            "Human rights",
+            "Sovereign nations",
+            "Peaceful resolution"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.2"
+          ],
+          "linked_concepts": [
+            "4.4",
+            "4.5"
+          ]
+        },
+        {
+          "chunk_id": "4.4",
+          "topic": "UN Organs - General Assembly",
+          "heading": "General Assembly",
+          "explanation": "All member countries are part of the General Assembly. Every nation has the same status regardless of size or wealth. It meets annually from September to December to discuss global issues like the environment and disarmament. Decisions are taken by majority and are in the form of resolutions, not laws. It serves as a platform for discussion and policy-making.",
+          "key_points": [
+            "Every member nation has one vote.",
+            "Meets annually (Sept-Dec).",
+            "Passes resolutions, not laws.",
+            "Elects non-permanent members of the Security Council and the Secretary General."
+          ],
+          "examples": [
+            "Discussion on climate change or global disarmament during a General Assembly session."
+          ],
+          "common_doubts": [
+            {
+              "q": "Does the General Assembly make laws that countries must follow?",
+              "a": "No, it passes resolutions which are recommendations and expressions of the will of the international community, but they are not legally binding laws."
+            }
+          ],
+          "keywords": [
+            "Resolutions",
+            "Majority vote",
+            "Global importance",
+            "Disarmament"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": [
+            "4.5"
+          ]
+        },
+        {
+          "chunk_id": "4.5",
+          "topic": "UN Organs - Security Council",
+          "heading": "Security Council",
+          "explanation": "The Security Council has 15 members. Five are permanent: America, Russia, England, France, and China. They possess 'Veto Power'—if any one of them votes negatively, a decision cannot be taken. The other 10 are non-permanent members elected every two years by the General Assembly. Its main responsibility is to maintain international peace and security. It can impose economic sanctions or initiate military action.",
+          "key_points": [
+            "5 Permanent members: USA, Russia, UK, France, China.",
+            "Veto Power: The power to block any decision.",
+            "10 Non-permanent members elected for 2-year terms.",
+            "Can take military action against aggressors."
+          ],
+          "examples": [
+            "The use of a veto by China to stop a resolution from being passed.",
+            "Imposing economic sanctions on a country to force it to stop a conflict."
+          ],
+          "common_doubts": [
+            {
+              "q": "What happens if a permanent member uses its veto?",
+              "a": "The resolution or decision fails immediately, even if all other 14 members support it."
+            }
+          ],
+          "keywords": [
+            "Veto Power",
+            "Permanent members",
+            "Economic sanctions",
+            "Aggressor nation"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": [
+            "4.4"
+          ]
+        },
+        {
+          "chunk_id": "4.6",
+          "topic": "UN Organs - Economic and Social Council",
+          "heading": "Economic and Social Council (ECOSOC)",
+          "explanation": "This organ coordinates the economic and social policies of the UN. It has 54 members selected by the General Assembly for three-year terms, with one-third being newly chosen each year. It discusses issues like poverty, unemployment, women's rights, and global trade. It aims to establish cultural and educational cooperation at the international level.",
+          "key_points": [
+            "54 members with 3-year terms.",
+            "Focuses on social inequality, poverty, and human rights.",
+            "Coordinates with various organizations working with the UN."
+          ],
+          "examples": [
+            "Initiating discussions on global unemployment or empowerment of women."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "Social policies",
+            "Poverty",
+            "Unemployment",
+            "Cultural cooperation"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.7",
+          "topic": "UN Organs - Secretariat and ICJ",
+          "heading": "Secretariat and International Court of Justice",
+          "explanation": "The Secretariat handles administrative tasks, led by the Secretary General (5-year term). The International Court of Justice (ICJ) is the judicial branch located at The Hague, Netherlands. It has 15 judges (9-year terms) who settle disputes between nations and interpret international law. Additionally, the International Criminal Court (ICC) is an independent tribunal at The Hague that prosecutes individuals for crimes like genocide and war crimes.",
+          "key_points": [
+            "Secretary General is the chief of the Secretariat.",
+            "ICJ is located at The Hague, Netherlands.",
+            "ICJ has 15 judges elected for 9 years.",
+            "ICC handles crimes against humanity and war crimes."
+          ],
+          "examples": [
+            "The ICJ settling a border dispute between two member nations.",
+            "The ICC prosecuting an individual for genocide."
+          ],
+          "common_doubts": [
+            {
+              "q": "Is the Secretary General always from a powerful country?",
+              "a": "No, there is no rule that the Secretary General must be from the 'Big Five' (permanent members)."
+            }
+          ],
+          "keywords": [
+            "Secretary General",
+            "The Hague",
+            "Judicial branch",
+            "International law",
+            "Genocide"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.8",
+          "topic": "UN Organs - Trusteeship Council",
+          "heading": "The Trusteeship Council",
+          "explanation": "Established after WWII, it was responsible for undeveloped territories (trust territories) managed by developed nations. The goal was to help them attain independence and establish democracy. Its work ended on 1st November 1994 when Palau, the last trust territory, became independent.",
+          "key_points": [
+            "Managed territories that were not yet self-governing.",
+            "Ceased operations in 1994.",
+            "Palau was the last territory under its care."
+          ],
+          "examples": [
+            "Palau gaining independence in 1994."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "Trust territories",
+            "Palau",
+            "Self-governing"
+          ],
+          "difficulty": 2,
+          "importance": 3,
+          "prerequisites": [
+            "4.3"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.9",
+          "topic": "Specialized Agencies",
+          "heading": "Specialized Agencies of the UN",
+          "explanation": "The UN has many affiliated organizations working in specific areas to help nations. Key agencies include: ILO (Labour), FAO (Food/Agriculture), WHO (Health), World Bank, IMF (Finance), UNICEF (Children), and UNESCO (Education, Science, Culture).",
+          "key_points": [
+            "UNICEF: Focuses on nutritious food and health care for children.",
+            "UNESCO: Promotes peace through cooperation in education, science, and culture.",
+            "WHO: Handles international public health issues."
+          ],
+          "examples": [
+            "UNICEF organizing workshops in India to tackle malnutrition among children.",
+            "UNESCO designating world heritage sites to promote cultural cooperation."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "UNICEF",
+            "UNESCO",
+            "WHO",
+            "Affiliated organizations"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "4.10"
+          ]
+        },
+        {
+          "chunk_id": "4.10",
+          "topic": "Millennium Development Goals",
+          "heading": "Millennium Development Goals",
+          "explanation": "In 2000, UN member nations decided on goals for the new millennium. These include: eliminating poverty and hunger, providing primary education, empowering women, reducing infant mortality, improving maternal health, fighting diseases like AIDS and malaria, and protecting the environment. India has made progress in these areas with help from UNICEF and UNESCO.",
+          "key_points": [
+            "Adopted in the year 2000.",
+            "Focus on basic human needs and environmental sustainability.",
+            "A specific time period was set to achieve these goals."
+          ],
+          "examples": [
+            "India's efforts to reduce infant mortality rates as part of the MDGs."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "Poverty",
+            "Infant mortality",
+            "Maternal health",
+            "Sustainability"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "4.11",
+          "topic": "UN Peacekeeping",
+          "heading": "United Nations and preservation of peace",
+          "explanation": "The UN settles international conflicts peacefully using intermediaries, legal procedures, or arbitrators. If needed, it uses military means to ensure conflicts do not recur. Peacekeeping involves creating favorable circumstances for permanent peace in strife-torn areas, providing security, and helping in peace-building. It is a collective task to safeguard human security against terrorism and racist/religious conflicts.",
+          "key_points": [
+            "Peacekeeping forces help strife-torn areas progress towards peace.",
+            "Includes conflict prevention, mediation, and peace-building.",
+            "Restores normalcy by starting schools and creating human rights awareness."
+          ],
+          "examples": [
+            "UN campaigns to establish peace in countries like Yugoslavia, Namibia, Somalia, and Haiti."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "Peacekeeping",
+            "Mediation",
+            "Peace-building",
+            "Human security"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "4.5"
+          ],
+          "linked_concepts": [
+            "4.12"
+          ]
+        },
+        {
+          "chunk_id": "4.12",
+          "topic": "India and the UN",
+          "heading": "The United Nations and India",
+          "explanation": "India participated in conferences even before the UN was officially established. India has consistently raised issues like decolonization, disarmament, and racial segregation (racism) on the UN platform. India was the first to raise the racism question in 1946. India actively contributes troops to UN peacekeeping forces, including an all-woman peacekeeping force.",
+          "key_points": [
+            "India raised the issue of racism in the UN in 1946.",
+            "India is a major contributor to UN peacekeeping troops.",
+            "India sent an all-woman peacekeeping force.",
+            "India supports the problems of undeveloped and developing countries."
+          ],
+          "examples": [
+            "Indian peacekeeping forces serving in international conflict zones.",
+            "India's stance against apartheid in South Africa at the UN."
+          ],
+          "common_doubts": [],
+          "keywords": [
+            "Decolonization",
+            "Disarmament",
+            "Racial segregation",
+            "All-woman peacekeeping force"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "4.11"
+          ],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "chapter_title": "India and other Countries",
+      "chapter_summary": "This chapter examines India's foreign relations with its immediate neighbors in South Asia, including regional cooperation through SAARC, and its diplomatic, economic, and strategic ties with major global powers like the USA, Russia, and European nations.",
+      "learning_objectives": [
+        "To explain the impact of India’s geographical location on its internal and foreign policy.",
+        "To realize that India should have friendly relations with neighbouring countries.",
+        "To analyse the organisations that have come up for regional cooperation.",
+        "To take stock of the changes in the economic and trade relations of India with other countries."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "5.1",
+          "topic": "India and her Neighbours",
+          "heading": "Geographical and Political Importance",
+          "explanation": "India's position in Asia is geographically and politically significant. Its neighbors include Afghanistan, Pakistan, Sri Lanka, Bangladesh, Myanmar, Nepal, Bhutan, China, and Maldives. India is the largest country in the Indian subcontinent and is economically and technologically more advanced, giving it a natural influence in the South Asian region. India's foreign policy is built on the values of equality and mutual respect.",
+          "key_points": [
+            "India occupies a central and dominant position in South Asia.",
+            "Relationships are based on equality and mutual respect.",
+            "India is the largest and most technologically advanced nation in the subcontinent."
+          ],
+          "examples": [
+            "Neighbors sharing land/sea boundaries: Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Sri Lanka, Maldives."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why does India have a great influence in South Asia?",
+              "a": "Due to its large geographical size, advanced economy, and technological progress compared to its neighbors."
+            }
+          ],
+          "keywords": [
+            "Indian subcontinent",
+            "Equality",
+            "Mutual respect",
+            "Foreign policy"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "66.5"
+          ]
+        },
+        {
+          "chunk_id": "5.2",
+          "topic": "India-Pakistan Relations",
+          "heading": "Factors Influencing Indo-Pak Relations",
+          "explanation": "Indo-Pak relations have been strained since the 1947 partition. Three main factors influence these relations: differences in world views, the Kashmir question, and nuclear rivalry. India prefers bilateral solutions (as per the 1972 Shimla Agreement) and opposed Cold War military alliances, while Pakistan entered military agreements with the USA and maintained ties with the Islamic world. Kashmir remains the primary hurdle, leading to wars in 1965, 1971 (creation of Bangladesh), and the 1999 Kargil conflict. Currently, the conflict has shifted towards terrorism engineered by Pakistan. Both nations conducted nuclear tests in 1998, raising global concerns. Another unresolved issue is the border dispute in the Sir Creek area.",
+          "key_points": [
+            "The Kashmir issue is the root cause of conflict.",
+            "India seeks bilateral resolution; Pakistan sought external military alliances.",
+            "Terrorism is the modern form of the conflict.",
+            "1998 nuclear tests changed the security dynamics of the region."
+          ],
+          "examples": [
+            "Shimla Agreement (1972)",
+            "Kargil conflict (1999)",
+            "Sir Creek area border dispute"
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the Shimla Agreement?",
+              "a": "An agreement signed in 1972 between India and Pakistan to resolve conflicts bilaterally without third-party intervention."
+            }
+          ],
+          "keywords": [
+            "Bilateral",
+            "Kashmir question",
+            "Nuclear rivalry",
+            "Terrorism",
+            "Shimla Agreement"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": [
+            "15.2"
+          ]
+        },
+        {
+          "chunk_id": "5.3",
+          "topic": "India-China Relations",
+          "heading": "Border Disputes and Tibet",
+          "explanation": "Conflict between India and China centers on the border dispute and the status of Tibet. China claims the Aksai Chin area and the region south of the Macmahon line (Arunachal Pradesh) as its territory, refusing to recognize the line as an international border. The 1962 war occurred after China attacked India. Additionally, the asylum granted by India to the Dalai Lama during China's military crackdown in Tibet has been a source of tension. Security threats also arise from the China-Pakistan friendship and China's transfer of missile and nuclear technology to Pakistan. However, trade relations have strengthened as both economies grow, and tripartite talks involving Russia are helping to manage tensions.",
+          "key_points": [
+            "Dispute over Aksai Chin and Macmahon Line.",
+            "The 1962 Sino-Indian war.",
+            "Tibet and Dalai Lama's asylum as points of contention.",
+            "Growing trade relations despite border issues."
+          ],
+          "examples": [
+            "1962 China attack on India.",
+            "Dalai Lama seeking asylum in India."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the Macmahon Line?",
+              "a": "The boundary line between India and China, which China refuses to recognize as a formal international border."
+            }
+          ],
+          "keywords": [
+            "Aksai Chin",
+            "Macmahon Line",
+            "Tibet",
+            "Dalai Lama",
+            "Tripartite talks"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": [
+            "15.1"
+          ]
+        },
+        {
+          "chunk_id": "5.4",
+          "topic": "Relations with Other Neighbours",
+          "heading": "Afghanistan, Bangladesh, and Sri Lanka",
+          "explanation": "India assists Afghanistan in fighting Taliban-led instability by helping establish democracy and rebuilding infrastructure (roads, schools, health facilities). With Bangladesh, India supported the 1971 freedom struggle; current relations focus on sharing river waters and border management. India maintains friendly ties with Sri Lanka, though relations were complicated by Tamil minority issues after 1985, leading India to send a peacekeeping force. Friendly ties with Sri Lanka are vital for Indian Ocean security.",
+          "key_points": [
+            "India provides developmental aid to Afghanistan.",
+            "1971 liberation of Bangladesh with India's help.",
+            "Strategic importance of Sri Lanka in the Indian Ocean."
+          ],
+          "examples": [
+            "Indian Peacekeeping Force in Sri Lanka.",
+            "Treaties on sharing river waters with Bangladesh."
+          ],
+          "common_doubts": [
+            {
+              "q": "Why is India helping Afghanistan?",
+              "a": "To bring peace and stability to a neighbor and curb the influence of terrorist organizations like the Taliban."
+            }
+          ],
+          "keywords": [
+            "Taliban",
+            "Peacekeeping force",
+            "River waters",
+            "Indian Ocean security"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.5",
+          "topic": "Relations with Other Neighbours",
+          "heading": "Nepal, Bhutan, Myanmar, and Maldives",
+          "explanation": "India and Nepal share a foundation of friendship through the 1950 Indo-Nepalese Friendship Treaty, allowing citizens to move and work freely. India assisted Nepal significantly after the 2015 earthquake. India is responsible for Bhutan's defense and cooperates on hydel power projects. Myanmar serves as India's 'door' to South East Asia, with infrastructure projects like rail and roadways being developed. Relations with Maldives have been friendly since 1981, involving cooperation in tourism, infrastructure, and space research.",
+          "key_points": [
+            "1950 Friendship Treaty with Nepal.",
+            "Defense cooperation with Bhutan.",
+            "Myanmar's role in the 'Act East' policy.",
+            "Strategic cooperation with Maldives."
+          ],
+          "examples": [
+            "2015 Nepal earthquake aid.",
+            "Hydel power projects in Bhutan."
+          ],
+          "keywords": [
+            "Landlocked",
+            "Indo-Nepalese Friendship Treaty",
+            "Hydel power",
+            "Act East policy"
+          ],
+          "difficulty": 2,
+          "importance": 4,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "5.6",
+          "topic": "Regional Cooperation",
+          "heading": "SAARC (South Asian Association for Regional Cooperation)",
+          "explanation": "Established in 1985, SAARC aims to encourage economic cooperation and development in the South Asian region. It serves as a platform for member nations to discuss common interests like poverty alleviation, agriculture, and technological revolution. Key initiatives include the South Asian Free Trade Area (SAFTA) treaty and the establishment of the South Asian University.",
+          "key_points": [
+            "Formed in 1985 by South Asian countries.",
+            "Focus on economic cooperation and poverty alleviation.",
+            "Established the South Asian Free Trade Area."
+          ],
+          "examples": [
+            "South Asian University",
+            "SAFTA treaty"
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the purpose of SAARC?",
+              "a": "To achieve regional development through economic and technological cooperation among South Asian nations."
+            }
+          ],
+          "keywords": [
+            "SAARC",
+            "Economic cooperation",
+            "Poverty alleviation",
+            "Free trade area"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "5.1"
+          ],
+          "linked_concepts": [
+            "71.1"
+          ]
+        },
+        {
+          "chunk_id": "5.7",
+          "topic": "India and the World Powers",
+          "heading": "India and America",
+          "explanation": "India and the USA are both powerful democracies and major trading partners. Relations have strengthened significantly through mutual trust, especially in the post-Cold War era. A landmark event was the 2005 India-U.S. Civil Nuclear Agreement (approved by U.S. Congress in 2008), which allowed India to access nuclear technology despite not signing the NPT or CTBT. Trade, security, and cultural exchange through the Indian diaspora are key pillars of this relationship.",
+          "key_points": [
+            "Strengthened trade and military relations after the Cold War.",
+            "The 2005 Civil Nuclear Agreement as a turning point.",
+            "Strong cultural link via the Indian diaspora in America."
+          ],
+          "examples": [
+            "Civil Nuclear Agreement (2005)",
+            "IAEA approval in 2008"
+          ],
+          "keywords": [
+            "Democracy",
+            "Civil Nuclear Agreement",
+            "IAEA",
+            "NPT",
+            "CTBT"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": [
+            "79.2"
+          ]
+        },
+        {
+          "chunk_id": "5.8",
+          "topic": "India and the World Powers",
+          "heading": "India and Russia",
+          "explanation": "India shared a very close relationship with the erstwhile Soviet Union, solidified by the 1971 Indo-Soviet Treaty of Friendship and Cooperation. The USSR provided significant economic and military aid. Post-1991, relations with Russia faced initial challenges due to Russia's internal problems but improved after 1996. Current cooperation focuses on defense, production of military equipment, and mineral oil projects.",
+          "key_points": [
+            "1971 Indo-Soviet Treaty provided stability and aid.",
+            "Long-standing cooperation in defense and technology.",
+            "Joint projects in military equipment and energy."
+          ],
+          "examples": [
+            "Indo-Soviet Treaty of Friendship and Cooperation (1971)"
+          ],
+          "keywords": [
+            "Soviet Union",
+            "Defense technology",
+            "Mineral oil",
+            "Military equipment"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": [
+            "79.1"
+          ]
+        },
+        {
+          "chunk_id": "5.9",
+          "topic": "India and the World Powers",
+          "heading": "European Nations, Africa, and Asia",
+          "explanation": "India has strong trade and technological ties with European nations, especially Germany and France. India is a major exporter of engineering and IT services to Europe. With Africa, India focuses on developmental grants, trade in energy-rich minerals, and the education of African youth. In Asia, India follows the 'Act East' policy to increase trade with South-East Asian nations (Singapore, Thailand, etc.). West Asian relations are primarily driven by India's dependence on mineral oil and gas imports, and high-tech cooperation with Israel.",
+          "key_points": [
+            "European investment in Indian technology and weapons.",
+            "Energy security drives relations with Africa and West Asia.",
+            "Shift from 'Look East' to 'Act East' policy in 2014.",
+            "Israel provides modern technology for agriculture and defense."
+          ],
+          "examples": [
+            "Summit Conference of India and Africa (2015)",
+            "Trade with ASEAN countries",
+            "Import of oil from Iran, Iraq, and Saudi Arabia"
+          ],
+          "keywords": [
+            "Act East policy",
+            "Engineering exports",
+            "Energy security",
+            "ASEAN",
+            "Mineral oil"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "chapter_title": "International Problems",
+      "chapter_summary": "This chapter discusses global issues that transcend national borders, requiring joint international efforts. It specifically focuses on human rights, environmental degradation, terrorism, and the crisis of refugees.",
+      "learning_objectives": [
+        "To cultivate the idea that every human being in the world is entitled to human rights.",
+        "To know how human rights are protected through the Indian Constitution and laws.",
+        "To develop sensitivity about the fact that the degradation of the environment is a global problem.",
+        "To be able to explain who are refugees and the challenges they face."
+      ],
+      "content_chunks": [
+        {
+          "chunk_id": "6.1",
+          "topic": "Human Rights",
+          "heading": "Concept and Evolution of Human Rights",
+          "explanation": "Human rights are rooted in 'natural rights'—rights individuals are endowed with simply by being born human. They are essential for living as a constituent of society. The American and French Revolutions established 'Liberty, Equality, Fraternity, and Justice' as fundamental human rights. This led to the strengthening of the idea that democratic governments are essential to protect these rights and limit state authority.",
+          "key_points": [
+            "Human rights are necessary for living a dignified human life.",
+            "Historical milestones: American and French Revolutions.",
+            "Democracy is seen as a prerequisite for the realization of these rights."
+          ],
+          "examples": [
+            "Right to life",
+            "Right to food, clothing, and shelter",
+            "Right to education and health"
+          ],
+          "keywords": [
+            "Natural rights",
+            "Liberty",
+            "Equality",
+            "Fraternity",
+            "Justice"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.2",
+          "topic": "Human Rights",
+          "heading": "International Framework for Human Rights",
+          "explanation": "Following the establishment of the United Nations, the Universal Declaration of Human Rights (UDHR) was adopted on December 10, 1948. In 1966, the UN adopted two major covenants: the International Covenant on Civil and Political Rights (ICCPR) and the International Covenant on Economic, Social, and Cultural Rights (ICESCR). Member nations are legally bound to observe these. During the Cold War, issues like racial segregation (apartheid) in Africa were highlighted as human rights violations.",
+          "key_points": [
+            "UDHR adopted on 10th December 1948.",
+            "ICCPR and ICESCR (1966) are part of international law.",
+            "Human rights issues expanded to include protection against racism and terrorism."
+          ],
+          "keywords": [
+            "UDHR",
+            "ICCPR",
+            "ICESCR",
+            "Apartheid",
+            "International Law"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [
+            "6.1"
+          ],
+          "linked_concepts": [
+            "87.1"
+          ]
+        },
+        {
+          "chunk_id": "6.3",
+          "topic": "Human Rights in India",
+          "heading": "Constitutional and Legal Protection",
+          "explanation": "In India, human rights are enshrined as 'Fundamental Rights' in the Constitution. The government is responsible for protecting weaker sections, including women and minorities. In 1993, the Human Rights Protection Act was passed, leading to the establishment of the National Human Rights Commission (NHRC) and State Human Rights Commissions to investigate and act upon violations.",
+          "key_points": [
+            "Human rights are Fundamental Rights in India.",
+            "Human Rights Protection Act, 1993.",
+            "NHRC handles complaints regarding rights violations."
+          ],
+          "common_doubts": [
+            {
+              "q": "What is the role of the NHRC?",
+              "a": "To take cognizance of human rights violations and recommend appropriate action against the violators."
+            }
+          ],
+          "keywords": [
+            "Fundamental Rights",
+            "NHRC",
+            "Human Rights Protection Act"
+          ],
+          "difficulty": 2,
+          "importance": 5,
+          "prerequisites": [
+            "6.2"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.4",
+          "topic": "Environmental Problems",
+          "heading": "Environment as a Human Right",
+          "explanation": "In modern times, a secure environment is increasingly accepted as a human right. Industrialization and the need for energy have led to pollution (air, water, sound), ozone depletion, and global warming. Because environmental threats (like oil leaks or gas leaks) do not respect national borders and have long-term effects, they have become a global concern requiring international cooperation.",
+          "key_points": [
+            "A clean environment is essential for the right to life.",
+            "Interdependence among nations has increased environmental awareness.",
+            "Environmental problems reach global proportions regardless of where they originate."
+          ],
+          "examples": [
+            "Extinction of species",
+            "Drying up of rivers",
+            "Acid rain",
+            "Thinning of the ozone layer"
+          ],
+          "keywords": [
+            "Global warming",
+            "Ozone layer",
+            "Industrialization",
+            "Sustainable development"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.5",
+          "topic": "Environmental Problems",
+          "heading": "Global Environmental Conferences",
+          "explanation": "Several major conferences have shaped global environmental policy: \n1. **Stockholm (1972):** Stressed that overcoming pollution is a collective responsibility; led to the creation of the United Nations Environment Programme (UNEP).\n2. **Rio (1992):** Focused on sustainable development, bio-diversity, and greenhouse gases.\n3. **Kyoto (1997):** Laid down protocols for developed countries to prevent climate change.\n4. **Paris (2015):** An appeal for concerted efforts to stop global warming and help developing nations acquire green technology.",
+          "key_points": [
+            "Developed nations are often held more responsible for environmental decline.",
+            "NGOs play a significant role in environmental protection.",
+            "The concept of 'global wealth' refers to resources like oceans and the atmosphere."
+          ],
+          "keywords": [
+            "UNEP",
+            "Rio Summit",
+            "Kyoto Protocol",
+            "Paris Conference",
+            "Sustainable development"
+          ],
+          "difficulty": 4,
+          "importance": 5,
+          "prerequisites": [
+            "6.4"
+          ],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.6",
+          "topic": "Terrorism",
+          "heading": "Nature and Impact of Terrorism",
+          "explanation": "Terrorism is organized and planned violence intended to spread fear and terror for achieving political goals. It targets common, innocent people. Unlike traditional war between sovereign states which is connected to geographical boundaries, terrorism can strike anywhere in the world. It challenges the regime or existence of a state and threatens both internal and external security.",
+          "key_points": [
+            "Terrorism is a global problem that no nation can counter alone.",
+            "It aims to create insecurity and fear in society.",
+            "Terrorist conflict differs from traditional war in its lack of defined boundaries."
+          ],
+          "common_doubts": [
+            {
+              "q": "How is terrorism different from traditional war?",
+              "a": "Traditional war is between states over boundaries; terrorism uses violence against civilians globally to challenge state regimes."
+            }
+          ],
+          "keywords": [
+            "Planned violence",
+            "Political goals",
+            "Insecurity",
+            "Internal security"
+          ],
+          "difficulty": 3,
+          "importance": 5,
+          "prerequisites": [],
+          "linked_concepts": []
+        },
+        {
+          "chunk_id": "6.7",
+          "topic": "The Problems of Refugees",
+          "heading": "Causes and Challenges of Displacement",
+          "explanation": "Refugees are people forced to leave their motherland seeking refuge or security due to torture, persecution, war, or disasters. They face immense physical and emotional stress during their journey and struggle to find shelter and work in host nations. Increasing numbers of refugees can strain the economy of the host nation, leading to shortages of goods, rising crime, or social tensions.",
+          "key_points": [
+            "Refugees flee due to political/religious persecution or war.",
+            "Challenges: Language barriers, lack of jobs, lack of acceptance by locals.",
+            "1951 UN provisions ensure refugees are not forcefully sent back against their wishes."
+          ],
+          "examples": [
+            "Jews in Germany before WWII",
+            "People from East Pakistan (1971)",
+            "Refugees from Iraq and Syria"
+          ],
+          "keywords": [
+            "Refugees",
+            "Persecution",
+            "Migration",
+            "UN High Commissioner for Refugees"
+          ],
+          "difficulty": 3,
+          "importance": 4,
+          "prerequisites": [],
+          "linked_concepts": []
+        }
+      ]
+    }
+  ]
+}
